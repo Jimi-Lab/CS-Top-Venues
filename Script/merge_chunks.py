@@ -1,7 +1,7 @@
 """Merge chunk files back into original venue JSONs, then delete chunk dirs."""
 import json, os, shutil
 
-BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Source', '2026')
+BASE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'Source', '2026')
 
 for root, dirs, files in os.walk(BASE):
     if 'chunks_arxiv' not in dirs:

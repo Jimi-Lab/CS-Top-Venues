@@ -116,18 +116,18 @@ Every paper follows this format:
 
 | Script                 | Purpose                                                                                                                          |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| `fetch_abstracts.py` | Bulk-fill missing abstracts from arXiv API. Supports multi-process (`--workers 8`) and single-file mode (`--file path.json`) |
-| `merge_chunks.py`    | Merge split chunk files back into venue JSONs (one-time use after parallel fetch)                                                |
-| `reset_abstracts.py` | Clear empty-string abstracts so papers can be retried                                                                            |
+| `Script/fetch_abstracts.py` | Bulk-fill missing abstracts from arXiv API. Supports multi-process (`--workers 8`) and single-file mode (`--file path.json`) |
+| `Script/merge_chunks.py`    | Merge split chunk files back into venue JSONs (one-time use after parallel fetch)                                                |
+| `Script/reset_abstracts.py` | Clear empty-string abstracts so papers can be retried                                                                            |
 
 ## Usage Quickstart
 
 ```powershell
 # Fill all missing abstracts (8 parallel workers)
-python fetch_abstracts.py --workers 8
+python Script/fetch_abstracts.py --workers 8
 
 # Fill abstracts for a single venue
-python fetch_abstracts.py --file SE/FSE/FSE-2026.json
+python Script/fetch_abstracts.py --file SE/FSE/FSE-2026.json
 
 # Check venue status
 python -c "import json; idx=json.load(open('Source/2026/index.json')); print(idx['total_papers'])"

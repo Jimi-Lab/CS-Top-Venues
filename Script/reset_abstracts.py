@@ -1,7 +1,7 @@
 """Reset empty-string abstracts so they get retried on next run."""
 import json, os, sys
 
-BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Source', '2026')
+BASE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'Source', '2026')
 total_reset = 0
 
 for root, dirs, files in os.walk(BASE):

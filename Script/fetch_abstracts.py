@@ -11,7 +11,7 @@ Usage:
 import os, json, re, sys, time, random, urllib.request, urllib.parse, xml.etree.ElementTree as ET
 from multiprocessing import Pool
 
-BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Source', '2026')
+BASE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'Source', '2026')
 ARXIV_API = 'http://export.arxiv.org/api/query?search_query=ti:{}&max_results=1'
 RETRY_DELAY = 10   # seconds to wait on 429
 MAX_RETRIES = 3     # retry count on 429/timeout
