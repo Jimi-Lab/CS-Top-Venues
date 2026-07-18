@@ -1,0 +1,1863 @@
+[
+  {
+    "id": "vldb-2026-0001",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "FlatStor: An Efficient Embedded-Index Based Columnar Data Layout for Multimodal Data Workloads",
+    "authors": [
+      "Chi Zhang",
+      "Shihao Zhang",
+      "Yunfei Gu",
+      "Chentao Wu",
+      "Jie Li",
+      "Qin Zhang",
+      "Xusheng Chen",
+      "Jie Meng"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 1: September 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Remote sensing vision tasks require extensive labeled data across multiple, interconnected domains. However, current generative data augmentation frameworks are task-isolated, i.e., each vision task requires training an independent generative model, and ignores the modeling of geographical information and spatial constraints. To address these issues, we propose \\textbf{TerraGen}, a unified layout-to-image generation framework that enables flexible, spatially controllable synthesis of remote sensing imagery for various high-level vision tasks, e.g., detection, segmentation, and extraction. Specifically, TerraGen introduces a geographic-spatial layout encoder that unifies bounding box and segmentation mask inputs, combined with a multi-scale injection scheme and mask-weighted loss to explicitly encode spatial constraints, from global structures to fine details. Also, we construct the first large-scale multi-task remote sensing layout generation dataset containing 45k images and establish a standardized evaluation protocol for this task. Experimental results show that our TerraGen can achieve the best generation image quality across diverse tasks. Additionally, TerraGen can be used as a universal data-augmentation generator, enhancing downstream task performance significantly and demonstrating robust cross-task generalisation in both full-data and few-shot scenarios."
+  },
+  {
+    "id": "vldb-2026-0002",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "TIMEST: Temporal Information Motif Estimator Using Sampling Trees",
+    "authors": [
+      "Yunjie Pan",
+      "Omkar Bhalerao",
+      "C. Seshadhri",
+      "Nishil Talati"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 1: September 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "The mining of pattern subgraphs, known as motifs, is a core task in the field of graph mining. Edges in real-world networks often have timestamps, so there is a need for temporal motif mining. A temporal motif is a richer structure that imposes timing constraints on the edges of the motif. Temporal motifs have been used to analyze social networks, financial transactions, and biological networks. Motif counting in temporal graphs is particularly challenging. A graph with millions of edges can have trillions of temporal motifs, since the same edge can occur with multiple timestamps. There is a combinatorial explosion of possibilities, and state-of-the-art algorithms cannot manage motifs with more than four vertices. In this work, we present TIMEST: a general, fast, and accurate estimation algorithm to count temporal motifs of arbitrary sizes in temporal networks. Our approach introduces a temporal spanning tree sampler that leverages weighted sampling to generate substructures of target temporal motifs. This method carefully takes a subset of temporal constraints of the motif that can be jointly and efficiently sampled. TIMEST uses randomized estimation techniques to obtain accurate estimates of motif counts. We give theoretical guarantees on the running time and approximation guarantees of TIMEST. We perform an extensive experimental evaluation and show that TIMEST is both faster and more accurate than previous algorithms. Our CPU implementation exhibits an average speedup of 28x over state-of-the-art GPU implementation of the exact algorithm, and 6x speedup over SOTA approximate algorithms while consistently showcasing less than 5% error in most cases. For example, TIMEST can count the number of instances of a financial fraud temporal motif in four minutes with 0.6% error, while exact methods take more than two days."
+  },
+  {
+    "id": "vldb-2026-0003",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "ConANN: Conformal Approximate Nearest Neighbor Search",
+    "authors": [
+      "Sonia Horchidan",
+      "Fabian Zeiher",
+      "Henrik Boström",
+      "Paris Carbone"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 1: September 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Approximate nearest neighbor (ANN) search on SSD-backed indexes is increasingly I/O-bound (I/O accounts for 70--90\\% of query latency). We present an I/O-first framework for disk-based ANN that organizes techniques along three dimensions: memory layout, disk layout, and search algorithm. We introduce a page-level complexity model that explains how page locality and path length jointly determine page reads, and we validate the model empirically. Using consistent implementations across four public datasets, we quantify both single-factor effects and cross-dimensional synergies. We find that (i) memory-resident navigation and dynamic width provide the strongest standalone gains; (ii) page shuffle and page search are weak alone but complementary together; and (iii) a principled composition, OctopusANN, substantially reduces I/O and achieves 4.1--37.9\\% higher throughput than the state-of-the-art system Starling and 87.5--149.5\\% higher throughput than DiskANN at matched Recall@10=90\\%. Finally, we distill actionable guidelines for selecting storage-centric or hybrid designs across diverse concurrency levels and accuracy constraints, advocating systematic composition rather than isolated tweaks when pushing the performance frontier of disk-based ANN."
+  },
+  {
+    "id": "vldb-2026-0004",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "RayDB: Building Databases with Ray Tracing Cores",
+    "authors": [
+      "Xuri Shi",
+      "Kai Zhang",
+      "X. Sean Wang",
+      "Xiaodong Zhang",
+      "Rubao Lee"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 1: September 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "AXTAR is a NASA MIDEX mission concept for X-ray timing of compact objects that combines very large collecting area, broadband spectral coverage, high time resolution, highly flexible scheduling, and an ability to respond promptly to time-critical targets of opportunity. It is optimized for submillisecond timing of bright Galactic X-ray sources in order to study phenomena at the natural time scales of neutron star surfaces and black hole event horizons, thus probing the physics of ultradense matter, strongly curved spacetimes, and intense magnetic fields. AXTAR's main instrument is a collimated, thick Si pixel detector with 2-50 keV coverage and over 3 square meters effective area. For timing observations of accreting neutron stars and black holes, AXTAR provides at least a factor of five improvement in sensitivity over the RXTE PCA. AXTAR also carries a sensitive sky monitor that acts as a trigger for pointed observations of X-ray transients in addition to providing high duty cycle monitoring of the X-ray sky. We review the science goals and design choices that face a next generation timing mission. We then describe the technical concept for AXTAR and summarize a preliminary mission design study at the NASA/MSFC Advanced Concepts Office."
+  },
+  {
+    "id": "vldb-2026-0005",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "NeutronCloud: Resource-Aware Distributed GNN Training in Fluctuating Cloud Environments",
+    "authors": [
+      "Mingyi Cao",
+      "Chunyu Cao",
+      "Yanfeng Zhang",
+      "Zhenbo Fu",
+      "Xin Ai",
+      "Qiange Wang",
+      "Yu Gu",
+      "Ge Yu"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Machine Learning",
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper (Issue 1: September 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism. Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming. The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models."
+  },
+  {
+    "id": "vldb-2026-0006",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "CLaP - State Detection from Time Series",
+    "authors": [
+      "Arik Ermshaus",
+      "Patrick Schäfer",
+      "Ulf Leser"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 1: September 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "A novel methodology is proposed for clustering multivariate time series data using energy distance defined in Székely and Rizzo (2013). Specifically, a dissimilarity matrix is formed using the energy distance statistic to measure separation between the finite dimensional distributions for the component time series. Once the pairwise dissimilarity matrix is calculated, a hierarchical clustering method is then applied to obtain the dendrogram. This procedure is completely nonparametric as the dissimilarities between stationary distributions are directly calculated without making any model assumptions. In order to justify this procedure, asymptotic properties of the energy distance estimates are derived for general stationary and ergodic time series. The method is illustrated in a simulation study for various component time series that are either linear or nonlinear. Finally the methodology is applied to two examples; one involves GDP of selected countries and the other is population size of various states in the U.S.A. in the years 1900 -1999."
+  },
+  {
+    "id": "vldb-2026-0007",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "ELT-Bench: An End-to-End Benchmark for Evaluating AI Agents on ELT Pipelines",
+    "authors": [
+      "Tengjun Jin",
+      "Yuxuan Zhu",
+      "Daniel Kang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 2: October 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Practitioners are increasingly turning to Extract-Load-Transform (ELT) pipelines with the widespread adoption of cloud data warehouses. However, designing these pipelines often involves significant manual work to ensure correctness. Recent advances in AI-based methods, which have shown strong capabilities in data tasks, such as text-to-SQL, present an opportunity to alleviate manual efforts in developing ELT pipelines. Unfortunately, current benchmarks in data engineering only evaluate isolated tasks, such as using data tools and writing data transformation queries, leaving a significant gap in evaluating AI agents for generating end-to-end ELT pipelines. To fill this gap, we introduce ELT-Bench, an end-to-end benchmark designed to assess the capabilities of AI agents to build ELT pipelines. ELT-Bench consists of 100 pipelines, including 835 source tables and 203 data models across various domains. By simulating realistic scenarios involving the integration of diverse data sources and the use of popular data tools, ELT-Bench evaluates AI agents' abilities in handling complex data engineering workflows. AI agents must interact with databases and data tools, write code and SQL queries, and orchestrate every pipeline stage. We evaluate two representative code agent frameworks, Spider-Agent and SWE-Agent, using six popular Large Language Models (LLMs) on ELT-Bench. The highest-performing agent, Spider-Agent Claude-3.7-Sonnet with extended thinking, correctly generates only 3.9% of data models, with an average cost of $4.30 and 89.3 steps per pipeline. Our experimental results demonstrate the challenges of ELT-Bench and highlight the need for a more advanced AI agent to reduce manual effort in ELT workflows. Our code and data are available at https://github.com/uiuc-kang-lab/ELT-Bench."
+  },
+  {
+    "id": "vldb-2026-0008",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "MS-Index: Fast Top-k Subsequence Search for Multivariate Time Series under Euclidean Distance",
+    "authors": [
+      "Jens d'Hondt",
+      "Teun Kortekaas",
+      "Odysseas Papapetrou",
+      "Themis Palpanas"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System",
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 2: October 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "A measurement of the CKM angle $γ$ and related strong-phase parameters is performed using a novel, model-independent approach in ${B^{\\pm}\\rightarrow D(\\rightarrow K^{0}_{\\rm S} h^{\\prime+}h^{\\prime-}) h^{\\pm}}$ decays, where $h^{(\\prime)} \\equiv π, K$. The analysis uses a joint data sample of electron-positron collisions collected by the BESIII experiment at the Beijing Electron-Positron Collider II during 2010--2011 and 2021--2022, corresponding to an integrated luminosity of 8 fb$^{-1}$, and proton-proton collisions collected by the LHCb experiment at the Large Hadron Collider during 2011--2018, corresponding to an integrated luminosity of 9 fb$^{-1}$. The two datasets are analyzed simultaneously by applying per-event weights based on the amplitude variation over the $D$-decay phase space to enhance the sensitivity to $C\\!P$-violating observables. The CKM angle $γ$ is determined to be $γ= (71.3\\pm 5.0)^{\\circ}$, which constitutes the most precise single measurement to date."
+  },
+  {
+    "id": "vldb-2026-0009",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Doppio: Communication-Efficient and Secure Multi-Party Shuffle Differential Privacy",
+    "authors": [
+      "Wentao Dong",
+      "Yang Cao",
+      "Cong Wang",
+      "Wei-Bin Lee"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Security"
+    ],
+    "paper_type": "Research Paper (Issue 2: October 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Secure multi-party computation-based machine learning, referred to as MPL, has become an important technology to utilize data from multiple parties with privacy preservation. While MPL provides rigorous security guarantees for the computation process, the models trained by MPL are still vulnerable to attacks that solely depend on access to the models. Differential privacy could help to defend against such attacks. However, the accuracy loss brought by differential privacy and the huge communication overhead of secure multi-party computation protocols make it highly challenging to balance the 3-way trade-off between privacy, efficiency, and accuracy. In this paper, we are motivated to resolve the above issue by proposing a solution, referred to as PEA (Private, Efficient, Accurate), which consists of a secure DPSGD protocol and two optimization methods. First, we propose a secure DPSGD protocol to enforce DPSGD in secret sharing-based MPL frameworks. Second, to reduce the accuracy loss led by differential privacy noise and the huge communication overhead of MPL, we propose two optimization methods for the training process of MPL: (1) the data-independent feature extraction method, which aims to simplify the trained model structure; (2) the local data-based global model initialization method, which aims to speed up the convergence of the model training. We implement PEA in two open-source MPL frameworks: TF-Encrypted and Queqiao. The experimental results on various datasets demonstrate the efficiency and effectiveness of PEA. E.g. when $ε$ = 2, we can train a differentially private classification model with an accuracy of 88% for CIFAR-10 within 7 minutes under the LAN setting. This result significantly outperforms the one from CryptGPU, one SOTA MPL framework: it costs more than 16 hours to train a non-private deep neural network model on CIFAR-10 with the same accuracy."
+  },
+  {
+    "id": "vldb-2026-0010",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Effective Durable Community Search in Large Temporal Graph",
+    "authors": [
+      "Yingli Zhou",
+      "Yige Jiang",
+      "Yixiang Fang",
+      "Wensheng Luo",
+      "Yongmin Hu",
+      "Yingqian Hu",
+      "Cheng Chen"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 2: October 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "With high-throughput biotechnologies generating unprecedented quantities of data, researchers are faced with the challenge of locating and comparing an exponentially growing number of programs and websites dedicated to computational biology, in order to maximize the potential of their data. OMICtools is designed to meet this need with its open-access search engine offering an easy means of locating the right tools corresponding to each researcher and their specific biological data analyses. The OMICtools website (https://OMICtools.com) centralizes more than 18,500 software tools and databases, manually classified, by a team of biocurators including many scientific experts. Key information, a direct link, and access to discussions and evaluations by the biomedical community are provided for each tool. Anyone can join the OMICtools community and create a profile page, to share their expertise and comment on tools. In addition, developers can directly upload their code versions which are registered for identification and citation in scientific publications, improving research traceability. The OMICtools community links thousands of life scientists and developers worldwide, who use this bioinformatics platform to accelerate their projects and biological data analyses."
+  },
+  {
+    "id": "vldb-2026-0011",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Terabyte-Scale Analytics in the Blink of an Eye",
+    "authors": [
+      "Bowen Wu",
+      "Wei Cui",
+      "Carlo Curino",
+      "Matteo Interlandi",
+      "Rathijit Sen"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 2: October 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "This study proposes a real-time system that translates voluntary eye blinks into Morse code, enabling communication for individuals with severe motor impairments. Using a standard webcam and computer vision, the system detects and classifies blinks as short (dot) or long (dash), then decodes them into alphanumeric characters. Experiments with five participants show 62% decoding accuracy and 18-20 seconds response times, demonstrating a viable, low-cost assistive communication method."
+  },
+  {
+    "id": "vldb-2026-0012",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "APEROL: Adaptive Parallel Edge-to-Cloud Runtime Optimization for Layered Workflow Execution",
+    "authors": [
+      "Dimitrios Banelas",
+      "Alkis Simitsis",
+      "Nikos Giatrakos"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System",
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper (Issue 2: October 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism. Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming. The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models."
+  },
+  {
+    "id": "vldb-2026-0013",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "MH-GIN: Multi-scale Heterogeneous Graph-based Imputation Network for AIS Data",
+    "authors": [
+      "Hengyu Liu",
+      "Tianyi Li",
+      "Yuqiang He",
+      "Kristian Torp",
+      "Yushuai Li",
+      "Christian S. Jensen"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 2: October 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Location-tracking data from the Automatic Identification System, much of which is publicly available, plays a key role in a range of maritime safety and monitoring applications. However, the data suffers from missing values that hamper downstream applications. Imputing the missing values is challenging because the values of different heterogeneous attributes are updated at diverse rates, resulting in the occurrence of multi-scale dependencies among attributes. Existing imputation methods that assume similar update rates across attributes are unable to capture and exploit such dependencies, limiting their imputation accuracy. We propose MH-GIN, a Multi-scale Heterogeneous Graph-based Imputation Network that aims improve imputation accuracy by capturing multi-scale dependencies. Specifically, MH-GIN first extracts multi-scale temporal features for each attribute while preserving their intrinsic heterogeneous characteristics. Then, it constructs a multi-scale heterogeneous graph to explicitly model dependencies between heterogeneous attributes to enable more accurate imputation of missing values through graph propagation. Experimental results on two real-world datasets find that MH-GIN is capable of an average 57% reduction in imputation errors compared to state-of-the-art methods, while maintaining computational efficiency. The source code and implementation details of MH-GIN are publicly available https://github.com/hyLiu1994/MH-GIN."
+  },
+  {
+    "id": "vldb-2026-0014",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "An Experimental Evaluation of Hybrid Querying on Vectors",
+    "authors": [
+      "Jiaxu Zhu",
+      "Jiayu Yuan",
+      "Kaiwen Yang",
+      "Xiaobao Chen",
+      "Shihuan Yu",
+      "Hongchang Lv",
+      "Yan Li",
+      "Bolong Zheng"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System",
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 2: October 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Symmetries are ubiquitous in a wide range of nonlinear systems. Particularly in systems whose dynamics are determined by a Lagrangian or Hamiltonian function. For hybrid systems which possess a continuous-time dynamics determined by a Lagrangian function, with a cyclic variable, the degrees of freedom for the corresponding hybrid Lagrangian system can be reduced by means of a method known as \\textit{hybrid Routhian reduction}. In this paper we study sufficient conditions for the existence of periodic orbits in hybrid Routhian systems which also exhibit time-reversal symmetry. Likewise, we explore some stability aspects of such orbits through the characterization of the eigenvalues for the corresponding linearized Poincaré map. Finally, we apply the results to find periodic solutions in underactuated hybrid Routhian control systems."
+  },
+  {
+    "id": "vldb-2026-0015",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Unveiling Challenges for LLMs in Enterprise Data Engineering",
+    "authors": [
+      "Jan-Micha Bodensohn",
+      "Ulf Brackmann",
+      "Liane Vogel",
+      "Anupam Sanghi",
+      "Carsten Binnig"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "LLM"
+    ],
+    "paper_type": "Research Paper (Issue 2: October 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Large Language Models (LLMs) promise to automate data engineering on tabular data, offering enterprises a valuable opportunity to cut the high costs of manual data handling. But the enterprise domain comes with unique challenges that existing LLM-based approaches for data engineering often overlook, such as large table sizes, more complex tasks, and the need for internal knowledge. To bridge these gaps, we identify key enterprise-specific challenges related to data, tasks, and background knowledge and extensively evaluate how they affect data engineering with LLMs. Our analysis reveals that LLMs face substantial limitations in real-world enterprise scenarios, with accuracy declining sharply. Our findings contribute to a systematic understanding of LLMs for enterprise data engineering to support their adoption in industry."
+  },
+  {
+    "id": "vldb-2026-0016",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Garnet: A Next-Generation Cache-Store for Accelerating Applications and Services",
+    "authors": [
+      "Badrish Chandramouli",
+      "Vasileios Zois",
+      "Ted Hart",
+      "Tal Zaccai",
+      "Lukas Maas",
+      "Yoganand Rajasekaran",
+      "Darren"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 2: October 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "vldb-2026-0017",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "AGIS: Fast Approximate Graph Pattern Mining with Structure-Informed Sampling",
+    "authors": [
+      "Seoyong Lee",
+      "Jinho Lee"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 2: October 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Approximate Graph Pattern Mining (AGPM) is essential for analyzing large-scale graphs where exact counting is computationally prohibitive. While there exist numerous sampling-based AGPM systems, they all rely on uniform sampling and overlook the underlying probability distribution. This limitation restricts their scalability to a broader range of patterns. In this paper, we introduce AGIS, an extremely fast AGPM system capable of counting arbitrary patterns from huge graphs. AGIS employs structure-informed neighbor sampling, a novel sampling technique that deviates from uniformness but allocates specific sampling probabilities based on the pattern structure. We first derive the ideal sampling distribution for AGPM and then present a practical method to approximate it. Furthermore, we develop a method that balances convergence speed and computational overhead, determining when to use the approximated distribution. Experimental results demonstrate that AGIS significantly outperforms the state-of-the-art AGPM system, achieving 28.5x geometric mean speedup and more than 100,000x speedup in specific cases. Furthermore, AGIS is the only AGPM system that scales to graphs with tens of billions of edges and robustly handles diverse patterns, successfully providing accurate estimates within seconds. We will open-source AGIS to encourage further research in this field."
+  },
+  {
+    "id": "vldb-2026-0018",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Efficient Query Repair for Aggregate Constraints",
+    "authors": [
+      "Shatha Algarni",
+      "Boris Glavic",
+      "Seokki Lee",
+      "Adriane Chapman"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 2: October 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "A correspondence between database tuples as causes for query answers in databases and tuple-based repairs of inconsistent databases with respect to denial constraints has already been established. In this work, answer-set programs that specify repairs of databases are used as a basis for solving computational and reasoning problems about causes. Here, causes are also introduced at the attribute level by appealing to a both null-based and attribute-based repair semantics. The corresponding repair programs are presented, and they are used as a basis for computation and reasoning about attribute-level causes. They are extended to deal with the case of causality under integrity constraints."
+  },
+  {
+    "id": "vldb-2026-0019",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "FairDAG: Consensus Fairness over Multi-Proposer Causal Design",
+    "authors": [
+      "Dakai Kang",
+      "Junchao Chen",
+      "Anh Dinh",
+      "Mohammad Sadoghi"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Distributed System",
+      "AI Safety"
+    ],
+    "paper_type": "Research Paper (Issue 2: October 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "The rise of cryptocurrencies like Bitcoin and Ethereum has driven interest in blockchain database technology, with smart contracts enabling the growth of decentralized finance (DeFi). However, research has shown that adversaries exploit transaction ordering to extract profits through attacks like front-running, sandwich attacks, and liquidation manipulation. This issue affects blockchains where block proposers have full control over transaction ordering. To address this, a more fair transaction ordering mechanism is essential. Existing fairness protocols, such as Pompe and Themis, operate on leader-based consensus protocols, which not only suffer from low throughput caused by the single-leader bottleneck, but also allow adversarial block proposers to manipulate transaction ordering. To address these limitations, we propose a new framework, FairDAG, that runs fairness protocols on top of DAG-based consensus protocols. FairDAG improves protocol performance in both throughput and fairness quality by leveraging the multi-proposer design and validity property of DAG-based consensus protocols. We conducted a comprehensive analytical and experimental evaluation of two FairDAG variants - FairDAG-AB and FairDAG-RL. Our results demonstrate that FairDAG outperforms prior fairness protocols in both throughput and fairness quality."
+  },
+  {
+    "id": "vldb-2026-0020",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "SQL-Factory: A Multi-Agent Framework for High-Quality and Large-Scale SQL Generation",
+    "authors": [
+      "Anastasiia Kozar",
+      "Ankit Chaudhary",
+      "Steffen Zeuch",
+      "Volker Markl"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 3: November 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "vldb-2026-0021",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "GRaPtUh iAjictc Seelner ation of SQL Analytics on Compressed Data",
+    "authors": [
+      "Xinjing Zhou",
+      "Viktor Leis",
+      "Xiangyao Yu",
+      "Michael Stonebraker"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 3: November 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "We study distributed stochastic gradient descent (SGD) in the master-worker architecture under Byzantine attacks. We consider the heterogeneous data model, where different workers may have different local datasets, and we do not make any probabilistic assumptions on data generation. At the core of our algorithm, we use the polynomial-time outlier-filtering procedure for robust mean estimation proposed by Steinhardt et al. (ITCS 2018) to filter-out corrupt gradients. In order to be able to apply their filtering procedure in our {\\em heterogeneous} data setting where workers compute {\\em stochastic} gradients, we derive a new matrix concentration result, which may be of independent interest. We provide convergence analyses for smooth strongly-convex and non-convex objectives. We derive our results under the bounded variance assumption on local stochastic gradients and a {\\em deterministic} condition on datasets, namely, gradient dissimilarity; and for both these quantities, we provide concrete bounds in the statistical heterogeneous data model. We give a trade-off between the mini-batch size for stochastic gradients and the approximation error. Our algorithm can tolerate up to $\\frac{1}{4}$ fraction Byzantine workers. It can find approximate optimal parameters in the strongly-convex setting exponentially fast and reach to an approximate stationary point in the non-convex setting with a linear speed, thus, matching the convergence rates of vanilla SGD in the Byzantine-free setting. We also propose and analyze a Byzantine-resilient SGD algorithm with gradient compression, where workers send $k$ random coordinates of their gradients. Under mild conditions, we show a $\\frac{d}{k}$-factor saving in communication bits as well as decoding complexity over our compression-free algorithm without affecting its convergence rate (order-wise) and the approximation error."
+  },
+  {
+    "id": "vldb-2026-0022",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Tux: Efficient Drop-in Networking for Database Systems",
+    "authors": [
+      "M anuel Schönberger",
+      "Immanuel Trummer",
+      "Wolfgang Mauerer"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 3: November 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Power system security assessment methods require large datasets of operating points to train or test their performance. As historical data often contain limited number of abnormal situations, simulation data are necessary to accurately determine the security boundary. Generating such a database is an extremely demanding task, which becomes intractable even for small system sizes. This paper proposes a modular and highly scalable algorithm for computationally efficient database generation. Using convex relaxation techniques and complex network theory, we discard large infeasible regions and drastically reduce the search space. We explore the remaining space by a highly parallelizable algorithm and substantially decrease computation time. Our method accommodates numerous definitions of power system security. Here we focus on the combination of N-k security and small-signal stability. Demonstrating our algorithm on IEEE 14-bus and NESTA 162-bus systems, we show how it outperforms existing approaches requiring less than 10% of the time other methods require."
+  },
+  {
+    "id": "vldb-2026-0023",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Hybrid Mixed Integer Linear Programming for Large-Scale Join Order Optimisation",
+    "authors": [
+      "Hangdong Zhao",
+      "Zhenghong Yu",
+      "Srinag Rao",
+      "Simon Frisk",
+      "Zhiwei Fan",
+      "Paraschos Koutris"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 3: November 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Finding optimal join orders is among the most crucial steps to be performed by query optimisers. Though extensively studied in data management research, the problem remains far from solved: While query optimisers rely on exhaustive search methods to determine ideal solutions for small problems, such methods reach their limits once queries grow in size. Yet, large queries become increasingly common in real-world scenarios, and require suitable methods to generate efficient execution plans. While a variety of heuristics have been proposed for large-scale query optimisation, they suffer from degrading solution quality as queries grow in size, or feature highly sub-optimal worst-case behavior, as we will show. We propose a novel method based on the paradigm of mixed integer linear programming (MILP): By deriving a novel MILP model capable of optimising arbitrary bushy tree structures, we address the limitations of existing MILP methods for join ordering, and can rely on highly optimised MILP solvers to derive efficient tree structures that elude competing methods. To ensure optimisation efficiency, we embed our MILP method into a hybrid framework, which applies MILP solvers precisely where they provide the greatest advantage over competitors, while relying on more efficient methods for less complex optimisation steps. Thereby, our approach gracefully scales to extremely large query sizes joining up to 100 relations, and consistently achieves the most robust plan quality among a large variety of competing join ordering methods."
+  },
+  {
+    "id": "vldb-2026-0024",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "FlowLog: Efficient and Extensible Datalog via Incrementality",
+    "authors": [
+      "Q ianhao Wu",
+      "Jiazhi Jiang",
+      "Guihui Ling",
+      "Yue Pang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 3: November 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+  },
+  {
+    "id": "vldb-2026-0025",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "QStore: Quantization-Aware Compressed Model Storage",
+    "authors": [
+      "YRuEeD C-AhNenN",
+      "SK:a Ai ZRhDaMngA",
+      "-SEinpeanbgle Cdh Deins",
+      "t Srhibihuatei dX iFaroa",
+      "mXieawomorikn fZooru G",
+      "Rraepnh R-Bena",
+      "s Yeidn Aanp pJirnogx",
+      "iXm.Saetaen N Weaarnegs",
+      "t LNi eCiagoh",
+      "b or"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System",
+      "LLM"
+    ],
+    "paper_type": "Research Paper (Issue 3: November 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "In 2020 Bhavale and Waphare introduced the concept of a nullity of a poset as nullity of its cover graph. In 2003 Pawar and Waphare counted all non-isomorphic lattices on n elements and n edges, which are precisely lattices of nullity one. In 2002 Thakare et al. counted all non-isomorphic lattices on n elements containing two reducible elements. In the same paper, Thakare et al. counted lattices on n elements containing up to n+1 edges, which are precisely lattices of nullity up to two. In 2024 Bhavale and Aware counted all non-isomorphic lattices on n elements, containing up to three reducible elements. Recently, Aware and Bhavale counted all non-isomorphic lattices on n elements, containing four comparable reducible elements, and having nullity three. In this paper, we count up to isomorphism the class of all lattices on n elements containing five comparable reducible elements, and having nullity three."
+  },
+  {
+    "id": "vldb-2026-0026",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "MSeianrgcxhia ..n...g.. .W.....a..n...",
+    "authors": [
+      "Yue Zhao",
+      "Songsong Mo",
+      "Gao Cong"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 3: November 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "We hypothesize a new and more complete set of anomalies of certain quantum field theories (QFTs) and then give an eclectic verification. First, we propose a set of 't Hooft higher anomalies of 4d time-reversal symmetric pure SU(N)-Yang-Mills (YM) gauge theory with a second-Chern-class topological term at $θ=π$, via 5d cobordism invariants (higher symmetry-protected topological states), with N = $2, 3, 4$ and others. Second, we propose a set of 't Hooft anomalies of 2d $\\mathbb{CP}^{\\mathrm{N}-1}$-sigma models with a first-Chern-class topological term at $θ=π$, by enlisting all possible 3d cobordism invariants and selecting the matched terms. Based on algebraic/geometric topology, QFT analysis, manifold generator correspondence, condensed matter inputs such as stacking PSU(N)-generalized Haldane quantum spin chains, and additional physics criteria, we derive a correspondence between 5d and 3d new invariants. Thus we broadly prove a potentially complete anomaly-matching between 4d SU(N) YM and 2d $\\mathbb{CP}^{\\mathrm{N}-1}$ models at N = 2, and suggest new (but maybe incomplete) anomalies at N = 4. We formulate a higher-symmetry analog of \"Lieb-Schultz-Mattis theorem\" to constrain the low-energy dynamics."
+  },
+  {
+    "id": "vldb-2026-0027",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "TATA: An Efficient Framework for Task Transfer in Query Plan Representation",
+    "authors": [
+      "Xiaotian Lin",
+      "Yanlin Qi",
+      "Yizhang Zhu",
+      "Themis Palpanas",
+      "Chengliang Chai",
+      "Nan Tang",
+      "Yuyu Luo"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 3: November 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Graph representation learning models aim to represent the graph structure and its features into low-dimensional vectors in a latent space, which can benefit various downstream tasks, such as node classification and link prediction. Due to its powerful graph data modelling capabilities, various graph embedding models and libraries have been proposed to learn embeddings and help researchers ease conducting experiments. In this paper, we introduce a novel graph representation framework covering various graph embedding models, ranging from shallow to state-of-the-art models, namely Connector. First, we consider graph generation by constructing various types of graphs with different structural relations, including homogeneous, signed, heterogeneous, and knowledge graphs. Second, we introduce various graph representation learning models, ranging from shallow to deep graph embedding models. Finally, we plan to build an efficient open-source framework that can provide deep graph embedding models to represent structural relations in graphs. The framework is available at https://github.com/NSLab-CUK/Connector."
+  },
+  {
+    "id": "vldb-2026-0028",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "LEAD: Iterative Data Selection for Efficient LLM Instruction Tuning",
+    "authors": [
+      "Sebastian Baunsgaard",
+      "Matthias Boehm"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "LLM"
+    ],
+    "paper_type": "Research Paper (Issue 3: November 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Despite vision-language models' (VLMs) remarkable capabilities as versatile visual assistants, two substantial challenges persist within the existing VLM frameworks: (1) lacking task diversity in pretraining and visual instruction tuning, and (2) annotation error and bias in GPT-4 synthesized instruction tuning data. Both challenges lead to issues such as poor generalizability, hallucination, and catastrophic forgetting. To address these challenges, we construct Vision-Flan, the most diverse publicly available visual instruction tuning dataset to date, comprising 187 diverse tasks and 1,664,261 instances sourced from academic datasets, and each task is accompanied by an expert-written instruction. In addition, we propose a two-stage instruction tuning framework, in which VLMs are firstly finetuned on Vision-Flan and further tuned on GPT-4 synthesized data. We find this two-stage tuning framework significantly outperforms the traditional single-stage visual instruction tuning framework and achieves the state-of-the-art performance across a wide range of multi-modal evaluation benchmarks. Finally, we conduct in-depth analyses to understand visual instruction tuning and our findings reveal that: (1) GPT-4 synthesized data does not substantially enhance VLMs' capabilities but rather modulates the model's responses to human-preferred formats; (2) A minimal quantity (e.g., 1,000) of GPT-4 synthesized data can effectively align VLM responses with human-preference; (3) Visual instruction tuning mainly helps large-language models (LLMs) to understand visual features."
+  },
+  {
+    "id": "vldb-2026-0029",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Morphing-based Compression for Data-centric ML Pipelines",
+    "authors": [
+      "Haoming Xian",
+      "Qintian Guo",
+      "Jun Zhang",
+      "Sibo Wang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 3: November 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Data-centric ML pipelines extend traditional machine learning (ML) pipelines -- of feature transformations and ML model training -- by outer loops for data cleaning, augmentation, and feature engineering to create high-quality input data. Existing lossless matrix compression applies lightweight compression schemes to numeric matrices and performs linear algebra operations such as matrix-vector multiplications directly on the compressed representation but struggles to efficiently rediscover structural data redundancy. Compressed operations are effective at fitting data in available memory, reducing I/O across the storage-memory-cache hierarchy, and improving instruction parallelism. The applied data cleaning, augmentation, and feature transformations provide a rich source of information about data characteristics such as distinct items, column sparsity, and column correlations. In this paper, we introduce BWARE -- an extension of AWARE for workload-aware lossless matrix compression -- that pushes compression through feature transformations and engineering to leverage information about structural transformations. Besides compressed feature transformations, we introduce a novel technique for lightweight morphing of a compressed representation into workload-optimized compressed representations without decompression. BWARE shows substantial end-to-end runtime improvements, reducing the execution time for training data-centric ML pipelines from days to hours."
+  },
+  {
+    "id": "vldb-2026-0030",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Optimal Approximate Matrix Multiplication over Sliding Windows",
+    "authors": [
+      "Z iqi Zou",
+      "Hao Zhang",
+      "Jiaxin Yao",
+      "Kangfei Zhao",
+      "Zhiwei Zhang",
+      "Sen Gao",
+      "Jingpeng Hao",
+      "Ye Yuan",
+      "Guoren Wang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 3: November 2025)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Matrix multiplication is a core operation in numerous applications, yet its exact computation becomes prohibitively expensive as data scales, especially in streaming environments where timeliness is critical. In many real-world scenarios, data arrives continuously, making it essential to focus on recent information via sliding windows. While existing approaches offer approximate solutions, they often suffer from suboptimal space complexities when extended to the sliding-window setting. In this work, we introduce SO-COD, a novel algorithm for approximate matrix multiplication (AMM) in the sliding-window streaming setting, where only the most recent data is retained for computation. Inspired by frequency estimation over sliding windows, our method tracks significant contributions, referred to as snapshots, from incoming data and efficiently updates them as the window advances. Given matrices \\(\\boldsymbol{X} \\in \\mathbb{R}^{d_x \\times n}\\) and \\(\\boldsymbol{Y} \\in \\mathbb{R}^{d_y \\times n}\\) for computing \\(\\boldsymbol{X} \\boldsymbol{Y}^T\\), we analyze two data settings. In the \\emph{normalized} setting, where each column of the input matrices has a unit \\(L_2\\) norm, SO-COD achieves an optimal space complexity of \\( O\\left(\\frac{d_x+d_y}ε\\right) \\). In the \\emph{unnormalized} setting, where the square of column norms vary within a bounded range \\([1, R]\\), we show that the space requirement is \\( O\\left(\\frac{d_x+d_y}ε\\log R\\right) \\), which matches the theoretical lower bound for an \\(ε\\)-approximation guarantee. Extensive experiments on synthetic and real-world datasets demonstrate that SO-COD effectively balances space cost and approximation error, making it a promising solution for large-scale, dynamic streaming matrix multiplication."
+  },
+  {
+    "id": "vldb-2026-0031",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "LLM-AutoDP: Automatic Data Processing via LLM Agents for Model Fine-tuning",
+    "authors": [
+      "Wei Huang",
+      "Anda Cheng",
+      "Yinggui Wang",
+      "Lei Wang",
+      "Tao Wei"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "LLM"
+    ],
+    "paper_type": "Research Paper (Issue 5: January 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Large Language Models (LLMs) can be fine-tuned on domain-specific data to enhance their performance in specialized fields. However, such data often contains numerous low-quality samples, necessitating effective data processing (DP). In practice, DP strategies are typically developed through iterative manual analysis and trial-and-error adjustment. These processes inevitably incur high labor costs and may lead to privacy issues in high-privacy domains like healthcare due to direct human access to sensitive data. Thus, achieving automated data processing without exposing the raw data has become a critical challenge. To address this challenge, we propose LLM-AutoDP, a novel framework that leverages LLMs as agents to automatically generate and optimize data processing strategies. Our method generates multiple candidate strategies and iteratively refines them using feedback signals and comparative evaluations. This iterative in-context learning mechanism enables the agent to converge toward high-quality processing pipelines without requiring direct human intervention or access to the underlying data. To further accelerate strategy search, we introduce three key techniques: Distribution Preserving Sampling, which reduces data volume while maintaining distributional integrity; Processing Target Selection, which uses a binary classifier to identify low-quality samples for focused processing; Cache-and-Reuse Mechanism}, which minimizes redundant computations by reusing prior processing results. Results show that models trained on data processed by our framework achieve over 80% win rates against models trained on unprocessed data. Compared to AutoML baselines based on LLM agents, LLM-AutoDP achieves approximately a 65% win rate. Moreover, our acceleration techniques reduce the total searching time by up to 10 times, demonstrating both effectiveness and efficiency."
+  },
+  {
+    "id": "vldb-2026-0032",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Highly-Efficient Large-Scale k-means with Individual Fairness",
+    "authors": [
+      "Shengkun Zhu",
+      "Zeng Jinshan",
+      "Yuan Sun",
+      "Sheng Wang",
+      "Yiming Wang",
+      "Yushuai Ji",
+      "Feiping Nie",
+      "Xiaodong Li"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "AI Safety"
+    ],
+    "paper_type": "Research Paper (Issue 5: January 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "A measurement of the CKM angle $γ$ and related strong-phase parameters is performed using a novel, model-independent approach in ${B^{\\pm}\\rightarrow D(\\rightarrow K^{0}_{\\rm S} h^{\\prime+}h^{\\prime-}) h^{\\pm}}$ decays, where $h^{(\\prime)} \\equiv π, K$. The analysis uses a joint data sample of electron-positron collisions collected by the BESIII experiment at the Beijing Electron-Positron Collider II during 2010--2011 and 2021--2022, corresponding to an integrated luminosity of 8 fb$^{-1}$, and proton-proton collisions collected by the LHCb experiment at the Large Hadron Collider during 2011--2018, corresponding to an integrated luminosity of 9 fb$^{-1}$. The two datasets are analyzed simultaneously by applying per-event weights based on the amplitude variation over the $D$-decay phase space to enhance the sensitivity to $C\\!P$-violating observables. The CKM angle $γ$ is determined to be $γ= (71.3\\pm 5.0)^{\\circ}$, which constitutes the most precise single measurement to date."
+  },
+  {
+    "id": "vldb-2026-0033",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Disaggregated Storage",
+    "authors": [
+      "Jianshun Zhang",
+      "Xun Deng",
+      "Fang Wang",
+      "Jiaxin Ou",
+      "Yi Wang",
+      "Hao Wang",
+      "Jianjun Chen",
+      "Peng Fang",
+      "Dan Feng"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System",
+      "LLM"
+    ],
+    "paper_type": "Research Paper (Issue 5: January 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "The increasing deployment of distributed Battery Energy Storage Systems (BESSs) in modern power grids necessitates effective coordination strategies to ensure state-of-charge (SoC) balancing and accurate power delivery. While distributed control frameworks offer scalability and resilience, they also raise significant privacy concerns due to the need for inter-agent information exchange. This paper presents a novel privacy-preserving distributed control algorithm for SoC balancing in a networked BESS. The proposed framework includes distributed power allocation law that is designed based on two privacy-preserving distributed estimators, one for the average unit state and the other for the average desired power. The average unit state estimator is designed via the state decomposition method without disclosing sensitive internal states. The proposed power allocation law based on these estimators ensures asymptotic SoC balancing and global power delivery while safeguarding agent privacy from external eavesdroppers. The effectiveness and privacy-preserving properties of the proposed control strategy are demonstrated through simulation results."
+  },
+  {
+    "id": "vldb-2026-0034",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "LiBox: A Learned Index as an Array to Minimize Last-Mile Search",
+    "authors": [
+      "Jian Zhou",
+      "Luna Wang",
+      "Shuaihua Zhao",
+      "Chen Zhong",
+      "Song Jiang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 5: January 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "vldb-2026-0035",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "DeXOR: Enabling XOR in Decimal Space for Streaming Lossless Compression of Floating-point Data",
+    "authors": [
+      "Chuanyi Lv",
+      "Huan Li",
+      "Dingyu Yang",
+      "Zhonele Xie",
+      "Lu Chen",
+      "Christian Jensen"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 5: January 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "With streaming floating-point numbers being increasingly prevalent, effective and efficient compression of such data is critical. Compression schemes must be able to exploit the similarity, or smoothness, of consecutive numbers and must be able to contend with extreme conditions, such as high-precision values or the absence of smoothness. We present DeXOR, a novel framework that enables decimal XOR procedure to encode decimal-space longest common prefixes and suffixes, achieving optimal prefix reuse and effective redundancy elimination. To ensure accurate and low-cost decompression even with binary-decimal conversion errors, DeXOR incorporates 1) scaled truncation with error-tolerant rounding and 2) different bit management strategies optimized for decimal XOR. Additionally, a robust exception handler enhances stability by managing floating-point exponents, maintaining high compression ratios under extreme conditions. In evaluations across 22 datasets, DeXOR surpasses state-of-the-art schemes, achieving a 15% higher compression ratio and a 20% faster decompression speed while maintaining a competitive compression speed. DeXOR also offers scalability under varying conditions and exhibits robustness in extreme scenarios where other schemes fail."
+  },
+  {
+    "id": "vldb-2026-0036",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Understanding Evolving Graph Structures for Large Discrete-Time Dynamic Graph Representation",
+    "authors": [
+      "Danni Wu",
+      "Yuanyuan Xu",
+      "Xuemin Lin",
+      "Wenjie Zhang",
+      "Ying Zhang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 5: January 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Graph representation learning, involving both node features and graph structures, is crucial for real-world applications but often encounters pervasive noise. State-of-the-art methods typically address noise by focusing separately on node features with large language models (LLMs) and on graph structures with graph structure learning models (GSLMs). In this paper, we introduce LangGSL, a robust framework that integrates the complementary strengths of pre-trained language models and GSLMs to jointly enhance both node feature and graph structure learning. In LangGSL, we first leverage LLMs to filter noise in the raw data and extract valuable cleaned information as features, enhancing the synergy of downstream models. During the mutual learning phase in LangGSL, the core idea is to leverage the relatively small language model (LM) to process local attributes and generate reliable pseudo-labels and informative node embeddings, which are then integrated into the GSLM's prediction phase. This approach enriches the global context and enhances overall performance. Meanwhile, GSLM refines the evolving graph structure constructed from the LM's output, offering updated labels back to the LM as additional guidance, thus facilitating a more effective mutual learning process. The LM and GSLM work synergistically, complementing each other's strengths and offsetting weaknesses within a variational information-maximizing framework, resulting in enhanced node features and a more robust graph structure. Extensive experiments on diverse graph datasets of varying scales and across different task scenarios demonstrate the scalability and effectiveness of the proposed approach."
+  },
+  {
+    "id": "vldb-2026-0037",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Scalable Grid-based Computation of Kendall's Tau Correlation",
+    "authors": [
+      "Nikolaos Koutroumanis",
+      "Petros Karampas",
+      "Alexandros Karakasidis",
+      "Nikos Mamoulis",
+      "Panos Vassiliadis"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 5: January 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "A measurement of the CKM angle $γ$ and related strong-phase parameters is performed using a novel, model-independent approach in ${B^{\\pm}\\rightarrow D(\\rightarrow K^{0}_{\\rm S} h^{\\prime+}h^{\\prime-}) h^{\\pm}}$ decays, where $h^{(\\prime)} \\equiv π, K$. The analysis uses a joint data sample of electron-positron collisions collected by the BESIII experiment at the Beijing Electron-Positron Collider II during 2010--2011 and 2021--2022, corresponding to an integrated luminosity of 8 fb$^{-1}$, and proton-proton collisions collected by the LHCb experiment at the Large Hadron Collider during 2011--2018, corresponding to an integrated luminosity of 9 fb$^{-1}$. The two datasets are analyzed simultaneously by applying per-event weights based on the amplitude variation over the $D$-decay phase space to enhance the sensitivity to $C\\!P$-violating observables. The CKM angle $γ$ is determined to be $γ= (71.3\\pm 5.0)^{\\circ}$, which constitutes the most precise single measurement to date."
+  },
+  {
+    "id": "vldb-2026-0038",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Towards Efficient Random-Order Enumeration for Join Queries",
+    "authors": [
+      "Pengyu Chen",
+      "Zizheng Guo",
+      "Jianwei Yang",
+      "Dongjing Miao"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 5: January 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "In many data analysis pipelines, a basic and time-consuming process is to produce join results and feed them into downstream tasks. Numerous enumeration algorithms have been developed for this purpose. To be a statistically meaningful representation of the whole join result, the result tuples are required to be enumerated in uniformly random order. However, existing studies lack an efficient random-order enumeration algorithm with a worst-case runtime guarantee for (cyclic) join queries. In this paper, we study the problem of enumerating the results of a join query in random order. We develop an efficient random-order enumeration algorithm for join queries with no large hidden constants in its complexity, achieving expected $O(\\frac{\\mathrm{AGM}(Q)}{|Res(Q)|}\\log^2|Q|)$ delay, $O(\\mathrm{AGM}(Q)\\log|Q|)$ total running time after $O(|Q|\\log|Q|)$-time index construction, where $|Q|$ is the size of input, $\\mathrm{AGM}(Q)$ is the AGM bound, and $|Res(Q)|$ is the size of the join result. We prove that our algorithm is near-optimal in the worst case, under the combinatorial $k$-clique hypothesis. Our algorithm requires no query-specific preprocessing and can be flexibly adapted to many common database indexes with only minor modifications. We also devise two non-trivial techniques to speed up the enumeration, and provide an experimental study on our enumeration algorithm along with the speed-up techniques. The experimental results show that our algorithm, enhanced with the proposed techniques, significantly outperforms existing state-of-the-art methods."
+  },
+  {
+    "id": "vldb-2026-0039",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Ken: An Execution Engine for Unstructured Database Systems",
+    "authors": [
+      "Ferdinand Kossmann",
+      "Ziniu Wu",
+      "Alex Turk",
+      "Nesime Tatbul",
+      "Lei Cao",
+      "Samuel Madden"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 5: January 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Disconnection of mobile clients from server, in an unclear time and for an unknown duration, due to mobility of mobile clients, is the most important challenges for concurrency control in mobile database with client-server model. Applying pessimistic common classic methods of concurrency control (like 2pl) in mobile database leads to long duration blocking and increasing waiting time of transactions. Because of high rate of aborting transactions, optimistic methods aren`t appropriate in mobile database. In this article, OPCOT concurrency control algorithm is introduced based on optimistic concurrency control method. Reducing communications between mobile client and server, decreasing blocking rate and deadlock of transactions, and increasing concurrency degree are the most important motivation of using optimistic method as the basis method of OPCOT algorithm. To reduce abortion rate of transactions, in execution time of transactions` operators a timestamp is assigned to them. In other to checking commitment ordering property of scheduler, the assigned timestamp is used in server on time of commitment. In this article, serializability of OPCOT algorithm scheduler has been proved by using serializability graph. Results of evaluating simulation show that OPCOT algorithm decreases abortion rate and waiting time of transactions in compare to 2pl and optimistic algorithms."
+  },
+  {
+    "id": "vldb-2026-0040",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Learned Static Function Data Structures",
+    "authors": [
+      "Stefan Hermann",
+      "Hans-Peter Lehmann",
+      "Giorgio Vinciguerra",
+      "Stefan Walzer"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 5: January 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "We study distributed optimization in the presence of Byzantine adversaries, where both data and computation are distributed among $m$ worker machines, $t$ of which may be corrupt. The compromised nodes may collaboratively and arbitrarily deviate from their pre-specified programs, and a designated (master) node iteratively computes the model/parameter vector for generalized linear models. In this work, we primarily focus on two iterative algorithms: Proximal Gradient Descent (PGD) and Coordinate Descent (CD). Gradient descent (GD) is a special case of these algorithms. PGD is typically used in the data-parallel setting, where data is partitioned across different samples, whereas, CD is used in the model-parallelism setting, where data is partitioned across the parameter space. In this paper, we propose a method based on data encoding and error correction over real numbers to combat adversarial attacks. We can tolerate up to $t\\leq \\lfloor\\frac{m-1}{2}\\rfloor$ corrupt worker nodes, which is information-theoretically optimal. We give deterministic guarantees, and our method does not assume any probability distribution on the data. We develop a {\\em sparse} encoding scheme which enables computationally efficient data encoding and decoding. We demonstrate a trade-off between the corruption threshold and the resource requirements (storage, computational, and communication complexity). As an example, for $t\\leq\\frac{m}{3}$, our scheme incurs only a {\\em constant} overhead on these resources, over that required by the plain distributed PGD/CD algorithms which provide no adversarial protection. To the best of our knowledge, ours is the first paper that makes CD secure against adversarial attacks. Our encoding scheme extends efficiently to the data streaming model and for stochastic gradient descent (SGD). We also give experimental results to show the efficacy of our proposed schemes."
+  },
+  {
+    "id": "vldb-2026-0041",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Pervasive Annotation Errors Break Text-to-SQL Benchmarks and Leaderboards",
+    "authors": [
+      "Tengjun Jin",
+      "Yoojin Choi",
+      "Yuxuan Zhu",
+      "Daniel Kang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System",
+      "LLM"
+    ],
+    "paper_type": "Research Paper (Issue 5: January 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Researchers have proposed numerous text-to-SQL techniques to streamline data analytics and accelerate the development of data-driven applications. To compare these techniques and select the best one for deployment, the community depends on public benchmarks and their leaderboards. Since these benchmarks heavily rely on human annotations during question construction and answer evaluation, the validity of the annotations is crucial. In this paper, we conduct an empirical study that (i) benchmarks annotation error rates for two widely used text-to-SQL benchmarks, BIRD and Spider 2.0-Snow, and (ii) corrects a subset of the BIRD development (Dev) set to measure the impact of annotation errors on text-to-SQL agent performance and leaderboard rankings. Through expert analysis, we show that BIRD Mini-Dev and Spider 2.0-Snow have error rates of 52.8% and 62.8%, respectively. We re-evaluate all 16 open-source agents from the BIRD leaderboard on both the original and the corrected BIRD Dev subsets. We show that performance changes range from -7% to 31% (in relative terms) and rank changes range from $-9$ to $+9$ positions. We further assess whether these impacts generalize to the full BIRD Dev set. We find that the rankings of agents on the uncorrected subset correlate strongly with those on the full Dev set (Spearman's $r_s$=0.85, $p$=3.26e-5), whereas they correlate weakly with those on the corrected subset (Spearman's $r_s$=0.32, $p$=0.23). These findings show that annotation errors can significantly distort reported performance and rankings, potentially misguiding research directions or deployment choices. Our code and data are available at https://github.com/uiuc-kang-lab/text_to_sql_benchmarks."
+  },
+  {
+    "id": "vldb-2026-0042",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "ArceKV: Towards Workload-driven LSM-compactions for Key-Value Store Under Dynamic Workloads",
+    "authors": [
+      "Junfeng Liu",
+      "Haoxuan Xie",
+      "Siqiang Luo"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 5: January 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Key-value stores underpin a wide range of applications due to their simplicity and efficiency. Log-Structured Merge Trees (LSM-trees) dominate as their underlying structure, excelling at handling rapidly growing data. Recent research has focused on optimizing LSM-tree performance under static workloads with fixed read-write ratios. However, real-world workloads are highly dynamic, and existing workload-aware approaches often struggle to sustain optimal performance or incur substantial transition overhead when workload patterns shift. To address this, we propose ElasticLSM, which removes traditional LSM-tree structural constraints to allow more flexible management actions (i.e., compactions and write stalls) creating greater opportunities for continuous performance optimization. We further design Arce, a lightweight compaction decision engine that guides ElasticLSM in selecting the optimal action from its expanded action space. Building on these components, we implement ArceKV, a full-fledged key-value store atop RocksDB. Extensive evaluations demonstrate that ArceKV outperforms state-of-the-art compaction strategies across diverse workloads, delivering around 3x faster performance in dynamic scenarios."
+  },
+  {
+    "id": "vldb-2026-0043",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "LIO: A lightweight and interpretable query optimizer based on an evolutionary forest",
+    "authors": [
+      "Y uxin Tang",
+      "Zhiyuan Xin",
+      "Zhimin Ding",
+      "Xinyu Yao",
+      "Daniel Bourgeois",
+      "Tirthak Patel",
+      "Chris Jermaine"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 6: February 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "vldb-2026-0044",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Automated Tensor-Relational Decomposition for Large-Scale Sparse Tensor Computation",
+    "authors": [
+      "Mehnaz Tabassum Mahin",
+      "Michael J. Carey",
+      "Vassilis J. Tsotras"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 6: February 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "The Phase Tensor (PT) marked a breakthrough in understanding and analysis of electric galvanic distortion but does not contain any impedance amplitude information and therefore cannot quantify resistivity without complementary data. We formulate a complete impedance tensor decomposition into the PT and a new Amplitude Tensor (AT) that is shown to be complementary and mathematically independent to the PT. We show that for the special cases of 1D and 2D models, the geometric AT parameters (strike and skew angles) converge to PT parameters and the singular values of the AT correspond to the impedance amplitudes of the transverse electric and transverse magnetic modes. In all cases, we show that the AT contains both galvanic and inductive amplitudes, the latter of which is argued to be physically related to the inductive information of the PT. The geometric parameters of the inductive AT and the PT represent the same geometry of the subsurface conductivity distribution that is affected by induction processes, and therefore we hypothesise that geometric PT parameters can be used to approximate the inductive AT. Then, this hypothesis leads to the estimation of the galvanic AT which is equal to the galvanic electric distortion tensor at the lowest measured period. This estimation of the galvanic distortion departs from the common assumption to consider 1D or 2D regional structures and can be applied for general 3D subsurfaces. We demonstrate exemplarily with an explicit formulation how our hypothesis can be used to recover the galvanic electric anisotropic distortion for 2D subsurfaces, which was, until now, believed to be indeterminable for 2D data. Moreover, we illustrate the AT as a mapping tool and we compare it to the PT with both synthetic and real data examples. Lastly, we argue that the AT can provide important non-redundant amplitude information to PT inversions."
+  },
+  {
+    "id": "vldb-2026-0045",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "SACK: Shielding Dynamic Attribute-based Access Control in Persistent Key-Value Stores",
+    "authors": [
+      "Zhenghao Ding",
+      "Xinyi Zhang",
+      "Chao Zhang",
+      "Yishen Sun",
+      "Kai Xu",
+      "Wei Lu",
+      "Xiaoyong Du"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 6: February 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "The COVID-19 crisis has demonstrated the potential of cutting-edge genomics research. However, privacy of these sensitive pieces of information is an area of significant concern for genomics researchers. The current security models makes it difficult to create flexible and automated data sharing frameworks. These models also increases the complexity of adding or revoking access without contacting the data publisher. In this work, we investigate an automated attribute-based access control (AABAC) model for genomics data over Named Data Networking (NDN). AABAC secures the data itself rather than the storage location or transmission channel, provides automated data invalidation, and automates key retrieval and data validation while maintaining the ability to control access. We show that AABC when combined with NDN provide a secure and flexible combination for work with genomics research."
+  },
+  {
+    "id": "vldb-2026-0046",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Breaking the Isolation-Freshness Trade-off: Joint Adaptive Storage Optimization for HTAP Systems",
+    "authors": [
+      "Shuyu Chen",
+      "Mingxun Zhou",
+      "Haoyu Niu",
+      "Guopeng Lin",
+      "Weili Han"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System",
+      "LLM"
+    ],
+    "paper_type": "Research Paper (Issue 6: February 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "The increasing deployment of distributed Battery Energy Storage Systems (BESSs) in modern power grids necessitates effective coordination strategies to ensure state-of-charge (SoC) balancing and accurate power delivery. While distributed control frameworks offer scalability and resilience, they also raise significant privacy concerns due to the need for inter-agent information exchange. This paper presents a novel privacy-preserving distributed control algorithm for SoC balancing in a networked BESS. The proposed framework includes distributed power allocation law that is designed based on two privacy-preserving distributed estimators, one for the average unit state and the other for the average desired power. The average unit state estimator is designed via the state decomposition method without disclosing sensitive internal states. The proposed power allocation law based on these estimators ensures asymptotic SoC balancing and global power delivery while safeguarding agent privacy from external eavesdroppers. The effectiveness and privacy-preserving properties of the proposed control strategy are demonstrated through simulation results."
+  },
+  {
+    "id": "vldb-2026-0047",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Bifrost: A Much Simpler Secure Two-Party Data Join Protocol for Secure Data Analytics",
+    "authors": [
+      "Dian Ouyang",
+      "Yikun Wang",
+      "Dong Wen",
+      "Wenjie Zhang",
+      "Yaping Liu",
+      "Xuemin Lin"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 6: February 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "vldb-2026-0048",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Efficient Temporal Subgraph Management: A New Interval Index",
+    "authors": [
+      "Xin Zhang",
+      "Yanyan Shen",
+      "Yingxia Shao",
+      "Haoyang Li",
+      "Lei Chen"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System",
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 6: February 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "vldb-2026-0049",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Efficient GNN Training on Giant Graphs with Collective Batching and Scheduling",
+    "authors": [
+      "Celine Wüst",
+      "Zu-Ming Jiang",
+      "Zhendong Su"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management",
+      "Machine Learning"
+    ],
+    "paper_type": "Research Paper (Issue 6: February 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Graphs are omnipresent and GNNs are a powerful family of neural networks for learning over graphs. Despite their popularity, scaling GNNs either by deepening or widening suffers from prevalent issues of unhealthy gradients, over-smoothening, information squashing, which often lead to sub-standard performance. In this work, we are interested in exploring a principled way to scale GNNs capacity without deepening or widening, which can improve its performance across multiple small and large graphs. Motivated by the recent intriguing phenomenon of model soups, which suggest that fine-tuned weights of multiple large-language pre-trained models can be merged to a better minima, we argue to exploit the fundamentals of model soups to mitigate the aforementioned issues of memory bottleneck and trainability during GNNs scaling. More specifically, we propose not to deepen or widen current GNNs, but instead present a data-centric perspective of model soups tailored for GNNs, i.e., to build powerful GNNs. By dividing giant graph data, we build multiple independently and parallelly trained weaker GNNs (soup ingredient) without any intermediate communication, and combine their strength using a greedy interpolation soup procedure to achieve state-of-the-art performance. Compared to concurrent distributed GNN training works such as Jiong et. al. 2023, we train each soup ingredient by sampling different subgraphs per epoch and their respective sub-models are merged only after being fully trained (rather than intermediately so). Moreover, we provide a wide variety of model soup preparation techniques by leveraging state-of-the-art graph sampling and graph partitioning approaches that can handle large graphs. Codes are available at: \\url{https://github.com/VITA-Group/graph_ladling}."
+  },
+  {
+    "id": "vldb-2026-0050",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Dinkel: State-Aware and Granular Framework for Validating Graph Databases",
+    "authors": [
+      "Christopher Spinrath",
+      "Angela Bonifati",
+      "Rachid Echahed"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 6: February 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Graph neural networks (GNNs) are powerful deep learning models for graph-structured data, demonstrating remarkable success across diverse domains. Recently, the database (DB) community has increasingly recognized the potentiality of GNNs, prompting a surge of researches focusing on improving database systems through GNN-based approaches. However, despite notable advances, There is a lack of a comprehensive review and understanding of how GNNs could improve DB systems. Therefore, this survey aims to bridge this gap by providing a structured and in-depth overview of GNNs for DB systems. Specifically, we propose a new taxonomy that classifies existing methods into two key categories: (1) Relational Databases, which includes tasks like performance prediction, query optimization, and text-to-SQL, and (2) Graph Databases, addressing challenges like efficient graph query processing and graph similarity computation. We systematically review key methods in each category, highlighting their contributions and practical implications. Finally, we suggest promising avenues for integrating GNNs into Database systems."
+  },
+  {
+    "id": "vldb-2026-0051",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Repairing Property Graphs under PG-Constraints",
+    "authors": [
+      "Yingli Zhou",
+      "Huizhong Wang",
+      "Chenhao Ma",
+      "Yixiang Fang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 6: February 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Recent standardization efforts for graph databases lead to standard query languages like GQL and SQL/PGQ, and constraint languages like Property Graph Constraints (PG-Constraints). In this paper, we embark on the study of repairing property graphs under PG-Constraints. We identify a significant subset of PG-Constraints, encoding denial constraints and including recursion as a key feature, while still permitting automata-based structural analyses of errors. We present a comprehensive repair pipeline for these constraints to repair Property Graphs, involving changes in the graph topology and leading to node, edge and, optionally, label deletions. We investigate three algorithmic strategies for the repair procedure, based on Integer Linear Programming (ILP), a naive, and an LP-guided greedy algorithm. Our experiments on various real-world datasets reveal that repairing with label deletions can achieve a 59% reduction in deletions compared to node/edge deletions. Moreover, the LP-guided greedy algorithm offers a runtime advantage of up to 97% compared to the ILP strategy, while matching the same quality."
+  },
+  {
+    "id": "vldb-2026-0052",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "A Semantics-aware Approach for Graph Edit Distance Estimation over Knowledge Graphs",
+    "authors": [
+      "Mingyu Yang",
+      "Liuchang Jing",
+      "Wentao Li",
+      "Wei Wang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 6: February 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "The edit distance between two graphs on the same vertex set is defined to be size of the symmetric difference of their edge sets. The edit distance function of a hereditary property, $\\mathcal{H}$, is a function of $p$ and measures, asymptotically, the furthest graph with edge density $p$ from $\\mathcal{H}$ under this metric. The edit distance function has proven to be difficult to compute for many hereditary properties. Some surprising connections to extremal graph theory problems, such as strongly regular graphs and the problem of Zarankiewicz, have been uncovered in attempts to compute various edit distance functions. In this paper, we address the hereditary property $\\forb(K_{2,t})$ when $t\\geq5$, the property of having no induced copy of the complete bipartite graph with 2 vertices in one class and $t$ in the other. This work continues from a prior paper by the authors. Employing an assortment of techniques and colored regularity graph constructions, we are able to extend the interval over which the edit distance function for this hereditary property is generally known and determine its maximum value for all odd $t$. We also explore several constructions to improve upon known upper bounds for the function."
+  },
+  {
+    "id": "vldb-2026-0053",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Quantization Meets Projection: A Happy Marriage for Approximate k-Nearest Neighbor Search",
+    "authors": [
+      "Taesung Lee",
+      "Jaehyun Ha",
+      "Byungchul Tak",
+      "Wook-Shin Han"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 6: February 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "vldb-2026-0054",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "TurboLynx: Schemaless Graph Engine Strikes Back for General-Purpose Analytics",
+    "authors": [
+      "C haoyuan Shen",
+      "Chi Zhang",
+      "Chengliang Chai",
+      "Jiacheng Wang",
+      "Jia Yuan",
+      "Yuping Wang",
+      "Ye Yuan",
+      "Guoren Wang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 6: February 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "The \\textit{generalized Turán number} $\\mathrm{ex}(n, T, F)$ is the maximum possible number of copies of $T$ in an $F$-free graph on $n$ vertices for any two graphs $T$ and $F$. For the book graph $B_t$, there is a close connection between $\\ex(n,K_3,B_t)$ and the Ruzsa-Szemerédi triangle removal lemma. Motivated by this, in this paper, we study the generalized Turán problem for generalized theta graphs, a natural extension of book graphs. Our main result provides a complete characterization of the magnitude of $\\ex(n,K_3,H)$ when $H$ is a generalized theta graph, indicating when it is quadratic, when it is nearly quadratic, and when it is subquadratic. Furthermore, as an application, we obtain the exact value of $\\ex(n, K_r, kF)$, where $F$ is an edge-critical generalized theta graph, and $3\\le r\\le k+1$, extending several recent results."
+  },
+  {
+    "id": "vldb-2026-0055",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "LBeRiI CEaFo: Bi-level Coreset Selection for Efficient Instruction Tuning in LLMs",
+    "authors": [
+      "Robust Predicate Transfer with Dynamic Execution ........................................................................................................ 1278"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "LLM"
+    ],
+    "paper_type": "Research Paper (Issue 6: February 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Despite vision-language models' (VLMs) remarkable capabilities as versatile visual assistants, two substantial challenges persist within the existing VLM frameworks: (1) lacking task diversity in pretraining and visual instruction tuning, and (2) annotation error and bias in GPT-4 synthesized instruction tuning data. Both challenges lead to issues such as poor generalizability, hallucination, and catastrophic forgetting. To address these challenges, we construct Vision-Flan, the most diverse publicly available visual instruction tuning dataset to date, comprising 187 diverse tasks and 1,664,261 instances sourced from academic datasets, and each task is accompanied by an expert-written instruction. In addition, we propose a two-stage instruction tuning framework, in which VLMs are firstly finetuned on Vision-Flan and further tuned on GPT-4 synthesized data. We find this two-stage tuning framework significantly outperforms the traditional single-stage visual instruction tuning framework and achieves the state-of-the-art performance across a wide range of multi-modal evaluation benchmarks. Finally, we conduct in-depth analyses to understand visual instruction tuning and our findings reveal that: (1) GPT-4 synthesized data does not substantially enhance VLMs' capabilities but rather modulates the model's responses to human-preferred formats; (2) A minimal quantity (e.g., 1,000) of GPT-4 synthesized data can effectively align VLM responses with human-preference; (3) Visual instruction tuning mainly helps large-language models (LLMs) to understand visual features."
+  },
+  {
+    "id": "vldb-2026-0056",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Robust Predicate Transfer with Dynamic Execution",
+    "authors": [
+      "### Venue\nProceedings of the VLDB Endowment 2026"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 6: February 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Speculative execution attacks leverage the speculative and out-of-order execution features in modern computer processors to access secret data or execute code that should not be executed. Secret information can then be leaked through a covert channel. While software patches can be installed for mitigation on existing hardware, these solutions can incur big performance overhead. Hardware mitigation is being studied extensively by the computer architecture community. It has the benefit of preserving software compatibility and the potential for much smaller performance overhead than software solutions. This paper presents a systematization of the hardware defenses against speculative execution attacks that have been proposed. We show that speculative execution attacks consist of 6 critical attack steps. We propose defense strategies, each of which prevents a critical attack step from happening, thus preventing the attack from succeeding. We then summarize 20 hardware defenses and overhead-reducing features that have been proposed. We show that each defense proposed can be classified under one of our defense strategies, which also explains why it can thwart the attack from succeeding. We discuss the scope of the defenses, their performance overhead, and the security-performance trade-offs that can be made."
+  },
+  {
+    "id": "vldb-2026-0057",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "CAPS: Cost-Aware ML Pipeline Selection",
+    "authors": [
+      "Antonios Kontaxakis",
+      "Dimitris Sacharidis",
+      "Alberto Abelló",
+      "Sergi Nadal",
+      "Alkis Simitsis"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 7: March 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "In 2020 Bhavale and Waphare introduced the concept of a nullity of a poset as nullity of its cover graph. In 2003 Pawar and Waphare counted all non-isomorphic lattices on n elements and n edges, which are precisely lattices of nullity one. In 2002 Thakare et al. counted all non-isomorphic lattices on n elements containing two reducible elements. In the same paper, Thakare et al. counted lattices on n elements containing up to n+1 edges, which are precisely lattices of nullity up to two. In 2024 Bhavale and Aware counted all non-isomorphic lattices on n elements, containing up to three reducible elements. Recently, Aware and Bhavale counted all non-isomorphic lattices on n elements, containing four comparable reducible elements, and having nullity three. In this paper, we count up to isomorphism the class of all lattices on n elements containing five comparable reducible elements, and having nullity three."
+  },
+  {
+    "id": "vldb-2026-0058",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Optimization",
+    "authors": [
+      "Kaushik Rajan",
+      "Sampath Rajendra",
+      "Momin Al-Ghosien",
+      "Nicolas Bruno",
+      "Carlo Curino",
+      "Matteo Interlandi",
+      "Yinan"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 7: March 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "We study a finite-horizon stochastic control criterion for non-convex optimization in which Brownian exploration is balanced against a quadratic control cost. Rather than emphasizing the classical Hopf--Cole representation, we isolate the exact drift selected by the criterion and reorganize it in a form adapted to optimization. The key object is the conditional terminal law of the optimal process. We show that this law is a Gibbs measure for a proximally penalized energy, yielding three exact representations of the drift: potential, averaged-gradient, and barycentric. We then analyze two asymptotic regimes relevant for optimization. As terminal time is approached, the drift recovers a scaled gradient-descent field. In the low-temperature regime, assuming a unique global minimizer, the conditional terminal law concentrates on it even in the presence of nonglobal local minima, and the drift converges to an affine attraction field toward it. In the nondegenerate case we also derive Laplace asymptotics for the drift, the value function, and the covariance of the conditional terminal law. Finally, we record a simple gradient-free discretization suggested by the barycentric formula."
+  },
+  {
+    "id": "vldb-2026-0059",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Secure Multi-Party Sampling over Joins",
+    "authors": [
+      "Qiyao Luo",
+      "Quanqing Xu",
+      "Chuanhui Yang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 7: March 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Sampling over joins is a fundamental task in large-scale data analytics. Instead of computing the full join results, which could be massive, a uniform sample of the join results would suffice for many purposes, such as answering analytical queries or training machine learning models. In this paper, we study the problem of how to maintain a random sample over joins while the tuples are streaming in. Without the join, this problem can be solved by some simple and classical reservoir sampling algorithms. However, the join operator makes the problem significantly harder, as the join size can be polynomially larger than the input. We present a new algorithm for this problem that achieves a near-linear complexity. The key technical components are a generalized reservoir sampling algorithm that supports a predicate, and a dynamic index for sampling over joins. We also conduct extensive experiments on both graph and relational data over various join queries, and the experimental results demonstrate significant performance improvement over the state of the art."
+  },
+  {
+    "id": "vldb-2026-0060",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "How to Write to SSDs",
+    "authors": [
+      "Bohyun Lee",
+      "Tobias Ziegler",
+      "Viktor Leis"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 7: March 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "This paper demonstrates that adopting out-of-place writes is essential for database systems to fully leverage SSD performance and extend SSD lifespan. We propose a set of out-of-place optimizations that collectively reduce write amplification across both the DBMS and SSD layers. We redesign the in-place, B-tree-based LeanStore to write out-of-place and support these optimizations, and evaluate it on diverse OLTP benchmarks, dataset sizes, and SSDs. The final design improves throughput by 1.65-2.24x and reduces flash writes per operation by 6.2-9.8x on YCSB-A. On TPC-C with 15,000 warehouses, throughput improves by 2.45x while flash writes decrease by 7.2x. Finally, we show that the architecture can seamlessly support novel SSD interfaces such as ZNS and FDP."
+  },
+  {
+    "id": "vldb-2026-0061",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Exploration",
+    "authors": [
+      "Liang Li",
+      "Shufeng Gong",
+      "Yanan Yang",
+      "Yiduo Wang",
+      "Jie Wu"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 7: March 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Embodied computer vision considers perception for robots in novel, unstructured environments. Of particular importance is the embodied visual exploration problem: how might a robot equipped with a camera scope out a new environment? Despite the progress thus far, many basic questions pertinent to this problem remain unanswered: (i) What does it mean for an agent to explore its environment well? (ii) Which methods work well, and under which assumptions and environmental settings? (iii) Where do current approaches fall short, and where might future work seek to improve? Seeking answers to these questions, we first present a taxonomy for existing visual exploration algorithms and create a standard framework for benchmarking them. We then perform a thorough empirical study of the four state-of-the-art paradigms using the proposed framework with two photorealistic simulated 3D environments, a state-of-the-art exploration architecture, and diverse evaluation metrics. Our experimental results offer insights and suggest new performance metrics and baselines for future work in visual exploration. Code, models and data are publicly available: https://github.com/facebookresearch/exploring_exploration"
+  },
+  {
+    "id": "vldb-2026-0062",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "SIDLE: Tree-structure Aware Indexes for CXL-based Heterogeneous Memory",
+    "authors": [
+      "Haoru Zhao",
+      "Mingkai Dong",
+      "Fangnuo Wu",
+      "Haibo Chen"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 7: March 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "On heterogeneous memory (HM) where fast memory (i.e., CPU-attached DRAM) and slow memory (e.g., remote NUMA memory, RDMA-connected memory, Persistent Memory (PM)) coexist, optimizing the placement of tree-structure indexes (e.g., B+tree) is crucial to achieving high performance while enjoying memory expansion. Nowadays, CXL-based heterogeneous memory (CXL-HM) is emerging due to its high efficiency and memory semantics. Prior tree-structure index placement schemes for HM cannot effectively boost performance on CXL-HM, as they fail to adapt to the changes in hardware characteristics and semantics. Additionally, existing CXL-HM page-level data placement schemes are not efficient for tree-structure indexes due to the granularity mismatch between the tree nodes and the page. In this paper, we argue for a CXL native, tree-structure aware data placement scheme to optimize tree-structure indexes on CXL-HM. Our key insight is that the placement of tree-structure indexes on CXL-HM should match the tree's inherent characteristics with CXL-HM features. We present SINLK, a tree-structure aware, node-grained data placement scheme for tree-structure indexes on CXL-HM. With SINLK, developers can easily adapt existing tree-structure indexes to CXL-HM. We have integrated the B+tree and radix tree with SINLK to demonstrate its effectiveness. Evaluations show that SINLK improves throughput by up to 71% and reduces P99 latency by up to 81% compared with state-of-the-art data placement schemes (e.g., MEMTIS) and HM-optimized tree-structure indexes in YCSB and real-world workloads."
+  },
+  {
+    "id": "vldb-2026-0063",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Scarf: Self-Adaptive Tuning via Multi-Objective Reinforcement Learning for Apache Flink",
+    "authors": [
+      "Liu Liu",
+      "Shenghao Gong",
+      "Ziquan Fang",
+      "Yunjun Gao"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 7: March 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Multi-objective reinforcement learning (MORL) aims to optimize policies in the presence of conflicting objectives, where linear scalarization is commonly used to reduce vector-valued returns into scalar signals. While effective for certain preferences, this approach cannot capture fairness-oriented goals such as Nash social welfare or max-min fairness, which require nonlinear and non-additive trade-offs. Although several online algorithms have been proposed for specific fairness objectives, a unified approach for optimizing nonlinear welfare criteria in the offline setting-where learning must proceed from a fixed dataset-remains unexplored. In this work, we present FairDICE, the first offline MORL framework that directly optimizes nonlinear welfare objective. FairDICE leverages distribution correction estimation to jointly account for welfare maximization and distributional regularization, enabling stable and sample-efficient learning without requiring explicit preference weights or exhaustive weight search. Across multiple offline benchmarks, FairDICE demonstrates strong fairness-aware performance compared to existing baselines."
+  },
+  {
+    "id": "vldb-2026-0064",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Nearest Neighbor Search",
+    "authors": [
+      "Jiabao Han",
+      "Mengxuan Zhang",
+      "Goce Trajcevski"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 7: March 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Relevance is a foundation of user experience in e-commerce search. We view relevance optimization as a closed-loop ecosystem involving multiple human roles: users who provide feedback, product managers who define standards, annotators who label data, algorithm engineers who optimize models, and evaluators who assess performance. Because improving relevance in practice means systematically resolving user-perceived bad cases, we ask a system-level question: can this ecosystem be reimagined by replacing its human roles with autonomous agents? To answer this question, we propose a case-driven multi-agent framework that automates the pipeline from bad-case identification to resolution. The framework instantiates an Annotator Agent for multi-turn annotation, an Optimizer Agent for autonomous bad-case analysis and resolution, and a User Agent that identifies bad cases through conversational interaction, together forming an autonomous and continually evolving system. To make the framework practical in production, we further adopt a harness-engineering paradigm and build a unified retrieval-and-ranking relevance model for efficient training, an instruction-following relevance model for real-time case resolution, Global Memory to reduce information asymmetry across agents, a Deep Search Agent to target underestimation failures, and an agent-based chatbot for human--agent collaboration. Extensive human evaluation shows that the framework performs relevance-related tasks effectively, improves annotation accuracy, and enables more timely and generalizable bad-case resolution, indicating a practical paradigm for industrial search relevance optimization."
+  },
+  {
+    "id": "vldb-2026-0065",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Love-at-First-Sight: First Answers Without the Awkward Silence in Big Knowledge Graphs",
+    "authors": [
+      "Giannis Vassiliou",
+      "Haridimos Kondylakis"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 7: March 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "We use results of angular clustering measurements in 3000 sq. deg's of the FIRST radio survey to infer information on spatial clustering. Measurements are compared with CDM-model predictions. Clustering of FIRST sources with optical ID's in the APM catalog are also investigated. Finally, we outline a preliminary search for a weak lensing signal in the survey."
+  },
+  {
+    "id": "vldb-2026-0066",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "CEMR: An Effective Subgraph Matching Algorithm with Redundant Extension Elimination",
+    "authors": [
+      "Linglin Yang",
+      "Xunbin Su",
+      "Lei Zou",
+      "Xiangyang Gou",
+      "Yinnian Lin"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 7: March 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Subgraph matching is a fundamental problem in graph analysis with a wide range of applications. However, due to its inherent NP-hardness, enumerating subgraph matches efficiently on large real-world graphs remains highly challenging. Most existing works adopt a depth-first search (DFS) backtracking strategy, where a partial embedding is gradually extended in a DFS manner along a branch of the search trees until either a full embedding is found or no further extension is possible. A major limitation of this paradigm is the significant amount of duplicate computation that occurs during enumeration, which increases the overall runtime. To overcome this limitation, we propose a novel subgraph matching algorithm, CEMR. It incorporates two techniques to reduce duplicate extensions: common extension merging, which leverages a black-white vertex encoding, and common extension reusing, which employs common extension buffers. In addition, we design two pruning techniques to discard unpromising search branches. Extensive experiments on real-world datasets and diverse query workloads demonstrate that CEMR outperforms state-of-the-art subgraph matching methods."
+  },
+  {
+    "id": "vldb-2026-0067",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "AQD: Online Adaptive Query Dispatcher for HTAP Databases",
+    "authors": [
+      "Yang Wu",
+      "Tongliang Li",
+      "Xuanhe Zhou",
+      "Jianying Wang",
+      "Xinjun Yang",
+      "Wenchao Zhou",
+      "Chunxiao Xing",
+      "Yong"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 7: March 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Cost-based query optimization remains a critical task in relational databases even after decades of research and industrial development. Query optimizers rely on a large range of statistical synopses -- including attribute-level histograms and table-level samples -- for accurate cardinality estimation. As the complexity of selection predicates and the number of join predicates increase, two problems arise. First, statistics cannot be incrementally composed to effectively estimate the cost of the sub-plans generated in plan enumeration. Second, small errors are propagated exponentially through join operators, which can lead to severely sub-optimal plans. In this paper, we introduce COMPASS, a novel query optimization paradigm for in-memory databases based on a single type of statistics -- Fast-AGMS sketches. In COMPASS, query optimization and execution are intertwined. Selection predicates and sketch updates are pushed-down and evaluated online during query optimization. This allows Fast-AGMS sketches to be computed only over the relevant tuples -- which enhances cardinality estimation accuracy. Plan enumeration is performed over the query join graph by incrementally composing attribute-level sketches -- not by building a separate sketch for every sub-plan. We prototype COMPASS in MapD -- an open-source parallel database -- and perform extensive experiments over the complete JOB benchmark. The results prove that COMPASS generates better execution plans -- both in terms of cardinality and runtime -- compared to four other database systems. Overall, COMPASS achieves a speedup ranging from 1.35X to 11.28X in cumulative query execution time over the considered competitors."
+  },
+  {
+    "id": "vldb-2026-0068",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Near-Duplicate Text Alignment under Weighted Jaccard Similarity",
+    "authors": [
+      "Yuheng Zhang",
+      "Miao Qiao",
+      "Zhencan Peng",
+      "Dong Deng"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 7: March 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Near-duplicate text alignment is the task of identifying, among the texts in a corpus, all the subsequences (substrings) that are similar to a given query. Traditional approaches rely on seeding-extension-filtering heuristics, which lack accuracy guarantees and require many hard-to-tune parameters. Recent methods leverage min-hash techniques under a hash-based framework: group subsequences by their min-hash, and for any query, find all sketches similar to the query's sketch. These methods guarantee to report all subsequences whose estimated unweighted Jaccard similarity with the query exceeds a user-provided threshold and are efficient. However, they fail to account for token importance or frequency, which limits their use in real scenarios where tokens carry weights, such as TF-IDF. To address this, we propose MONO, an approach that supports weighted Jaccard similarity using consistent weighted sampling. MONO achieves optimality within the hash-based framework. For example, when token weights are proportional to frequencies, MONO generates O(n + n log f) groups in expectation for a text of length n, where f is the maximum token frequency. Each group takes O(1) space and represents a few subsequences sharing the same sampling. We prove this bound is tight: any algorithm must produce Omega(n + n log f) groups in expectation in the worst case. Experiments show that MONO outperforms the state of the art by up to 26x in index construction time, reduces index size by up to 30 percent, and improves query latency by up to 3x, while scaling well."
+  },
+  {
+    "id": "vldb-2026-0069",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Theoretically and Practically Efficient Resistance Distance Computation on Large Graphs",
+    "authors": [
+      "Yichun Yang",
+      "Longlong Lin",
+      "Rong-Hua Li",
+      "Meihao Liao",
+      "Guoren Wang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 8: April 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "The computation of resistance distance is pivotal in a wide range of graph analysis applications, including graph clustering, link prediction, and graph neural networks. Despite its foundational importance, efficient algorithms for computing resistance distances on large graphs are still lacking. Existing state-of-the-art (SOTA) methods, including power iteration-based algorithms and random walk-based local approaches, often struggle with slow convergence rates, particularly when the condition number of the graph Laplacian matrix, denoted by $κ$, is large. To tackle this challenge, we propose two novel and efficient algorithms inspired by the classic Lanczos method: Lanczos Iteration and Lanczos Push, both designed to reduce dependence on $κ$. Among them, Lanczos Iteration is a near-linear time global algorithm, whereas Lanczos Push is a local algorithm with a time complexity independent of the size of the graph. More specifically, we prove that the time complexity of Lanczos Iteration is $\\tilde{O}(\\sqrtκ m)$ ($m$ is the number of edges of the graph and $\\tilde{O}$ means the complexity omitting the $\\log$ terms) which achieves a speedup of $\\sqrtκ$ compared to previous power iteration-based global methods. For Lanczos Push, we demonstrate that its time complexity is $\\tilde{O}(κ^{2.75})$ under certain mild and frequently established assumptions, which represents a significant improvement of $κ^{0.25}$ over the SOTA random walk-based local algorithms. We validate our algorithms through extensive experiments on eight real-world datasets of varying sizes and statistical properties, demonstrating that Lanczos Iteration and Lanczos Push significantly outperform SOTA methods in terms of both efficiency and accuracy."
+  },
+  {
+    "id": "vldb-2026-0070",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "CIDER: Boosting Memory-Disaggregated Key-Value Stores with Pessimistic Synchronization",
+    "authors": [
+      "Yuxuan Du",
+      "Xuchuan Luo",
+      "Xin Wang",
+      "Yangfan Zhou",
+      "Jiacheng Shen"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 8: April 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Memory-disaggregated key-value (KV) stores suffer from a severe performance bottleneck due to their I/O redundancy issues. A huge amount of redundant I/Os are generated when synchronizing concurrent data accesses, making the limited network between the compute and memory pools of DM a performance bottleneck. We identify the root cause for the redundant I/O lies in the mismatch between the optimistic synchronization of existing memory-disaggregated KV stores and the highly concurrent workloads on DM. In this paper, we propose to boost memory-disaggregated KV stores with pessimistic synchronization. We propose CIDER, a compute-side I/O optimization framework, to verify our idea. CIDER adopts a global write-combining technique to further reduce cross-node redundant I/Os. A contention-aware synchronization scheme is designed to improve the performance of pessimistic synchronization under low contention scenarios. Experimental results show that CIDER effectively improves the throughput of state-of-the-art memory-disaggregated KV stores by up to $6.6\\times$ under the YCSB benchmark."
+  },
+  {
+    "id": "vldb-2026-0071",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Balancing the Blend: An Experimental Analysis of Trade-offs in Hybrid Search:",
+    "authors": [
+      "Mengzhao Wang",
+      "Boyu Tan",
+      "Yunjun Gao",
+      "Hai Jin",
+      "Yingfeng Zhang",
+      "Xiangyu Ke",
+      "Xiaoliang Xu",
+      "Yifan Zhu"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 8: April 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Hybrid search, the integration of lexical and semantic retrieval, has become a cornerstone of modern information retrieval systems, driven by demanding applications like Retrieval-Augmented Generation (RAG). The architectural design space for these systems is vast and complex, yet a systematic understanding of the trade-offs among their core components -- retrieval paradigms, combination schemes, and re-ranking methods -- is lacking. To address this, and informed by our experience building the Infinity open-source database, we present the first experimental analysis of advanced hybrid search architectures. Our framework integrates four retrieval paradigms -- Full-Text Search (FTS), Sparse Vector Search (SVS), Dense Vector Search (DVS), and Tensor Search (TenS) -- and evaluates their combinations and re-ranking strategies across 11 real-world datasets. Our results reveal three key findings: (1) A \"weakest link\" phenomenon, where a weak path can substantially degrade overall accuracy, highlighting the need for path-wise quality assessment before fusion. (2) A data-driven map of performance trade-offs, demonstrating that optimal configurations depend heavily on resource constraints and data characteristics, precluding a one-size-fits-all solution. (3) The identification of Tensor-based Re-ranking Fusion (TRF) as a high-efficacy alternative to mainstream fusion methods, offering the semantic power of tensor search at a fraction of the computational and memory cost. Our findings offer concrete guidelines for designing adaptive, scalable hybrid search systems and identify key directions for future research."
+  },
+  {
+    "id": "vldb-2026-0072",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Scalable GNN Explanations with Distributed Shapley Values",
+    "authors": [
+      "Selahattin Akkas",
+      "Aditya Devarakonda",
+      "Ariful Azad"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Machine Learning",
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper (Issue 8: April 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "With the growing adoption of graph neural networks (GNNs), explaining their predictions has become increasingly important. However, attributing predictions to specific edges or features remains computationally expensive. For example, classifying a node with 100 neighbors using a 3-layer GNN may involve identifying important edges from millions of candidates contributing to the prediction. To address this challenge, we propose DistShap, a parallel algorithm that distributes Shapley value-based explanations across multiple GPUs. DistShap operates by sampling subgraphs in a distributed setting, executing GNN inference in parallel across GPUs, and solving a distributed least squares problem to compute edge importance scores. DistShap outperforms most existing GNN explanation methods in accuracy and is the first to scale to GNN models with millions of features by using up to 128 GPUs on the NERSC Perlmutter supercomputer."
+  },
+  {
+    "id": "vldb-2026-0073",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "gMatch: Fine-Grained and Hardware-Efficient Subgraph Matching on GPUs",
+    "authors": [
+      "Weitian Chen",
+      "Shixuan Sun",
+      "Cheng Chen",
+      "Yongmin Hu",
+      "Yingqian Hu",
+      "Minyi Guo"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 8: April 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Subgraph matching is a core operation in graph analytics, supporting a broad spectrum of applications from social network analysis to bioinformatics. Recent GPU-based approaches accelerate subgraph matching by leveraging parallelism but rely on a coarse-grained execution model that suffers from scalability and efficiency issues due to high memory overhead and thread underutilization. In this paper, we propose gMatch, a hardware-efficient subgraph matching approach on GPUs. gMatch introduces a fine-grained execution model that reduces memory consumption and enables flexible task scheduling among threads. We further design warp-level batch exploration and lightweight load balancing to improve execution efficiency and scalability. Experiments on diverse workloads and real-world datasets show that gMatch outperforms state-of-the-art subgraph matching methods, including STMatch, T-DFS, and EGSM, in both performance and scalability. We also compare against state-of-the-art systems for mining small patterns, such as BEEP and G$^2$Miner. While these systems achieve better performance on small datasets, gMatch scales to substantially larger queries and datasets, where existing approaches degrade or fail to complete."
+  },
+  {
+    "id": "vldb-2026-0074",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "SemBench: A Benchmark for Semantic Query Processing Engines",
+    "authors": [
+      "Jiale Lao",
+      "Andreas Zimmerer",
+      "Olga Ovcharenko",
+      "Tianji Cong",
+      "Matthew Russo",
+      "Gerardo Vitagliano",
+      "Michael"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 8: April 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "vldb-2026-0075",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "LakeHelm: Zero-Shot Lakehouse Advisor for Joint Engine-Format Selection and Configuration",
+    "authors": [
+      "Zhongwei Xu",
+      "Siyuan Dong",
+      "Haotian Gong",
+      "Donna Pham",
+      "Lin Ma"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 8: April 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Zero-Shot Learning is an important paradigm within General-Purpose Artificial Intelligence Systems, particularly in those that operate in open-world scenarios where systems must adapt to new tasks dynamically. Semantic spaces play a pivotal role as they bridge seen and unseen classes, but whether human-annotated or generated by a machine learning model, they often contain noisy, redundant, or irrelevant attributes that hinder performance. To address this, we introduce a partitioning scheme that simulates unseen conditions in an inductive setting (which is the most challenging), allowing attribute relevance to be assessed without access to semantic information from unseen classes. Within this framework, we study two complementary feature-selection strategies and assess their generalisation. The first adapts embedded feature selection to the particular demands of ZSL, turning model-driven rankings into meaningful semantic pruning; the second leverages evolutionary computation to directly explore the space of attribute subsets more broadly. Experiments on five benchmark datasets (AWA2, CUB, SUN, aPY, FLO) show that both methods consistently improve accuracy on unseen classes by reducing redundancy, but in complementary ways: RFS is efficient and competitive though dependent on critical hyperparameters, whereas GA is more costly yet explores the search space more broadly and avoids such dependence. These results confirm that semantic spaces are inherently redundant and highlight the proposed partitioning scheme as an effective tool to refine them under inductive conditions."
+  },
+  {
+    "id": "vldb-2026-0076",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "ALER: An Active Learning Hybrid System for Efficient Entity Resolution",
+    "authors": [
+      "Dimitrios Karapiperis",
+      "Leonidas Akritidis",
+      "Panayiotis Bozanis",
+      "Vassilios Verykios"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 8: April 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "We study pool-based active learning of half-spaces. We revisit the aggressive approach for active learning in the realizable case, and show that it can be made efficient and practical, while also having theoretical guarantees under reasonable assumptions. We further show, both theoretically and experimentally, that it can be preferable to mellow approaches. Our efficient aggressive active learner of half-spaces has formal approximation guarantees that hold when the pool is separable with a margin. While our analysis is focused on the realizable setting, we show that a simple heuristic allows using the same algorithm successfully for pools with low error as well. We further compare the aggressive approach to the mellow approach, and prove that there are cases in which the aggressive approach results in significantly better label complexity compared to the mellow approach. We demonstrate experimentally that substantial improvements in label complexity can be achieved using the aggressive approach, for both realizable and low-error settings."
+  },
+  {
+    "id": "vldb-2026-0077",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "FB*: A Compact Index for Efficient and Exact Density-based Clustering",
+    "authors": [
+      "Bide Zhao",
+      "Zhiyi Wang",
+      "Lijun Chang",
+      "Xin Huang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 8: April 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "vldb-2026-0078",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Operation-aware Hybrid Locking for Modern In-Memory Indexes",
+    "authors": [
+      "Vishal Gupta",
+      "Martin Sanchez Lopez",
+      "Victor Laforet",
+      "Jean-Pierre Lozi",
+      "Sanidhya Kashyap"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 8: April 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "In 2020 Bhavale and Waphare introduced the concept of a nullity of a poset as nullity of its cover graph. In 2003 Pawar and Waphare counted all non-isomorphic lattices on n elements and n edges, which are precisely lattices of nullity one. In 2002 Thakare et al. counted all non-isomorphic lattices on n elements containing two reducible elements. In the same paper, Thakare et al. counted lattices on n elements containing up to n+1 edges, which are precisely lattices of nullity up to two. In 2024 Bhavale and Aware counted all non-isomorphic lattices on n elements, containing up to three reducible elements. Recently, Aware and Bhavale counted all non-isomorphic lattices on n elements, containing four comparable reducible elements, and having nullity three. In this paper, we count up to isomorphism the class of all lattices on n elements containing five comparable reducible elements, and having nullity three."
+  },
+  {
+    "id": "vldb-2026-0079",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Toward Drift-Aware Database Benchmarking",
+    "authors": [
+      "Guanli Liu",
+      "Renata Borovica-Gajic"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 8: April 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "In 2020 Bhavale and Waphare introduced the concept of a nullity of a poset as nullity of its cover graph. In 2003 Pawar and Waphare counted all non-isomorphic lattices on n elements and n edges, which are precisely lattices of nullity one. In 2002 Thakare et al. counted all non-isomorphic lattices on n elements containing two reducible elements. In the same paper, Thakare et al. counted lattices on n elements containing up to n+1 edges, which are precisely lattices of nullity up to two. In 2024 Bhavale and Aware counted all non-isomorphic lattices on n elements, containing up to three reducible elements. Recently, Aware and Bhavale counted all non-isomorphic lattices on n elements, containing four comparable reducible elements, and having nullity three. In this paper, we count up to isomorphism the class of all lattices on n elements containing five comparable reducible elements, and having nullity three."
+  },
+  {
+    "id": "vldb-2026-0080",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Enabling Index-free Adjacency in Oblivious Graph Processing with Delayed Duplications",
+    "authors": [
+      "Weiqi Feng",
+      "Xinle Cao",
+      "Adam O'neill",
+      "Chuanhui Yang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System",
+      "Data Management"
+    ],
+    "paper_type": "Research Paper (Issue 8: April 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "If $G$ is a looped graph, then its adjacency matrix represents a binary matroid $M_{A}(G)$ on $V(G)$. $M_{A}(G)$ may be obtained from the delta-matroid represented by the adjacency matrix of $G$, but $M_{A}(G)$ is less sensitive to the structure of $G$. Jaeger proved that every binary matroid is $M_{A}(G)$ for some $G$ [Ann. Discrete Math. 17 (1983), 371-376]. The relationship between the matroidal structure of $M_{A}(G)$ and the graphical structure of $G$ has many interesting features. For instance, the matroid minors $M_{A}(G)-v$ and $M_{A}(G)/v$ are both of the form $M_{A}(G^{\\prime}-v)$ where $G^{\\prime}$ may be obtained from $G$ using local complementation. In addition, matroidal considerations lead to a principal vertex tripartition, distinct from the principal edge tripartition of Rosenstiehl and Read [Ann. Discrete Math. 3 (1978), 195-226]. Several of these results are given two very different proofs, the first involving linear algebra and the second involving set systems or delta-matroids. Also, the Tutte polynomials of the adjacency matroids of $G$ and its full subgraphs are closely connected to the interlace polynomial of Arratia, Bollobás and Sorkin [Combinatorica 24 (2004), 567-584]."
+  },
+  {
+    "id": "vldb-2026-0081",
+    "venue": "VLDB",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Relational Deep Dive: Error-Aware Queries Over Unstructured Data",
+    "authors": [
+      "Daren Chao",
+      "Kaiwen Chen",
+      "Naiqing Guan",
+      "Nick Koudas"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Database System"
+    ],
+    "paper_type": "Research Paper (Issue 8: April 2026)",
+    "paper_url": "https://www.vldb.org/pvldb/vol19.html",
+    "abstract": "Unstructured data is pervasive, but analytical queries demand structured representations, creating a significant extraction challenge. Existing methods like RAG lack schema awareness and struggle with cross-document alignment, leading to high error rates. We propose ReDD (Relational Deep Dive), a framework that dynamically discovers query-specific schemas, populates relational tables, and ensures error-aware extraction with provable guarantees. ReDD features a two-stage pipeline: (1) Iterative Schema Discovery (ISD) identifies minimal, joinable schemas tailored to each query, and (2) Tabular Data Population (TDP) extracts and corrects data using lightweight classifiers trained on LLM hidden states. A main contribution of ReDD is SCAPE, a statistically calibrated method for error detection with coverage guarantees, and SCAPE-HYB, a hybrid approach that optimizes the trade-off between accuracy and human correction costs. Experiments across diverse datasets demonstrate ReDD's effectiveness, reducing data extraction errors from up to 30% to below 1% while maintaining high schema completeness (100% recall) and precision. ReDD's modular design enables fine-grained control over accuracy-cost trade-offs, making it a robust solution for high-stakes analytical queries over unstructured corpora."
+  }
+]

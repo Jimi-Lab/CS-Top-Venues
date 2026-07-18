@@ -1,0 +1,1000 @@
+[
+  {
+    "id": "fast-2026-0001",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Here, There and Everywhere: The Past, the Present and the Future of Local Storage in Cloud",
+    "authors": [
+      "Leping Yang, Shanghai Jiao Tong University",
+      "Yanbo Zhou, Gong Zeng, Li Zhang, Saisai Zhang, Ruilin Wu, Chaoyang Sun, Shiyi Luo, Wenrui Li, Keqiang Niu, Xiaolu Zhang, Junping Wu, Jiaji Zhu, and Jiesheng"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage",
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "On 2017 August 17 a binary neutron star coalescence candidate (later designated GW170817) with merger time 12:41:04 UTC was observed through gravitational waves by the Advanced LIGO and Advanced Virgo detectors. The Fermi Gamma-ray Burst Monitor independently detected a gamma-ray burst (GRB 170817A) with a time delay of $\\sim$1.7 s with respect to the merger time. From the gravitational-wave signal, the source was initially localized to a sky region of 31 deg$^2$ at a luminosity distance of $40^{+8}_{-8}$ Mpc and with component masses consistent with neutron stars. The component masses were later measured to be in the range 0.86 to 2.26 Msun. An extensive observing campaign was launched across the electromagnetic spectrum leading to the discovery of a bright optical transient (SSS17a, now with the IAU identification of AT 2017gfo) in NGC 4993 (at $\\sim$40 Mpc) less than 11 hours after the merger by the One-Meter, Two Hemisphere (1M2H) team using the 1 m Swope Telescope. The optical transient was independently detected by multiple teams within an hour. Subsequent observations targeted the object and its environment. Early ultraviolet observations revealed a blue transient that faded within 48 hours. Optical and infrared observations showed a redward evolution over $\\sim$10 days. Following early non-detections, X-ray and radio emission were discovered at the transient's position $\\sim$9 and $\\sim$16 days, respectively, after the merger. Both the X-ray and radio emission likely arise from a physical process that is distinct from the one that generates the UV/optical/near-infrared emission. No ultra-high-energy gamma-rays and no neutrino candidates consistent with the source were found in follow-up searches. (Abridged)"
+  },
+  {
+    "id": "fast-2026-0002",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Cost-efficient Archive Cloud Storage with Tape: Design and Deployment",
+    "authors": [
+      "Qing Wang, Tsinghua University",
+      "Fan Yang, Qiang Liu, and Geng Xiao, Huawei Cloud",
+      "Yongpeng Chen and Hao Lan, Tsinghua University",
+      "Leiming Chen, Bangzhu Chen, Chenrui Liu, Pingchang Bai, Bin Huang, Zig"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage",
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism. Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming. The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models."
+  },
+  {
+    "id": "fast-2026-0003",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Towards Condensed and Efficient Read-Only File System via Sort-Enhanced Compression",
+    "authors": [
+      "Hao Huang, Yifeng Zhang, Yanqi Pan, Wen Xia, Xiangyu Zou, and Darong Yang, Harbin Institute of Technology, Shenzhen",
+      "Jubin Zhong and Hua Liao, Huawei Technologies Co., Ltd",
+      "Read-only compressed file s"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+  },
+  {
+    "id": "fast-2026-0004",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "ACOS: Apple’s Geo-Distributed Object Store at Exabyte Scale",
+    "authors": [
+      "Benjamin Baron, Aline Bousquet, Eric Metens, Swapnil Pimpale, Nick Puz, Marc de Saint Sauveur, Varsha Muzumdar, and Vinay Ari, Apple",
+      "Over the last two decades, with the advent of mobile computing and"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Operating System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Companies are using machine learning to solve real-world problems and are developing hundreds to thousands of features in the process. They are building feature engineering pipelines as part of MLOps life cycle to transform data from various data sources and materialize the same for future consumption. Without feature stores, different teams across various business groups would maintain the above process independently, which can lead to conflicting and duplicated features in the system. Data scientists find it hard to search for and reuse existing features and it is painful to maintain version control. Furthermore, feature correctness violations related to online (inferencing) - offline (training) skews and data leakage are common. Although the machine learning community has extensively discussed the need for feature stores and their purpose, this paper aims to capture the core architectural components that make up a managed feature store and to share the design learning in building such a system."
+  },
+  {
+    "id": "fast-2026-0005",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "SolidAttention: Low-Latency SSD-based Serving on Memory-Constrained PCs",
+    "authors": [
+      "Xinrui Zheng, Dongliang Wei, Jianxiang Gao, Yixin Song, Zeyu Mi, and Haibo Chen, Shanghai Jiao Tong University",
+      "AI personal computers (AIPCs) enable the local deployment of large language model (LLM)"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage",
+      "Operating System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "This paper summarizes the idea of Tiered-Latency DRAM, which was published in HPCA 2013. The key goal of TL-DRAM is to provide low DRAM latency at low cost, a critical problem in modern memory systems. To this end, TL-DRAM introduces heterogeneity into the design of a DRAM subarray by segmenting the bitlines, thereby creating a low-latency, low-energy, low-capacity portion in the subarray (called the near segment), which is close to the sense amplifiers, and a high-latency, high-energy, high-capacity portion, which is farther away from the sense amplifiers. Thus, DRAM becomes heterogeneous with a small portion having lower latency and a large portion having higher latency. Various techniques can be employed to take advantage of the low-latency near segment and this new heterogeneous DRAM substrate, including hardware-based caching and software based caching and memory allocation of frequently used data in the near segment. Evaluations with simple such techniques show significant performance and energy-efficiency benefits."
+  },
+  {
+    "id": "fast-2026-0006",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "CacheSlide: Unlocking Cross Position-Aware KV Cache Reuse for Accelerating LLM Serving",
+    "authors": [
+      "Yang Liu and Yunfei Gu, Shanghai Jiao Tong University",
+      "Liqiang Zhang, Jinan Inspur Data Technology Co., Ltd",
+      "Chentao Wu, Guangtao Xue, Jie Li, and Minyi Guo, Shanghai Jiao Tong University",
+      "Junhao Hu,"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "LLM"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "In long-context Large Language Model (LLM) inference, the Time-To-First-Token (TTFT) latency incurred by the prefill stage has become the foremost bottleneck limiting interactive performance and deployment cost. KV Cache reuse offers a direct path to reduce redundant prefill, yet traditional prefix caching applies only to strict-prefix scenarios; directly reusing KV Cache in non-prefix settings breaks the cross-chunk global attention relationships and causes significant degradation in generation quality. When reusable KV Cache is offloaded to GPU-external cache pools, I/O overheads across heterogeneous hardware tiers further emerge as a new TTFT bottleneck. Efficient non-prefix KV Cache reuse therefore requires both semantic-consistency recovery and compute-I/O co-optimization. This paper presents CacheTune, a frequency-guided and hardware-aware KV Cache reuse system for long-context LLM serving. CacheTune first identifies, offline, the KV pairs most critical to cross-attention recovery through frequency-domain analysis, and then selectively recomputes only these semantic-critical tokens online while reusing the remaining KVs. To turn this semantic selection into end-to-end latency reduction, CacheTune further combines sparse KV transfer, multi-stream asynchronous overlap, deferred positional-encoding recovery, and hardware-aware adaptive recomputation-ratio tuning to balance computation and data movement across heterogeneous cache pools. Evaluations on mainstream LLMs and long-context tasks show that CacheTune achieves 3.72x-4.86x TTFT speedup and 3.93x-6.21x higher throughput while maintaining generation quality close to full recompute. Even when caches are offloaded to I/O-bound SSD/HDD storage, CacheTune sustains 2.34x-2.36x TTFT speedup through adaptive recomputation."
+  },
+  {
+    "id": "fast-2026-0007",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Bidaw: Enhancing Key-Value Caching for Interactive LLM Serving via Bidirectional Computation–Storage Awareness",
+    "authors": [
+      "Shipeng Hu and Guangyan Zhang, Tsinghua University",
+      "Yuqi Zhou, China University of Geosciences Beijing",
+      "Yaya Wei and Ziyan Zhong, China Telecom Omni-channel Operation Center",
+      "Jike Chen, Tsinghua Unive"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "LLM",
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+  },
+  {
+    "id": "fast-2026-0008",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Accelerating Model Loading in LLM Inference by Programmable Page Cache",
+    "authors": [
+      "Yubo Liu, Hongbo Li, Xiaojia Huang, Yongfeng Wang, Hanjun Guo, Hui Chen, Yuxin Ren, and Ning Jia, Huawei Technologies Co., Ltd.",
+      "This paper examines the model loading bottleneck during the LLM inferen"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "LLM"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "We present PolyKV, a system in which multiple concurrent inference agents share a single, asymmetrically compressed KV cache pool. Rather than allocating a separate KV cache per agent -- the standard paradigm -- PolyKV writes a compressed cache once and injects it into N independent agent contexts via HuggingFace DynamicCache objects. Compression is asymmetric: Keys are quantized at int8 (q8_0) to preserve softmax stability, while Values are compressed using TurboQuant MSE -- a Fast Walsh-Hadamard Transform (FWHT) rotation followed by 3-bit Lloyd-Max quantization with centroids tuned to N(0,1). We evaluate across two model scales (SmolLM2-1.7B-Instruct and Llama-3-8B-Instruct), three context lengths (600-7,194 tokens), and up to 15 concurrent agents. PolyKV achieves a stable 2.91x compression ratio across all configurations. On Llama-3-8B with 15 agents sharing a 4K-token context, PolyKV reduces KV cache memory from 19.8 GB to 0.45 GB -- a 97.7% reduction -- while maintaining only +0.57% perplexity degradation and a mean BERTScore F1 of 0.928. PPL delta does not grow with agent count and improves as context length increases, inverting to -0.26% at 1,851 coherent tokens. To our knowledge, no prior work combines a single shared, lossy-compressed KV pool with multi-reader concurrent agent access."
+  },
+  {
+    "id": "fast-2026-0009",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "OdinANN: Direct Insert for Consistently Stable Performance in Billion-Scale Graph-Based Vector Search",
+    "authors": [
+      "Hao Guo and Youyou Lu, Tsinghua University",
+      "Approximate Nearest Neighbor Search (ANNS) is widely used in various scenarios. For billion-scale ANNS, on-disk graph-based indexes, which organize the vect"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Operating System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Vector data is prevalent across business and scientific applications, and its popularity is growing with the proliferation of learned embeddings. Vector data collections often reach billions of vectors with thousands of dimensions, thus, increasing the complexity of their analysis. Vector search is the backbone of many critical analytical tasks, and graph-based methods have become the best choice for analytical tasks that do not require guarantees on the quality of the answers. Although several paradigms (seed selection, incremental insertion, neighborhood propagation, neighborhood diversification, and divide-and-conquer) have been employed to design in-memory graph-based vector search algorithms, a systematic comparison of the key algorithmic advances is still missing. We conduct an exhaustive experimental evaluation of twelve state-of-the-art methods on seven real data collections, with sizes up to 1 billion vectors. We share key insights about the strengths and limitations of these methods; e.g., the best approaches are typically based on incremental insertion and neighborhood diversification, and the choice of the base graph can hurt scalability. Finally, we discuss open research directions, such as the importance of devising more sophisticated data adaptive seed selection and diversification strategies."
+  },
+  {
+    "id": "fast-2026-0010",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "DMTree: Towards Efficient Tree Indexing on Disaggregated Memory via Compute-side Collaborative Design",
+    "authors": [
+      "Guoli Wei, University of Science and Technology of China",
+      "Yongkun Li, University of Science and Technology of China and Anhui Provincial Key Laboratory of High Performance Computing, USTC",
+      "Haoze Song,"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Operating System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Disaggregated memory is a promising approach that addresses the limitations of traditional memory architectures by enabling memory to be decoupled from compute nodes and shared across a data center. Cloud platforms have deployed such systems to improve overall system memory utilization, but performance can vary across workloads. High-performance computing (HPC) is crucial in scientific and engineering applications, where HPC machines also face the issue of underutilized memory. As a result, improving system memory utilization while understanding workload performance is essential for HPC operators. Therefore, learning the potential of a disaggregated memory system before deployment is a critical step. This paper proposes a methodology for exploring the design space of a disaggregated memory system. It incorporates key metrics that affect performance on disaggregated memory systems: memory capacity, local and remote memory access ratio, injection bandwidth, and bisection bandwidth, providing an intuitive approach to guide machine configurations based on technology trends and workload characteristics. We apply our methodology to analyze thirteen diverse workloads, including AI training, data analysis, genomics, protein, fusion, atomic nuclei, and traditional HPC bookends. Our methodology demonstrates the ability to comprehend the potential and pitfalls of a disaggregated memory system and provides motivation for machine configurations. Our results show that eleven of our thirteen applications can leverage injection bandwidth disaggregated memory without affecting performance, while one pays a rack bisection bandwidth penalty and two pay the system-wide bisection bandwidth penalty. In addition, we also show that intra-rack memory disaggregation would meet the application's memory requirement and provide enough remote memory bandwidth."
+  },
+  {
+    "id": "fast-2026-0011",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "An Efficient Cloud Storage Model with Compacted Metadata Management for Performance Monitoring Timeseries Systems",
+    "authors": [
+      "Kai Zhang, The Chinese University of Hong Kong",
+      "Tianyu Wang, Shenzhen University",
+      "Zili Shao, The Chinese University of Hong Kong",
+      "Cloud-based performance monitoring timeseries systems are emerging due"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage",
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism. Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming. The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models."
+  },
+  {
+    "id": "fast-2026-0012",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "\"Range as a Key\" is the Key! Fast and Compact Cloud Block Store Index with RASK",
+    "authors": [
+      "Haoru Zhao, Mingkai Dong, and Erci Xu, Shanghai Jiao Tong University",
+      "Zhongyu Wang, Alibaba Group",
+      "Haibo Chen, Shanghai Jiao Tong University",
+      "In cloud block store, indexing is on the critical path of"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "fast-2026-0013",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Holistic and Automated Task Scheduling for Distributed LSM-tree-based Storage",
+    "authors": [
+      "Yuanming Ren, Siyuan Sheng, and Zhang Cao, The Chinese University of Hong Kong",
+      "Yongkun Li, University of Science and Technology of China",
+      "Patrick P. C. Lee, The Chinese University of Hong Kong",
+      "Mitig"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "The increasing deployment of distributed Battery Energy Storage Systems (BESSs) in modern power grids necessitates effective coordination strategies to ensure state-of-charge (SoC) balancing and accurate power delivery. While distributed control frameworks offer scalability and resilience, they also raise significant privacy concerns due to the need for inter-agent information exchange. This paper presents a novel privacy-preserving distributed control algorithm for SoC balancing in a networked BESS. The proposed framework includes distributed power allocation law that is designed based on two privacy-preserving distributed estimators, one for the average unit state and the other for the average desired power. The average unit state estimator is designed via the state decomposition method without disclosing sensitive internal states. The proposed power allocation law based on these estimators ensures asymptotic SoC balancing and global power delivery while safeguarding agent privacy from external eavesdroppers. The effectiveness and privacy-preserving properties of the proposed control strategy are demonstrated through simulation results."
+  },
+  {
+    "id": "fast-2026-0014",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Everything You Always Wanted to Know about Storage Analysis (But Were Afraid to Ask)",
+    "authors": [
+      "Erez Zadok, Stony Brook University",
+      "Storage, often the slowest component of modern systems, has evolved into a complex and challenging field. Over the years, the storage stack has grown deeper, making"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "As the number of pre-trained machine learning (ML) models is growing exponentially, data reduction tools are not catching up. Existing data reduction techniques are not specifically designed for pre-trained model (PTM) dataset files. This is largely due to a lack of understanding of the patterns and characteristics of these datasets, especially those relevant to data reduction and compressibility. This paper presents the first, exhaustive analysis to date of PTM datasets on storage compressibility. Our analysis spans different types of data reduction and compression techniques, from hash-based data deduplication, data similarity detection, to dictionary-coding compression. Our analysis explores these techniques at three data granularity levels, from model layers, model chunks, to model parameters. We draw new observations that indicate that modern data reduction tools are not effective when handling PTM datasets. There is a pressing need for new compression methods that take into account PTMs' data characteristics for effective storage reduction. Motivated by our findings, we design ELF, a simple yet effective, error-bounded, lossy floating-point compression method. ELF transforms floating-point parameters in such a way that the common exponent field of the transformed parameters can be completely eliminated to save storage space. We develop Elves, a compression framework that integrates ELF along with several other data reduction methods. Elves uses the most effective method to compress PTMs that exhibit different patterns. Evaluation shows that Elves achieves an overall compression ratio of $1.52\\times$, which is $1.31\\times$, $1.32\\times$ and $1.29\\times$ higher than a general-purpose compressor (zstd), an error-bounded lossy compressor (SZ3), and the uniform model quantization, respectively, with negligible model accuracy loss."
+  },
+  {
+    "id": "fast-2026-0015",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "FAST '26 Test of Time Award Presentation",
+    "authors": [
+      "Changman Lee, Dongho Sim, Joo-Young Hwang, and Sangyeun Cho",
+      "Read the original paper:\nF2FS: A New File System for Flash Storage\nChangman Lee, Dongho Sim, Joo-Young Hwang, and Sangyeun Cho\nPublished in"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Operating System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "The space-time foliation Sigma compatible with the gravitational field g on a 4-manifold M determines a fibration pi of M, pi : M -> N is a surjective submersion over the 1-dimensional leaves space N. M is then written as a disjoint union of the leaves of Sigma, which are 3-dimensional spacelike surfaces on M. The decomposition, TM=Sigma + T^0 M, also implies that we can define a lift of the curves on N to curves (non-spacelike) on M. The stable causality condition M coincides with Sigma being a causal space-time distribution, generated by an exact timelike 1-form omega^0 = dt where t is some real function on M. In this case M is written as a disjoint union of a family of spacelike 3-surfaces of constant t, which cover D^+(S) of a initial 3-surface S of M."
+  },
+  {
+    "id": "fast-2026-0016",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Preparation Meets Opportunity: Enhancing Data Preprocessing for ML Training With Seneca",
+    "authors": [
+      "Omkar Desai, Syracuse University",
+      "Ziyang Jiao, Huaibei Normal University",
+      "Shuyi Pei, Samsung Semiconductor",
+      "Janki Bhimani, Florida International University",
+      "Bryan S. Kim, Syracuse University",
+      "Input da"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "LLM"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Input data preprocessing is a common bottleneck when concurrently training multimedia machine learning (ML) models in modern systems. To alleviate these bottlenecks and reduce the training time for concurrent jobs, we present Seneca, a data loading system that optimizes cache partitioning and data sampling for the data storage and ingestion (DSI) pipeline. The design of Seneca contains two key techniques. First, Seneca uses a performance model for the data pipeline to optimally partition the cache for three different forms of data (encoded, decoded, and augmented). Second, Seneca opportunistically serves cached data over uncached ones during random batch sampling so that concurrent jobs benefit from each other. We implement Seneca by modifying PyTorch and demonstrate its effectiveness by comparing it against several state-of-the-art caching systems for DNN training. Seneca reduces the makespan by 45.23% compared to PyTorch and increases data processing throughput by up to 3.45x compared to the next best dataloader."
+  },
+  {
+    "id": "fast-2026-0017",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "GPU Checkpoint/Restore Made Fast and Lightweight",
+    "authors": [
+      "Shaoxun Zeng, Tingxu Ren, Jiwu Shu, and Youyou Lu, Tsinghua University",
+      "Distinguished Artifact Award Winner"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Architecture"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Observations of Interplanetary Scintillation (IPS) are an efficient remote-sensing method to study the solar wind and inner heliosphere. From 2016 to 2018, some distinctive observations of IPS sources like 3C 286 and 3C 279 were accomplished with the Five-hundred-meter Aperture Spherical radio Telescope (FAST), the largest single-dish telescope in the world. Due to the 270-1620 MHz wide frequency coverage of the Ultra-Wideband (UWB) receiver, one can use both single-frequency and dual-frequency analyses to determine the projected velocity of the solar wind. Moreover, based on the extraordinary sensitivity owing to the large collecting surface area of FAST, we can observe weak IPS signals. With the advantages of both the wider frequency coverage and high sensitivity, also with our radio frequency interference (RFI) mitigation strategy and an optimized model-fitting method developed, in this paper, we analyze the fitting confidence intervals of the solar wind velocity, and present some preliminary results achieved using FAST, which points to the current FAST system being highly capable of carrying out observations of IPS"
+  },
+  {
+    "id": "fast-2026-0018",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Fast Cloud Storage for AI Jobs via Grouped I/O API with Transparent Read/Write Optimizations",
+    "authors": [
+      "Yingyi Hao, Shanghai Jiao Tong University",
+      "Ting Yao, Huawei Cloud",
+      "Xingda Wei, Dingyan Zhang, and Tianle Sun, Shanghai Jiao Tong University",
+      "Yiwen Zhang, Zhiyong Fu, and Huatao Wu, Huawei Cloud",
+      "Rong"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage",
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism. Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming. The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models."
+  },
+  {
+    "id": "fast-2026-0019",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "AdaCheck: An Adaptive Checkpointing System for Efficient LLM Training with Redundancy Utilization",
+    "authors": [
+      "Weijie Liu, Shengwei Li, Zhiquan Lai, and Keshi Ge, National University of Defense Technology",
+      "Qiaoling Chen, Nanyang Technological University",
+      "Peng Sun, Shanghai AI Laboratory",
+      "Dongsheng Li and Kai L"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "LLM"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Dynamic resource management opens up numerous opportunities in High Performance Computing. It improves the system-level services as well as application performance. Checkpointing can also be deemed as a system-level service and can reap the benefits offered by dynamism. A checkpointing system can have better resource availability by integrating with a malleable resource management system. In addition to fault tolerance, the checkpointing system can cater to the data redistribution demand of malleable applications during resource change. Therefore, we propose iCheck, an adaptive application-level checkpoint management system that can efficiently utilize the system and application level dynamism to provide better checkpointing and data redistribution services to applications."
+  },
+  {
+    "id": "fast-2026-0020",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Sharpen the Spec, Cut the Code: A Case for Generative File System with SYSSPEC",
+    "authors": [
+      "Qingyuan Liu, Mo Zou, Hengbin Zhang, Dong Du, Yubin Xia, and Haibo Chen, Shanghai Jiao Tong University",
+      "Awarded Best Paper!"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "fast-2026-0021",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Cylon: Fast and Accurate Full-System Emulation of CXL-SSDs",
+    "authors": [
+      "Dongha Yoon, Hansen Idden, Jinshu Liu, Berkay Inceisci, Sam H. Noh, and Huaicheng Li, Virginia Tech",
+      "We present Cylon, a fast and extensible full-system emulator for CXL-SSDs built on FEMU. Cylon brid"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Compute eXpress Link (CXL) has emerged as a key enabler of memory disaggregation for future heterogeneous computing systems to expand memory on-demand and improve resource utilization. However, CXL is still in its infancy stage and lacks commodity products on the market, thus necessitating a reliable system-level simulation tool for research and development. In this paper, we propose CXL-DMSim, an open-source full-system simulator to simulate CXL disaggregated memory systems with high fidelity at a gem5-comparable simulation speed. CXL-DMSim incorporates a flexible CXL memory expander model along with its associated device driver, and CXL protocol support with CXL.io and CXL.mem. It can operate in both app-managed mode and kernel-managed mode, with the latter using a dedicated NUMA-compatible mechanism. The simulator has been rigorously verified against a real hardware testbed with both FPGAand ASIC-based CXL memory devices, which demonstrates the qualification of CXL-DMSim in simulating the characteristics of various CXL memory devices at an average simulation error of 3.4%. The experimental results using LMbench and STREAM benchmarks suggest that the CXL-FPGA memory exhibits a ~2.88x higher latency than local DDR while the CXL-ASIC latency is ~2.18x; CXL-FPGA achieves 45-69% of local DDR memory bandwidth, whereas the number for CXLASIC is 82-83%. The study also reveals that CXL memory can significantly enhance the performance of memory-intensive applications, improved by 23x at most with limited local memory for Viper key-value database and approximately 60% in memorybandwidth-sensitive scenarios such as MERCI. Moreover, the simulator's observability and expandability are showcased with detailed case-studies, highlighting its great potential for research on future CXL-interconnected hybrid memory pool."
+  },
+  {
+    "id": "fast-2026-0022",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Xerxes: Extensive Exploration of Scalable Hardware Systems with CXL-Based Simulation Framework",
+    "authors": [
+      "Yuda An and Shushu Yi, Peking University",
+      "Bo Mao, Xiamen University",
+      "Qiao Li, Mohamed bin Zayed University of Artificial Intelligence",
+      "Mingzhe Zhang, Institute of Information Engineering, Chinese Acad"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Operating System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Compute eXpress Link (CXL) has emerged as a key enabler of memory disaggregation for future heterogeneous computing systems to expand memory on-demand and improve resource utilization. However, CXL is still in its infancy stage and lacks commodity products on the market, thus necessitating a reliable system-level simulation tool for research and development. In this paper, we propose CXL-DMSim, an open-source full-system simulator to simulate CXL disaggregated memory systems with high fidelity at a gem5-comparable simulation speed. CXL-DMSim incorporates a flexible CXL memory expander model along with its associated device driver, and CXL protocol support with CXL.io and CXL.mem. It can operate in both app-managed mode and kernel-managed mode, with the latter using a dedicated NUMA-compatible mechanism. The simulator has been rigorously verified against a real hardware testbed with both FPGAand ASIC-based CXL memory devices, which demonstrates the qualification of CXL-DMSim in simulating the characteristics of various CXL memory devices at an average simulation error of 3.4%. The experimental results using LMbench and STREAM benchmarks suggest that the CXL-FPGA memory exhibits a ~2.88x higher latency than local DDR while the CXL-ASIC latency is ~2.18x; CXL-FPGA achieves 45-69% of local DDR memory bandwidth, whereas the number for CXLASIC is 82-83%. The study also reveals that CXL memory can significantly enhance the performance of memory-intensive applications, improved by 23x at most with limited local memory for Viper key-value database and approximately 60% in memorybandwidth-sensitive scenarios such as MERCI. Moreover, the simulator's observability and expandability are showcased with detailed case-studies, highlighting its great potential for research on future CXL-interconnected hybrid memory pool."
+  },
+  {
+    "id": "fast-2026-0023",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Characterizing and Emulating FDP SSDs with WARP",
+    "authors": [
+      "Inho Song and Shoaib Asif Qazi, Virginia Tech",
+      "Javier González, Samsung Electronics",
+      "Matias Bjørling, Western Digital",
+      "Sam H. Noh and Huaicheng Li, Virginia Tech",
+      "Flexible Data Placement (FDP) promise"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "SSDs are emerging storage devices which unlike HDDs, do not have mechanical parts and therefore, have superior performance compared to HDDs. Due to the high cost of SSDs, entirely replacing HDDs with SSDs is not economically justified. Additionally, SSDs can endure a limited number of writes before failing. To mitigate the shortcomings of SSDs while taking advantage of their high performance, SSD caching is practiced in both academia and industry. Previously proposed caching architectures have only focused on either performance or endurance and neglected to address both parameters in suggested architectures. Moreover, the cost, reliability, and power consumption of such architectures is not evaluated. This paper proposes a hybrid I/O caching architecture that while offers higher performance than previous studies, it also improves power consumption with a similar budget. The proposed architecture uses DRAM, Read-Optimized SSD, and Write-Optimized SSD in a three-level cache hierarchy and tries to efficiently redirect read requests to either DRAM or RO-SSD while sending writes to WO-SSD. To provide high reliability, dirty pages are written to at least two devices which removes any single point of failure. The power consumption is also managed by reducing the number of accesses issued to SSDs. The proposed architecture reconfigures itself between performance- and endurance-optimized policies based on the workload characteristics to maintain an effective tradeoff between performance and endurance. We have implemented the proposed architecture on a server equipped with industrial SSDs and HDDs. The experimental results show that as compared to state-of-the-art studies, the proposed architecture improves performance and power consumption by an average of 8% and 28%, respectively, and reduces the cost by 5% while increasing the endurance cost by 4.7% and negligible reliability penalty."
+  },
+  {
+    "id": "fast-2026-0024",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "ScaleSwap: A Scalable OS Swap System for All-Flash Swap Arrays",
+    "authors": [
+      "Taehwan Ahn, Chanhyeong Yu, Sangjin Lee, and Yongseok Son, Chung-Ang University",
+      "This paper presents a scalable OS swap system, ScaleSwap, designed to enhance core and SSD scalability on all-flash swa"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage",
+      "Operating System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "fast-2026-0025",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "DPAS: A Prompt, Accurate and Safe I/O Completion Method for SSDs",
+    "authors": [
+      "Dongjoo Seo, University of California, Irvine",
+      "Jihyeon Jung and Yeohwan Yoon, Kookmin University",
+      "Ping-Xiang Chen, University of California, Irvine",
+      "Yongsoo Joo and Sung-Soo Lim, Kookmin University"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "fast-2026-0026",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "How Soon is Now? Preloading Images for Virtual Disks with ThinkAhead",
+    "authors": [
+      "Xinqi Chen, Shanghai Jiao Tong University",
+      "Yu Zhang, Alibaba Group",
+      "Erci Xu, Shanghai Jiao Tong University",
+      "Changhong Wang, Jifei Yi, Qiuping Wang, Shizhuo Sun, and Zhongyu Wang, Alibaba Group",
+      "Haonan"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "In the era of the metaverse, self-avatars are gaining popularity, as they can enhance presence and provide embodiment when a user is immersed in Virtual Reality. They are also very important in collaborative Virtual Reality to improve communication through gestures. Whether we are using a complex motion capture solution or a few trackers with inverse kinematics (IK), it is essential to have a good match in size between the avatar and the user, as otherwise mismatches in self-avatar posture could be noticeable for the user. To achieve such a correct match in dimensions, a manual process is often required, with the need for a second person to take measurements of body limbs and introduce them into the system. This process can be time-consuming, and prone to errors. In this paper, we propose an automatic measuring method that simply requires the user to do a small set of exercises while wearing a Head-Mounted Display (HMD), two hand controllers, and three trackers. Our work provides an affordable and quick method to automatically extract user measurements and adjust the virtual humanoid skeleton to the exact dimensions. Our results show that our method can reduce the misalignment produced by the IK system when compared to other solutions that simply apply a uniform scaling to an avatar based on the height of the HMD, and make assumptions about the locations of joints with respect to the trackers."
+  },
+  {
+    "id": "fast-2026-0027",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "CoFS: A Filesystem for Fast Container Startup",
+    "authors": [
+      "Li Wang, Jinxu Du, Yang Yang, Qingbo Wu, Tao Liu, and Haoze Wu, KylinSoft",
+      "The running of applications in containers has emerged as a popular trend in the industry. The cold start of a container invol"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Operating System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "fast-2026-0028",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "RosenBridge: A Framework for Enabling Express I/O Paths Across the Virtualization Boundary",
+    "authors": [
+      "Shi Qiu, Xiamen University",
+      "Li Wang, KylinSoft",
+      "Jianqin Yan and Ruofan Xiong, Xiamen University",
+      "Leping Yang, Shanghai Jiao Tong University",
+      "Xin Yao, Renhai Chen, and Gong Zhang, Huawei",
+      "Dongsheng Li,"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Operating System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "fast-2026-0029",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "MlsDisk: Trusted Block Storage for TEEs Based on Layered Secure Logging",
+    "authors": [
+      "Erci Xu, Shanghai Jiao Tong University",
+      "Xinyi Yu, Lujia Yin, and Xinyuan Luo, NICE Lab, Xiamen University",
+      "Shaowei Song, Qingsong Chen, and Shoumeng Yan, Ant Group",
+      "Jiwu Shu, Tsinghua University",
+      "Hong"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage",
+      "Software Security"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Remote mobile and embedded devices are used to deliver increasingly impactful services, such as medical rehabilitation and assistive technologies. Secure system logging is beneficial in these scenarios to aid audit and forensic investigations particularly if devices bring harm to end-users. Logs should be tamper-resistant in storage, during execution, and when retrieved by a trusted remote verifier. In recent years, Trusted Execution Environments (TEEs) have emerged as the go-to root of trust on constrained devices for isolated execution of sensitive applications. Existing TEE-based logging systems, however, focus largely on protecting server-side logs and offer little protection to constrained source devices. In this paper, we introduce EmLog -- a tamper-resistant logging system for constrained devices using the GlobalPlatform TEE. EmLog provides protection against complex software adversaries and offers several additional security properties over past schemes. The system is evaluated across three log datasets using an off-the-shelf ARM development board running an open-source, GlobalPlatform-compliant TEE. On average, EmLog runs with low run-time memory overhead (1MB heap and stack), 430--625 logs/second throughput, and five-times persistent storage overhead versus unprotected logs."
+  },
+  {
+    "id": "fast-2026-0030",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "SkySync: Accelerating File Synchronization with Collaborative Delta Generation",
+    "authors": [
+      "Zhihao Zhang, Xiamen University and Alibaba Cloud",
+      "Huiba Li, Alibaba Cloud",
+      "Lu Tang, Xiamen University",
+      "Guangtao Xue, Shanghai Jiao Tong University",
+      "Jiwu Shu, Tsinghua University",
+      "Yiming Zhang, Shangh"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Operating System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "While we pay attention to the latest advances in clinical natural language processing (NLP), we can notice some resistance in the clinical and translational research community to adopt NLP models due to limited transparency, interpretability, and usability. In this study, we proposed an open natural language processing development framework. We evaluated it through the implementation of NLP algorithms for the National COVID Cohort Collaborative (N3C). Based on the interests in information extraction from COVID-19 related clinical notes, our work includes 1) an open data annotation process using COVID-19 signs and symptoms as the use case, 2) a community-driven ruleset composing platform, and 3) a synthetic text data generation workflow to generate texts for information extraction tasks without involving human subjects. The corpora were derived from texts from three different institutions (Mayo Clinic, University of Kentucky, University of Minnesota). The gold standard annotations were tested with a single institution's (Mayo) ruleset. This resulted in performances of 0.876, 0.706, and 0.694 in F-scores for Mayo, Minnesota, and Kentucky test datasets, respectively. The study as a consortium effort of the N3C NLP subgroup demonstrates the feasibility of creating a federated NLP algorithm development and benchmarking platform to enhance multi-institution clinical NLP study and adoption. Although we use COVID-19 as a use case in this effort, our framework is general enough to be applied to other domains of interest in clinical NLP."
+  },
+  {
+    "id": "fast-2026-0031",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "ParaSync: Exploiting Fine-Grained Parallelism for Efficient File Synchronization",
+    "authors": [
+      "Zhihao Zhang, NICE Lab, Xiamen University",
+      "and Alibaba Cloud",
+      "Lu Tang, NICE Lab, Xiamen University",
+      "Huiba Li, Alibaba Cloud",
+      "Yue Yu, Sun Yat-sen University",
+      "Guangtao Xue, Shanghai Jiao Tong University"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Operating System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Shared memory programming models usually provide worksharing and task constructs. The former relies on the efficient fork-join execution model to exploit structured parallelism; while the latter relies on fine-grained synchronization among tasks and a flexible data-flow execution model to exploit dynamic, irregular, and nested parallelism. On applications that show both structured and unstructured parallelism, both worksharing and task constructs can be combined. However, it is difficult to mix both execution models without penalizing the data-flow execution model. Hence, on many applications structured parallelism is also exploited using tasks to leverage the full benefits of a pure data-flow execution model. However, task creation and management might introduce a non-negligible overhead that prevents the efficient exploitation of fine-grained structured parallelism, especially on many-core processors. In this work, we propose worksharing tasks. These are tasks that internally leverage worksharing techniques to exploit fine-grained structured loop-based parallelism. The evaluation shows promising results on several benchmarks and platforms."
+  },
+  {
+    "id": "fast-2026-0032",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Discard-Based Garbage Collection for Distributed Log-Structured Storage Systems in ByteDance",
+    "authors": [
+      "Runhua Bian, ByteDance and Tsinghua University",
+      "Liqiang Zhang, Jinxin Liu, Jiacheng Zhang, Jianong Zhong, and Jiahao Gu, ByteDance",
+      "Hao Guo, Tsinghua University",
+      "Zhihong Guo, Yunhao Li, Fenghao Zhang,"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "The increasing deployment of distributed Battery Energy Storage Systems (BESSs) in modern power grids necessitates effective coordination strategies to ensure state-of-charge (SoC) balancing and accurate power delivery. While distributed control frameworks offer scalability and resilience, they also raise significant privacy concerns due to the need for inter-agent information exchange. This paper presents a novel privacy-preserving distributed control algorithm for SoC balancing in a networked BESS. The proposed framework includes distributed power allocation law that is designed based on two privacy-preserving distributed estimators, one for the average unit state and the other for the average desired power. The average unit state estimator is designed via the state decomposition method without disclosing sensitive internal states. The proposed power allocation law based on these estimators ensures asymptotic SoC balancing and global power delivery while safeguarding agent privacy from external eavesdroppers. The effectiveness and privacy-preserving properties of the proposed control strategy are demonstrated through simulation results."
+  },
+  {
+    "id": "fast-2026-0033",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "PolarStore: High-Performance Data Compression for Large-Scale Cloud-Native Databases",
+    "authors": [
+      "Qingda Hu, Xinjun (Jimmy) Yang, Feifei Li, Junru Li, Ya Lin, Yuqi Zhou, Yicong Zhu, Junwei Zhang, Rongbiao Xie, Ling Zhou, Bin Wu, and Wenchao Zhou, Alibaba Cloud Computing",
+      "In recent years, resource"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism. Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming. The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models."
+  },
+  {
+    "id": "fast-2026-0034",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Unleashing Zoned UFS: Cross-Layer Optimizations for Next-Generation Mobile Storage",
+    "authors": [
+      "Jungae Kim, SK hynix Inc.",
+      "Jaegeuk Kim, Google",
+      "Kyu-Jin Cho, Seoul National University",
+      "Sungjin Park, Jinwoo Kim, Jieun Kim, and Iksung Oh, SK hynix Inc.",
+      "Chul Lee, Bart Van Assche, Daeho Jeong, and K"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "The increasing deployment of distributed Battery Energy Storage Systems (BESSs) in modern power grids necessitates effective coordination strategies to ensure state-of-charge (SoC) balancing and accurate power delivery. While distributed control frameworks offer scalability and resilience, they also raise significant privacy concerns due to the need for inter-agent information exchange. This paper presents a novel privacy-preserving distributed control algorithm for SoC balancing in a networked BESS. The proposed framework includes distributed power allocation law that is designed based on two privacy-preserving distributed estimators, one for the average unit state and the other for the average desired power. The average unit state estimator is designed via the state decomposition method without disclosing sensitive internal states. The proposed power allocation law based on these estimators ensures asymptotic SoC balancing and global power delivery while safeguarding agent privacy from external eavesdroppers. The effectiveness and privacy-preserving properties of the proposed control strategy are demonstrated through simulation results."
+  },
+  {
+    "id": "fast-2026-0035",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "DOGI: Data Placement with Oracle-Guided Insights for Log-Structured Systems",
+    "authors": [
+      "Jeeyun Kim, Pohang University of Science and Technology (POSTECH)",
+      "Seonggyun Oh and Jungwoo Kim, Daegu Gyeongbuk Institute of Science and Technology",
+      "Jisung Park, Pohang University of Science and Tech"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Operating System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "We study distributed optimization in the presence of Byzantine adversaries, where both data and computation are distributed among $m$ worker machines, $t$ of which may be corrupt. The compromised nodes may collaboratively and arbitrarily deviate from their pre-specified programs, and a designated (master) node iteratively computes the model/parameter vector for generalized linear models. In this work, we primarily focus on two iterative algorithms: Proximal Gradient Descent (PGD) and Coordinate Descent (CD). Gradient descent (GD) is a special case of these algorithms. PGD is typically used in the data-parallel setting, where data is partitioned across different samples, whereas, CD is used in the model-parallelism setting, where data is partitioned across the parameter space. In this paper, we propose a method based on data encoding and error correction over real numbers to combat adversarial attacks. We can tolerate up to $t\\leq \\lfloor\\frac{m-1}{2}\\rfloor$ corrupt worker nodes, which is information-theoretically optimal. We give deterministic guarantees, and our method does not assume any probability distribution on the data. We develop a {\\em sparse} encoding scheme which enables computationally efficient data encoding and decoding. We demonstrate a trade-off between the corruption threshold and the resource requirements (storage, computational, and communication complexity). As an example, for $t\\leq\\frac{m}{3}$, our scheme incurs only a {\\em constant} overhead on these resources, over that required by the plain distributed PGD/CD algorithms which provide no adversarial protection. To the best of our knowledge, ours is the first paper that makes CD secure against adversarial attacks. Our encoding scheme extends efficiently to the data streaming model and for stochastic gradient descent (SGD). We also give experimental results to show the efficacy of our proposed schemes."
+  },
+  {
+    "id": "fast-2026-0036",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Getting the MOST out of your Storage Hierarchy with Mirror-Optimized Storage Tiering",
+    "authors": [
+      "Kaiwei Tu, University of Wisconsin–Madison",
+      "Kan Wu, Google",
+      "Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau, University of Wisconsin–Madison",
+      "We present Mirror-Optimized Storage Tiering (MOST), a"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "We present Mirror-Optimized Storage Tiering (MOST), a novel tiering-based approach optimized for modern storage hierarchies. The key idea of MOST is to combine the load balancing advantages of mirroring with the space-efficiency advantages of tiering. Specifically, MOST dynamically mirrors a small amount of hot data across storage tiers to efficiently balance load, avoiding costly migrations. As a result, MOST is as space-efficient as classic tiering while achieving better bandwidth utilization under I/O-intensive workloads. We implement MOST in Cerberus, a user-level storage management layer based on CacheLib. We show the efficacy of Cerberus through a comprehensive empirical study: across a range of static and dynamic workloads, Cerberus achieves better throughput than competing approaches on modern storage hierarchies especially under I/O-intensive and dynamic workloads."
+  },
+  {
+    "id": "fast-2026-0037",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Rearchitecting Buffered I/O in the Era of High-Bandwidth SSDs",
+    "authors": [
+      "Yekang Zhan, Tianze Wang, Zheng Peng, Haichuan Hu, Jiahao Wu, Xiangrui Yang, and Qiang Cao, Huazhong University of Science and Technology",
+      "Hong Jiang, University of Texas at Arlington",
+      "Jie Yao, Huazho"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "SSDs are emerging storage devices which unlike HDDs, do not have mechanical parts and therefore, have superior performance compared to HDDs. Due to the high cost of SSDs, entirely replacing HDDs with SSDs is not economically justified. Additionally, SSDs can endure a limited number of writes before failing. To mitigate the shortcomings of SSDs while taking advantage of their high performance, SSD caching is practiced in both academia and industry. Previously proposed caching architectures have only focused on either performance or endurance and neglected to address both parameters in suggested architectures. Moreover, the cost, reliability, and power consumption of such architectures is not evaluated. This paper proposes a hybrid I/O caching architecture that while offers higher performance than previous studies, it also improves power consumption with a similar budget. The proposed architecture uses DRAM, Read-Optimized SSD, and Write-Optimized SSD in a three-level cache hierarchy and tries to efficiently redirect read requests to either DRAM or RO-SSD while sending writes to WO-SSD. To provide high reliability, dirty pages are written to at least two devices which removes any single point of failure. The power consumption is also managed by reducing the number of accesses issued to SSDs. The proposed architecture reconfigures itself between performance- and endurance-optimized policies based on the workload characteristics to maintain an effective tradeoff between performance and endurance. We have implemented the proposed architecture on a server equipped with industrial SSDs and HDDs. The experimental results show that as compared to state-of-the-art studies, the proposed architecture improves performance and power consumption by an average of 8% and 28%, respectively, and reduces the cost by 5% while increasing the endurance cost by 4.7% and negligible reliability penalty."
+  },
+  {
+    "id": "fast-2026-0038",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "FailureMiner: A Joint Key Decision Mining Scheme for Practical SSD Failure Prediction and Analysis",
+    "authors": [
+      "Shuyang Wang, Yuqi Zhang, and Haonan Luo, Samsung R&amp",
+      "D Institute China Xi&#039",
+      "an, Samsung Electronics",
+      "Kangkang Liu, Tencent",
+      "Gil Kim, JongSung Na, Claude Kim, Geunrok Oh, and Kyle Choi, Samsung E"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "fast-2026-0039",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "DRBoost: Boosting Degraded Read Performance in MSR-Coded Storage Clusters",
+    "authors": [
+      "Xiao Niu, Guangyan Zhang, Zhiyue Li, and Sijie Cai, Tsinghua University",
+      "Minimum Storage Regenerating (MSR) codes have strong potential for building efficient and reliable storage systems due to their"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "This paper considers capacity-achieving coding for the clustered form of distributed storage that reflects practical storage networks. To reflect the clustered structure with limited cross-cluster communication bandwidths, nodes in the same cluster are set to communicate $β_I$ symbols, while nodes in other clusters can communicate $β_c \\leq β_I$ symbols with one another. We provide two types of exact regenerating codes which achieve the capacity of clustered distributed storage: the minimum-bandwidth-regenerating (MBR) codes and the minimum-storage-regenerating (MSR) codes. First, we construct MBR codes for general parameter settings of clustered distributed storage. The suggested MBR code is a generalization of an existing code proposed by Rashmi et al., for scenarios where storage nodes are dispersed into L > 1 clusters. The proposed MBR code for the $β_c = 0$ case requires a much smaller field size compared to existing local MBR codes. Secondly, we devise MSR codes for clustered distributed storage. Focus is given on two important cases:$ε=0$ and $ε\\in [1/(n-k), 1]$, where $ε=β_c/β_I$ is the ratio of the available cross- to intra-cluster repair bandwidths, n is the total number of distributed nodes and k is the number of contact nodes in data retrieval. The former represents the scenario where cross-cluster communication is not allowed, while the latter corresponds to the case of minimum node storage overhead. For $ε=0$, two existing locally repairable codes are proven to be MSR codes for the clustered model. For $ε\\in [1/(n-k), 1]$, existing MSR codes for the non-clustered model are applicable to clustered scenarios with a simple modification."
+  },
+  {
+    "id": "fast-2026-0040",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "LESS is More for I/O-Efficient Repairs in Erasure-Coded Storage",
+    "authors": [
+      "Keyun Cheng, The Chinese University of Hong Kong",
+      "Guodong Li, Shandong University",
+      "Xiaolu Li, Huazhong University of Science and Technology",
+      "Sihuang Hu, Shandong University",
+      "Patrick P. C. Lee, The Chi"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "We propose repair pipelining, a technique that speeds up the repair performance in general erasure-coded storage. By carefully scheduling the repair of failed data in small-size units across storage nodes in a pipelined manner, repair pipelining reduces the single-block repair time to approximately the same as the normal read time for a single block in homogeneous environments. We further design different extensions of repair pipelining algorithms for heterogeneous environments and multi-block repair operations. We implement a repair pipelining prototype, called ECPipe, and integrate it as a middleware system into two versions of Hadoop Distributed File System (HDFS) (namely HDFS-RAID and HDFS-3) as well as Quantcast File System (QFS). Experiments on a local testbed and Amazon EC2 show that repair pipelining significantly improves the performance of degraded reads and full-node recovery over existing repair techniques."
+  },
+  {
+    "id": "fast-2026-0041",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Advancing Data Integrity in Linux",
+    "authors": [
+      "Anuj Gupta, Samsung Semiconductor",
+      "Christoph Hellwig, unaffiliated",
+      "Kanchan Joshi, Vikash Kumar, and Javier Gonzalez, Samsung Semiconductor",
+      "Roshan R Nair, EPFL",
+      "Jinyoung Choi, Samsung Semiconductor"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Operating System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "We study distributed optimization in the presence of Byzantine adversaries, where both data and computation are distributed among $m$ worker machines, $t$ of which may be corrupt. The compromised nodes may collaboratively and arbitrarily deviate from their pre-specified programs, and a designated (master) node iteratively computes the model/parameter vector for generalized linear models. In this work, we primarily focus on two iterative algorithms: Proximal Gradient Descent (PGD) and Coordinate Descent (CD). Gradient descent (GD) is a special case of these algorithms. PGD is typically used in the data-parallel setting, where data is partitioned across different samples, whereas, CD is used in the model-parallelism setting, where data is partitioned across the parameter space. In this paper, we propose a method based on data encoding and error correction over real numbers to combat adversarial attacks. We can tolerate up to $t\\leq \\lfloor\\frac{m-1}{2}\\rfloor$ corrupt worker nodes, which is information-theoretically optimal. We give deterministic guarantees, and our method does not assume any probability distribution on the data. We develop a {\\em sparse} encoding scheme which enables computationally efficient data encoding and decoding. We demonstrate a trade-off between the corruption threshold and the resource requirements (storage, computational, and communication complexity). As an example, for $t\\leq\\frac{m}{3}$, our scheme incurs only a {\\em constant} overhead on these resources, over that required by the plain distributed PGD/CD algorithms which provide no adversarial protection. To the best of our knowledge, ours is the first paper that makes CD secure against adversarial attacks. Our encoding scheme extends efficiently to the data streaming model and for stochastic gradient descent (SGD). We also give experimental results to show the efficacy of our proposed schemes."
+  },
+  {
+    "id": "fast-2026-0042",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "CETOFS: A High-Performance File System with Host-Server Collaboration for Remote Storage",
+    "authors": [
+      "Wenqing Jia, Dejun Jiang, and Jin Xiong, State Key Lab of Processors, Institute of Computing Technology, Chinese Academy of Sciences",
+      "and University of Chinese Academy of Sciences",
+      "With the developmen"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "fast-2026-0043",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Cache-Centric Multi-Resource Allocation for Storage Services",
+    "authors": [
+      "Chenhao Ye, Shawn (Wanxiang) Zhong, Andrea C. Arpaci-Dusseau, and Remzi H. Arpaci-Dusseau, University of Wisconsin–Madison",
+      "We present HARE, a cache-centric multi-resource allocation algorithm for sto"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "This article presents advances in resource allocation (RA) for downlink non-orthogonal multiple access (NOMA) systems, focusing on user pairing (UP) and power allocation (PA) algorithms. The former pairs the users to obtain the high capacity gain by exploiting the channel gain difference between the users, while the later allocates power to users in each cluster to balance system throughput and user fairness. Additionally, the article introduces the concept of cluster fairness and proposes the divideand- next largest difference-based UP algorithm to distribute the capacity gain among the NOMA clusters in a controlled manner. Furthermore, performance comparison between multiple-input multiple-output NOMA (MIMO-NOMA) and MIMO-OMA is conducted when users have pre-defined quality of service. Simulation results are presented, which validate the advantages of NOMA over OMA. Finally, the article provides avenues for further research on RA for downlink NOMA."
+  },
+  {
+    "id": "fast-2026-0044",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "Lockify: Understanding Linux Distributed Lock Management Overheads in Shared Storage",
+    "authors": [
+      "Taeyoung Park, Yunjae Jo, Daegyu Han, Beomseok Nam, and Jaehyun Hwang, Sungkyunkwan University",
+      "This paper presents Lockify, a novel distributed lock manager (DLM) for shared-disk file systems. Our ke"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Storage"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "In this paper I present some experiences made in the matter of I/O for Linux Clustering. In particular is illustrated the use of the package openMosix, a balancer of workload for processes running in a cluster of nodes. I describe some tests for balancing the load of I/O storage massive processes in a cluster with four components. This work is been written for the proceedings of the workshop Linux cluster: the openMosix approach held at CINECA, Bologna, Italy, on 28 november 2002."
+  },
+  {
+    "id": "fast-2026-0045",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "uCache: A Customizable Unikernel-based IO Cache",
+    "authors": [
+      "Ilya Meignan--Masson, Masanori Misono, Viktor Leis, and Pramod Bhatotia, Technical University of Munich",
+      "Data-intensive cloud applications require high-performance IO caching to fully leverage modern"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Operating System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "fast-2026-0046",
+    "venue": "FAST",
+    "year": 2026,
+    "month": 2,
+    "cycle": null,
+    "title": "UnICom: A Universally High-Performant I/O Completion Mechanism for Modern Computer Systems",
+    "authors": [
+      "Riwei Pan, City University of Hong Kong",
+      "Yu Liang, ETH Zurich and Inria-Paris",
+      "Sam H. Noh, Virginia Tech",
+      "Lei Li and Nan Guan, City University of Hong Kong",
+      "Tei-Wei Kuo, Delta Electronics and National"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://www.usenix.org/conference/fast26/technical-sessions",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  }
+]

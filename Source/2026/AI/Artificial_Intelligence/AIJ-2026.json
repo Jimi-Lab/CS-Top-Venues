@@ -1,0 +1,1842 @@
+[
+  {
+    "id": "aij-2026-0001",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Proven advantage of multiobjective evolutionary algorithms for problems with different degrees of conflict",
+    "authors": [
+      "Weijie Zheng"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Degree of conflict Runtime analysis Multiobjective evolutionary algorithms Scalarization ε-constraint approach Multiobjective optimization"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.358)",
+    "abstract": "The field of multiobjective evolutionary algorithms (MOEAs) often emphasizes its popularity for optimization problems with conflicting objectives. However, it is still theoretically unknown how MOEAs perform compared with typical approaches outside this field. This paper conducts such a systematic theoretical comparison on problem classes with different degrees of conflict. With ONEMAXMINk depicting k ∈ [0..n] degrees of conflict, we show the difficulties of two typical non-MOEA approaches, the scalarization (weighted-sum) and the ε-constraint approach. We prove that for any set of weights, the set of optima formed by the scalarization approach cannot cover its full Pareto front for k > 2. Although constrained problems constructed from ε-constraint approach ensure the full coverage, general ways (via exterior or nonparameter penalty functions) to solve these constrained problems encounter difficulties. The nonparameter penalty function way cannot guarantee the full coverage, and the exterior way covers the Pareto front with expected O(max {k, 1}nln n) number of function evaluations, but only with careful settings of ε and r (r>1/(ε+1−⌈ε⌉)). In contrast, MOEAs efficiently solve ONEMAXMINk without careful designs. We prove the same expected runtime of O(max {k, 1}nln n) for the (G)SEMO, MOEA/D, NSGA-II, and SMS-EMOA. Our brief discussions on a bi-objective LeadingOnes variant with different degrees of conflict show similar findings.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104573"
+  },
+  {
+    "id": "aij-2026-0002",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "A successful strategy for iterated Prisoner’s dilemma with any number of channels",
+    "authors": [
+      "Zhaoheng Cao",
+      "Juan Shi",
+      "Zhen Wang",
+      "Shuyue Hu",
+      "Chen Chu"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Prisoner’s dilemma, Multi-agent cooperation, Evolutionary game theory, Adaptation in games"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.358)",
+    "abstract": "Iterated Prisoner’s Dilemma (IPD) and its variants are widely used models for studying cooperation in human societies and AI systems. This paper focuses on multichannel IPD with any finite number of channels, and examines how an agent can achieve generally high payoffs in this setting. We introduce a novel strategy that bases its decision to cooperate or defect on the difference in the cumulative number of defections between two agents. We show that this strategy naturally possesses niceness, retaliation, and forgiveness. Moreover, we theoretically analyze the performance of our proposed strategy across various scenarios, including self-play with and without errors, as well as against a diverse range of opponent strategies. Notably, we show that our strategy is invincible, ensuring that it never receives a lower expected payoff than any opponent strategy. Lastly, we show that our strategy is stable, in terms of constituting an (approximate) Nash equilibrium or subgame perfect equilibrium, under self-play conditions. Extensive simulations empirically validate the evolutionary advantages of our strategy, and showcase its potential to facilitate the emergence and sustainment of cooperation.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104572"
+  },
+  {
+    "id": "aij-2026-0003",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Towards context-aware graph representation learning: Adaptive node aggregation with LLMs",
+    "authors": [
+      "Songwei Zhao",
+      "Yuan Jiang",
+      "Sinuo Zhang",
+      "Jifeng Hu",
+      "Philip S. Yu",
+      "Hechang Chen"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Text-attributed graph, Graph neural network, Large language model, Context-aware aggregation"
+    ],
+    "research_direction": [
+      "LLM",
+      "NLP"
+    ],
+    "paper_type": "Journal Article (Vol.358)",
+    "abstract": "Representation learning on graph-structured data is a crucial research area in graph machine learning, with widespread application in real-world domains such as social networks and recommender systems. Traditional graph neural networks (GNNs) typically rely on static graph aggregation functions (e.g., mean, sum) applied over shallow textual features, which limits their ability to model complex semantic interactions among nodes. Recent advances have introduced large language models (LLMs) to enhance node features through deep semantic encoding. However, most existing work treats LLMs as static encoders, overlooking their potential to reason about inter-node relationships. In this work, we propose LLM-based Tailored Node Aggregation (LTNA), a novel approach that leverages the in-context reasoning capabilities of LLMs to generate adaptive, semantics-driven aggregation strategies for each node. Rather than relying on a fixed rule or global function, LTNA prompts the LLM to infer the relational meaning between a node and its neighbors (e.g., supportive, critical, background) and outputs a customed aggregation strategy based on the inferred semantics. This enables message passing in GNNs to move beyond numeric aggregation and become a context-sensitive semantic operation. By jointly leveraging node textual attributes and graph structure, LTNA enhances the expressiveness of node representations and improves performance across downstream tasks. Extensive experiments on five benchmark datasets demonstrate that LTNA consistently outperforms state-of-the-art GNN models, achieving an average improvement of 7.95% in classification accuracy and 9.90% in Micro-F1 score.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104584"
+  },
+  {
+    "id": "aij-2026-0004",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "The complexity of envy-free graph cutting",
+    "authors": [
+      "Argyrios Deligkas",
+      "Eduard Eiben",
+      "Robert Ganian",
+      "Thekla Hamm",
+      "Sebastian Ordyniak"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Fair division, Graph cutting, Envy-freeness"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.358)",
+    "abstract": "We consider the problem of fairly dividing a set of heterogeneous divisible resources among a set of agents with different preferences. We focus on the case where the resources correspond to the edges of a connected graph, every agent must be assigned a connected piece of this graph, and the fairness notion considered is the classical envy-freeness. The problem is NP-complete, and we analyze its complexity with respect to two natural complexity measures: the number of agents, and the number of edges in the graph. While the problem remains NP-hard even for instances with 2 agents, we provide a dichotomy characterizing the complexity of the problem when the number of agents is constant based on structural properties of the input graph. For the latter case, we design a polynomial-time algorithm for the problem when the graph has a constant number of edges.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104585"
+  },
+  {
+    "id": "aij-2026-0005",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "AI Harmonics: A human-centric and harms severity-adaptive AI risk assessment framework",
+    "authors": [
+      "Sofia Vei",
+      "Paolo Giudici",
+      "Pavlos Sermpezis",
+      "Athena Vakali",
+      "Adelaide Emma Bernardelli"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "AI Harms prioritization, AI risks, Ethical AI, Gini coefficient, Criticality index"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.358)",
+    "abstract": "We introduce AI Harmonics (AIH), a novel metric designed to quantify the concentration of harms across stakeholder groups affected by AI systems. Unlike traditional approaches that rely on arbitrary numerical assignments to ordinal severity levels, AIH provides a principled framework grounded in inequality theory, extending concepts from the Gini index to purely ordinal data. The metric evaluates how harm is distributed among stakeholders, capturing whether severe impacts are concentrated within specific groups or more evenly spread. Experiments on annotated incident data show that the proposed metric exhibits a strong monotonic relationship with the Criticality Index (CI), preserving harm category rankings while capturing additional variation in concentration patterns. The method demonstrates high robustness, with Spearman rank correlations above 0.97 under severity perturbations and stable prioritization even under up to 80% random data removal. Political and physical harms consistently exhibit the highest concentration, indicating the need for urgent mitigation. Political harms erode public trust, while physical harms pose serious, even life-threatening risks, underscoring the real-world relevance of our approach. The AIH metric is particularly well-suited for policy-making and risk management, where only ordinal assessments are available, and it enables more informed prioritization of mitigation strategies.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104587"
+  },
+  {
+    "id": "aij-2026-0006",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Robust and effective multi-agent path execution with timing uncertainty",
+    "authors": [
+      "Yihao Liu",
+      "Xueyan Tang",
+      "Wentong Cai",
+      "Jingning Li"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Multi-agent plan execution, Timing uncertainty, Collision avoidance, Deadlock avoidance, Coordination"
+    ],
+    "research_direction": [
+      "LLM",
+      "AI Security"
+    ],
+    "paper_type": "Journal Article (Vol.358)",
+    "abstract": "In many multi-agent applications, agents such as robots and automated guided vehicles move around concurrently in a shared workspace to carry out tasks. The path plans of agents are typically computed beforehand to avoid collisions and deadlocks. However, in real-world systems, unexpected conditions during plan execution can break the assumptions made in path planning and disturb path execution. In this paper, we develop a robust and effective execution framework of multi-agent path plans to deal with unexpected delays arising from unforeseen circumstances. The framework tracks the evolving locations of agents and dynamically chooses a maximal set of agents to move together while guaranteeing conflict-freeness and deadlock-freeness. To ensure that agents can always reach their destinations, we formulate a feasibility problem to check whether all agents can successfully execute the rest of their path plan when choosing which agents to move. We prove that this problem is NP-complete and design feasibility test algorithms. Leveraging feasibility tests, we further develop algorithms to coordinate agent movements in an online fashion. Several optimizations are also implemented to improve the efficiency and scalability of the feasibility test and coordination algorithms. We experimentally demonstrate the execution effectiveness and computational efficiency of our algorithms.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104586"
+  },
+  {
+    "id": "aij-2026-0007",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Planning with uncertainty: symmetries, policy inference, and solution compression",
+    "authors": [
+      "Frederico Messa",
+      "André {Grahl Pereira}"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "FOND planning, Heuristic search, Pruning, Symmetries, Compression"
+    ],
+    "research_direction": [
+      "Reinforcement Learning",
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.358)",
+    "abstract": "Fully-observable non-deterministic (FOND) planning is at the core of artificial intelligence planning with uncertainty. It models uncertainty through actions with non-deterministic effects.In this work, we present a collection of techniques that establish explicit best-first policy-space search as a method competitive with the state of the art for solving FOND planning tasks. We study how to define equivalence relations between policies, allowing part of the search space to be pruned. We show it is possible to use group theory techniques to effectively compute canonical symmetries between states. We also present two contributions that go beyond just policy-space search: we present a procedure that infers in polynomial time a solution policy function given just the specification of its domain set, and an integer-programming formulation procedure that, given a solution policy defined over complete states, yields a set of resource-efficient models that are capable of finding a partial-state policy that represents it unambiguously with the fewest partial states possible.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104574"
+  },
+  {
+    "id": "aij-2026-0008",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Identifying heterophilic neighbors via confidence-based subgraph matching for graph neural networks",
+    "authors": [
+      "Yoonhyuk Choi",
+      "Chong-Kwon Kim"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Graph neural networks, Graph representation learning, Graph similarity computation, Label propagation"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.358)",
+    "abstract": "Graph Neural Networks (GNNs) often struggle with heterophilic graphs, where neighboring nodes tend to have dissimilar labels-a common scenario in real-world networks. This paper addresses this limitation through a two-phase framework called ConSM (Confidence-based Subgraph Matching). First, we introduce a confidence-aware subgraph matching module that estimates edge coefficients by comparing the structural similarity of 2-hop neighborhoods using optimal transport. This process identifies task-irrelevant or misleading edges based on a tunable confidence ratio. Second, we integrate these edge coefficients into a sign-aware label propagation mechanism that adaptively encourages or discourages message passing based on edge confidence, thereby enhancing GNN robustness under heterophily. Compared to our earlier conference version [1], this manuscript provides (i) a clearer justification of key design choices such as subgraph-based reasoning and the use of 2-hop neighborhoods, (ii) an adaptive strategy to tune the confidence ratio without manual search, and (iii) extensive new experiments covering recent heterophily-oriented baselines and larger, leakage-free datasets. Empirical results show that ConSM improves classification accuracy, mitigates over-smoothing, and remains effective across both homophilic and heterophilic regimes.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104575"
+  },
+  {
+    "id": "aij-2026-0009",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Self-expression property theory guided multi-modal brain graph learning",
+    "authors": [
+      "Xuexiong Luo",
+      "Jia Wu",
+      "Sheng Zhang",
+      "Jian Yang",
+      "Amin Beheshti",
+      "Bo Du",
+      "Shan Xue",
+      "Quan Z. Sheng"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Brain graph, Neuroimaging, Multi-modal, Graph neural network, Brain graph learning"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.358)",
+    "abstract": "Integrating multi-modal brain graphs for brain disorder analysis has attracted increasing attention recently. However, existing multi-modal brain graph learning methods suffer from two important problems: first, they randomly use simple connectivity profiles as attribute features of brain graphs, causing an insufficient description of brain connectivity networks. In addition, unobvious differences between healthy and patient brain graphs require to learn discriminative feature representations of single-modal brain graphs, which is rarely considered in previous methods. Second, mining the complex relationship between modalities is significant for achieving deep fusion, but most of the existing methods adopt a simple fusion way, like the attention mechanism, and cannot recognize important brain regions and connections associated with disorders for interpretable analysis. To address the problems above, in this work, we integrate cross-scale contrastive graph neural networks and self-expression property theory to learn multi-modal and multi-attribute brain graph representations for disorder analysis. Specifically, we extend multi-attribute features for characterizing brain graphs and design cross-scale contrastive graph neural networks to handle multi-attribute brain graphs to enhance discriminative multi-level representations for each modality. Then, we introduce the self-expression property theory to innovatively extract the complementary relationship of multi-modal brain graphs while generating the consensus graph to learn the common feature. The consensus graph is an interpretable brain graph to explore salient brain regions and connections related to disorders. We adaptively fuse the common feature and each modality feature using the attention mechanism to learn optimal representations of multi-modal brain graphs for disorder prediction. Extensive experiments on three disorder datasets verify the effectiveness of our method, especially pathogenic analysis results are in line with medical findings, which has the potential to promote brain disorder research.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104576"
+  },
+  {
+    "id": "aij-2026-0010",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Sets attacking sets in abstract argumentation – redefining ABA+ semantics via hyper argumentation frameworks",
+    "authors": [
+      "Yannis Dimopoulos",
+      "Wolfgang Dvořák",
+      "Anna Rapberger",
+      "Matthias König",
+      "Markus Ulbricht",
+      "Stefan Woltran"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Computational argumentation, Assumption-based argumentation, Abstract argumentation, Hyper argumentation frameworks, Computational complexity of reasoning, Preferences in argumentation"
+    ],
+    "research_direction": [
+      "AI Security"
+    ],
+    "paper_type": "Journal Article (Vol.357)",
+    "abstract": "Assumption-based argumentation (ABA) is a powerful defeasible reasoning formalism which is based on the interplay of assumptions, their contraries, and inference rules. ABA with preferences (ABA+) generalizes the basic model by allowing a qualitative comparison of assumptions. The integration of preferences however comes with a cost. In ABA+, the evaluation under two central and well-established semantics—grounded and complete semantics—is not guaranteed to yield an outcome. Moreover, while ABA frameworks without preferences allow for a graph-based representation in Dung-style frameworks, an according instantiation for general ABA+ frameworks has not been established so far. In this work, we tackle both issues: First, we develop a novel abstract argumentation formalism based on set-to-set attacks. We show that our so-called Hyper Argumentation Frameworks (HYPAFs) capture the attack relation between assumptions in ABA+. Second, we exploit this correspondence between ABA+ and HYPAFs to obtain relaxed variants of complete and grounded semantics for HYPAFs that yield an extension for all frameworks by design, while still faithfully generalizing the established semantics of Dung-style Argumentation Frameworks. Finally, we discuss fundamental properties and provide a thorough complexity analysis for both the abstract HYPAFs as well as ABA+.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104558"
+  },
+  {
+    "id": "aij-2026-0011",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Selection hyper-heuristics can automatically adjust the learning period to optimally solve pseudo-Boolean problems",
+    "authors": [
+      "Benjamin Doerr",
+      "Pietro S. Oliveto",
+      "John Alasdair Warwicker"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Algorithm selection, Hyper-heuristics, Running time analysis, Local search"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.357)",
+    "abstract": "The Random Gradient hyper-heuristic was recently shown to be able to learn the optimal neighbourhood size when optimizing the LeadingOnes benchmark via the Randomised Local Search (RLS) meta-heuristic. However, for this to happen, a learning period of a certain length τ had to be used, differently from classic hyper-heuristics, which change their behaviour based on the success of only the previous iteration. In this paper, we show how to automatically set this new parameter value, relieving the user from the non-trivial task of controlling this novel algorithm parameter. We prove that the resulting hyper-heuristic selects the optimal neighbourhood size in a 1−o(1) fraction of the iterations and, consequently, optimises the LeadingOnes benchmark in the best possible time (apart from lower-order terms) achievable with these neighborhood sizes.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104560"
+  },
+  {
+    "id": "aij-2026-0012",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Editorial Board",
+    "authors": [
+      "### Venue\nArtificial Intelligence Journal 2026"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.357)",
+    "abstract": "Editorial board members, who are considered the gatekeepers of scientific journals, play an important role in academia, and may directly or indirectly affect the scientific output of a university. In this article, we used the quantile regression method among a sample of 1,387 university in chemistry to characterize the correlation between the number of editorial board members and the scientific output of their universities. Furthermore, we used time-series data and the Granger causality test to explore the causal relationship between the number of editorial board members and the number of articles of some top universities. Our results suggest that the number of editorial board members is positively and significantly related to the scientific output (as measured by the number of articles, total number of citations, citations per paper, and h index) of their universities. However, the Granger causality test results suggest that the causal relationship between the number of editorial board members and the number of articles of some top universities is not obvious. Combining these findings with the results of qualitative interviews with editorial board members, we discuss the causal relationship between the number of editorial board members and the scientific output of their universities.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/S0004-3702(26)00106-2"
+  },
+  {
+    "id": "aij-2026-0013",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Utilitarian distortion with predictions",
+    "authors": [
+      "Aris Filos-Ratsikas",
+      "Georgios Kalantzis",
+      "Alexandros A. Voudouris"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Voting Matching Distortion Predictions"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.357)",
+    "abstract": "We study the utilitarian distortion of social choice mechanisms under the recently proposed learning-augmented framework where some (possibly unreliable) predicted information about the preferences of the agents is given as input. In particular, we consider two fundamental social choice problems: single-winner voting and one-sided matching. In these settings, the ordinal preferences of the agents over the alternatives (either candidates or items) is known, and some prediction about their underlying cardinal values is also provided. The goal is to leverage the prediction to achieve improved distortion guarantees when it is accurate, while simultaneously still achieving reasonable worst-case bounds when it is not. This leads to the notions of consistency and robustness, and the quest to achieve the best possible tradeoffs between the two. We show tight tradeoffs between the consistency and robustness of ordinal mechanisms for single-winner voting and one-sided matching, for different levels of information provided as prediction.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104557"
+  },
+  {
+    "id": "aij-2026-0014",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "From monotonic graph neural networks to datalog and back: Expressive power and practical applications",
+    "authors": [
+      "David {Tena Cucala}",
+      "Bernardo {Cuenca Grau}",
+      "Boris Motik",
+      "Egor V. Kostylev"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.357)",
+    "abstract": "Many tasks over knowledge graphs, such as link prediction, can be conceptualised as a problem of learning a transformation of sets of relational facts. Machine learning models such as graph neural networks (GNNs) can be used to realise this transformation, allowing the transformation to be learned from examples. However, it is often difficult to verify formally the properties of such a transformation, or understand why it derives a specific fact. Alternatively, such a transformation can be realised using a set of rules expressed in a knowledge representation language such as Datalog. Formal properties of such a transformation can be verified using symbolic means, and each derived fact can be justified by a rule; however, writing and curating the rules is costly and requires expertise in both the application domain and the formal language. To bridge the gap between these two approaches, in this paper we study the relationship between transformations realised by monotonic max-sum GNNs, a subclass of GNNs with nonnegative weights and max and sum aggregation functions, and transformations realised by Datalog rules. First, we provide an algorithm that can verify whether a given Datalog rule is sound for a network, in the sense that the GNN always derives all consequences of the rule on any input dataset. Second, we provide an algorithm that allows us to justify any fact derived by a GNN by computing a rule that is sound for the GNN and that derives the fact. Third, we study the expressive power of monotonic max-sum GNNs and show that, for each such GNN, one can compute a Datalog program where applying the GNN to any dataset produces the same facts as a single round of application of the program’s rules to the dataset; we also sharpen our result to the subclass of monotonic maxGNNs, which use only the max aggregation function, and identify a corresponding class of Datalog programs. Finally, we carry out a practical evaluation and show that monotonic max-sum GNNs can be successfully trained in practice on common knowledge graph tasks, and that extracting rules from max-sum GNNs is practically feasible.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104545"
+  },
+  {
+    "id": "aij-2026-0015",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Exploring the influence of missing data imputation in group fairness metrics",
+    "authors": [
+      "Arthur {Dantas Mangussi}",
+      "Ricardo Cardoso Pereira",
+      "Miriam Seoane Santos",
+      "Ana Carolina Lorena",
+      "Mykola Pechenizkiy",
+      "Pedro Henriques Abreu"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Missing data, Fairness, Responsible artificial intelligence"
+    ],
+    "research_direction": [
+      "AI Safety"
+    ],
+    "paper_type": "Journal Article (Vol.357)",
+    "abstract": "Missing data is a common problem in real-world datasets and can be characterized as the lack of information on one or multiple variables in a dataset. The most frequent technique for handling this issue is imputation, which consists in the replacement of the missing values according to a predefined criterion. Since missing values are often imputed based on the known values in the dataset, existing data issues can be propagated during the imputation process. One such issue is fairness, a concept integral to responsible Artificial Intelligence practices. This work investigates the impact of the imputation process on system fairness by examining how imputation affects the fairness of predictions in Machine Learning models. It provides a comprehensive analysis covering thirteen unfair benchmark datasets with six state-of-the-art imputation strategies under synthetic Missing Not At Random and Missing At Random mechanisms in a multivariate scenario with 10%, 20%, 40%, and 60% of missing rates. Fairness was measured by the following metrics: Statistical Parity, Equalized Odds, Equality of Opportunity, Predictive Equality, Equality of Positive, and Negative Predicted Values. The results demonstrate that the missing mechanism, the classifier choice, and the imputation strategy decisively influence the fairness of the predictions obtained by the Machine Learning models.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104559"
+  },
+  {
+    "id": "aij-2026-0016",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Innovative constraint models for mining frequent and rare association rules using multi-objective optimization",
+    "authors": [
+      "Charles Vernerey",
+      "Samir Loudni",
+      "Noureddine Aribi",
+      "Yahia Lebbah"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Constraint programming, Multi-objective optimization, Data mining, Frequent pattern mining, Association rules discovery"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.357)",
+    "abstract": "Constraint-based pattern mining is at the core of numerous data mining tasks. Usually, pattern mining problems are handled as constraint-solving tasks. However, in practice, the resulting patterns are often large, and selecting appropriate thresholds for these constraints can be challenging. This paper addresses these issues by expanding data mining algorithms into the realm of optimization, treating the task as one of identifying the best patterns according to a set of objective functions. We explore a multi-objective optimization approach, where several potentially conflicting objectives are optimized simultaneously. In the absence of preferences, Pareto dominance is commonly used to identify optimal compromise solutions. We present a novel Constraint Programming model designed to efficiently mine Pareto optimal patterns. Our model leverages condensed pattern representations to reduce computational effort and introduces a new global constraint to enforce the closure of patterns across multiple measures. We demonstrate the application of our approach to derive high-quality frequent and (rare) non-redundant association rules without relying on threshold values. The effectiveness of our approach is validated using both UCI datasets and a case study involving gene expression analysis, integrating multiple external gene annotations.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104561"
+  },
+  {
+    "id": "aij-2026-0017",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "An optimal pastification algorithm for LTL[X,F] and LTL[X,G]",
+    "authors": [
+      "Alessandro Artale",
+      "Luca Geatti",
+      "Nicola Gigante",
+      "Alessio Mansutti",
+      "Andrea Mazzullo",
+      "Angelo Montanari"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Linear temporal logics (LTLs), Pure past LTL, Safety and cosafety languages"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.357)",
+    "abstract": "We investigate a fragment of Linear Temporal Logic (LTL) comprising the tomorrow (X) and eventually (F) modalities, and present a singly exponential time algorithm for the pastification problem within this fragment. The pastification problem consists of constructing, for a given LTL formula, an equivalent formula that exclusively employs past temporal operators. While the best known algorithms for this task in full LTL–and in the fragment under consideration–exhibit triply exponential time complexity, our approach achieves optimal complexity for this fragment. The proposed algorithm proceeds in two main stages: (i) the input formula is first translated into a tailored normal form, and then (ii) a pure past formula is synthesized from a tree-like structure derived from the normalized formula. With minor adaptations, the algorithm extends to handle the fragment of LTL featuring the tomorrow and globally modalities. We provide an implementation of the algorithm in the temporal reasoning tool BLACK, and report on an experimental evaluation of its performance.1",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104553"
+  },
+  {
+    "id": "aij-2026-0018",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Approximate multi-objective search",
+    "authors": [
+      "Han Zhang",
+      "Oren Salzman",
+      "T. K. Satish Kumar",
+      "Ariel Felner",
+      "Carlos {Hernández Ulloa}",
+      "Sven Koenig"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.357)",
+    "abstract": "In multi-objective search, we consider a graph whose edges are annotated with multiple cost components. A typical task is to compute the Pareto frontier, i.e., the set of all undominated paths from a given start state to a given goal state of the graph. However, the size of the Pareto frontier can be exponential in the size of the graph, and computing the entire Pareto frontier can be very time-consuming. Therefore, in this paper, we study how to find an approximate frontier for a user-provided approximation factor. Such a frontier can be significantly smaller than the Pareto frontier, enabling the design of efficient approximate multi-objective search algorithms. We present such an algorithm called A*pex, which uses an efficient, albeit approximate, representation of paths with similar costs to compute an approximate frontier. During the search, it avoids storing all paths explicitly, thereby reducing the search effort. We show that A*pex can be used as an algorithmic building block to solve additional problems by presenting (1) an anytime variant of A*pex, which computes an initial approximate frontier quickly and then works to find better approximate frontiers until eventually finding the entire Pareto frontier and (2) a variant of A*pex for approximately solving the Weight-Constrained Shortest Path (WCSP) problem, a problem that is closely related to multi-objective search. For evaluation, we use road networks from the 9th DIMACS Implementation Challenge: Shortest Path for evaluation. Our experimental results show that A*pex and its WCSP variant can outperform respective state-of-the-art algorithms by orders of magnitude in terms of runtime. We also show that the anytime variant of A*pex often computes better approximate frontiers than state-of-the-art algorithms, given a limited runtime.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104542"
+  },
+  {
+    "id": "aij-2026-0019",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Auction design with ex post ROI constraints",
+    "authors": [
+      "Hongtao Lv",
+      "Xiaohui Bei",
+      "Zhenzhe Zheng",
+      "Fan Wu"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Return on investment (ROI), Mechanism design, Myerson auction"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.357)",
+    "abstract": "Motivated by practical constraints in online advertising, we investigate single-parameter auction design for bidders with constraints on their Return On Investment (ROI) – a targeted minimum ratio between the obtained value and the payment. We focus on ex post ROI constraints, which require the ROI condition to be satisfied for every realized value profile. With ROI-constrained bidders, we first provide a full characterization of the allocation and payment rules of dominant-strategy incentive compatible (DSIC) auctions. In particular, we show that given any monotone allocation rule, the corresponding DSIC payment should be the Myerson payment with a rebate for each bidder to meet their ROI constraints. Furthermore, we also determine the optimal auction structure when the item is sold to a single bidder under a mild regularity condition. This structure entails a randomized allocation scheme and a first-price payment rule, which differs from the deterministic Myerson auction and previous works on ex ante ROI constraints. Finally, for multiple ROI-constrained bidders, we investigate simple auction design and, in particular, deterministic auction design and how they can be applied in sponsored search auctions.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104543"
+  },
+  {
+    "id": "aij-2026-0020",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Balancing the spread of two opinions in sparse social networks",
+    "authors": [
+      "Dušan Knop",
+      "Šimon Schierreich",
+      "Ondřej Suchý"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Social network, Diffusion model, Target set selection, Parameterized complexity"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.357)",
+    "abstract": "Inspired by the famous Target Set Selection problem, we propose a new discrete model to simultaneously spread two opinions within a social network and perform an initial study of its complexity. Here, we are given a social network, a seed-set of agents for each opinion, two thresholds for each agent, a budget, and a number of rounds. The first threshold represents the willingness of an agent to adopt an opinion if the agent has no opinion at all, while the second threshold states the willingness to acquire a second opinion if the agent already has one. The goal is to add at most budget-many agents to the initial seed-sets such that the process started with these extended seed-sets stabilizes within the given number of rounds, with each agent having either both opinions or none. That is, our goal is to ensure that the spread of opinions is balanced. We show that the problem is NP-hard, and thus we study the problem from the perspective of parameterized complexity. In particular, we show that the problem is FPT when parameterized by the number of rounds, the maximum threshold, and the treewidth combined. This algorithm also applies to the combined parameter, the treedepth and the maximum threshold. Finally, we show that the problem is FPT when parameterized by the vertex cover number, the 3-path vertex cover number, or the vertex integrity of the input network alone. To complement our tractability results, we show that the problem is W[1]-hard with respect to a) the sizes of the initial seed-sets and the feedback-vertex set number combined, even if all thresholds are bounded by a constant, and b) the budget, the 4-path vertex cover number, and the feedback-vertex set number combined, even if every activation process stabilizes in at most 4 rounds.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104563"
+  },
+  {
+    "id": "aij-2026-0021",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "ATWGNNS: Graph simplified representation and learning of logical formula for premise selection",
+    "authors": [
+      "Xingxing He",
+      "Zhongxu Zhao",
+      "Yongqi Lan",
+      "Yingfang Li",
+      "Li Zou",
+      "Luis Martínez",
+      "Tianrui Li"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Premise selection, Formula similarity, Graph similarity, Graph representation, Graph neural network, Attention term-walk"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.357)",
+    "abstract": "Premise selection effectively addresses large-theory theorem-proving challenges, where Graph Neural Networks (GNNs) and their variants are commonly used methods. Conversely, optimizing a graph representation of formulas in first-order logic is rarely addressed, particularly in terms of simplification and the logical properties preserved during the embedding process. This paper proposes an attention term-walk based GNN with a simplified graph representation (ATWGNNS) for premise selection. First, a simplified formula graph representation method is introduced, where repeated quantifiers in the formula graph are eliminated. Next, we present methods for measuring the similarity of formulas and graphs. It is demonstrated that the similarity of graphs without repeated quantifiers is greater than that of other graphs that retain the original quantifiers. Furthermore, the higher the similarity of the logical formulas, the greater the similarity of the corresponding graphs. This confirms the interpretability of the graph representation method. Finally, a term-walk based GNN with an attention mechanism is proposed to retain task-relevant structural information in simplified formula graphs after removing repeated quantifiers. The experimental results demonstrate that the model developed using the proposed method outperforms state-of-the-art models in premise selection.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104562"
+  },
+  {
+    "id": "aij-2026-0022",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Efficient representations for team and imperfect-recall equilibrium computation",
+    "authors": [
+      "Luca Carminati",
+      "Brian Hu Zhang",
+      "Federico Cacciamani",
+      "Junkang Li",
+      "Gabriele Farina",
+      "Nicola Gatti",
+      "Tuomas Sandholm"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Extensive-form game, Imperfect-recall game, Adversarial team game, Equilibrium finding, Nash equilibrium, Game solving, Regret minimization, Artificial intelligence"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.356)",
+    "abstract": "Equilibrium finding in two-player zero-sum games with perfect recall is a well-studied topic that has led to many breakthroughs in computational game theory. This paper aims to generalize such techniques to (timeable) two-player zero-sum games with imperfect recall, or equivalently to two-team zero-sum games. In this setting, the problem of computing a mixed-strategy Nash equilibrium (or, equivalently, a team maxmin equilibrium with correlation) is known to be NP-hard. We connect the imperfect-recall setting with its perfect-recall counterpart through a novel construction we call the belief game. This is a perfect-recall game equivalent to a given (timeable) two-player zero-sum game with imperfect recall. The belief game may be exponentially larger than the original game but can be solved using any standard method. We then show that the strategy spaces of the two players in the belief game can be directly represented as a DAG, leading to a possibly exponential speedup. We call this the team belief DAG (TB-DAG). The TB-DAG simultaneously enjoys essentially optimal parameterized complexity bounds and the advantages of efficient regret minimization techniques. Along the way, we show Δ2P-completeness and Σ2P-completeness of finding Nash equilibria in both mixed and behavioral strategies for the class of games we consider. Experimentally, we show that the TB-DAG, when paired with existing learning techniques, yields state-of-the-art performance on a wide variety of benchmark team games.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104529"
+  },
+  {
+    "id": "aij-2026-0023",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Learning gradient-based mixup with extrapolation toward flatter minima for domain generalization",
+    "authors": [
+      "Danni Peng",
+      "Sinno Jialin Pan"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Domain generalization, Gradient-based mixup, Data extrapolation, Flatness-aware optimization"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.356)",
+    "abstract": "To address distribution shifts between training and test data, domain generalization (DG) leverages multiple source domains to learn a model that generalizes well to unseen domains. However, existing DG methods often overfit to the source domains, partly due to the limited coverage of the expected region in feature space. Motivated by this, we propose performing mixup with data interpolation and extrapolation to cover potentially unseen regions. To prevent the detrimental effects of unconstrained extrapolation, we carefully design a policy to generate the instance weights, named Flatness-aware Gradient-based Mixup (FGMix). The policy relies on gradient-based compatibilities to assign greater weights to instances that carry more invariant information and learn the mixup policy towards flatter minima for better generalization. On the DomainBed benchmark, we validate the efficacy of various designs of FGMix and demonstrate its superiority over other DG algorithms.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104544"
+  },
+  {
+    "id": "aij-2026-0024",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Editorial Board",
+    "authors": [
+      "### Venue\nArtificial Intelligence Journal 2026"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.356)",
+    "abstract": "Editorial board members, who are considered the gatekeepers of scientific journals, play an important role in academia, and may directly or indirectly affect the scientific output of a university. In this article, we used the quantile regression method among a sample of 1,387 university in chemistry to characterize the correlation between the number of editorial board members and the scientific output of their universities. Furthermore, we used time-series data and the Granger causality test to explore the causal relationship between the number of editorial board members and the number of articles of some top universities. Our results suggest that the number of editorial board members is positively and significantly related to the scientific output (as measured by the number of articles, total number of citations, citations per paper, and h index) of their universities. However, the Granger causality test results suggest that the causal relationship between the number of editorial board members and the number of articles of some top universities is not obvious. Combining these findings with the results of qualitative interviews with editorial board members, we discuss the causal relationship between the number of editorial board members and the scientific output of their universities.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/S0004-3702(26)00093-7"
+  },
+  {
+    "id": "aij-2026-0025",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Partial identifiability and misspecification in inverse reinforcement learning",
+    "authors": [
+      "Joar Skalse",
+      "Alessandro Abate"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Reward learning, Inverse reinforcement learning, Misspecification, Partial identifiability, Robustness, Ambiguity"
+    ],
+    "research_direction": [
+      "Reinforcement Learning"
+    ],
+    "paper_type": "Journal Article (Vol.356)",
+    "abstract": "The aim of Inverse Reinforcement Learning (IRL) is to infer a reward function R from a policy π. This problem is difficult, for several reasons. First of all, there are typically multiple reward functions which are compatible with a given policy; this means that the reward function is only partially identifiable, and that IRL contains a certain fundamental degree of ambiguity. Secondly, in order to infer R from π, an IRL algorithm must have a behavioural model of how π relates to R. However, the true relationship between human preferences and human behaviour is very complex, and practically impossible to fully capture with a simple model. This means that the behavioural model in practice will be misspecified, which raises the worry that it might lead to unsound inferences if applied to real-world data. In this paper, we provide a comprehensive mathematical analysis of partial identifiability and misspecification in IRL. Specifically, we fully characterise and quantify the ambiguity of the reward function for all of the behavioural models that are most common in the current IRL literature. We also provide necessary and sufficient conditions that describe precisely how the observed demonstrator policy may differ from each of the standard behavioural models before that model leads to faulty inferences about the reward function R. In addition to this, we introduce a cohesive framework for reasoning about partial identifiability and misspecification in IRL, together with several formal tools that can be used to easily derive the partial identifiability and misspecification robustness of new IRL models, or analyse other kinds of reward learning algorithms.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104525"
+  },
+  {
+    "id": "aij-2026-0026",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "On the convergence of SignSGD under weak first- and second-order gradient Lipschitz",
+    "authors": [
+      "Tao Sun",
+      "Xinwang Liu"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Sign-based methods, Convergence, Nonconvex acceleration, Weak first- and second-order gradient Lipschitz, LION"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.356)",
+    "abstract": "Sign-based stochastic methods have attracted increasing attention for their ability to perform well with only a few sign bits of information for updating specific fields. Nonetheless, convergence analyses for such methods always rely on strong assumptions that the function is globally first- or second-order gradient Lipschitz; such assumptions are very restrictive and generally not satisfied in real-world instances such as training deep neural networks. This paper reconsiders sign-based methods and studies the convergence of such schemes under more realistic assumptions on first- and second-order gradient Lipschitz. We prove that these weak assumptions hold for a class of two-layer neural networks training with weight decay. We then prove the convergence of a class of sign-based methods in the weak first-order gradient Lipschitz framework and then introduce a modified second-order condition that still allows for nonconvex acceleration within the corresponding sign-based frameworks. Unlike other methods, our findings are based on less restrictive assumptions, thereby broadening their applicability.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104541"
+  },
+  {
+    "id": "aij-2026-0027",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Decision-theoretic planning and cognitive modeling for active cyber deception",
+    "authors": [
+      "Aditya Shinde",
+      "Prashant Doshi"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Cyber deception, Cognitive modeling, Intent recognition, Planning under uncertainty"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.356)",
+    "abstract": "Cyber defense is evolving to include deception as a key strategy to thwart adversaries. Cyber deception elevates cyber defense by shifting the focus from intrusion detection and prevention to strategically influencing the attacker’s beliefs and perceptions. However, in its current form, deception is employed passively to mislead and misdirect adversaries using decoy systems called honeypots. We present a decision-theoretic approach to active intent recognition using honeypots. We model cyber deception as a sequential decision-making problem in a two-agent context situated on a single honeypot host. To explicitly reason about the influence of deception on the attacker’s beliefs, we introduce factored finitely-nested interactive POMDPs (I-POMDPX), a factored variant of the I-POMDP framework. We utilize the I-POMDPX framework to model the problem with multiple candidate attacker types, each of which models a cyber attack across various stages from the attacker’s initial entry to reaching its adversarial objective. Recursive reasoning facilitated by I-POMDPs enables the defender to simulate interactions where the attacker is oblivious of a defender, and also scenarios where the attacker reasons about the defender’s actions. The defending I-POMDPX-based agent uses decoys to engage the attacker at multiple phases to form increasingly accurate predictions of the attacker’s behavior and intent. Subsequently, we leverage the explicit and subjective reasoning capability of the I-POMDPX to model cognitive biases known to play a role in deception. Specifically, we model the fundamental attribution error (FAE) and confirmation bias. We show that the cognitive modeling of these biases using the I-POMDPX framework plays a crucial role in deceiving sophisticated adversaries. We evaluate our framework in both simulations and with the I-POMDPX agent deployed on a honeypot host with instrumentation. Our experiments show that the I-POMDPX-based agent outperforms commonly used deception strategies in intent recognition on honeypots. We explore how the defender’s deception evolves as the attacker becomes more strategic. At higher levels of reasoning, we demonstrate how the defender can leverage the computational modeling of the attacker’s cognitive biases to facilitate deception against sophisticated adversaries. This emerging application of autonomous agents offers a new approach to cyber defense that contrasts with the traditional action-reaction dynamic that has defined interactions between cyber attackers and defenders for years.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104540"
+  },
+  {
+    "id": "aij-2026-0028",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Analyzing bullet chats for recommendation intent identification: Dataset and method",
+    "authors": [
+      "Yi Zhu",
+      "Qinqin Han",
+      "Yunhao Yuan",
+      "Chaowei Zhang",
+      "Jipeng Qiang",
+      "Xindong Wu"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Bullet chats, Live-streaming sales, Recommendation intent identification, Soft prompt-tuning, Verbalizer"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.355)",
+    "abstract": "Live-streaming sales (LS) have emerged as a major e-commerce model particularly in China, with bullet chats serving as the primary channel for audience interaction. Bullet chats refer to real-time scrolling comments, these short, fast-flowing messages create unique analytical challenges, particularly for sellers who must identify and respond to key messages promptly. In this paper, we present the first investigation on bullet chats for live-streaming sales, with a focus on the critical task of Recommendation Intent Identification (RII), i.e., determining whether a bullet chat reflects a recommendation-seeking intent or is merely casual commentary. Specifically, we construct and release the first publicly available benchmark dataset for RII, termed BC4RII, which comprises 0.14 million bullet chats collected from four mainstream LS platforms. Furthermore, we propose SPT-RII, an advanced method on the ground of soft prompt-tuning tailored for the RII task. SPT-RII enriches sparse bullet-chat semantics through explanation generation and adapts to streaming input via a dynamic vocabulary update mechanism. Experimental results demonstrate that our method significantly outperforms state-of-the-art baselines, including large language models. To the best of our knowledge, this is the first comprehensive study analyzing bullet chats for RII on live-streaming sales, which establishes a foundational resource and method for real-time intent understanding in live-streaming sales.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104528"
+  },
+  {
+    "id": "aij-2026-0029",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Opinion dynamics with median aggregation",
+    "authors": [
+      "Petra Berenbrink",
+      "Martin Hoefer",
+      "Dominik Kaaser",
+      "Marten Maack",
+      "Malin Rau",
+      "Lisa Wilhelmi"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Opinion formation, Median voting, Nash equilibrium"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.355)",
+    "abstract": "Understanding the formation and evolution of opinions is of broad interdisciplinary interest. Many classical models for opinion formation focus on the impact of different notions of locality, e.g., locality due to network effects among agents or the role of the proximity of opinions. In practice, however, opinion formation is often governed by the interplay of local and global influences. In this paper, we study these influences with a model for opinion formation of agents embedded in a social network. Each agent has a static intrinsic opinion as well as a public opinion that is updated asynchronously over time. Moreover, agents have access to a global aggregate (e.g., the outcome of a vote) of all public opinions. We focus on the popular median voting rule and show that pure Nash equilibria always exist. For every initial state of the dynamics, a pure equilibrium can be reached. The set of reachable equilibria forms a complete lattice, and extremal equilibria can be computed in polynomial time. We show that by uniformly increasing the influence of the global median we can enforce that the median opinion is the same in every reachable equilibrium. We can compute the increase scheme that achieves this property in polynomial time. In contrast, when we can increase the influence of the global median for a set of at most k agents, finding the set that leads to a unique median opinion in every reachable equilibrium is NP-complete.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104527"
+  },
+  {
+    "id": "aij-2026-0030",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Neural knowledge graph reasoning with relational digraph",
+    "authors": [
+      "Yongqi Zhang",
+      "Haiquan Qiu",
+      "Shuzhi Liu",
+      "Enjun Du",
+      "Quanming Yao"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Knowledge graph, Knowledge graph reasoning, Graph neural network, Temporal graph"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.355)",
+    "abstract": "Reasoning on Knowledge Graphs (KGs) aims to deduce unobserved facts from established ones. While path-based methods are interpretable and transferable, they struggle to capture complex graph topologies. Conversely, subgraph-based approaches preserve structure but often face high computational overhead. To unify these strengths, we introduce the relational directed graph (r-digraph), a structure that generalizes relational paths into layered subgraphs to capture rich local evidence. To overcome the computational burden of processing individual subgraphs, we propose RED-GNN. By observing that r-digraphs for a common query share overlapping paths, RED-GNN utilizes dynamic programming to recursively encode multiple r-digraphs with shared edges. Furthermore, to address the dynamic nature of real-world facts, we extend this framework to T-RED-GNN for temporal knowledge graphs (tKGs). T-RED-GNN introduces a relative temporal encoding mechanism that enables a unified approach to both interpolation and extrapolation tasks. Extensive experiments show that our methodologies significantly outperform state-of-the-art static and temporal reasoning models. Moreover, the learned attention weights provide transparent, interpretable evidence for the reasoning process.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104520"
+  },
+  {
+    "id": "aij-2026-0031",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Theoretical insights into CycleGAN: Analyzing approximation and estimation errors in unpaired data generation",
+    "authors": [
+      "Sun Luwei",
+      "Shen Dongrui",
+      "Feng Han"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.355)",
+    "abstract": "In this paper, we focus on analyzing the excess risk of an unpaired data generation model, called CycleGAN. Unlike classical GANs, CycleGAN not only transforms data between two unpaired distributions but also ensures the mappings are consistent, which is encouraged by the cycle-consistency term unique to CycleGAN. The increasing complexity of model structure and the addition of the cycle-consistency term in CycleGAN present new challenges for error analysis. By considering the impact of both the model architecture and training procedure, the risk is decomposed into two terms: approximation error and estimation error. These two error terms are analyzed separately. Each component is rigorously analyzed; the approximation error through constructing approximations of the optimal transport maps, and the estimation error through establishing an upper bound using Rademacher complexity. Our analysis not only isolates these errors but also explores the trade-offs between them, which provides theoretical insights of how CycleGAN’s architecture and training procedures influence its performance.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104526"
+  },
+  {
+    "id": "aij-2026-0032",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Editorial Board",
+    "authors": [
+      "### Venue\nArtificial Intelligence Journal 2026"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.355)",
+    "abstract": "Editorial board members, who are considered the gatekeepers of scientific journals, play an important role in academia, and may directly or indirectly affect the scientific output of a university. In this article, we used the quantile regression method among a sample of 1,387 university in chemistry to characterize the correlation between the number of editorial board members and the scientific output of their universities. Furthermore, we used time-series data and the Granger causality test to explore the causal relationship between the number of editorial board members and the number of articles of some top universities. Our results suggest that the number of editorial board members is positively and significantly related to the scientific output (as measured by the number of articles, total number of citations, citations per paper, and h index) of their universities. However, the Granger causality test results suggest that the causal relationship between the number of editorial board members and the number of articles of some top universities is not obvious. Combining these findings with the results of qualitative interviews with editorial board members, we discuss the causal relationship between the number of editorial board members and the scientific output of their universities.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/S0004-3702(26)00075-5"
+  },
+  {
+    "id": "aij-2026-0033",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Environment promoted invariant information learning for graph out-of-distribution generalization",
+    "authors": [
+      "Shuo Wang",
+      "Mingchen Sun",
+      "Qiang Huang",
+      "Ying Wang"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Out-of-distribution generalization, Graph embedding, Environment promoted"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.355)",
+    "abstract": "Graph out-of-distribution generalization is an important task in graph data mining, which has received extensive attention in many practical applications. In recent years, an increasing number of studies have focused on applying invariant learning and causal learning to enhance the model’s cross environment generalization capability. However, existing methods often neglect subgraph estimation bias during invariant information extraction, which impacts generalization performance. Therefore, to address this issue, we construct the Causality Inspired Environment Promoted Graph Generalization Framework (CEPG), which dynamically corrects subgraph estimation biases and learns the target invariant distribution through integrating multiple constraints. Specifically, we first leverage a subgraph generation module to explicitly obtain invariant and environmental subgraphs by evaluating the link reliability. Then, we design the specific environmental information extraction module to prevent bias propagation from environmental subgraphs and capture domain-specific knowledge. Finally, we construct the environment promoted invariant information learning module. This module can align estimated invariant distribution with the target distribution through the environment promoted and reflection mechanism guidance constraints. Extensive experiments demonstrate that our approach effectively enhances generalization across various types of distribution shifts and outperforms state-of-the-art methods on both synthetic and real-world graph OOD generalization benchmarks.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104522"
+  },
+  {
+    "id": "aij-2026-0034",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Prescribed performance-based optimal formation tracking control of nonlinear heterogeneous multi-agent systems via identifier-critic-actor reinforcement learning",
+    "authors": [
+      "Boyan Zhu",
+      "Deepak Kumar Jain",
+      "Guangdeng Zong",
+      "Ben Niu",
+      "Huanqing Wang",
+      "Xudong Zhao"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Heterogeneous multi-agent systems (MASs), Prescribed performance control (PPC), Reinforcement learning (RL), Identifier-critic-actor (ICA) framework, Optimized backstepping technique"
+    ],
+    "research_direction": [
+      "LLM",
+      "Reinforcement Learning"
+    ],
+    "paper_type": "Journal Article (Vol.355)",
+    "abstract": "This article proposes an adaptive time-varying optimal formation tracking control for second-order nonlinear heterogeneous multi-agent systems (MASs), a method that addresses the challenges posed by unknown control gains and dynamic functions while ensuring that formation errors remain within prescribed performance bounds. The optimized backstepping technique, integrated with a reinforcement learning (RL) algorithm and an error transformation method, is employed to approximately solve the coupled Hamilton-Jacobi-Bellman equation, thereby achieving prescribed performance formation control with minimal cost. In particular, the design of the RL framework adopts a simplified gradient descent approach with neural networks (NNs) in an identifier-critic-actor (ICA) tri-structure. Additionally, a prescribed-time scaling function is introduced to accurately determine the steady-state accuracy and settling time, eliminating the influence of initial conditions. The results demonstrate that all signals in the closed-loop system are bounded, and the formation errors of the MASs reach the desired level of accuracy within a specified time frame. Finally, the effectiveness of the proposed control approach is validated through two numerical simulation studies based on a mathematical model and a physical system model, respectively.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104521"
+  },
+  {
+    "id": "aij-2026-0035",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Factored planning in partially observable and deterministic multi-agent domains",
+    "authors": [
+      "Shashank Shekhar",
+      "Ronen I. Brafman",
+      "Guy Shani"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Multi-agent planning, Partial observability, Factored planning, Deterministic systems, Implicit communication"
+    ],
+    "research_direction": [
+      "LLM",
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.355)",
+    "abstract": "We consider the problem of solving qualitative decentralized partially observable Markov decision processes (QDec-POMDPs) with deterministic actions. QDec-POMDPs model dynamic systems consisting of a collaborative team of agents acting under uncertainty and partial observability, attempting to reach a desirable goal state. They can be viewed as the multi-agent version of the contingent planning model. In this work, we extend the idea of factored planning from fully observable multi-agent planning to partial observability. Our method operates as follows: First, we simplify the multi-agent planning (MAP) problem by reducing it to a single-agent planning problem. Then, we use the solution to this single-agent problem as a skeleton plan, that each agent attempts to complete separately. We describe different variants of this idea, and in particular, suggest a method that models information about each agent’s knowledge and incorporates the idea of signaling information to other agents through actions. We perform an extensive empirical evaluation over new and old domains, demonstrating the enhanced scalability of our method.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104515"
+  },
+  {
+    "id": "aij-2026-0036",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Incentives for early arrival in online cooperative games",
+    "authors": [
+      "Dengji Zhao",
+      "Yaoxin Ge",
+      "Yao Zhang",
+      "Zhihao Gavin Tang",
+      "Hu Fu",
+      "Pinyan Lu"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Cooperative games, Incentives for early arrival, Online mechanisms"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.355)",
+    "abstract": "We study cooperative games where players join sequentially, and the value generated by those who have joined at any point must be irrevocably divided among these players. We introduce two desiderata for the value division mechanism: that the players should have incentives to join as early as possible, and that the division should be considered fair. For the latter, we require that each player’s expected share in the mechanism should equal her Shapley value if the players’ arrival order is uniformly at random. When the value generation function is submodular, allocating the marginal value to the player satisfies these properties. This is no longer true for more general functions. Our main technical contribution is a complete characterization of 0–1 value games for which desired mechanisms exist. We show that a natural mechanism, Rewarding First Critical Player (RFC), is complete, in that a 0–1 value function admits a mechanism with the properties above if and only if RFC satisfies them; we analytically characterize all such value functions. Moreover, we give an algorithm that decomposes, in an online fashion, any value function into 0–1 value functions, on each of which RFC can be run. In this way, we design an extension of RFC for general monotone games, and the properties are proved to be maintained.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104523"
+  },
+  {
+    "id": "aij-2026-0037",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Interactive graph convolutional filtering",
+    "authors": [
+      "Jin Zhang",
+      "Defu Lian",
+      "Hong Xie",
+      "Yawen Li",
+      "Enhong Chen"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Recommender systems, Interactive collaborative filtering, Graph model, Bandit, Meta-learning, Variational learning"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.355)",
+    "abstract": "Interactive Recommender Systems (IRS) have been increasingly used in various domains, including personalized article recommendation, social media, and online advertising. However, IRS faces significant challenges in providing accurate recommendations under limited observations, especially in the context of interactive collaborative filtering. These problems are exacerbated by the cold start problem and data sparsity problem. Existing Multi-Armed Bandit methods, despite their carefully designed exploration strategies, often struggle to provide satisfactory results in the early stages due to the lack of interaction data. Furthermore, these methods are computationally intractable when applied to non-linear models, limiting their applicability. To address these challenges, we propose a novel method, the Interactive Graph Convolutional Filtering model. Our proposed method extends interactive collaborative filtering into the graph model to enhance the performance of collaborative filtering between users and items. We incorporate variational inference techniques to overcome the computational hurdles posed by non-linear models. Furthermore, we employ Bayesian meta-learning methods to effectively address the cold-start problem and derive theoretical regret bounds for our proposed method, ensuring a robust performance guarantee. Extensive experimental results on four real-world datasets validate our method and demonstrate its superiority over existing baselines.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104524"
+  },
+  {
+    "id": "aij-2026-0038",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "ExPred: Explainable stock movement prediction via hybrid reflection and direct preference hierarchical optimization",
+    "authors": [
+      "Shuqi Li",
+      "Heyue Lin",
+      "Xin Liu",
+      "Rui Yan"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Stock movement prediction, Large language models, Preference optimization, LLM reflection"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.355)",
+    "abstract": "Stock prices are driven by multifactor influences, making it difficult to pinpoint the exact cause of price movements. While Large Language Models (LLMs) offer a promising path toward explainable stock prediction, existing frameworks face two critical limitations. First, although recent methods have automated data annotation via self-reflection, they typically discard “hard samples” that the model fails to self-correct, leading to biased training data that lacks coverage of complex market scenarios. Second, treating prediction accuracy and explanation quality as equally weighted objectives ignores their inherent hierarchy: an explanation is meaningful only when the corresponding prediction is accurate. To address these gaps, we propose ExPred, a novel framework integrated with a Hybrid Reflection Agent (HRA) and a Direct Preference Hierarchical Optimization (DPHO) algorithm. To improve data coverage, HRA incorporates a supervised-reflection loop alongside self-reflection, injecting teacher signals to recover hard samples and automatically generating preferred versus dispreferred completion pairs. Building on these pairs, DPHO hierarchically fine-tunes the LLM by explicitly prioritizing prediction correctness via token-level optimization, while refining explanation coherence at the sentence level. Experiments on real-world datasets demonstrate that ExPred successfully aligns these dual objectives, significantly outperforming state-of-the-art baselines in both prediction accuracy and explanation quality. Our code is available at https://github.com/Shuqi-li/ExPred.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104539"
+  },
+  {
+    "id": "aij-2026-0039",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Domain-independent dynamic programming",
+    "authors": [
+      "Ryo Kuroiwa",
+      "J. Christopher Beck"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Dynamic programming, Combinatorial optimization, Heuristic search, State space search"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.354)",
+    "abstract": "For combinatorial optimization problems, model-based paradigms such as mixed-integer programming (MIP) and constraint programming (CP) aim to decouple modeling and solving a problem: the ‘holy grail’ of declarative problem solving. We propose domain-independent dynamic programming (DIDP), a novel model-based paradigm based on dynamic programming (DP). While DP is not new, it has typically been implemented as a problem-specific method. We introduce Dynamic Programming Description Language (DyPDL), a formalism to define DP models based on a state transition system, inspired by artificial intelligence (AI) planning. We show that heuristic search algorithms can be used to solve DyPDL models and propose seven DIDP solvers. We experimentally compare our DIDP solvers with commercial MIP and CP solvers (solving MIP and CP models, respectively) on common benchmark instances of eleven combinatorial optimization problem classes. We show that DIDP outperforms MIP in nine problem classes, CP also in nine problem classes, and both MIP and CP in seven. DIDP also achieves superior performance to existing state-based solvers including domain-independent AI planners.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104506"
+  },
+  {
+    "id": "aij-2026-0040",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Efficient constraint generation for stochastic shortest path problems",
+    "authors": [
+      "Johannes Schmalz",
+      "Felipe Trevizan"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Stochastic shortest path problems, Heuristic search, Constraint generation"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.354)",
+    "abstract": "Stochastic Shortest Path problems (SSPs) are traditionally solved by computing each state’s cost-to-go by applying Bellman backups. A Bellman backup updates a state’s cost-to-go by iterating through every applicable action, computing the cost-to-go after applying each one, and selecting a minimal action’s cost-to-go. State-of-the-art algorithms use heuristic functions; these give an initial estimate of costs-to-go, and lets the algorithm apply Bellman backups only to promising states, determined by low estimated costs-to-go. However, each Bellman backup still considers all applicable actions, even if the heuristic tells us that some of these actions are too expensive, with the effect that such algorithms waste time on unhelpful actions. To address this gap we present a technique that uses the heuristic to avoid expensive actions, by reframing heuristic search in terms of linear programming and introducing an efficient implementation of constraint generation for SSPs. We present CG-iLAO*, a new algorithm that adapts iLAO* with our novel technique, and considers only 40% of iLAO*’s actions on many problems, and as few as 1% on some. Consequently, CG-iLAO* computes on average 3.5 × fewer costs-to-go for actions than the state-of-the-art iLAO* and LRTDP, enabling it to solve problems faster an average of 2.8 × and 3.7 × faster, respectively.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104505"
+  },
+  {
+    "id": "aij-2026-0041",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Revisiting the notions of extension and acceptance over incomplete abstract argumentation frameworks",
+    "authors": [
+      "Bettina Fazzinga",
+      "Sergio Flesca",
+      "Filippo Furfaro"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Abstract argumentation, Complexity, Uncertain reasoning"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.354)",
+    "abstract": "We revisit the completion-based reasoning over incomplete Abstract Argumentation Frameworks (iAAFs), whose core is the notion of i-extension under the possible or necessary perspective, i.e. a set of arguments that, in some collective way, prove coherent and justified in at least one or in every completion, respectively. In particular, we show that, under the possible perspective, i-extensions exhibit a counterintuitive behavior, as they do not ensure conflict-freeness. Thus, we introduce the alternative notion of i*-extension, that not only fixes this behavior, but has also a positive computational impact: under various semantics of extensions, moving from i- to i*- extensions makes the complexity of the verification problem under the possible perspective move from NP-complete to P. Starting from this, we revisit the notion of accepted argument and define it as an argument belonging to at least one or every i*-extension, depending on whether the credulous or skeptical perspective is adopted. We show that this new definition does not in general coincide with the one in the literature (that is not based on the notion of i- or i*- extension), and can provide the analyst with a different perspective for reasoning over the justification of arguments in the presence of incompleteness. In this regard, we have thoroughly investigated the differences of the revisited acceptance problem with the acceptance problem in the literature, also in terms of computational complexity.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104507"
+  },
+  {
+    "id": "aij-2026-0042",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Exploring multi-layered networks through random walks: bridging offline optimization and online learning",
+    "authors": [
+      "Xiangxiang Dai",
+      "Xutong Liu",
+      "Jinhang Zuo",
+      "Xiaowei Chen",
+      "Wei Chen",
+      "John C S Lui"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Network exploration, Random walk, Offline optimization, Online learning, Combinatorial multi-armed bandit"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.354)",
+    "abstract": "The multi-layered network exploration problem MuLaNE is a significant challenge derived from various practical applications. In MuLaNE, there are multiple layers of the network, where each node is assigned an importance weight, and each layer is explored through random walks. The objective is to allocate a total random walk budget B across the network layers to maximize the cumulative weights of the unique nodes visited. We systematically approach this problem by addressing both offline optimization and online learning scenarios. For the offline optimization case, where the network structure and node weights are known, we propose constant-ratio approximation algorithms based on greedy strategies for overlapping networks, and exact optimal solutions using greedy or dynamic programming for non-overlapping networks. In the online learning scenario, where neither the network structure nor the node weights are initially known, we adapt the combinatorial multi-armed bandit framework. We develop algorithms with two distinct confidence radius designs to simultaneously learn random walk parameters and node weights, while optimizing budget allocation across multiple rounds, achieving logarithmic regret bounds. Finally, experimental results on real-world social and computer networks validate the practical applicability of MuLaNE and our theoretical findings.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104500"
+  },
+  {
+    "id": "aij-2026-0043",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "An offline risk-aware policy selection method for Bayesian Markov decision processes",
+    "authors": [
+      "Giorgio Angelotti",
+      "Nicolas Drougard",
+      "Caroline P․ C. Chanel"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Risk-aware Markov decision process, Bayesian Markov decision process, Offline policy selection, Offline model learning for planning, Offline reinforcement learning"
+    ],
+    "research_direction": [
+      "Reinforcement Learning"
+    ],
+    "paper_type": "Journal Article (Vol.354)",
+    "abstract": "In Offline Model Learning for Planning and in Offline Reinforcement Learning, the limited data set hinders the estimate of the Value function of the relative Markov Decision Process (MDP). Consequently, the performance of the obtained policy in the real world is bounded and possibly risky, especially when the deployment of a wrong policy can lead to catastrophic consequences. For this reason, several pathways are being followed with the scope of reducing the model error (or the distributional shift between the learned model and the true one) and, more broadly, obtaining risk-aware solutions with respect to model uncertainty. But when it comes to the final application which baseline should a practitioner choose? In an offline context where computational time is not an issue and robustness is the priority we propose Exploitation vs Caution (EvC), a paradigm that (1) elegantly incorporates model uncertainty abiding by the Bayesian formalism, and (2) selects the policy that maximizes a risk-aware objective over the Bayesian posterior between a fixed set of candidate policies provided, for instance, by the current baselines. We validate EvC with state-of-the-art approaches in different discrete, yet simple, environments offering a fair variety of MDP classes. In the tested scenarios EvC manages to select robust policies and hence stands out as a useful tool for practitioners that aim to apply offline planning and reinforcement learning solvers in the real world.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104519"
+  },
+  {
+    "id": "aij-2026-0044",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Editorial Board",
+    "authors": [
+      "### Venue\nArtificial Intelligence Journal 2026"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.354)",
+    "abstract": "Editorial board members, who are considered the gatekeepers of scientific journals, play an important role in academia, and may directly or indirectly affect the scientific output of a university. In this article, we used the quantile regression method among a sample of 1,387 university in chemistry to characterize the correlation between the number of editorial board members and the scientific output of their universities. Furthermore, we used time-series data and the Granger causality test to explore the causal relationship between the number of editorial board members and the number of articles of some top universities. Our results suggest that the number of editorial board members is positively and significantly related to the scientific output (as measured by the number of articles, total number of citations, citations per paper, and h index) of their universities. However, the Granger causality test results suggest that the causal relationship between the number of editorial board members and the number of articles of some top universities is not obvious. Combining these findings with the results of qualitative interviews with editorial board members, we discuss the causal relationship between the number of editorial board members and the scientific output of their universities.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/S0004-3702(26)00059-7"
+  },
+  {
+    "id": "aij-2026-0045",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "A unified theoretical framework for the last-iterate convergence of stochastic adaptive optimization",
+    "authors": [
+      "Yuqing Liang",
+      "Dongpo Xu"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Deep learning, Neural networks, Non-convex optimization, Stochastic adaptive methods, Last-iterate and almost-sure convergence"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.353)",
+    "abstract": "Stochastic adaptive methods are extensively employed in training neural networks for deep learning tasks. However, their empirical success has not been fully understood in theory. To this end, this paper explores the convergence properties of stochastic adaptive algorithms in the non-convex scenario from a unified perspective. In particular, we introduce an algorithmic framework called AdaFamily, which covers a class of stochastic adaptive methods. Based on the AdaFamily framework, we develop a generalized analysis framework that establishes the last-iterate and almost-sure convergence guarantees. Our analysis framework is independent of specific forms of the update direction and the effective stepsize in the stochastic optimization algorithm. Further, we leverage the proposed framework to investigate the convergence of several adaptive methods, including the stochastic momentum method with bounded adaptive stepsize and the stochastic Adam method with bounded gradient. The theoretical results are categorized into two cases: non-convex objectives and Polyak-Łojasiewicz (PL) functions. More specifically, we prove that the gradient sequence of the last-iterate exhibits convergence to zero in expectation for non-convex objectives, and the rate of almost-sure convergence for the minimum-iterate is also obtained. Under the PL condition, we show that the function values of the last-iterate converge almost surely to the lower bound of the objective function. Additionally, we achieve the rates of almost-sure and expected convergence for function values at the last iteration. Finally, our theoretical framework can be applied to various popular stochastic optimization methods, offering a versatile tool for convergence analyses.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104504"
+  },
+  {
+    "id": "aij-2026-0046",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Learning semi-parametric tree models from mixed data",
+    "authors": [
+      "Can Zhou",
+      "Nan Li",
+      "Shuai Wang",
+      "Xiaofei Wang",
+      "Jianhua Guo"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Latent tree models, Structural learning, Causal discovery"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.353)",
+    "abstract": "Causal discovery and representation involving latent variables and structures have attracted growing interest in the era of artificial intelligence, particularly for their critical role in understanding real-world data. While many existing methods focus exclusively on either purely continuous or purely discrete data, this paper addresses the challenge of learning latent structures from mixed data. We propose a novel semi-parametric tree model capable of handling mixed data and develop an algorithm for learning the structure of this model using additive information distances. We demonstrate that this algorithm efficiently and accurately recovers the true structure, given the information distances. Additionally, the sample-based version of the structural learning algorithm achieves probabilistic approximate correctness, with a finite sample bound established for exact structural recovery. Both simulated and real data are used to assess the performance of our proposed algorithm, with experimental results showing that our algorithm can effectively discover latent hierarchical structures behind mixed data.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104499"
+  },
+  {
+    "id": "aij-2026-0047",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Predictable artificial intelligence",
+    "authors": [
+      "Lexin Zhou",
+      "Pablo A.M. Casares",
+      "Fernando Martínez-Plumed",
+      "John Burden",
+      "Ryan Burnell",
+      "Lucy Cheke",
+      "Cèsar Ferri",
+      "Alexandru Marcoci",
+      "Behzad Mehrbakhsh",
+      "Yael Moros-Daval",
+      "Seán {Ó hÉigeartaigh}",
+      "Danaja Rutar",
+      "Wout Schellaert",
+      "Konstantinos Voudouris",
+      "José Hernández-Orallo"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Predictable AI, AI Evaluation, Predictability, Operating Condition, Aleatoric Uncertainty, Epistemic Uncertainty"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.353)",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104491",
+    "abstract": "We attempt to define what is necessary to construct an Artificial Scientist, explore and evaluate several approaches to artificial general intelligence (AGI) which may facilitate this, conclude that a unified or hybrid approach is necessary and explore two theories that satisfy this requirement to some degree."
+  },
+  {
+    "id": "aij-2026-0048",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "One mind, many tongues: A deep dive into language-agnostic knowledge neurons in large language models",
+    "authors": [
+      "Pengfei Cao",
+      "Yuheng Chen",
+      "Zhuoran Jin",
+      "Yubo Chen",
+      "Kang Liu",
+      "Jun Zhao"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Large language models, Knowledge localization, Language-agnostic knowledge neurons, Knowledge storage mechanisms"
+    ],
+    "research_direction": [
+      "LLM",
+      "NLP"
+    ],
+    "paper_type": "Journal Article (Vol.353)",
+    "abstract": "Large language models (LLMs) have learned vast amounts of factual knowledge through self-supervised pre-training on large-scale corpora. Meanwhile, LLMs have also demonstrated excellent multilingual capabilities, which can express the learned knowledge in multiple languages. However, the knowledge storage mechanism in LLMs still remains mysterious. Some researchers attempt to demystify the factual knowledge in LLMs from the perspective of knowledge neurons, and subsequently discover language-agnostic knowledge neurons that store factual knowledge in a form that transcends language barriers. However, the preliminary finding suffers from two limitations: 1) High Uncertainty in Localization Results. Existing study only uses a prompt-based probe to localize knowledge neurons for each fact, while LLMs cannot provide consistent answers for semantically equivalent queries. Thus, it leads to inaccurate localization results with high uncertainty. 2) Lack of Analysis in More Languages. The study only analyzes language-agnostic knowledge neurons on English and Chinese data, without exploring more language families and languages. Naturally, it limits the generalizability of the findings. To address aforementioned problems, we first construct a new benchmark called Rephrased Multilingual LAMA (RML-LAMA), which contains high-quality cloze-style multilingual parallel queries for each fact. Then, we propose a novel method named Multilingual Integrated Gradients with Uncertainty Estimation (MaTrice), which quantifies the uncertainty across queries and languages during knowledge localization. Extensive experiments show that our method can accurately localize language-agnostic knowledge neurons. We also further investigate the role of language-agnostic knowledge neurons in cross-lingual knowledge editing, knowledge enhancement and new knowledge injection.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104490"
+  },
+  {
+    "id": "aij-2026-0049",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Proportional justified representation",
+    "authors": [
+      "Luis Sánchez-Fernández",
+      "Edith Elkind",
+      "Martin Lackner",
+      "Norberto {Fernández García}",
+      "Jesús A. Fisteus",
+      "Pablo {Basanta Val}",
+      "Piotr Skowron"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Approval ballots, Multi-winner elections, Proportional representation"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.353)",
+    "abstract": "The goal of multi-winner elections is to choose a fixed-size committee based on voters’ preferences. An important concern in this setting is representation: large groups of voters with cohesive preferences should be adequately represented by the election winners. In an influential paper, Aziz et al. [1] proposed two axioms that aim to capture this idea: justified representation (JR) and its strengthening extended justified representation (EJR). We observe that EJR is incompatible with the highly desirable Perfect Representation (PR) criterion, and propose a relaxation of EJR, which we call Proportional Justified Representation (PJR). PJR is more demanding than JR, but, unlike EJR, it is compatible with PR, as well as with a stronger variant of this axiom, which we term Fractional Perfect Representation (FPR). Moreover, just like EJR, PJR can be used to characterise the classic Proportional Approval Voting (PAV) rule in the class of weighted PAV rules. On the other hand, we show that EJR provides stronger guarantees with respect to average voter satisfaction than PJR does.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104503"
+  },
+  {
+    "id": "aij-2026-0050",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Global and local context in short text neural topic model",
+    "authors": [
+      "Tung Nguyen",
+      "Linh {Ngo Van}",
+      "Anh {Nguyen Duc}",
+      "Sang {Dinh Viet}"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Topic models, Short text"
+    ],
+    "research_direction": [
+      "Machine Learning",
+      "NLP"
+    ],
+    "paper_type": "Journal Article (Vol.353)",
+    "abstract": "Topic models struggle with short text corpora due to fragmented data. Key challenges include data sparsity from limited word co-occurrence patterns and label sparsity from incomplete reconstruction targets. Approaches to mitigating these issues generally fall into two categories: leveraging global context or focusing on local characteristics of short documents. The first approach incorporates additional contextual information into the model but suffers from drawbacks such as high computational complexity, poor aggregation quality, and difficulties in inferring topic distributions for individual texts. In contrast, emphasizing local context produces sharper topic proportions and more distinct topics but does not fully overcome the issue of sparse local features in short-text topic modeling. In this paper, we propose GLSTM (Global and Local Context in Short Text Neural Topic Model), a novel approach that addresses these challenges by leveraging both short text information and its broader global context. GLSTM constructs a global document using the surrounding context of each short text and then infers topic distributions for both the global and local (short) documents. Additionally, it enhances the local doc-topic distribution by applying a quantization-based approach to make the distribution sharper and more informative. Furthermore, GLSTM incorporates global context to augment the reconstruction loss, effectively mitigating the label sparsity issue. Extensive experiments on short text datasets demonstrate that our approach outperforms state-of-the-art models in both topic quality and document representation.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104502"
+  },
+  {
+    "id": "aij-2026-0051",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Mathematical runtime analysis of a multi-Valued estimation of distribution algorithm",
+    "authors": [
+      "Sumit Adak",
+      "Carsten Witt"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Estimation of distribution algorithms, Multi-valued compact genetic algorithm, Genetic drift, -Valued , -Valued"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.353)",
+    "abstract": "Estimation of distribution algorithms (EDAs) are powerful optimization techniques that iteratively build probabilistic models based on the best performing solutions, thereby guiding the search process in complex solution landscapes. Classical EDAs handle only binary decision variables, but recent developments have introduced multi-valued EDAs to tackle problems with variables taking more than two values. Despite their growing importance, the theoretical understanding of multi-valued EDAs, especially regarding runtime behavior, remains limited. In this work, we provide theoretical analyses of the multi-valued compact genetic algorithm (r‑cGA) on the generalized (multi-valued) LeadingOnes and OneMax benchmark problems. We derive the first runtime bound for the r‑cGA on the r-valued LeadingOnes function, together with an improved runtime for the r-valued OneMax function. These results also improve and refine previous theoretical analyses of the r‑cGA, providing new insights into the performance of multi-valued EDAs. In addition, we for the first time include the case of frequency borders in the runtime analysis of the r‑cGA.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104501"
+  },
+  {
+    "id": "aij-2026-0052",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Editorial Board",
+    "authors": [
+      "### Venue\nArtificial Intelligence Journal 2026"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.353)",
+    "abstract": "Editorial board members, who are considered the gatekeepers of scientific journals, play an important role in academia, and may directly or indirectly affect the scientific output of a university. In this article, we used the quantile regression method among a sample of 1,387 university in chemistry to characterize the correlation between the number of editorial board members and the scientific output of their universities. Furthermore, we used time-series data and the Granger causality test to explore the causal relationship between the number of editorial board members and the number of articles of some top universities. Our results suggest that the number of editorial board members is positively and significantly related to the scientific output (as measured by the number of articles, total number of citations, citations per paper, and h index) of their universities. However, the Granger causality test results suggest that the causal relationship between the number of editorial board members and the number of articles of some top universities is not obvious. Combining these findings with the results of qualitative interviews with editorial board members, we discuss the causal relationship between the number of editorial board members and the scientific output of their universities.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/S0004-3702(26)00037-8"
+  },
+  {
+    "id": "aij-2026-0053",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "SHACL validation in the presence of ontologies: Semantics and rewriting techniques",
+    "authors": [
+      "Anouk Oudshoorn",
+      "Magdalena Ortiz",
+      "Mantas Šimkus"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "SHACL, OWL, Horn-, Validation, Rewriting, Complexity"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.352)",
+    "abstract": "SHACL and OWL are two prominent W3C standards for managing RDF data. These languages share many features, but they have one fundamental difference: OWL, designed for inferring facts from incomplete data, makes the open-world assumption, whereas SHACL is a constraint language that treats the data as complete and must be validated under the closed-world assumption. The combination of both formalisms is very appealing and has been called for, but their semantic gap is a major challenge, semantically and computationally. In this paper, we advocate a semantics for SHACL validation in the presence of ontologies based on core universal models. We provide a technique for constructing these models for ontologies in the rich data-tractable description logic Horn-ALCHIQ. Furthermore, we use a finite representation of this model to develop a rewriting technique that reduces SHACL validation in the presence of ontologies to standard validation. Finally, we study the complexity of SHACL validation in the presence of ontologies, and show that even very simple ontologies make the problem ExpTime-complete, and PTime-complete in data complexity.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104483"
+  },
+  {
+    "id": "aij-2026-0054",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Symbolic pattern planning",
+    "authors": [
+      "Matteo Cardellini",
+      "Enrico Giunchiglia",
+      "Marco Maratea"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Automated planning, Classical and numeric planning, Symbolic planning"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.352)",
+    "abstract": "In this paper, we propose a novel approach for solving automated planning problems, called Symbolic Pattern Planning. Given a deterministic planning problem Π, we propose to compute a plan by first fixing a pattern –defined as an arbitrary sequence of actions– and then define a formula encoding the state resulting from the sequential execution of the actions in the pattern, starting from an arbitrary initial state. By allowing each action in the pattern to be executed consecutively zero, one or possibly more times, and by imposing the conditions on the initial and goal states, we can check whether the pattern allows determining a valid plan or whether the pattern needs to be extended and the procedure iterated. We ground our proposal in the numeric planning setting, we prove the correctness and also the completeness of the procedure (provided at each iteration the pattern is extended with a complete sequence of actions), and we define procedures for the pattern selection and for computing quality plans. When exploiting the planning as satisfiability approach, we show that our encoding allows to determine a valid plan in a number of iterations which is never higher than the one needed by the state-of-the-art rolled-up or relaxed-relaxed-∃ symbolic encodings. On the experimental side, we run an extensive analysis which included the problems and systems involved in the numeric track of the 2023 International Planning Competition, showing that the results validate the theoretical findings and that our planner Patty has remarkably good comparative performances.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104482"
+  },
+  {
+    "id": "aij-2026-0055",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Defining defense and defeat in abstract argumentation from scratch – A generalizing approach",
+    "authors": [
+      "Lydia Blümel",
+      "Markus Ulbricht"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.352)",
+    "abstract": "We propose a general framework to investigate semantics of Dung-style argumentation frameworks (AFs) by means of a generic defeat notion formalized by refute operators.The main idea underlying our approach is that, given a refute operator δ, counter-parts to all classical semantics can be deduced in a natural way. We demonstrate how classical as well as recent proposals can be captured by our approach when utilizing suitable refute operators. In addition, we showcase how our general scheme can be employed to propose novel semantics in a systematic manner. This results in what we call cooperative semantics which stem from a novel refute operator we will introduce. We perform an in-depth investigation of basic properties of refute operators and to which extent the induced semantics inherit desirable properties from it. Among others, we show under which conditions i) a counterpart to Dung’s fundamental lemma can be inferred, ii) the generalized version of the grounded extension is unique, or iii) the generalized version of stable semantics does not collapse. Moreover, we contribute to a principle-based study of AF semantics by discussing properties tailored to assess the behavior of different refute operators. This includes an investigation of means to compare refute operators in terms of their aggressiveness. Finally, we conclude the study by reporting computational complexity results for basic reasoning tasks which hold in our general framework.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104456"
+  },
+  {
+    "id": "aij-2026-0056",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "LAD2025, A constraint-based solver for the subgraph isomorphism problem",
+    "authors": [
+      "Christine Solnon"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Subgraph isomorphism, Constraint programming"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.352)",
+    "abstract": "The Subgraph Isomorphism Problem (SIP) is an NP-complete problem that aims at finding a copy of a pattern graph in a target graph. It may be modelled as a constraint satisfaction problem in a very straightforward way, and exact approaches for solving SIPs usually propagate constraints to reduce the search space. In particular, PathLAD is a solver introduced in 2016 that combines Locally All Different (LAD) constraints with path-based supplemental constraints. In this paper, we introduce LAD2025, which combines a complete refactoring of PathLAD with new features: new supplemental constraints, a weight-based variable ordering heuristic, random restarts with nogood recording, a new value ordering heuristic and a rule for selecting the level of filtering.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104474"
+  },
+  {
+    "id": "aij-2026-0057",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Multi-excitation projective simulation with a many-body physics-inspired inductive bias",
+    "authors": [
+      "Philip A. LeMaitre",
+      "Marius Krumm",
+      "Hans J. Briegel"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Projective simulation, Reinforcement learning, Inductive bias, Explainable AI, Quantum-inspired"
+    ],
+    "research_direction": [
+      "AI Safety"
+    ],
+    "paper_type": "Journal Article (Vol.352)",
+    "abstract": "With the impressive progress of deep learning, applications relying on machine learning are increasingly being integrated into daily life. However, most deep learning models have an opaque, oracle-like nature that makes it difficult to interpret and understand their decisions. This problem led to the development of the field known as eXplainable Artificial Intelligence (XAI). One method in this field known as Projective Simulation (PS) models a chain-of-thought as a random walk of a particle on a graph with vertices that have concepts attached to them. While this description has various benefits, including the possibility of quantization, it cannot be naturally used to model thoughts that combine several concepts simultaneously. To overcome this limitation, we introduce Multi-Excitation Projective Simulation (MEPS), a generalization that considers a chain-of-thought to be a random walk of several particles on a hypergraph. A definition for a dynamic hypergraph is put forward to describe the agent’s training history along with applications to AI and hypergraph visualization. An inductive bias inspired by the remarkably successful few-body interaction models used in quantum many-body physics is formalized for our classical MEPS framework and employed to tackle the exponential complexity associated with naive implementations of hypergraphs. We prove that our inductive bias reduces the complexity from exponential to polynomial, with the exponent representing the cutoff on the number of particles that can interact. We numerically apply our method to two toy model environments and a more complex scenario that models the diagnosis of a broken computer. These environments demonstrate the resource savings provided by an appropriate choice of the inductive bias, as well as showcasing aspects of interpretability. A quantum model for MEPS is also briefly outlined and some future directions for it are discussed.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104489"
+  },
+  {
+    "id": "aij-2026-0058",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Editorial Board",
+    "authors": [
+      "### Venue\nArtificial Intelligence Journal 2026"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.352)",
+    "abstract": "Editorial board members, who are considered the gatekeepers of scientific journals, play an important role in academia, and may directly or indirectly affect the scientific output of a university. In this article, we used the quantile regression method among a sample of 1,387 university in chemistry to characterize the correlation between the number of editorial board members and the scientific output of their universities. Furthermore, we used time-series data and the Granger causality test to explore the causal relationship between the number of editorial board members and the number of articles of some top universities. Our results suggest that the number of editorial board members is positively and significantly related to the scientific output (as measured by the number of articles, total number of citations, citations per paper, and h index) of their universities. However, the Granger causality test results suggest that the causal relationship between the number of editorial board members and the number of articles of some top universities is not obvious. Combining these findings with the results of qualitative interviews with editorial board members, we discuss the causal relationship between the number of editorial board members and the scientific output of their universities.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/S0004-3702(26)00021-4"
+  },
+  {
+    "id": "aij-2026-0059",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Automated planning instance generation with neuro-symbolic AI",
+    "authors": [
+      "Carlos Núñez-Molina",
+      "Pablo Mesejo",
+      "Juan Fernández-Olivares"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Automated planning, Reinforcement learning, Neuro-symbolic AI, Generative AI"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.352)",
+    "abstract": "In the field of Automated Planning there is often the need for a set of planning problems from a particular domain, e.g., to be used as training data for Machine Learning methods or as benchmarks in planning competitions. In most cases, these problems are created either by hand or by a domain-specific generator, putting a burden on the human designers. In this paper, we propose NeSIG (Neuro-Symbolic Instance Generator), to the best of our knowledge the first domain-independent method for automatically generating typed-STRIPS planning problems that are valid, diverse and difficult to solve. We formulate problem generation as a Markov Decision Process and train two generative policies with Deep Reinforcement Learning to generate problems with the desired properties. We conduct experiments on five classical domains, comparing our approach against handcrafted, domain-specific instance generators and various ablations. Results show NeSIG is able to automatically generate valid and diverse problems of much greater difficulty (6.8 times more on geometric average) than domain-specific generators, while simultaneously reducing human effort when compared to them. Additionally, it can generalize to problems more than twice the size of those seen during training.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104471"
+  },
+  {
+    "id": "aij-2026-0060",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Multi-scale signal modulation for variational graph autoencoders",
+    "authors": [
+      "Junwei Cheng",
+      "Chaobo He",
+      "Pengxing Feng",
+      "Weixiong Liu",
+      "Ke Liang"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Graph representation learning, Variational graph autoencoder, Graph wavelet, Graph signals"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.352)",
+    "abstract": "Variational graph autoencoder (VGAE) has emerged as a prominent framework for graph representation learning, owing to its probabilistic modeling flexibility and expressive power. Most existing VGAE-based methods assume that the posterior distribution of node embeddings follows a Gaussian distribution and rely on graph convolutional networks with low-pass filtering properties to infer the posterior mean and variance. However, our empirical findings reveal that the variance exhibits non-stationary spectral characteristics, indicating a spectral mismatch between the variance signal and the low-pass nature of conventional inference mechanisms. Further analysis reveals a spectral asymmetry between the posterior mean and variance, as they exhibit distinct signal allocations within the node embeddings. Motivated by these insights, we propose MS-VGAE, a novel variational graph autoencoder with multi-scale signal modulation. Specifically, MS-VGAE leverages a Gabor-based wavelet network to perform fine-grained spectral convolution and signal modulation of the posterior variance across multiple frequency scales. Additionally, a compact optimization objective is derived to enable homophily-aware modulation of frequency-band contributions in the variance. To reduce the computational overhead, we develop MS-VGAEcheby, which replaces the spectral filtering operation in MS-VGAE with a Chebyshev polynomial approximation. Comprehensive experiments results demonstrate that MS-VGAE achieves satisfactory performance on both node clustering and link prediction tasks. Moreover, MS-VGAEcheby offers an efficient alternative to MS-VGAE, while maintaining comparable performance on large graphs. The code is available at https://github.com/GDM-SCNU/MS-VGAE.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104488"
+  },
+  {
+    "id": "aij-2026-0061",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Settling the score: Portioning with cardinal preferences",
+    "authors": [
+      "Edith Elkind",
+      "Matthias Greger",
+      "Patrick Lederer",
+      "Warut Suksompong",
+      "Nicholas Teh"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Portioning Budget aggregation Social choice theory"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.352)",
+    "abstract": "We study a portioning setting in which a public resource such as time or money is to be divided among a given set of candidates, and each agent proposes a division of the resource. We consider two families of aggregation rules for this setting—those based on coordinate-wise aggregation and those that optimize some notion of welfare—as well as the recently proposed independent markets rule. We provide a detailed analysis of these rules from an axiomatic perspective, both for classic axioms, such as strategyproofness and Pareto optimality, and for novel axioms, some of which aim to capture proportionality in this setting. Our results indicate that a simple rule that computes the average of the proposals satisfies many of our axioms and fares better than all other considered rules in terms of fairness properties. We complement these results by presenting two characterizations of the average rule.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2026.104487"
+  },
+  {
+    "id": "aij-2026-0062",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Human compliance with computational argumentation principles",
+    "authors": [
+      "Predrag Teovanović",
+      "Srdjan Vesic",
+      "Bruno Yun"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Argumentation theory, Normative principles, Human compliance, Graphical representation, Tutorial"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.351)",
+    "abstract": "This paper presents a comprehensive examination of human compliance with normative principles of argumentation across two experimental studies. The first study investigated whether fundamental argumentation principles such as anonymity, independence, void precedence, and maximality align with human reasoning. Additionally, it explored whether graph-based representations of arguments facilitate better understanding and adherence to these principles compared to textual representations of arguments alone and examined the role of individual cognitive differences in compliance with these principles. Our experiments revealed that graph-based representations significantly improved compliance with argumentation principles, particularly among individuals with higher cognitive reflection. The second study replicated and extended the first study’s findings, introducing new principles such as skeptical precedence and simple reinstatement, and explored the effects of presenting arguments solely in graphical form, as well as the impact of a short tutorial on argumentation theory. The study also assessed participants’ ability to perform graphical tasks and how this influenced their compliance with normative principles. Results partially replicated the first study’s findings, confirming that graphical representations enhance compliance, but also revealed that the effect does not generalize to the new principles. We found evidence that in the absence of a graphical representation, performing graphical tasks can improve compliance with principles; especially drawing the argumentation graph. Moreover, a brief tutorial significantly improved performance on several principles, indicating that even minimal instruction can enhance understanding and compliance. However, the difficulties observed with the simple reinstatement principle hint that the participants’ intuition about the notion of defense diverges significantly from that of the researchers and that more careful thoughts must be put in crafting them. These studies collectively suggest that while argumentation principles can be intuitive to some extent, their comprehension and application are significantly influenced by the instruction given as well as by graphical representations and processes used to obtain them. These findings have important implications for the design of future argumentation-based tools and our understanding of how to bridge human reasoning and formal argumentation.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104457"
+  },
+  {
+    "id": "aij-2026-0063",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Probabilistically robust counterfactual explanations under model changes",
+    "authors": [
+      "Luca Marzari",
+      "Francesco Leofante",
+      "Ferdinando Cicalese",
+      "Alessandro Farinelli"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Explainable AI, Counterfactual explanations, Algorithmic recourse, Robustness of explanations"
+    ],
+    "research_direction": [
+      "AI Security"
+    ],
+    "paper_type": "Journal Article (Vol.351)",
+    "abstract": "We study the problem of generating robust counterfactual explanations for deep learning models subject to model changes. We focus on plausible model changes altering model parameters and propose a novel framework to reason about the robustness property in this setting. To motivate our solution, we begin by showing for the first time that computing the robustness of counterfactuals with respect to model changes is NP-hard. As this (practically) rules out the existence of scalable algorithms for exactly computing robustness, we propose a novel probabilistic approach which is able to provide tight estimates of robustness with strong guarantees while preserving scalability. Remarkably, and differently from existing solutions targeting plausible model changes, our approach does not impose requirements on the network to be analysed, thus enabling robustness analysis on a wider range of architectures, including state-of-the-art tabular transformers. A thorough experimental analysis on four binary classification datasets reveals that our method improves the state of the art in generating robust explanations, outperforming existing methods.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104459"
+  },
+  {
+    "id": "aij-2026-0064",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "OBDDs, SDDs, and circuits of bounded width: Completeness matters",
+    "authors": [
+      "Alexis {De Colnet}",
+      "Sebastian Ordyniak",
+      "Stefan Szeider"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.351)",
+    "abstract": "Ordered Binary Decision Diagrams (OBDDs) are dynamic data structures with many application areas. The literature suggested that OBDDs of bounded width equate to Boolean circuits of bounded pathwidth. In this paper, we show that this relationship holds only for complete OBDDs. Additionally, we demonstrate that similar limitations affect the claimed equivalence between Sentential Decision Diagrams (SDDs) of bounded width and Boolean circuits of bounded treewidth.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104458"
+  },
+  {
+    "id": "aij-2026-0065",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Disentangling data distribution for optimal and communication-efficient federated learning",
+    "authors": [
+      "Xinyuan Zhao",
+      "Hanlin Gu",
+      "Lixin Fan",
+      "Yuxing Han",
+      "Qiang Yang"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Trustworthy federated learning, Multi-objective optimization, Privacy"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.351)",
+    "abstract": "Federated Learning (FL) facilitates collaborative training of a global model whose performance is boosted by private data owned by distributed clients, without compromising data privacy. Yet the wide applicability of FL is hindered by the entanglement of data distributions across different clients. This paper demonstrates for the first time that by disentangling data distributions, FL can in principle achieve efficiencies comparable to those of distributed systems, requiring only one round of communication. To this end, we propose a novel FedDistr algorithm, which employs diffusion models to decouple and recover data distributions. Empirical results on the CIFAR100, DomainNet, OfficeHome, and ISIC2020 datasets show that FedDistr significantly enhances model utility and efficiency in both disentangled and near-disentangled scenarios while ensuring privacy, outperforming traditional federated learning methods.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104455"
+  },
+  {
+    "id": "aij-2026-0066",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Using execution logs for improving Pseudo-Boolean propagation",
+    "authors": [
+      "Robert Nieuwenhuis",
+      "Albert Oliveras",
+      "Enric Rodríguez-Carbonell",
+      "Rui Zhao"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "SAT, Pseudo-Boolean solving, Implementation-level details"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.351)",
+    "abstract": "Among all procedures that CDCL-based SAT solvers implement, unit propagation dominates the total running time. Hence, it is not a surprise that large research efforts have been invested on improving it. As a result, the two-watched-literal scheme, enhanced with implementation details boosting its performance, emerged as the dominant method. The importance of unit propagation in pseudo-Boolean solvers is similar. However, no dominant method exists: counter and watch-based propagation are well-suited for different types of constraints, opening the door to hybrid methods. The higher complexity of implementing pseudo-Boolean solvers has shifted the research focus to higher-level aspects of other procedures, considering implementation details of unit propagation not a priority. In this paper, we first present execution logs: a novel methodology that allows us to precisely evaluate the performance of different propagation procedures. Secondly, we show how both counter and watch-based propagation routines in the RoundingSat solver can be largely improved thanks to a careful analysis of various implementation issues. Thirdly, a detailed analysis shows that hybrid methods outperform the ones based on a single technique. Finally, our experiments reveal that improvements in propagation lead to a clearly better overall performance of the solver.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104470"
+  },
+  {
+    "id": "aij-2026-0067",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Federated neural nonparametric point processes",
+    "authors": [
+      "Hui Chen",
+      "Xuhui Fan",
+      "Hengyu Liu",
+      "Yaqiong Li",
+      "Zhilin Zhao",
+      "Feng Zhou",
+      "Christopher John Quinn",
+      "Longbing Cao"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Federated learning, Temporal point processes, Federated neural point processes, Neural embedding, Gaussian processes"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.351)",
+    "abstract": "Temporal point processes (TPPs) are effective for modeling event occurrences over time but struggle with sparse and uncertain events in federated systems, where privacy is a major concern. To address this, we propose FedPP, a federated neural nonparametric point process model. FedPP integrates neural embeddings into sigmoidal Gaussian Cox processes (SGCPs) on the client side. SGCPs is a flexible and expressive class of TPPs, allowing FedPP to generate highly flexible intensity functions that capture client-specific event dynamics and uncertainties while efficiently summarizing historical records. For global aggregation, FedPP introduces a divergence-based mechanism to communicate the distributions of kernel hyperparameters in SGCPs between the server and clients, while keeping client-specific parameters local to ensure privacy and personalization. FedPP effectively captures event uncertainty and sparsity. Extensive experiments demonstrate its superior performance in federated settings, showing global aggregation with the KL divergence and the Wasserstein distance.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104454"
+  },
+  {
+    "id": "aij-2026-0068",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Is DIBBS a DXBB algorithm?",
+    "authors": [
+      "Nathan R. Sturtevant",
+      "Shahaf Shperberg",
+      "Ariel Felner"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Bidirectional, Heuristic, Search"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.351)",
+    "abstract": "The recently-introduced Dynamically Improved Bounds Bidirectional Search (DIBBS) algorithm attributes its success to the fact that it is not a deterministic expansion-based black box algorithm (DXBB). After communication with the authors, there is agreement that this characterization is incorrect. The goal of this research note is to provide correction in the literature regarding the claims around DIBBS, to make it clearer why DIBBS is a DXBB algorithm, and to explain why its performance is bounded by bidirectional search theory.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104468"
+  },
+  {
+    "id": "aij-2026-0069",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Multi-objective reinforcement learning for provably incentivising alignment with value systems",
+    "authors": [
+      "Manel Rodriguez-Soto",
+      "Roxana Rădulescu",
+      "Filippo Bistaffa",
+      "Oriol Ricart",
+      "Arnau Mayoral-Macau",
+      "Maite Lopez-Sanchez",
+      "Juan A. Rodriguez-Aguilar",
+      "Ann Nowé"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Value alignment, Multi-objective reinforcement learning, Ethics"
+    ],
+    "research_direction": [
+      "Reinforcement Learning"
+    ],
+    "paper_type": "Journal Article (Vol.351)",
+    "abstract": "This paper addresses the problem of ensuring that autonomous learning agents align with multiple moral values. Specifically, we present the theoretical principles and algorithmic tools necessary for creating an environment where we ensure that the agent learns a behaviour aligned with multiple moral values while striving to achieve its individual objective. To address this value alignment problem, we adopt the Multi-Objective Reinforcement Learning framework and propose a novel algorithm that combines techniques from Multi-Objective Reinforcement Learning and Linear Programming. In addition, we illustrate our value alignment process with an example involving an autonomous vehicle. Here, we demonstrate that the agent learns to behave in alignment with the ethical values of safety, achievement, and comfort, with achievement representing the agent’s individual objective. Such ethical behaviour differs depending on the ordering between values. We also use a synthetic multi-objective environment to evaluate the computational costs of guaranteeing ethical learning as the number of values increases.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104460"
+  },
+  {
+    "id": "aij-2026-0070",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Editorial Board",
+    "authors": [
+      "### Venue\nArtificial Intelligence Journal 2026"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.351)",
+    "abstract": "Editorial board members, who are considered the gatekeepers of scientific journals, play an important role in academia, and may directly or indirectly affect the scientific output of a university. In this article, we used the quantile regression method among a sample of 1,387 university in chemistry to characterize the correlation between the number of editorial board members and the scientific output of their universities. Furthermore, we used time-series data and the Granger causality test to explore the causal relationship between the number of editorial board members and the number of articles of some top universities. Our results suggest that the number of editorial board members is positively and significantly related to the scientific output (as measured by the number of articles, total number of citations, citations per paper, and h index) of their universities. However, the Granger causality test results suggest that the causal relationship between the number of editorial board members and the number of articles of some top universities is not obvious. Combining these findings with the results of qualitative interviews with editorial board members, we discuss the causal relationship between the number of editorial board members and the scientific output of their universities.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/S0004-3702(26)00004-4"
+  },
+  {
+    "id": "aij-2026-0071",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Corrigendum to “Kernel-Bounded Clustering: Achieving the Objective of Spectral Clustering without Eigendecomposition” [Artificial Intelligence 350 (2026) 104440]",
+    "authors": [
+      "Hang Zhang",
+      "Kai Ming Ting",
+      "Ye Zhu"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.351)",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104473",
+    "abstract": "We attempt to define what is necessary to construct an Artificial Scientist, explore and evaluate several approaches to artificial general intelligence (AGI) which may facilitate this, conclude that a unified or hybrid approach is necessary and explore two theories that satisfy this requirement to some degree."
+  },
+  {
+    "id": "aij-2026-0072",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "A structural complexity analysis of synchronous dynamical systems",
+    "authors": [
+      "Eduard Eiben",
+      "Robert Ganian",
+      "Thekla Hamm",
+      "Viktoriia Korchemna"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Parameterized complexity, Synchronous dynamical systems"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.351)",
+    "abstract": "Synchronous dynamical systems are well-established models that have been used to capture a range of phenomena in networks, including opinion diffusion, spread of disease and product adoption. We study the three most notable problems in synchronous dynamical systems: whether the system will transition to a target configuration from a starting configuration, whether the system will reach convergence from a starting configuration, and whether the system is guaranteed to converge from every possible starting configuration. While all three problems were known to be intractable in the classical sense, we initiate the study of their exact boundaries of tractability from the perspective of structural parameters of the network by making use of the more fine-grained parameterized complexity paradigm. As our first result, we consider treewidth—as the most prominent and ubiquitous structural parameter—and show that all three problems remain intractable even on instances of constant treewidth. We complement this negative finding with fixed-parameter algorithms for the former two problems parameterized by treedepth, a well-studied restriction of treewidth. While it is possible to rule out a similar algorithm for convergence guarantee under treedepth, we conclude with a fixed-parameter algorithm for this last problem when parameterized by treedepth and the maximum in-degree.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104472"
+  },
+  {
+    "id": "aij-2026-0073",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "A General Theoretical Framework for Learning Smallest Interpretable Models",
+    "authors": [
+      "Sebastian Ordyniak",
+      "Giacomo Paesani",
+      "Mateusz Rychlicki",
+      "Stefan Szeider"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "aaa, abc, aac"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.350)",
+    "abstract": "We develop a general algorithmic framework that allows us to obtain fixed-parameter tractability for computing smallest symbolic models that represent given data. Our framework applies to all ML model types that admit a certain extension property. By establishing this extension property for decision trees, decision sets, decision lists, and binary decision diagrams, we obtain that minimizing these fundamental model types is fixed-parameter tractable. Our framework even applies to ensembles, which combine individual models by majority decision.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104441"
+  },
+  {
+    "id": "aij-2026-0074",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Editorial Board",
+    "authors": [
+      "### Venue\nArtificial Intelligence Journal 2026"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.350)",
+    "abstract": "Editorial board members, who are considered the gatekeepers of scientific journals, play an important role in academia, and may directly or indirectly affect the scientific output of a university. In this article, we used the quantile regression method among a sample of 1,387 university in chemistry to characterize the correlation between the number of editorial board members and the scientific output of their universities. Furthermore, we used time-series data and the Granger causality test to explore the causal relationship between the number of editorial board members and the number of articles of some top universities. Our results suggest that the number of editorial board members is positively and significantly related to the scientific output (as measured by the number of articles, total number of citations, citations per paper, and h index) of their universities. However, the Granger causality test results suggest that the causal relationship between the number of editorial board members and the number of articles of some top universities is not obvious. Combining these findings with the results of qualitative interviews with editorial board members, we discuss the causal relationship between the number of editorial board members and the scientific output of their universities.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/S0004-3702(25)00183-3"
+  },
+  {
+    "id": "aij-2026-0075",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Kernel-bounded clustering: Achieving the objective of spectral clustering without eigendecomposition",
+    "authors": [
+      "Hang Zhang",
+      "Kai Ming Ting",
+      "Ye Zhu"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Spectral clustering, Distributional kernel, Eigendecomposition"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.350)",
+    "abstract": "The research on spectral clustering (SC) has thus far been pursued on the same track using the same tool of eigendecomposition of a matrix since the idea was first introduced in 1973. Despite its successes, SC has been identified to have fundamental limitations that prevent SC from discovering certain types of clusters, and SC has slow runtime. We offer an alternative path that does not involve the eigendecomposition, and, more broadly, it uses no optimization. The proposed new Kernel-Bounded Clustering (KBC) is a complete metamorphosis in 50 years of research in SC in view of the fact that KBC achieves the same objective of SC without eigendecomposition or optimization. We evaluated KBC on the datasets that have been used to demonstrate the fundamental limitations of SC, genome-wide expression data, large image datasets and many commonly used real-world benchmark datasets. KBC produced better quality clusters than various variants of SC, and it ran six orders of magnitude faster than the traditional SC on a set of 5 million data points.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104440"
+  },
+  {
+    "id": "aij-2026-0076",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Many-objective problems where crossover is provably essential",
+    "authors": [
+      "Andre Opris"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Evolutionary computation, Runtime analysis, Recombination, Multi-objective optimization"
+    ],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Journal Article (Vol.350)",
+    "abstract": "This article addresses theory in evolutionary many-objective optimization and focuses on the role of crossover operators. The advantages of using crossover are hardly understood and rigorous runtime analyses with crossover are lagging far behind its use in practice, specifically in the case of more than two objectives. We present two many-objective problems RRMO and URRMO, and a theoretical runtime analysis of the GSEMO and the widely used NSGA‑III algorithm, to demonstrate that one point crossover on RRMO, as well as uniform crossover on URRMO, can yield an exponential speedup in the runtime. In particular, when the number of objectives is constant, this algorithms can find the Pareto set of both problems in expected polynomial time when using crossover, while without crossover they require exponential time to even find a single Pareto-optimal point. For either problem, we also demonstrate a significant performance gap in certain superconstant parameter regimes for the number of objectives. To the best of our knowledge, this is the first rigorous runtime analysis in many-objective optimization which demonstrates an exponential performance gap when using crossover for more than two objectives. Additionally, it is the first runtime analysis involving crossover in many-objective optimization where the number of objectives is not necessarily constant.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104453"
+  },
+  {
+    "id": "aij-2026-0077",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Online POMDP planning with anytime deterministic optimality guarantees",
+    "authors": [
+      "Moran Barenboim",
+      "Vadim Indelman"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Decision-making under uncertainty, POMDP, Planning under uncertainty"
+    ],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Journal Article (Vol.350)",
+    "abstract": "Decision-making under uncertainty is a critical aspect of many practical autonomous systems due to incomplete information. Partially Observable Markov Decision Processes (POMDPs) offer a mathematically principled framework for formulating decision-making problems under such conditions. However, finding an optimal solution for a POMDP is generally intractable. In recent years, there has been a significant progress of scaling approximate solvers from small to moderately sized problems, using online tree search solvers. Often, such approximate solvers are limited to probabilistic or asymptotic guarantees towards the optimal solution. In this paper, we derive a deterministic relationship for discrete POMDPs between an approximated and the optimal solution. We show that at any time, we can derive bounds that relate between the existing solution and the optimal one. We show that our derivations provide an avenue for a new set of algorithms and can be attached to existing algorithms that have a certain structure to provide them with deterministic guarantees with marginal computational overhead. In return, not only do we certify the solution quality, but we demonstrate that making a decision based on the deterministic guarantee may result in superior performance compared to the original algorithm without the deterministic certification.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104442"
+  },
+  {
+    "id": "aij-2026-0078",
+    "venue": "AIJ",
+    "year": 2026,
+    "month": null,
+    "cycle": null,
+    "title": "Bridging sparse domain semantics via an asymmetric siamese framework with virtual anchor guidance for domain-specific multimodal translation",
+    "authors": [
+      "Junjun Guo",
+      "Yifan Liu",
+      "Zhengtao Yu"
+    ],
+    "affiliation": [],
+    "keywords": [
+      "Domain-specific multi-modal neural machine translation, Asymmetric siamese multimodal fusion, Domain-virtualized pivot-driven hierarchical fusion, Domain virtual visual distillation"
+    ],
+    "research_direction": [
+      "NLP"
+    ],
+    "paper_type": "Journal Article (Vol.350)",
+    "abstract": "Domain-specific Multimodal Neural Machine Translation (DMNMT) aims to translate text in specialized domains by leveraging both linguistic context and associated visual information to resolve domain-specific ambiguities and enhance terminological accuracy. Although accompanying images often provide sparse and fragmented visual cues that could potentially anchor critical domain semantics, the semantic mapping from images to textual domain semantics typically exhibits sparse multi-focal alignment challenges. Existing general-domain multimodal neural machine translation (MNMT) models and large language models (LLMs) struggle to achieve accurate aggregation of domain-salient information, often resulting in near-equivalent yet imprecise terminology translations or outright errors. To bridge this sparse domain semantic correspondence gap, we introduce the Asymmetric Siamese Multimodal Fusion (ASMF) framework, which decouples domain representation learning into two complementary branches that both consume text: a domain-specific virtual visual content generation (DVVG) branch and a terminology-aware textual (TAT) branch. The DVVG branch distills sparse, localized visual features into modality-agnostic semantic anchors through mask-constrained multi-focal distillation, while the TAT branch captures terminology-dense textual context. We introduce a novel Domain-Virtualized Pivot-driven Hierarchical Fusion (DVPH) strategy that progressively injects distilled visual anchors across encoder layers. This asymmetric dual-branch design effectively couples spatially fragmented visual details with terminology-rich text, enabling accurate and domain-consistent translations even for low-frequency terms. Extensive experiments were conducted on four benchmark datasets covering three distinct scenarios: two domain-specific datasets (Fashion-MMT and EMMT), one general-domain dataset (Multi30K), and one multi-domain dataset (WIT). Comprehensive evaluations demonstrate that the proposed approach outperforms existing MNMT, DMNMT and LLMs, achieving state-of-the-art (SOTA) results across all datasets. In-depth analyses validate its robustness and generalization capabilities across diverse scenarios, including visually noisy or image-free conditions.",
+    "paper_url": "https://doi.org/https://doi.org/10.1016/j.artint.2025.104443"
+  }
+]

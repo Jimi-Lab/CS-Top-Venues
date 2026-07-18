@@ -1,0 +1,2006 @@
+[
+  {
+    "id": "popl-2026-0001",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "A Modular Static Cost Analysis for GPU Warp-Level Parallelism",
+    "authors": [
+      "Gregory Blike",
+      "Hannah Zicarelli",
+      "Udaya Sathiyamoorthy",
+      "Julien Lange",
+      "Tiago Cogumbreiro"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "This paper is a review of the developments in Instruction level parallelism. It takes into account all the changes made in speeding up the execution. The various drawbacks and dependencies due to pipelining are discussed and various solutions to overcome them are also incorporated. It goes ahead in the last section to explain where is the new research leading us."
+  },
+  {
+    "id": "popl-2026-0002",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "ChiSA: Static Analysis for Lightweight Chisel Verification",
+    "authors": [
+      "Jiacai Cui",
+      "Qinlin Chen",
+      "Zhongsheng Zhan",
+      "Tian Tan",
+      "Yue Li"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Performance increase with general-purpose processors has come to a halt. We can no longer depend on Moore's Law to increase computing performance. The only way to achieve higher performance or lower energy consumption is by building domain-specific hardware accelerators. To efficiently design and verify those domain-specific accelerators, we need agile hardware development. One of the main obstacles when proposing such a modern method is the lack of modern tools to attack it. To be able to verify a design in such a time-constrained development method, one needs to have efficient tools both for design and verification. This paper thus proposes ChiselVerify, an open-source tool for verifying circuits described in any Hardware Description Language. It builds on top of the Chisel hardware construction language and uses Scala to drive the verification using a testing strategy inspired by the Universal Verification Methodology (UVM) and adapted for designs described in Chisel. ChiselVerify is created based on three key ideas. First, our solution highly increases the productivity of the verification engineer, by allowing hardware testing to be done in a modern high-level programming environment. Second, the framework functions with any hardware description language thanks to the flexibility of Chisel blackboxes. Finally, the solution is well integrated into the existing Chisel universe, making it an extension of currently existing testing libraries. We implement ChiselVerify in a way inspired by the functionalities found in SystemVerilog. This allows one to use functional coverage, constrained-random verification, bus functional models, transaction-level modeling and much more during the verification process of a design in a contemporary high-level programming ecosystem."
+  },
+  {
+    "id": "popl-2026-0003",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Miri: Practical Undefined Behavior Detection for Rust",
+    "authors": [
+      "Ralf Jung",
+      "Benjamin Kimock",
+      "Christian Poveda",
+      "Eduardo Sanchez Munoz",
+      "Oli Scherer",
+      "Qian (Andy) Wang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Program Analysis"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We present our ongoing work on developing an end-to-end verified Rust compiler based on CompCert. It provides two guarantees: one is semantics preservation from Rust to assembly, i.e., the behaviors of source code includes the behaviors of target code, with which the properties verified at the source can be preserved down to the target; the other is memory safety ensured by the verifying compilation -- the borrow checking pass, which can simplify the verification of Rust programs, e.g., by allowing the verification tools focus on the functional correctness."
+  },
+  {
+    "id": "popl-2026-0004",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Piecewise Analysis of Probabilistic Programs via k-Induction",
+    "authors": [
+      "Tengshun Yang",
+      "Shenghua Feng",
+      "Hongfei Fu",
+      "Naijun Zhan",
+      "Jingyu Ke",
+      "Shiyang Wu"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "A measurement of the CKM angle $γ$ and related strong-phase parameters is performed using a novel, model-independent approach in ${B^{\\pm}\\rightarrow D(\\rightarrow K^{0}_{\\rm S} h^{\\prime+}h^{\\prime-}) h^{\\pm}}$ decays, where $h^{(\\prime)} \\equiv π, K$. The analysis uses a joint data sample of electron-positron collisions collected by the BESIII experiment at the Beijing Electron-Positron Collider II during 2010--2011 and 2021--2022, corresponding to an integrated luminosity of 8 fb$^{-1}$, and proton-proton collisions collected by the LHCb experiment at the Large Hadron Collider during 2011--2018, corresponding to an integrated luminosity of 9 fb$^{-1}$. The two datasets are analyzed simultaneously by applying per-event weights based on the amplitude variation over the $D$-decay phase space to enhance the sensitivity to $C\\!P$-violating observables. The CKM angle $γ$ is determined to be $γ= (71.3\\pm 5.0)^{\\circ}$, which constitutes the most precise single measurement to date."
+  },
+  {
+    "id": "popl-2026-0005",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Domain-Theoretic Semantics for Functional Logic Programming",
+    "authors": [
+      "Eddie Jones",
+      "Samson Main",
+      "Celia Mengyue Li",
+      "Jonathan Marriott",
+      "Alex Kavvos"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "How to extract negative information from programs is an important issue in logic programming. Here we address the problem for functional logic programs, from a proof-theoretic perspective. The starting point of our work is CRWL (Constructor based ReWriting Logic), a well established theoretical framework for functional logic programming, whose fundamental notion is that of non-strict non-deterministic function. We present a proof calculus, CRWLF, which is able to deduce negative information from CRWL-programs. In particular, CRWLF is able to prove finite failure of reduction within CRWL."
+  },
+  {
+    "id": "popl-2026-0006",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Handling Scope Checks: A Comparative Framework for Dynamic Scope Extrusion Checks",
+    "authors": [
+      "Michael Lee",
+      "Ningning Xie",
+      "Oleg Kiselyov",
+      "Jeremy Yallop"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "popl-2026-0007",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Hyperfunctions: Communicating Continuations",
+    "authors": [
+      "Donnacha Oisin Kidney",
+      "Nicolas Wu"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "When humans cooperate, they frequently coordinate their activity through both verbal communication and non-verbal actions, using this information to infer a shared goal and plan. How can we model this inferential ability? In this paper, we introduce a model of a cooperative team where one agent, the principal, may communicate natural language instructions about their shared plan to another agent, the assistant, using GPT-3 as a likelihood function for instruction utterances. We then show how a third person observer can infer the team's goal via multi-modal Bayesian inverse planning from actions and instructions, computing the posterior distribution over goals under the assumption that agents will act and communicate rationally to achieve them. We evaluate this approach by comparing it with human goal inferences in a multi-agent gridworld, finding that our model's inferences closely correlate with human judgments (R = 0.96). When compared to inference from actions alone, we also find that instructions lead to more rapid and less uncertain goal inference, highlighting the importance of verbal communication for cooperative agents."
+  },
+  {
+    "id": "popl-2026-0008",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Lazy Linearity for a Core Functional Language",
+    "authors": [
+      "Rodrigo Mesquita",
+      "Bernardo Toninho"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "popl-2026-0009",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Bounded Treewidth, Multiple Context-Free Grammars, and Downward Closures",
+    "authors": [
+      "C. Aiswarya",
+      "Pascal Baumann",
+      "Prakash Saivasan",
+      "Lia Schutze",
+      "Georg Zetzsche"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "The reachability problem in multi-pushdown automata (MPDA) has many applications in static analysis of recursive programs. An example is safety verification of multi-threaded recursive programs with shared memory. Since these problems are undecidable, the literature contains many decidable (and efficient) underapproximations of MPDA. A uniform framework that captures many of these underapproximations is that of bounded treewidth (tw): To each execution of the MPDA, we associate a graph; then we consider the subset of all graphs that have a wt at most $k$, for some constant $k$. In fact, bounding tw is a generic approach to obtain classes of systems with decidable reachability, even beyond MPDA underapproximations. The resulting systems are also called MSO-definable bounded-tw systems. While bounded tw is a powerful tool for reachability and similar types of analysis, the word languages (i.e. action sequences corresponding to executions) of these systems remain far from understood. For the slight restriction of bounded special tw, or \"bounded-stw\" (which is equivalent to bounded tw on MPDA, and even includes all bounded-tw systems studied in the literature), this work reveals a connection with multiple context-free languages (MCFL), a concept from computational linguistics. We show that the word languages of MSO-definable bounded-stw systems are exactly the MCFL. We exploit this connection to provide an optimal algorithm for computing downward closures (dcl) for MSO-definable bounded-stw systems. Computing dcl is a notoriously difficult task that has many applications in the verification of complex systems: As an example application, we show that in programs with dynamic spawning of MSO-definable bounded-stw processes, safety verification has the same complexity as in the case of processes with sequential recursive processes."
+  },
+  {
+    "id": "popl-2026-0010",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Formal Verification for JavaScript Regular Expressions: A Proven Mechanized Semantics and Its Applications",
+    "authors": [
+      "Aurele Barriere",
+      "Victor Deng",
+      "Clement Pit-Claudel"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification",
+      "Program Analysis"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "popl-2026-0011",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Network Change Validation with Relational NetKAT",
+    "authors": [
+      "Han Xu",
+      "Zachary Kincaid",
+      "Ratul Mahajan",
+      "David Walker"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Basic binary relations such as equality and inequality are fundamental to relational data structures. Neural networks should learn such relations and generalise to new unseen data. We show in this study, however, that this generalisation fails with standard feed-forward networks on binary vectors. Even when trained with maximal training data, standard networks do not reliably detect equality.We introduce differential rectifier (DR) units that we add to the network in different configurations. The DR units create an inductive bias in the networks, so that they do learn to generalise, even from small numbers of examples and we have not found any negative effect of their inclusion in the network. Given the fundamental nature of these relations, we hypothesize that feed-forward neural network learning benefits from inductive bias in other relations as well. Consequently, the further development of suitable inductive biases will be beneficial to many tasks in relational learning with neural networks."
+  },
+  {
+    "id": "popl-2026-0012",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Parameterized Verification of Quantum Circuits",
+    "authors": [
+      "Parosh Aziz Abdulla",
+      "Yu-Fang Chen",
+      "Michal Hecko",
+      "Lukas Holik",
+      "Ondrej Lengal",
+      "Jyun-Ao Lin",
+      "Ramanathan S. Thinniyam"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Quantum computers are reaching a level where interactions between classical and quantum computations can happen in real-time. This marks the advent of a new, broader class of quantum circuits: dynamic quantum circuits. They offer a broader range of available computing primitives that lead to new challenges for design tasks such as simulation, compilation, and verification. Due to the non-unitary nature of dynamic circuit primitives, most existing techniques and tools for these tasks are no longer applicable in an out-of-the-box fashion. In this work, we discuss the resulting consequences for quantum circuit verification, specifically equivalence checking, and propose two different schemes that eventually allow to treat the involved circuits as if they did not contain non-unitaries at all. As a result, we demonstrate methodically, as well as, experimentally that existing techniques for verifying the equivalence of quantum circuits can be kept applicable for this broader class of circuits."
+  },
+  {
+    "id": "popl-2026-0013",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "An Expressive Assertion Language for Quantum Programs",
+    "authors": [
+      "Bonan Su",
+      "Yuan Feng",
+      "Mingsheng Ying",
+      "Li Zhou"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Conditioning is a key feature in probabilistic programming to enable modeling the influence of data (also known as observations) to the probability distribution described by such programs. Determining the posterior distribution is also known as Bayesian inference. This paper equips a quantum while-language with conditioning, defines its denotational and operational semantics over infinite-dimensional Hilbert spaces, and shows their equivalence. We provide sufficient conditions for the existence of weakest (liberal) precondition-transformers and derive inductive characterizations of these transformers. It is shown how w(l)p-transformers can be used to assess the effect of Bayesian inference on (possibly diverging) quantum programs."
+  },
+  {
+    "id": "popl-2026-0014",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Hadamard-Pi: Equational Quantum Programming",
+    "authors": [
+      "Wang Fang",
+      "Chris Heunen",
+      "Robin Kaarsgaard"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "The goal of this paper is to deliver the overview of the current state of the art, to provide experience report on developing quantum software tools, and to outline the perspective for developing quantum programming tools supporting symbolic programming for the needs of quantum computing technologies. The main focus of this paper is on quantum computing technologies, as they can in the most direct way benefit from developing tools enabling the symbolic manipulation of quantum circuits and providing software tools for creating, optimizing, and testing quantum programs. We deliver a short survey of the most popular approaches in the field of quantum software development and we aim at pointing their strengths and weaknesses. This helps to formulate a list of desirable characteristics which should be included in quantum computing frameworks. Next, we describe a software architecture and its preliminary implementation supporting the development of quantum programs using symbolic approach, encouraging the functional programming paradigm, and, at the same, time enabling the integration with high-performance and cloud computing. The described software consists of several packages developed to address different needs, but nevertheless sharing common design concepts. We also outline how the presented approach could be used in tasks in quantum software engineering, namely quantum software testing and quantum circuit construction."
+  },
+  {
+    "id": "popl-2026-0015",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Qudit Quantum Programming with Projective Cliffords",
+    "authors": [
+      "Jennifer Paykin",
+      "Sam Winnick"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "This paper introduces a novel abstraction for programming quantum operations, specifically projective Cliffords, as functions over the qudit Pauli group. Generalizing the idea behind Pauli tableaux, we introduce a type system and lambda calculus for projective Cliffords called LambdaPC, which captures well-formed Clifford operations via a Curry-Howard correspondence with a particular encoding of the Clifford and Pauli groups. Importantly, the language captures not just qubit operations, but qudit operations for any dimension $d$. Throughout the paper we explore what it means to program with projective Cliffords through a number of examples and a case study focusing on stabilizer error correcting codes."
+  },
+  {
+    "id": "popl-2026-0016",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "RapunSL: Untangling Quantum Computing with Separation, Linear Combination and Mixing",
+    "authors": [
+      "Yusuke Matsushita",
+      "Kengo Hirata",
+      "Ryo Wakizaka",
+      "Emanuele D'Osualdo"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We present Tierkreis, a higher-order dataflow graph program representation and runtime designed for compositional, quantum-classical hybrid algorithms. The design of the system is motivated by the remote nature of quantum computers, the need for hybrid algorithms to involve cloud and distributed computing, and the long-running nature of these algorithms. The graph-based representation reflects how designers reason about and visualise algorithms, and allows automatic parallelism and asynchronicity. A strong, static type system and higher-order semantics allow for high expressivity and compositionality in the program. The flexible runtime protocol enables third-party developers to add functionality using any language or environment. With Tierkreis, quantum software developers can easily build, visualise, verify, test, and debug complex hybrid workflows, and immediately deploy them to the cloud or a custom distributed environment."
+  },
+  {
+    "id": "popl-2026-0017",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Extensible Data Types with Ad-Hoc Polymorphism",
+    "authors": [
+      "Matthew Toohey",
+      "Yanning Chen",
+      "Ara Jamalzadeh",
+      "Ningning Xie"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Mobile Ad Hoc Network (MANET) is a collection of two or more devices or nodes or terminals with wireless communications and networking capability that communicate with each other without the aid of any centralized administrator also the wireless nodes that can dynamically form a network to exchange information without using any existing fixed network infrastructure. And it's an autonomous system in which mobile hosts connected by wireless links are free to be dynamically and some time act as routers at the same time, and we discuss in this paper the distinct characteristics of traditional wired networks, including network configuration may change at any time, there is no direction or limit the movement and so on, and thus needed a new optional path Agreement (Routing Protocol) to identify nodes for these actions communicate with each other path, An ideal choice way the agreement should not only be able to find the right path, and the Ad Hoc Network must be able to adapt to changing network of this type at any time. and we talk in details in this paper all the information of Mobile Ad Hoc Network which include the History of ad hoc, wireless ad hoc, wireless mobile approaches and types of mobile ad Hoc networks, and then we present more than 13 types of the routing Ad Hoc Networks protocols have been proposed. In this paper, the more representative of routing protocols, analysis of individual characteristics and advantages and disadvantages to collate and compare, and present the all applications or the Possible Service of Ad Hoc Networks."
+  },
+  {
+    "id": "popl-2026-0018",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Let Generalization, Polymorphic Recursion, and Variable Minimization in Boolean-Kinded Type Systems",
+    "authors": [
+      "Joseph Zullo"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "In 2006, 9-variable Boolean functions having nonlinearity 241, which is strictly greater than the bent concatenation bound of 240, have been discovered in the class of Rotation Symmetric Boolean Functions (RSBFs) by Kavut, Maitra and Yucel. To improve this nonlinearity result, we have firstly defined some subsets of the n-variable Boolean functions as the \"generalized classes of k-RSBFs and k-DSBFs (k-Dihedral Symmetric Boolean Functions)\", where k is a positive integer dividing n and k-RSBFs is a subset of l-RSBFs if k < l. Secondly, utilizing the steepest-descent like iterative heuristic search algorithm used previously to identify the 9-variable RSBFs with nonlinearity 241, we have made a search within the classes of 3-RSBFs and 3-DSBFs. The search has accomplished to find 9-variable Boolean functions with nonlinearity 242 in both of these classes. It should be emphasized that although the class of 3-RSBFs contains functions with nonlinearity 242; 1-RSBFs or simply RSBFs, which is a subset of 3-RSBFs, does not contain any. This result also shows that the covering radius of the first order Reed-Muller code R(1, 9) is at least equal to 242. Thirdly, motivated by the fact that RSBFs are invariant under a special permutation of the input vector, we have classified all possible permutations up to the linear equivalence of Boolean functions that are invariant under those permutations. Specifically, for 9-variable Boolean functions, 9! possible permutations are classified into 30 classes; and the search algorithm identifies some of these classes as \"rich\". The rich classes yield new Boolean functions with nonlinearity 242 having different autocorrelation spectra from those of the functions found in the generalized 3-RSBF and 3-DSBF classes."
+  },
+  {
+    "id": "popl-2026-0019",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Local Contextual Type Inference",
+    "authors": [
+      "Xu Xue",
+      "Chen Cui",
+      "Shengyi Jiang",
+      "Bruno C. d. S. Oliveira"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Contextualized or discourse aware commonsense inference is the task of generating coherent commonsense assertions (i.e., facts) from a given story, and a particular sentence from that story. Some problems with the task are: lack of controllability for topics of the inferred facts; lack of commonsense knowledge during training; and, possibly, hallucinated or false facts. In this work, we utilize a transformer model for this task and develop techniques to address the aforementioned problems in the task. We control the inference by introducing a new technique we call \"hinting\". Hinting is a kind of language model prompting, that utilizes both hard prompts (specific words) and soft prompts (virtual learnable templates). This serves as a control signal to advise the language model \"what to talk about\". Next, we establish a methodology for performing joint inference with multiple commonsense knowledge bases. Joint inference of commonsense requires care, because it is imprecise and the level of generality is more flexible. You want to be sure that the results \"still make sense\" for the context. To this end, we align the textual version of assertions from three knowledge graphs (ConceptNet, ATOMIC2020, and GLUCOSE) with a story and a target sentence. This combination allows us to train a single model to perform joint inference with multiple knowledge graphs. We show experimental results for the three knowledge graphs on joint inference. Our final contribution is exploring a GAN architecture that generates the contextualized commonsense assertions and scores them as to their plausibility through a discriminator. The result is an integrated system for contextual commonsense inference in stories, that can controllably generate plausible commonsense assertions, and takes advantage of joint inference between multiple commonsense knowledge bases."
+  },
+  {
+    "id": "popl-2026-0020",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Typing Strictness",
+    "authors": [
+      "Daniel Sainati",
+      "Joseph W. Cutler",
+      "Benjamin C. Pierce",
+      "Stephanie Weirich"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Strictness analysis is critical to efficient implementation of languages with non-strict evaluation, mitigating much of the performance overhead of laziness. However, reasoning about strictness at the source level can be challenging and unintuitive. We propose a new definition of strictness that refines the traditional one by describing variable usage more precisely. We lay type-theoretic foundations for this definition in both call-by-name and call-by-push-value settings, drawing inspiration from the literature on type systems tracking effects and coeffects. We prove via a logical relation that the strictness attributes computed by our type systems accurately describe the use of variables at runtime, and we offer a strictness-annotation-preserving translation from the call-by-name system to the call-by-push-value one. All our results are mechanized in Rocq."
+  },
+  {
+    "id": "popl-2026-0021",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Arbitration-Free Consistency Is Available (and Vice Versa)",
+    "authors": [
+      "Hagit Attiya",
+      "Constantin Enea",
+      "Enrique Roman-Calvo"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "The rapid proliferation of multimodal generative models has sparked critical discussions on their reliability, fairness and potential for misuse. While text-to-image models excel at producing high-fidelity, user-guided content, they often exhibit unpredictable behaviors and vulnerabilities that can be exploited to manipulate class or concept representations. To address this, we propose an evaluation framework to assess model reliability by analyzing responses to global and local perturbations in the embedding space, enabling the identification of inputs that trigger unreliable or biased behavior. Beyond social implications, fairness and diversity are fundamental to defining robust and trustworthy model behavior. Our approach offers deeper insights into these essential aspects by evaluating: (i) generative diversity, measuring the breadth of visual representations for learned concepts, and (ii) generative fairness, which examines the impact that removing concepts from input prompts has on control, under a low guidance setup. Beyond these evaluations, our method lays the groundwork for detecting unreliable, bias-injected models and tracing the provenance of embedded biases. Our code is publicly available at https://github.com/JJ-Vice/T2I_Fairness_Diversity_Reliability. Keywords: Fairness, Reliability, AI Ethics, Bias, Text-to-Image Models"
+  },
+  {
+    "id": "popl-2026-0022",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "ArchSem: Reusable Rigorous Semantics of Relaxed Architectures",
+    "authors": [
+      "Thibaut Perami",
+      "Thomas Bauereiss",
+      "Brian Campbell",
+      "Zongyuan Liu",
+      "Nils Lauermann",
+      "Alasdair Armstrong",
+      "Peter Sewell"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We study the classic online bipartite matching problem with a twist: offline vertices, called resources, are $\\textit{reusable}$. In particular, when a resource is matched to an online vertex it is unavailable for a deterministic time duration $d$ after which it becomes available again for a re-match. Thus, a resource can be matched to many different online vertices over a period of time. While recent work on the problem have resolved the asymptotic case where we have large starting inventory (i.e., many copies) of every resource, we consider the (more general) case of $\\textit{unit inventory}$ and give the first algorithms that are provably better than the naive greedy approach which has a competitive ratio of (exactly) 0.5. Our first algorithm, which achieves a competitive ratio of $0.589$, generalizes the classic RANKING algorithm for online bipartite matching of non-reusable resources (Karp et al., 1990), by $\\textit{reranking}$ resources independently over time. While reranking resources frequently has the same worst case performance as greedy, we show that reranking intermittently on a periodic schedule succeeds in addressing reusability of resources and performs significantly better than greedy in the worst case. Our second algorithm, which achieves a competitive ratio of $0.505$, is a primal-dual randomized algorithm that works by suggesting up to two resources as candidate matches for every online vertex, and then breaking the tie to make the final matching selection in a randomized correlated fashion over time. As a key component of our algorithm, we suitably adapt and extend the powerful technique of online correlated selection (Fahrbach et al., 2020) to reusable resources, in order to induce negative correlation in our tie breaking step and to beat the competitive ratio of $0.5$. Both of our results also extend to the case where offline vertices have weights."
+  },
+  {
+    "id": "popl-2026-0023",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Consistent Updates for Scalable Microservices",
+    "authors": [
+      "Devora Chait-Roth",
+      "Kedar Namjoshi",
+      "Thomas Wies"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Several companies are re-architecting their monolithic information systems with microservices. However, many companies migrated without experience on microservices, mainly learning how to migrate from books or from practitioners' blogs. Because of the novelty of the topic, practitioners and consultancy are learning by doing how to migrate, thus facing several issues but also several benefits. In this chapter, we introduce a catalog and a taxonomy of the most common microservices anti-patterns in order to identify common problems. Our anti-pattern catalogue is based on the experience summarized by different practitioners we interviewed in the last three years. We identified a taxonomy of 20 anti-patterns, including organizational (team oriented and technology/tool oriented) anti-patterns and technical (internal and communication) anti-patterns. The results can be useful to practitioners to avoid experiencing the same difficult situations in the systems they develop. Moreover, researchers can benefit of this catalog and further validate the harmfulness of the anti-patterns identified."
+  },
+  {
+    "id": "popl-2026-0024",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Recurrence Sets for Proving Fair Non-termination under Axiomatic Memory Consistency Models",
+    "authors": [
+      "Thomas Haas",
+      "Roland Meyer",
+      "Hernan Ponce de Leon",
+      "Andres Lomeli Garduno"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "The IEEE Audio Video Bridging (AVB) Task Group (TG) was created to provide Ethernet with soft real-time guarantees. Later on, the TG was renamed to Time-Sensitive Networking (TSN) and its scope broadened to support hard real-time and critical applications. The Stream Reservation Protocol (SRP) is a key work of the TGs as it allows reserving resources in the network, guaranteeing the required quality of service (QoS). AVB's SRP is based on a distributed architecture, while TSN's is based on centralized ones. The distributed version of SRP is supported and used in TSN. Nevertheless, it was not designed to provide properties that are important for critical applications. Therefore, we propose a new version of SRP with enhanced services called Consistent Stream Reservation Protocol (CSRP). In this document we describe the SRP and CSRP UPPAAL models we developed and the queries we used to verify their termination and consistency properties."
+  },
+  {
+    "id": "popl-2026-0025",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Characterizing Sets of Theories That Can Be Disjointly Combined",
+    "authors": [
+      "Benjamin Przybocki",
+      "Guilherme V. Toledo",
+      "Yoni Zohar"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We study properties that allow first-order theories to be disjointly combined, including stable infiniteness, shininess, strong politeness, and gentleness. Specifically, we describe a Galois connection between sets of decidable theories, which picks out the largest set of decidable theories that can be combined with a given set of decidable theories. Using this, we exactly characterize the sets of decidable theories that can be combined with those satisfying well-known theory combination properties. This strengthens previous results and answers in the negative several long-standing open questions about the possibility of improving existing theory combination methods to apply to larger sets of theories. Additionally, the Galois connection gives rise to a complete lattice of theory combination properties, which allows one to generate new theory combination methods by taking meets and joins of elements of this lattice. We provide examples of this process, introducing new combination theorems. We situate both new and old combination methods within this lattice."
+  },
+  {
+    "id": "popl-2026-0026",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Context-Free-Language Reachability for Almost-Commuting Transition Systems",
+    "authors": [
+      "Nikhil Pimpalkhare",
+      "Zachary Kincaid",
+      "Thomas Reps"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "POMDPs are standard models for probabilistic planning problems, where an agent interacts with an uncertain environment. We study the problem of almost-sure reachability, where given a set of target states, the question is to decide whether there is a policy to ensure that the target set is reached with probability 1 (almost-surely). While in general the problem is EXPTIME-complete, in many practical cases policies with a small amount of memory suffice. Moreover, the existing solution to the problem is explicit, which first requires to construct explicitly an exponential reduction to a belief-support MDP. In this work, we first study the existence of observation-stationary strategies, which is NP-complete, and then small-memory strategies. We present a symbolic algorithm by an efficient encoding to SAT and using a SAT solver for the problem. We report experimental results demonstrating the scalability of our symbolic (SAT-based) approach."
+  },
+  {
+    "id": "popl-2026-0027",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Determination Problems for Orbit Closures and Matrix Groups",
+    "authors": [
+      "Rida Ait El Manssour",
+      "George Kenison",
+      "Mahsa Shirmohammadi",
+      "Anton Varonka",
+      "James Worrell"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Computational problems concerning the orbit of a point under the action of a matrix group occur throughout computer science, including in program analysis, complexity theory, quantum computation, and automata theory. In many cases the focus extends beyond orbits proper to orbit closures under a suitable topology. Typically one starts from a group and a set of points and asks questions about the orbit closure of the set under the action of the group, e.g., whether two given orbit closures intersect. In this paper we consider a collection of what we call determination problems concerning matrix groups and orbit closures. These problems begin with a given variety and seek to understand whether and how it arises either as an algebraic matrix group or as an orbit closure. The how question asks whether the underlying group is $s$-generated, meaning it is topologically generated by $s$ matrices for a given number $s$. Among other applications, problems of this type have recently been studied in the context of synthesising loops subject to certain specified invariants on program variables. Our main result is a polynomial-space procedure that inputs a variety and a number $s$ and determines whether the given variety arises as an orbit closure of a point under an $s$-generated commutative algebraic matrix group. The main tools in our approach are structural properties of commutative algebraic matrix groups and module theory. We leave open the question of determining whether a variety is an orbit closure of a point under an $s$-generated algebraic matrix group (without the requirement of commutativity)."
+  },
+  {
+    "id": "popl-2026-0028",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Accelerating Syntax-Guided Program Synthesis by Optimizing Domain-Specific Languages",
+    "authors": [
+      "Zhentao Ye",
+      "Ruyi Ji",
+      "Yingfei Xiong",
+      "Xin Zhang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Automated Programming"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We present a language to specify syntax guided synthesis (SyGuS) problems. Syntax guidance is a prominent theme in contemporary program synthesis approaches, and SyGuS was first described in [1]. This paper describes concretely the input format of a SyGuS solver. [1] Rajeev Alur, Rastislav Bodik, Garvit Juniwal, Milo M. K. Martin, Mukund Raghothaman, Sanjit A. Seshia, Rishabh Singh, Armando Solar-Lezama, Emina Torlak, and Abhishek Udupa. Syntax-guided synthesis. In FMCAD, pages 1--17, 2013."
+  },
+  {
+    "id": "popl-2026-0029",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Inductive Program Synthesis by Meta-Analysis-Guided Hole Filling",
+    "authors": [
+      "Doyoon Lee",
+      "Woosuk Lee",
+      "Kwangkeun Yi"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Automated Programming"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Many synthesis approaches for reversible and quantum logic have been proposed so far. However, most of them generate circuits with respect to simple metrics, i.e. gate count or quantum cost. On the other hand, to physically realize reversible and quantum hardware, additional constraints exist. In this paper, we describe cost metrics beyond gate count and quantum cost that should be considered while synthesizing reversible and quantum logic for the respective target technologies. We show that the evaluation of a synthesis approach may differ if additional costs are applied. In addition, a new cost metric, namely Nearest Neighbor Cost (NNC) which is imposed by realistic physical quantum architectures, is considered in detail. We discuss how existing synthesis flows can be extended to generate optimal circuits with respect to NNC while still keeping the quantum cost small."
+  },
+  {
+    "id": "popl-2026-0030",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Oriented Metrics for Bottom-Up Enumerative Synthesis",
+    "authors": [
+      "Roland Meyer",
+      "Jakob Tepe"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Automated Programming"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Many synthesis approaches for reversible and quantum logic have been proposed so far. However, most of them generate circuits with respect to simple metrics, i.e. gate count or quantum cost. On the other hand, to physically realize reversible and quantum hardware, additional constraints exist. In this paper, we describe cost metrics beyond gate count and quantum cost that should be considered while synthesizing reversible and quantum logic for the respective target technologies. We show that the evaluation of a synthesis approach may differ if additional costs are applied. In addition, a new cost metric, namely Nearest Neighbor Cost (NNC) which is imposed by realistic physical quantum architectures, is considered in detail. We discuss how existing synthesis flows can be extended to generate optimal circuits with respect to NNC while still keeping the quantum cost small."
+  },
+  {
+    "id": "popl-2026-0031",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "ChopChop: A Programmable Framework for Semantically Constraining the Output of Language Models",
+    "authors": [
+      "Shaan Nagy",
+      "Timothy Zhou",
+      "Nadia Polikarpova",
+      "Loris D'Antoni"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "LLM"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "popl-2026-0032",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Compiling to Linear Neurons",
+    "authors": [
+      "Joey Velez-Ginorio",
+      "Nada Amin",
+      "Konrad Kording",
+      "Steve Zdancewic"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Collective dynamics of spiking networks of neurons has been of central interest to both computation neuroscience and network science. Over the past years a new generation of neural population models based on exact reductions (ER) of spiking networks have been developed. However, most of these efforts have been limited to networks of neurons with simple dynamics (e.g. the quadratic integrate and fire models). Here, we present an extension of ER to conductance-based networks of two-dimensional Izhikevich neuron models. We employ an adiabatic approximation, which allows us to analytically solve the continuity equation describing the evolution of the state of the neural population and thus to reduce model dimensionality. We validate our results by showing that the reduced mean-field description we derived can qualitatively and quantitatively describe the macroscopic behaviour of populations of two-dimensional QIF neurons with different electrophysiological profiles (regular firing, adapting, resonator and type III excitable). Most notably, we apply this technique to develop an ER for networks of neurons with bursting dynamics."
+  },
+  {
+    "id": "popl-2026-0033",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Fuzzing Guided by Bayesian Program Analysis",
+    "authors": [
+      "Yifan Zhang",
+      "Xin Zhang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Machine Learning",
+      "Fuzzing"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Functional data, with basic observational units being functions (e.g., curves, surfaces) varying over a continuum, are frequently encountered in various applications. While many statistical tools have been developed for functional data analysis, the issue of smoothing all functional observations simultaneously is less studied. Existing methods often focus on smoothing each individual function separately, at the risk of removing important systematic patterns common across functions. We propose a nonparametric Bayesian approach to smooth all functional observations simultaneously and nonparametrically. In the proposed approach, we assume that the functional observations are independent Gaussian processes subject to a common level of measurement errors, enabling the borrowing of strength across all observations. Unlike most Gaussian process regression models that rely on pre-specified structures for the covariance kernel, we adopt a hierarchical framework by assuming a Gaussian process prior for the mean function and an Inverse-Wishart process prior for the covariance function. These prior assumptions induce an automatic mean-covariance estimation in the posterior inference in addition to the simultaneous smoothing of all observations. Such a hierarchical framework is flexible enough to incorporate functional data with different characteristics, including data measured on either common or uncommon grids, and data with either stationary or nonstationary covariance structures. Simulations and real data analysis demonstrate that, in comparison with alternative methods, the proposed Bayesian approach achieves better smoothing accuracy and comparable mean-covariance estimation results. Furthermore, it can successfully retain the systematic patterns in the functional observations that are usually neglected by the existing functional data analyses based on individual-curve smoothing."
+  },
+  {
+    "id": "popl-2026-0034",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "(TOPLAS) Will it Fit? Verifying Heap Space Bounds of Concurrent Programs under Garbage Collection",
+    "authors": [
+      "Alexandre Moine",
+      "Arthur Chargueraud",
+      "Francois Pottier"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification",
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Functional programming languages use garbage collection for heap memory management. Ideally, garbage collectors should reclaim all objects that are dead at the time of garbage collection. An object is dead at an execution instant if it is not used in future. Garbage collectors collect only those dead objects that are not reachable from any program variable. This is because they are not able to distinguish between reachable objects that are dead and reachable objects that are live. In this paper, we describe a static analysis to discover reachable dead objects in programs written in first-order, eager functional programming languages. The results of this technique can be used to make reachable dead objects unreachable, thereby allowing garbage collectors to reclaim more dead objects."
+  },
+  {
+    "id": "popl-2026-0035",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Verifying Almost-Sure Termination for Randomized Distributed Algorithms",
+    "authors": [
+      "Constantin Enea",
+      "Rupak Majumdar",
+      "Harshit Jitendra Motwani",
+      "V.R. Sathiyanarayana"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification",
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We provide a simple new randomized contraction approach to the global minimum cut problem for simple undirected graphs. The contractions exploit 2-out edge sampling from each vertex rather than the standard uniform edge sampling. We demonstrate the power of our new approach by obtaining better algorithms for sequential, distributed, and parallel models of computation. Our end results include the following randomized algorithms for computing edge connectivity with high probability: -- Two sequential algorithms with complexities $O(m \\log n)$ and $O(m+n \\log^3 n)$. These improve on a long line of developments including a celebrated $O(m \\log^3 n)$ algorithm of Karger [STOC'96] and the state of the art $O(m \\log^2 n (\\log\\log n)^2)$ algorithm of Henzinger et al. [SODA'17]. Moreover, our $O(m+n \\log^3 n)$ algorithm is optimal whenever $m = Ω(n \\log^3 n)$. Within our new time bounds, whp, we can also construct the cactus representation of all minimal cuts. -- An $Õ(n^{0.8} D^{0.2} + n^{0.9})$ round distributed algorithm, where D denotes the graph diameter. This improves substantially on a recent breakthrough of Daga et al. [STOC'19], which achieved a round complexity of $Õ(n^{1-1/353}D^{1/353} + n^{1-1/706})$, hence providing the first sublinear distributed algorithm for exactly computing the edge connectivity. -- The first $O(1)$ round algorithm for the massively parallel computation setting with linear memory per machine."
+  },
+  {
+    "id": "popl-2026-0036",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Zoo: A Framework for the Verification of Concurrent OCaml 5 Programs using Separation Logic",
+    "authors": [
+      "Clement Allain",
+      "Gabriel Scherer"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification",
+      "Program Analysis",
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "popl-2026-0037",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "The Complexity of Testing Message-Passing Concurrency",
+    "authors": [
+      "Zheng Shi",
+      "Lasse Moldrup",
+      "Umang Mathur",
+      "Andreas Pavlogiannis"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Distributed System",
+      "Software Testing"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "A key computational question underpinning the automated testing and verification of concurrent programs is the consistency question - given a partial execution history, can it be completed in a consistent manner? Due to its importance, consistency testing has been studied extensively for memory models, as well as for database isolation levels. A common theme in all these settings is the use of shared-memory as the primal mode of interthread communication. On the other hand, modern programming languages, such as Go, Rust and Kotlin, advocate a paradigm shift towards channel-based (i.e., message-passing) communication. However, the consistency question for channel-based concurrency is currently poorly understood. In this paper we lift the study of fundamental consistency problems to channels, taking into account various input parameters, such as the number of threads executing, the number of channels, and the channel capacities. We draw a rich complexity landscape, including upper bounds that become polynomial when certain input parameters are fixed, as well as hardness lower bounds. Our upper bounds are based on algorithms that can drive the verification of channel consistency in automated verification tools. Our lower bounds characterize minimal input parameters that are sufficient for hardness to arise, and thus shed light on the intricacies of testing channel-based concurrency. In combination, our upper and lower bounds characterize the boundary of tractability/intractability of verifying channel consistency, and imply that our algorithms are often (nearly) optimal."
+  },
+  {
+    "id": "popl-2026-0038",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "A Relational Separation Logic for Effect Handlers",
+    "authors": [
+      "Paulo Emilio de Vilhena",
+      "Simcha van Collem",
+      "Ines Wright",
+      "Robbert Krebbers"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "In this work we answer a long standing request for temporal embeddings of deontic STIT logics by introducing the multi-agent STIT logic TDS. The logic is based upon atemporal utilitarian STIT logic. Yet, the logic presented here will be neutral: instead of committing ourselves to utilitarian theories, we prove the logic TDS sound and complete with respect to relational frames not employing any utilitarian function. We demonstrate how these neutral frames can be transformed into utilitarian temporal frames, while preserving validity. Last, we discuss problems that arise from employing binary utility functions in a temporal setting."
+  },
+  {
+    "id": "popl-2026-0039",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Bayesian Separation Logic",
+    "authors": [
+      "Shing Hin Ho",
+      "Nicolas Wu",
+      "Azalea Raad"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification",
+      "Machine Learning"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "In the same sense as classical logic is a formal theory of truth, the recently initiated approach called computability logic is a formal theory of computability. It understands (interactive) computational problems as games played by a machine against the environment, their computability as existence of a machine that always wins the game, logical operators as operations on computational problems, and validity of a logical formula as being a scheme of \"always computable\" problems. The present contribution gives a detailed exposition of a soundness and completeness proof for an axiomatization of one of the most basic fragments of computability logic. The logical vocabulary of this fragment contains operators for the so called parallel and choice operations, and its atoms represent elementary problems, i.e. predicates in the standard sense. This article is self-contained as it explains all relevant concepts. While not technically necessary, however, familiarity with the foundational paper \"Introduction to computability logic\" [Annals of Pure and Applied Logic 123 (2003), pp.1-99] would greatly help the reader in understanding the philosophy, underlying motivations, potential and utility of computability logic, -- the context that determines the value of the present results. Online introduction to the subject is available at http://www.cis.upenn.edu/~giorgi/cl.html and http://www.csc.villanova.edu/~japaridz/CL/gsoll.html ."
+  },
+  {
+    "id": "popl-2026-0040",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Cryptis: Cryptographic Reasoning in Separation Logic",
+    "authors": [
+      "Arthur Azevedo de Amorim",
+      "Amal Ahmed",
+      "Marco Gaboardi"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification",
+      "Software Security"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Two results are presented concerning the entailment problem in Separation Logic with inductively defined predicate symbols and theory reasoning. First, we show that the entailment problem is undecidable for rules with bounded tree-width, if theory reasoning is considered. The result holds for a wide class of theories, even with a very low expressive power. For instance it applies to the natural numbers with the successor function, or with the usual order. Second, we show that every entailment problem can be reduced to an entailment problem containing no equality (neither in the formulas nor in the recursive rules defining the semantics of the predicate symbols)."
+  },
+  {
+    "id": "popl-2026-0041",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Separating the Wheat from the Chaff: Understanding (In-)Completeness of Proof Mechanisms for Separation Logic with Inductive Definitions",
+    "authors": [
+      "Neta Elad",
+      "Adithya Murali",
+      "Sharon Shoham"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "For over two decades Separation Logic has been arguably the most popular framework for reasoning about heap-manipulating programs, as well as reasoning about shared resources and permissions. Separation Logic is often extended to include inductively-defined predicates, interpreted as least fixpoints, forming Separation Logic with Inductive Definitions (SLID). Many theoretical and practical advances have been made in developing automated proof mechanisms for SLID, but these mechanisms are imperfect, and a deeper understanding of their failures is desired. As expressive as Separation Logic is, it is not surprising that it is incomplete, and in fact, it contains several sources of incompleteness that defy automated reasoning. In this paper we study these sources of incompleteness and how they relate to failures of proof mechanisms. We place SLID within a larger logic, that we call Weak Separation Logic (WSL). We prove that unlike SLID, WSL is complete for a non-trivial fragment of quantified entailments with background theories and inductive definitions, via a reduction to first-order logic (FOL). Moreover, we show that the ubiquitous fold/unfold proof mechanism is sound and complete for theory-free, quantifier-free WSL entailments with inductive definitions. Through this, we understand proof failures as stemming from nonstandard models present in WSL, but not allowed in SLID. These rogue models are typically infinite, and we use the formalism of symbolic structures to represent and automatically find them. We present a prototype tool that implements the FOL encoding of WSL and test it on an existing benchmark, which contains over 700 quantified entailment problems with inductive definitions. Our tool is able to find counter-models to many of the examples, and we provide a partial taxonomy of the rogue models, shedding some light on real-world proof failures."
+  },
+  {
+    "id": "popl-2026-0042",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Classical Notions of Computation and the Hasegawa-Thielecke Theorem",
+    "authors": [
+      "Eleonore Mangel",
+      "Paul-Andre Mellies",
+      "Guillaume Munch-Maccagnoni"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "In the spirit of the Curry-Howard correspondence between proofs and programs, we define and study a syntax and semantics for classical logic equipped with a computationally involutive negation, using a polarised effect calculus, the linear classical L-calculus. A main challenge in designing a denotational semantics for the calculus is to accommodate both call-by-value and call-by-name evaluation strategies, which leads to a failure of associativity of composition. In order to tackle this issue, we define a notion of adjunction between graph morphisms on non-associative categories, which we use to formulate polarized and non-associative notions of symmetric monoidal closed duploid and of dialogue duploid. We show that they provide a direct style counterpart to adjunction models: linear effect adjunctions for the (linear) call-by-push-value calculus and dialogue chiralities for linear continuations, respectively. In particular, we show that the syntax of the linear classical L-calculus can be interpreted in any dialogue duploid, and that it defines in fact a syntactic dialogue duploid. As an application, we establish, by semantic as well as syntactic means, the Hasegawa-Thielecke theorem, which states that the notions of central map and of thunkable map coincide in any dialogue duploid (in particular, for any double negation monad on a symmetric monoidal category)."
+  },
+  {
+    "id": "popl-2026-0043",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "From Semantics to Syntax: A Type Theory for Comprehension Categories",
+    "authors": [
+      "Niyousha Najmaei",
+      "Niels van der Weide",
+      "Benedikt Ahrens",
+      "Paige Randall North"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "popl-2026-0044",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Higher-Order Behavioural Conformances via Fibrations",
+    "authors": [
+      "Henning Urbat"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+  },
+  {
+    "id": "popl-2026-0045",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "What Is a Monoid?",
+    "authors": [
+      "Paul Blain Levy",
+      "Morgan Rogers"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "popl-2026-0046",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "A Lazy, Concurrent Convertibility Checker",
+    "authors": [
+      "Nathanaelle Courant",
+      "Xavier Leroy"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Convertibility checking - determining whether two lambda-terms are equal up to reductions - is a crucial component of proof assistants and dependently-typed languages. Practical implementations often use heuristics to quickly conclude that two terms are or are not convertible without reducing them to normal form. However, these heuristics can backfire, triggering huge amounts of unnecessary computation. This paper presents a novel convertibility-checking algorithm that relies crucially on laziness and concurrency} Laziness is used to share computations, while concurrency is used to explore multiple convertibility subproblems in parallel or via fair interleaving. Unlike heuristics-based approaches, our algorithm always finds an easy solution to the convertibility problem, if one exists. The paper presents the algorithm in process calculus style and discusses its mechanized proof of partial correctness, its complexity, and its lightweight experimental evaluation."
+  },
+  {
+    "id": "popl-2026-0047",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Canonicity for Indexed Inductive-Recursive Types",
+    "authors": [
+      "Andras Kovacs"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "This is the fourth in a series of papers extending Martin-Löf's meaning explanation of dependent type theory to higher-dimensional types. In this installment, we show how to define cubical type systems supporting a general schema of indexed cubical inductive types whose constructors may take dimension parameters and have a specified boundary. Using this schema, we are able to specify and implement many of the higher inductive types which have been postulated in homotopy type theory, including homotopy pushouts, the torus, $W$-quotients, truncations, arbitrary localizations. By including indexed inductive types, we enable the definition of identity types. The addition of higher inductive types makes computational higher type theory a model of homotopy type theory, capable of interpreting almost all of the constructions in the HoTT Book (with the exception of inductive-inductive types). This is the first such model with an explicit canonicity theorem, which specifies the canonical values of higher inductive types and confirms that every term in an inductive type evaluates to such a value."
+  },
+  {
+    "id": "popl-2026-0048",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Coco: Corecursion with Compositional Heterogeneous Productivity",
+    "authors": [
+      "Jaewoo Kim",
+      "Yeonwoo Nam",
+      "Chung-Kil Hur"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Contemporary proof assistants impose restrictive syntactic guardedness conditions that reject many valid corecursive definitions. Existing approaches to overcome these restrictions present a fundamental trade-off between coverage and automation. We present Compositional Heterogeneous Productivity (CHP), a theoretical framework that unifies high automation with extensive coverage for corecursive definitions. CHP introduces heterogeneous productivity applicable to functions with diverse domain and codomain types, including non-coinductive types. Its key innovation is compositionality: the productivity of composite functions is systematically computed from their components, enabling modular reasoning about complex corecursive patterns. Building on CHP, we develop Coco, a corecursion library for Rocq that provides extensive automation for productivity computation and fixed-point generation."
+  },
+  {
+    "id": "popl-2026-0049",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Towards Pen-and-Paper-Style Equational Reasoning in Interactive Theorem Provers by Equality Saturation",
+    "authors": [
+      "Marcus Rossel",
+      "Rudi Schneider",
+      "Thomas Koehler",
+      "Michel Steuwer",
+      "Andres Goens"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers"
+  },
+  {
+    "id": "popl-2026-0050",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "A Logic for the Imprecision of Abstract Interpretations",
+    "authors": [
+      "Marco Campion",
+      "Mila Dalla Preda",
+      "Roberto Giacobazzi",
+      "Caterina Urban"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "In the same sense as classical logic is a formal theory of truth, the recently initiated approach called computability logic is a formal theory of computability. It understands (interactive) computational problems as games played by a machine against the environment, their computability as existence of a machine that always wins the game, logical operators as operations on computational problems, and validity of a logical formula as being a scheme of \"always computable\" problems. The present contribution gives a detailed exposition of a soundness and completeness proof for an axiomatization of one of the most basic fragments of computability logic. The logical vocabulary of this fragment contains operators for the so called parallel and choice operations, and its atoms represent elementary problems, i.e. predicates in the standard sense. This article is self-contained as it explains all relevant concepts. While not technically necessary, however, familiarity with the foundational paper \"Introduction to computability logic\" [Annals of Pure and Applied Logic 123 (2003), pp.1-99] would greatly help the reader in understanding the philosophy, underlying motivations, potential and utility of computability logic, -- the context that determines the value of the present results. Online introduction to the subject is available at http://www.cis.upenn.edu/~giorgi/cl.html and http://www.csc.villanova.edu/~japaridz/CL/gsoll.html ."
+  },
+  {
+    "id": "popl-2026-0051",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Big-Stop Semantics: Small-Step Semantics in a Big-Step Judgment",
+    "authors": [
+      "David M. Kahn",
+      "Jan Hoffmann",
+      "Runming Li"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "popl-2026-0052",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "JAX Autodiff from a Linear Logic Perspective",
+    "authors": [
+      "Giulia Giusti",
+      "Michele Pagani"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification",
+      "Automated Programming"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "popl-2026-0053",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "U-Turn: Enhancing Incorrectness Analysis by Reversing Direction",
+    "authors": [
+      "Flavio Ascari",
+      "Roberto Bruni",
+      "Roberta Gori",
+      "Azalea Raad"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "O'Hearn's Incorrectness Logic (IL) has sparked renewed interest in static analyses that aim to detect program errors rather than prove their absence, thereby avoiding false alarms -- a critical factor for practical adoption in industrial settings. As new incorrectness logics emerge to capture diverse error-related properties, a key question arises: can the combination of (in)correctness techniques enhance precision, expressiveness, automation, or scalability? Notable frameworks, such as outcome logic, UNTer, local completeness logic, and exact separation logic, unify multiple analyses within a single proof system. In this work, we adopt a complementary strategy. Rather than designing a unified logic, we combine IL, which identifies reachable error states, with Sufficient Incorrectness Logic (SIL), which finds input states potentially leading to those errors. As a result, we get a more informative and effective analysis than either logic in isolation. Rather than naively sequencing them, our key innovation is reusing heuristic choices from the first analysis to steer the second. In fact, both IL and SIL rely on under-approximation and thus their automation legitimates heuristics that avoid exhaustive path enumeration (e.g., selective disjunct pruning, loop unrolling). Concretely, we instrument the second logic's proof rules with derivations coming from the first to inductively guide rule selection and application. To our knowledge, this is the first rule format enabling such inter-analysis instrumentation. This combined analysis aids debugging and testing by revealing both reachable errors and their causes, and opens new avenues for embedding incorrectness insights into (a new kind of) scalable, expressive, automated code contracts."
+  },
+  {
+    "id": "popl-2026-0054",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Nice to Meet You: Synthesizing Practical MLIR Abstract Transformers",
+    "authors": [
+      "Xuanyu Peng",
+      "Dominic Kennedy",
+      "Yuyou Fan",
+      "Ben Greenman",
+      "John Regehr",
+      "Loris D'Antoni"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Static analyses play a fundamental role during compilation: they discover facts that are true in all executions of the code being compiled, and then these facts are used to justify optimizations and diagnostics. Each static analysis is based on a collection of abstract transformers that provide abstract semantics for the concrete instructions that make up a program. It can be challenging to implement abstract transformers that are sound, precise, and efficient, and in fact both LLVM and GCC have suffered from miscompilations caused by unsound abstract transformers. Moreover, even after more than 20 years of development, LLVM lacks abstract transformers for hundreds of instructions in its intermediate representation (IR). We developed NiceToMeetYou, a program synthesis framework for abstract transformers that are aimed at the kinds of non-relational integer abstract domains that are heavily used by today's production compilers. It exploits a simple but novel technique for breaking the synthesis problem into parts: each of our transformers is the meet of a collection of simpler, sound transformers that are synthesized such that each new piece fills a gap in the precision of the final transformer. Our design point is bulk automation: no sketches are required. Transformers are verified by lowering to a previously created SMT dialect of MLIR. Each of our synthesized transformers is provably sound and some (17 percent) are more precise than those provided by LLVM."
+  },
+  {
+    "id": "popl-2026-0055",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Parameterized Infinite-State Reactive Synthesis",
+    "authors": [
+      "Benedikt Maderbacher",
+      "Roderick Bloem"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Automated Programming"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We present an interactive version of an evidence-driven state-merging (EDSM) algorithm for learning variants of finite state automata. Learning these automata often amounts to recovering or reverse engineering the model generating the data despite noisy, incomplete, or imperfectly sampled data sources rather than optimizing a purely numeric target function. Domain expertise and human knowledge about the target domain can guide this process, and typically is captured in parameter settings. Often, domain expertise is subconscious and not expressed explicitly. Directly interacting with the learning algorithm makes it easier to utilize this knowledge effectively."
+  },
+  {
+    "id": "popl-2026-0056",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "A Family of Sims with Diverging Interests",
+    "authors": [
+      "Nicolas Chappe"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Results of Fowler and Sims show that every k-graph is completely determined by its k-coloured skeleton and collection of commuting squares. Here we give an explicit description of the k-graph associated to a given skeleton and collection of squares and show that two k-graphs are isomorphic if and only if there is an isomorphism of their skeletons which preserves commuting squares. We use this to prove directly that each k-graph Λ is isomorphic to the quotient of the path category of its skeleton by the equivalence relation determined by the commuting squares, and show that this extends to a homeomorphism of infinite-path spaces when the k-graph is row finite with no sources. We conclude with a short direct proof of the characterisation, originally due to Robertson and Sims, of simplicity of the C*-algebra of a row-finite k-graph with no sources."
+  },
+  {
+    "id": "popl-2026-0057",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Endangered by the Language But Saved by the Compiler: Robust Safety via Semantic Back-Translation",
+    "authors": [
+      "Niklas Muck",
+      "Aina Linn Georges",
+      "Derek Dreyer",
+      "Deepak Garg",
+      "Michael Sammler"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Automated Programming"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+  },
+  {
+    "id": "popl-2026-0058",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Dependent Coeffects for Local Sensitivity Analysis",
+    "authors": [
+      "Victor Sannier",
+      "Patrick Baillot"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We propose a novel sensitivity analysis framework for linear estimators with identification failures that can be viewed as seeing the wrong outcome distribution. Our approach measures the degree of identification failure through the change in measure between the observed distribution and a hypothetical target distribution that would identify the causal parameter of interest. The framework yields a sensitivity analysis that generalizes existing bounds for Average Potential Outcome (APO), Regression Discontinuity (RD), and instrumental variables (IV) exclusion failure designs. Our partial identification results extend results from the APO context to allow even unbounded likelihood ratios. Our proposed sensitivity analysis consistently estimates sharp bounds under plausible conditions and estimates valid bounds under mild conditions. We find that our method performs well in simulations even when targeting a discontinuous and nearly infinite bound."
+  },
+  {
+    "id": "popl-2026-0059",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Security Reasoning via Substructural Dependency Tracking",
+    "authors": [
+      "Hemant Gouni",
+      "Frank Pfenning",
+      "Jonathan Aldrich"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Software Security"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+  },
+  {
+    "id": "popl-2026-0060",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Abstraction Functions as Types",
+    "authors": [
+      "Harrison Grodin",
+      "Runming Li",
+      "Robert Harper"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "In this paper we prove some monotonicity, log--convexity and log--concavity properties for the Volterra and incomplete Volterra functions. Moreover, as consequences of these results, we present some functional inequalities (like Turán type inequalities) as well as we determined sharp upper and lower bounds for the normalized incomplete Volterra functions in terms of weighted power means."
+  },
+  {
+    "id": "popl-2026-0061",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Foundational Multi-Modal Program Verifiers",
+    "authors": [
+      "Vladimir Gladshtein",
+      "George Pirlea",
+      "Qiyuan Zhao",
+      "Vitaly Kurin",
+      "Ilya Sergey"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We consider propositional modal logic with two modal operators $\\Box$ and $\\D$. In topological semantics $\\Box$ is interpreted as an interior operator and $\\D$ as difference. We show that some important topological properties are expressible in this language. In addition, we present a few logics and proofs of f.m.p. and of completeness theorems."
+  },
+  {
+    "id": "popl-2026-0062",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Stateful Differential Operators for Incremental Computing",
+    "authors": [
+      "Runqing Xu",
+      "Sebastian Erdweg"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "As a new technique it is shown how general pseudo-differential operators can be estimated at arbitrary points in Euclidean space when acting on functions $u$ with compact spectra. The estimate is a factorisation inequality, in which one factor is the Peetre--Fefferman--Stein maximal function of $u$, whilst the other is a symbol factor carrying the whole information on the symbol. The symbol factor is estimated in terms of the spectral radius of $u$, so that the framework is well suited for Littlewood--Paley analysis. It is also shown how it gives easy access to results on polynomial bounds and estimates in $L_p$, including a new result for type $1,1$-operators that they are always bounded on $L_p$-functions with compact spectra."
+  },
+  {
+    "id": "popl-2026-0063",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "The Ghosts of Empires: Extracting Modularity from Interleaving-Based Proofs",
+    "authors": [
+      "Frank Schussele",
+      "Matthias Zumkeller",
+      "Miriam Lagunes-Rochin",
+      "Dominik Klumpp"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Implementation bugs threaten the soundness of algorithmic software verifiers. Generating correctness certificates for correct programs allows for efficient independent validation of verification results, and thus helps to reveal such bugs. Automatic generation of small, compact correctness proofs for concurrent programs is challenging, as the correctness arguments may depend on the particular interleaving, which can lead to exponential explosion. We present an approach that converts an interleaving-based correctness proof, as generated by many algorithmic verifiers, into a thread-modular correctness proof in the style of Owicki and Gries. We automatically synthesize ghost variables that capture the relevant interleaving information, and abstract away irrelevant details. Our evaluation shows that the approach is efficient in practice and generates compact proofs, compared to a baseline."
+  },
+  {
+    "id": "popl-2026-0064",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "All for One and One for All: Program Logics for Exploiting Internal Determinism in Parallel Programs",
+    "authors": [
+      "Alexandre Moine",
+      "Sam Westrick",
+      "Joseph Tassarotti"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification",
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Nondeterminism makes parallel programs challenging to write and reason about. To avoid these challenges, researchers have developed techniques for internally deterministic parallel programming, in which the steps of a parallel computation proceed in a deterministic way. Internal determinism is useful because it lets a programmer reason about a program as if it executed in a sequential order. However, no verification framework exists to exploit this property and simplify formal reasoning about internally deterministic programs. To capture the essence of why internally deterministic programs should be easier to reason about, this paper defines a property called schedule-independent safety. A program satisfies schedule-independent safety, if, to show that the program is safe across all orderings, it suffices to show that one terminating execution of the program is safe. We then present a separation logic called Musketeer for proving that a program satisfies schedule-independent safety. Once a parallel program has been shown to satisfy schedule-independent safety, we can verify it with a new logic called Angelic, which allows one to dynamically select and verify just one sequential ordering of the program. Using Musketeer, we prove the soundness of MiniDet, an affine type system for enforcing internal determinism. MiniDet supports several core algorithmic primitives for internally deterministic programming that have been identified in the research literature, including a deterministic version of a concurrent hash set. Because any syntactically well-typed MiniDet program satisfies schedule-independent safety, we can apply Angelic to verify such programs. All results in this paper have been verified in Rocq using the Iris separation logic framework."
+  },
+  {
+    "id": "popl-2026-0065",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "A Verified High-Performance Composable Object Library for Remote Direct Memory Access",
+    "authors": [
+      "Guillaume Ambal",
+      "George Hodgkins",
+      "Mark Madler",
+      "Gregory Chockler",
+      "Brijesh Dongol",
+      "Joe Izraelevitz",
+      "Azalea Raad",
+      "Viktor Vafeiadis"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Remote Direct Memory Access (RDMA) is a memory technology that allows remote devices to directly write to and read from each other's memory, bypassing components such as the CPU and operating system. This enables low-latency high-throughput networking, as required for many modern data centres, HPC applications and AI/ML workloads. However, baseline RDMA comprises a highly permissive weak memory model that is difficult to use in practice and has only recently been formalised. In this paper, we introduce the Library of Composable Objects (LOCO), a formally verified library for building multi-node objects on RDMA, filling the gap between shared memory and distributed system programming. LOCO objects are well-encapsulated and take advantage of the strong locality and the weak consistency characteristics of RDMA. They have performance comparable to custom RDMA systems (e.g. distributed maps), but with a far simpler programming model amenable to formal proofs of correctness. To support verification, we develop a novel modular declarative verification framework, called Mowgli, that is flexible enough to model multinode objects and is independent of a memory consistency model. We instantiate Mowgli with the RDMA memory model, and use it to verify correctness of LOCO libraries."
+  },
+  {
+    "id": "popl-2026-0066",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "DafnyMPI: A Dafny Library for Verifying Message-Passing Concurrent Programs",
+    "authors": [
+      "Aleksandr Fedchin",
+      "Antero Mejr",
+      "Hari Sundar",
+      "Jeffrey S. Foster"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification",
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "popl-2026-0067",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "TypeDis: A Type System for Disentanglement",
+    "authors": [
+      "Alexandre Moine",
+      "Stephanie Balzer",
+      "Alex Xu",
+      "Sam Westrick"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "popl-2026-0068",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Di- is for Directed: First-Order Directed Type Theory via Dinaturality",
+    "authors": [
+      "Andrea Laretto",
+      "Fosco Loregian",
+      "Niccolo Veltri"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We show how dinaturality plays a central role in the interpretation of directed type theory where types are interpreted as (1-)categories and directed equality is represented by $\\hom$-functors. We present a general elimination principle based on dinaturality for directed equality which very closely resembles the $J$-rule used in Martin-Löf type theory, and we highlight which syntactical restrictions are needed to interpret this rule in the context of directed equality. We then use these rules to characterize directed equality as a left relative adjoint to a functor between (para)categories of dinatural transformations which contracts together two variables appearing naturally with a single dinatural one, with the relative functor imposing the syntactic restrictions needed. We then argue that the quantifiers of such a directed type theory should be interpreted as ends and coends, which dinaturality allows us to present in adjoint-like correspondences to a weakening functor. Using these rules we give a formal interpretation to Yoneda reductions and (co)end calculus, and we use logical derivations to prove the Fubini rule for quantifier exchange, the adjointness property of Kan extensions via (co)ends, exponential objects of presheaves, and the (co)Yoneda lemma. We show transitivity (composition), congruence (functoriality), and transport (coYoneda) for directed equality by closely following the same approach of Martin-Löf type theory, with the notable exception of symmetry. We formalize our main theorems in Agda."
+  },
+  {
+    "id": "popl-2026-0069",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Quotient Polymorphism",
+    "authors": [
+      "Brandon Hewer",
+      "Graham Hutton"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "In this paper we consider a special class of polymorphisms with invariant measure, - (cf.[1])- the algebraic polymorphisms of compact groups. A general polymorphism is -- by definition -- a many-valued map with invariant measure, and the conjugate operator of a polymorphism is a Markov operator (i.e., a positive operator on $L^2$ of norm 1 which preserves the constants). In the algebraic case a polymorphism is a correspondence in the sense of algebraic geometry, but here we investigate it from a dynamical point of view. The most important examples are the algebraic polymorphisms of torus, where we introduce a parametrization of the semigroup of toral polymorphisms in terms of rational matrices and describe the spectra of the corresponding Markov operators."
+  },
+  {
+    "id": "popl-2026-0070",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "The Simple Essence of Boolean-Algebraic Subtyping: Semantic Soundness for Algebraic Union, Intersection, Negation, and Equi-recursive Types",
+    "authors": [
+      "Chun Yin Chau",
+      "Lionel Parreaux"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "This is an informal expository article on geometric Satake correspondence for affine Kac-Moody Lie algebras of type $A$ given in arXiv:1810.04293. We emphasize formal analogies between this result and the author's earlier results on geometric approaches to the representation via quiver varieties."
+  },
+  {
+    "id": "popl-2026-0071",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Welterweight Go: Boxing, Structural Subtyping, and Generics",
+    "authors": [
+      "Raymond Hu",
+      "Julien Lange",
+      "Bernardo Toninho",
+      "Philip Wadler",
+      "Robert Griesemer",
+      "Keith Randall"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Go's unique combination of structural subtyping between generics and types with non-uniform runtime representations presents significant challenges for formalising the language. We introduce WG (Welterweight Go), a core model of Go that captures key features excluded by prior work, including underlying types, type unions and type sets, and proposed new features, such as generic methods. We also develop LWG, a lower-level language that models Go's runtime mechanisms, notably the distinction between raw struct values and interface values that carry runtime type information (RTTI). We give a type-directed compilation from WG to LWG that demonstrates how the proposed features can be implemented while observing important design and implementation goals for Go: compatibility with separate compilation, and no runtime code generation. Unlike existing approaches based on static monomorphisation, our compilation strategy uses runtime type conversions and adaptor methods to handle the complex interactions between structural subtyping, generics, and Go's runtime infrastructure."
+  },
+  {
+    "id": "popl-2026-0072",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "An Equational Axiomatization of Dynamic Threads via Algebraic Effects: Presheaves on Finite Relations, Labelled Posets, and Parameterized Algebraic Theories",
+    "authors": [
+      "Ohad Kammar",
+      "Jack Liell-Cock",
+      "Sam Lindley",
+      "Cristina Matache",
+      "Sam Staton"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We use the theory of algebraic effects to give a complete equational axiomatization for dynamic threads. Our method is based on parameterized algebraic theories, which give a concrete syntax for strong monads on functor categories, and are a convenient framework for names and binding. Our programs are built from the key primitives `fork' and `wait'. `Fork' creates a child thread and passes its name (thread ID) to the parent thread. `Wait' allows us to wait for given child threads to finish. We provide a parameterized algebraic theory built from fork and wait, together with basic atomic actions and laws such as associativity of `fork'. Our equational axiomatization is complete in two senses. First, for closed expressions, it completely captures equality of labelled posets (pomsets), an established model of concurrency: model complete. Second, any two open expressions are provably equal if they are equal under all closing substitutions: syntactically complete. The benefit of algebraic effects is that the semantic analysis can focus on the algebraic operations of fork and wait. We then extend the analysis to a simple concurrent programming language by giving operational and denotational semantics. The denotational semantics is built using the methods of parameterized algebraic theories and we show that it is sound, adequate, and fully abstract at first order for labelled-poset observations."
+  },
+  {
+    "id": "popl-2026-0073",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Handling Higher-Order Effectful Operations with Judgemental Monadic Laws",
+    "authors": [
+      "Zhixuan Yang",
+      "Nicolas Wu"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "This paper studies the design of programming languages with handlers of higher-order effectful operations -- effectful operations that may take in computations as arguments or return computations as output. We present and analyse a core calculus with higher-kinded impredicative polymorphism, handlers of higher-order effectful operations, and optionally general recursion. The distinctive design choice of this calculus is that handlers are carried by lawless raw monads, while the computation judgements still satisfy the monadic laws judgementally. We present the calculus with a logical framework and give denotational models of the calculus using realizability semantics. We prove closed-term canonicity and parametricity for the recursion-free fragment of the language using synthetic Tait computability and a novel form of the $\\top\\top$-lifting technique."
+  },
+  {
+    "id": "popl-2026-0074",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Rows and Capabilities as Modal Effects",
+    "authors": [
+      "Wenhao Tang",
+      "Sam Lindley"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We consider propositional modal logic with two modal operators $\\Box$ and $\\D$. In topological semantics $\\Box$ is interpreted as an interior operator and $\\D$ as difference. We show that some important topological properties are expressible in this language. In addition, we present a few logics and proofs of f.m.p. and of completeness theorems."
+  },
+  {
+    "id": "popl-2026-0075",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "The Relative Monadic Metalanguage",
+    "authors": [
+      "Jack Liell-Cock",
+      "Zev Shirazi",
+      "Sam Staton"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Relative monads provide a controlled view of computation. We generalise the monadic metalanguage to a relative setting and give a complete semantics with strong relative monads. Adopting this perspective, we generalise two existing program calculi from the literature. We provide a linear-non-linear language for graded monads, LNL-RMM, along with a semantic proof that it is a conservative extension of the graded monadic metalanguage. Additionally, we provide a complete semantics for the arrow calculus, showing it is a restricted relative monadic metalanguage. This motivates the introduction of ARMM, a computational lambda calculus-style language for arrows that conservatively extends the arrow calculus."
+  },
+  {
+    "id": "popl-2026-0076",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Optimising Density Computations in Probabilistic Programs via Automatic Loop Vectorisation",
+    "authors": [
+      "Sangho Lim",
+      "Hyoungjin Lim",
+      "Wonyeol Lee",
+      "Xavier Rival",
+      "Hongseok Yang"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Probabilistic programming languages (PPLs) are a popular tool for high-level modelling across many fields. They provide a range of algorithms for probabilistic inference, which analyse models by learning their parameters from a dataset or estimating their posterior distributions. However, probabilistic inference is known to be very costly. One of the bottlenecks of probabilistic inference stems from the iteration over entries of a large dataset or a long series of random samples. Vectorisation can mitigate this cost, but manual vectorisation is error-prone, and existing automatic techniques are often ad-hoc and limited, unable to handle general repetition structures, such as nested loops and loops with data-dependent control flow, without significant user intervention. To address this bottleneck, we propose a sound and effective method for automatically vectorising loops in probabilistic programs. Our method achieves high throughput using speculative parallel execution of loop iterations, while preserving the semantics of the original loop through a fixed-point check. We formalise our method as a translation from an imperative PPL into a lower-level target language with primitives geared towards vectorisation. We implemented our method for the Pyro PPL and evaluated it on a range of probabilistic models. Our experiments show significant performance gains against an existing vectorisation baseline, achieving $1.1$--$6\\times$ speedups and reducing GPU memory usage in many cases. Unlike the baseline, which is limited to a subset of models, our method effectively handled all the tested models."
+  },
+  {
+    "id": "popl-2026-0077",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Probabilistic Concurrent Reasoning in Outcome Logic: Independence, Conditioning, and Invariants",
+    "authors": [
+      "Noam Zilberstein",
+      "Alexandra Silva",
+      "Joseph Tassarotti"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification",
+      "Machine Learning",
+      "Distributed System"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Although randomization has long been used in distributed computing, formal methods for reasoning about probabilistic concurrent programs have lagged behind. No existing program logics can express specifications about the full distributions of outcomes resulting from programs that are both probabilistic and concurrent. To address this, we introduce Probabilistic Concurrent Outcome Logic (pcOL), which incorporates ideas from concurrent and probabilistic separation logics into Outcome Logic to introduce new compositional reasoning principles. At its core, pcOL reinterprets the rules of Concurrent Separation Logic in a setting where separation models probabilistic independence, so as to compositionally describe joint distributions over variables in concurrent threads. Reasoning about outcomes also proves crucial, as case analysis is often necessary to derive precise information about threads that rely on randomized shared state. We demonstrate pcOL on a variety of examples, including to prove almost sure termination of unbounded loops."
+  },
+  {
+    "id": "popl-2026-0078",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Probabilistic Programming with Vectorized Programmable Inference",
+    "authors": [
+      "McCoy Reynolds Becker",
+      "Mathieu Huot",
+      "George Matheos",
+      "Xiaoyan Wang",
+      "Karen Chung",
+      "Colin Smith",
+      "Sam Ritchie",
+      "Rif A. Saurous",
+      "Alexander K. Lew",
+      "Martin C. Rinard",
+      "Vikash K. Mansinghka"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Machine Learning"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We present a prescriptive type system with parametric polymorphism and subtyping for constraint logic programs. The aim of this type system is to detect programming errors statically. It introduces a type discipline for constraint logic programs and modules, while maintaining the capabilities of performing the usual coercions between constraint domains, and of typing meta-programming predicates, thanks to the flexibility of subtyping. The property of subject reduction expresses the consistency of a prescriptive type system w.r.t. the execution model: if a program is \"well-typed\", then all derivations starting from a \"well-typed\" goal are again \"well-typed\". That property is proved w.r.t. the abstract execution model of constraint programming which proceeds by accumulation of constraints only, and w.r.t. an enriched execution model with type constraints for substitutions. We describe our implementation of the system for type checking and type inference. We report our experimental results on type checking ISO-Prolog, the (constraint) libraries of Sicstus Prolog and other Prolog programs."
+  },
+  {
+    "id": "popl-2026-0079",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Tropical Mathematics and the Lambda-Calculus II: Tropical Geometry of Probabilistic Programming Languages",
+    "authors": [
+      "Davide Barbarossa",
+      "Paolo Pistone"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification",
+      "Machine Learning"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "In this chapter, we explore how (Type-2) computable distributions can be used to give both (algorithmic) sampling and distributional semantics to probabilistic programs with continuous distributions. Towards this end, we sketch an encoding of computable distributions in a fragment of Haskell and show how topological domains can be used to model the resulting PCF-like language. We also examine the implications that a (Type-2) computable semantics has for implementing conditioning. We hope to draw out the connection between an approach based on (Type-2) computability and ordinary programming throughout the chapter as well as highlight the relation with constructive mathematics (via realizability)."
+  },
+  {
+    "id": "popl-2026-0080",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "AdapTT: Functoriality for Dependent Type Casts",
+    "authors": [
+      "Arthur Adjedj",
+      "Meven Lennon-Bertrand",
+      "Thibaut Benjamin",
+      "Kenji Maillard"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "The ability to cast values between related types is a leitmotiv of many flavors of dependent type theory, such as observational type theories, subtyping, or cast calculi for gradual typing. These casts all exhibit a common structural behavior that boils down to the pervasive functoriality of type formers. We propose and extensively study a type theory, called AdapTT, which makes systematic and precise this idea of functorial type formers, with respect to an abstract notion of adapters relating types. Leveraging descriptions for functorial inductive types in AdapTT, we derive structural laws for type casts on general inductive type formers."
+  },
+  {
+    "id": "popl-2026-0081",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Algorithmic Conversion with Surjective Pairing: A Syntactic and Untyped Approach",
+    "authors": [
+      "Yiyun Liu",
+      "Stephanie Weirich"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  },
+  {
+    "id": "popl-2026-0082",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Encode the Cake and Eat It Too: Controlling Computation in Type Theory, Locally",
+    "authors": [
+      "Yann Leray",
+      "Theo Winterhalter"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We introduce a new class of priors for Bayesian hypothesis testing, which we name \"cake priors\". These priors circumvent Bartlett's paradox (also called the Jeffreys-Lindley paradox); the problem associated with the use of diffuse priors leading to nonsensical statistical inferences. Cake priors allow the use of diffuse priors (having one's cake) while achieving theoretically justified inferences (eating it too). We demonstrate this methodology for Bayesian hypotheses tests for scenarios under which the one and two sample t-tests, and linear models are typically derived. The resulting Bayesian test statistic takes the form of a penalized likelihood ratio test statistic. By considering the sampling distribution under the null and alternative hypotheses we show for independent identically distributed regular parametric models that Bayesian hypothesis tests using cake priors are Chernoff-consistent, i.e., achieve zero type I and II errors asymptotically. Lindley's paradox is also discussed. We argue that a true Lindley's paradox will only occur with small probability for large sample sizes."
+  },
+  {
+    "id": "popl-2026-0083",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Normalisation for First-Class Universe Levels",
+    "authors": [
+      "Nils Anders Danielsson",
+      "Naim Camille Favier",
+      "Ondrej Kubanek"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "One of the main objectives of the Cosmic Lens All-Sky Survey (CLASS) collaboration has been to find gravitational lens (GL) systems at radio wavelengths that are suitable for the determination of time delays between image pairs. The survey is now near completion and at least 18 GL systems have been found. Here, I will discuss our efforts to measure time delays from several of these systems with the ultimate aim of constraining the Hubble Constant (H0). Thus far three CLASS GL systems (i.e. B0218+357, B1600+434 and B1608+656) have yielded measurements of time delays, from which values of H0=60-70 km/s/Mpc have been estimated. Although most GL systems give similar values of H0, statistical and systematic uncertainties are still considerable. To reduce these uncertainties, I will shortly mention two monitoring programs that we are undertaking to (re)measure time delays in 15 CLASS GL systems and address several important issues for the near future."
+  },
+  {
+    "id": "popl-2026-0084",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "A Complementary Approach to Incorrectness Typing",
+    "authors": [
+      "Celia Mengyue Li",
+      "Sophie Pull",
+      "Steven Ramsay"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We introduce a new two-sided type system for verifying the correctness and incorrectness of functional programs with atoms and pattern matching. A key idea in the work is that types should range over sets of normal forms, rather than sets of values, and this allows us to define a complement operator on types that acts as a negation on typing formulas. We show that the complement allows us to derive a wide range of refutation principles within the system, including the type-theoretic analogue of co-implication, and we use them to certify that a number of Erlang-like programs go wrong. An expressive axiomatisation of the complement operator via subtyping is shown decidable, and the type system as a whole is shown to be not only sound, but also complete for normal forms."
+  },
+  {
+    "id": "popl-2026-0085",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "A Synthetic Reconstruction of Multiparty Session Types",
+    "authors": [
+      "David Castro-Perez",
+      "Francisco Ferreira",
+      "Sung-Shik Jongmans"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Multiparty session types (MP) are a type discipline for enforcing the structured, deadlock-free communication of concurrent and message-passing programs. Traditional MP have a limited form of choice in which alternative communication possibilities are offered by a single participant and selected by another. Mixed choice multiparty session types (MCMP) extend the choice construct to include both selections and offers in the same choice. This paper first proposes a general typing system for a mixed choice synchronous multiparty session calculus, and prove type soundness, communication safety, and deadlock-freedom. Next we compare expressiveness of nine subcalcli of MCMP-calculus by examining their encodability (there exists a good encoding from one to another) and separation (there exists no good encoding from one calculus to another). We prove 8 new encodablity results and 20 new separation results. In summary, MCMP is strictly more expressive than classical multiparty sessions (MP) and mixed choice in mixed sessions. This contrasts earlier results where mixed sessions do not add any expressiveness to non-mixed fundamental sessions, shedding a light on expressiveness of multiparty mixed choice."
+  },
+  {
+    "id": "popl-2026-0086",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Bounded Sort Polymorphism with Elimination Constraints",
+    "authors": [
+      "Johann Rosain",
+      "Tomas Diaz",
+      "Kenji Maillard",
+      "Matthieu Sozeau",
+      "Nicolas Tabareau",
+      "Eric Tanter",
+      "Theo Winterhalter"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "The quest for efficient sorting is ongoing, and we will explore a graph-based stable sorting strategy, in particular employing comparison graphs. We use the topological sort to map the comparison graph to a linear domain, and we can manipulate our graph such that the resulting topological sort is the sorted array. By taking advantage of the many relations between Hamiltonian paths and topological sorts in comparison graphs, we design a Divide-and-Conquer algorithm that runs in the optimal $O(n \\log n)$ time. In the process, we construct a new merge process for graphs with relevant invariant properties for our use. Furthermore, this method is more space-efficient than the famous {\\sc MergeSort} since we modify our fixed graph only."
+  },
+  {
+    "id": "popl-2026-0087",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Counting and Sampling Traces in Regular Languages",
+    "authors": [
+      "Alexis de Colnet",
+      "Kuldeep S. Meel",
+      "Umang Mathur"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "This report is mostly written for educational purposes. It is meant as a self contained introduction to regular languages, regular expressions, and regular expression matching by using Brzozowski derivatives. As such it is mostly based on the work by Brzozowski[4] and Owens et al.[12] The language basics material have been inspired by books[2] and web material[16]. Chapter 1 introduces the fundamental concepts of formal languages, as well as the idea of string derivatives. In chapter 2 we define the class of regular languages, and further develops the theory of derivatives for that class. We use derivatives to prove the Myhill-Nerod theorem, the Pumping lemma, and the closure of regular languages under all Boolean connectives. In chapter 3 we introduce regular expressions and regular expression matching. Chapter 4 connects the theory of regular languages and derivatives with that of finite automata. Chapter 5 looks at the concept of anchors, and how this can be incorporated into a matcher based on derivatives. Chapter 6 discusses submatching using derivatives with an approach inspired by Laurikari and his work on tagged transitions[11]. This is the part we consider as our main contribution to the field. In the last chapter, chapter 7, we summarize by giving a regular expression matching algorithm using the previously discussed techniques. We also discuss related work by others."
+  },
+  {
+    "id": "popl-2026-0088",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Parametrised Verification of Intel-x86 Programs",
+    "authors": [
+      "Parosh Aziz Abdulla",
+      "Mohamed Faouzi Atig",
+      "Ahmed Bouajjani",
+      "K Narayan Kumar",
+      "Prakash Saivasan"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "We study the problem of automated hypersafety verification of infinite-state recursive programs. We propose an infinite class of product programs, specifically designed with recursion in mind, that reduce the hypersafety verification of a recursive program to standard safety verification. For this, we combine insights from language theory and concurrency theory to propose an algorithmic solution for constructing an infinite class of recursive product programs. One key insight is that, using the simple theory of visibly pushdown languages, one can maintain the recursive structure of syntactic program alignments which is vital to constructing a new product program that can be viewed as a classic recursive program -- that is, one that can be executed on a single stack. Another key insight is that techniques from concurrency theory can be generalized to help define product programs based on the view that the parallel composition of individual recursive programs includes all possible alignments from which a sound set of alignments that faithfully preserve the satisfaction of the hypersafety property can be selected. On the practical side, we formulate a family of parametric canonical product constructions that are intuitive to programmers and can be used as building blocks to specify recursive product programs for the purpose of relational and hypersafety verification, with the idea that the right product program can be verified automatically using existing techniques. We demonstrate the effectiveness of these techniques through an implementation and highly promising experimental results."
+  },
+  {
+    "id": "popl-2026-0089",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "General Decidability Results for Systems with Continuous Counters",
+    "authors": [
+      "A. R. Balasubramanian",
+      "Matthew Hague",
+      "Rupak Majumdar",
+      "Ramanathan S. Thinniyam",
+      "Georg Zetzsche"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "Counters that hold natural numbers are ubiquitous in modeling and verifying software systems; for example, they model dynamic creation and use of resources in concurrent programs. Unfortunately, such discrete counters often lead to extremely high complexity. Continuous counters are an efficient over-approximation of discrete counters. They are obtained by relaxing the original counters to hold values over the non-negative rational numbers. This work shows that continuous counters are extraordinarily well-behaved in terms of decidability. Our main result is that, despite continuous counters being infinite-state, the language of sequences of counter instructions that can arrive in a given target configuration, is regular. Moreover, a finite automaton for this language can be computed effectively. This implies that a wide variety of transition systems can be equipped with continuous counters, while maintaining decidability of reachability properties. Examples include higher-order recursion schemes, well-structured transition systems, and decidable extensions of discrete counter systems. We also prove a non-elementary lower bound for the size of the resulting finite automaton."
+  },
+  {
+    "id": "popl-2026-0090",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Generating Compilers for Qubit Mapping and Routing",
+    "authors": [
+      "Abtin Molavi",
+      "Amanda Xu",
+      "Ethan Cecchetti",
+      "Swamit Tannu",
+      "Aws Albarghouthi"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Automated Programming"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "To evaluate a quantum circuit on a quantum processor, one must find a mapping from circuit qubits to processor qubits and plan the instruction execution while satisfying the processor's constraints. This is known as the qubit mapping and routing (QMR) problem. High-quality QMR solutions are key to maximizing the utility of scarce quantum resources and minimizing the probability of logical errors affecting computation. The challenge is that the landscape of quantum processors is incredibly diverse and fast-evolving. Given this diversity, dozens of papers have addressed the QMR problem for different qubit hardware, connectivity constraints, and quantum error correction schemes by a developing a new algorithm for a particular context. We present an alternative approach: automatically generating qubit mapping and routing compilers for arbitrary quantum processors. Though each QMR problem is different, we identify a common core structure-device state machine-that we use to formulate an abstract QMR problem. Our formulation naturally leads to a compact domain-specific language for specifying QMR problems and a powerful parametric algorithm that can be instantiated for any QMR specification. Our thorough evaluation on case studies of important QMR problems shows that generated compilers are competitive with handwritten, specialized compilers in terms of runtime and solution quality."
+  },
+  {
+    "id": "popl-2026-0091",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "On Circuit Description Languages, Indexed Monads, and Resource Analysis",
+    "authors": [
+      "Ken Sakayori",
+      "Andrea Colledan",
+      "Ugo Dal Lago"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Formal Verification"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "In this paper, a monad-based denotational model is introduced and shown adequate for the Proto-Quipper family of calculi, themselves being idealized versions of the Quipper programming language. The use of a monadic approach allows us to separate the value to which a term reduces from the circuit that the term itself produces as a side effect. In turn, this enables the denotational interpretation and validation of rich type systems in which the size of the produced circuit can be controlled. Notably, the proposed semantic framework, through the novel concept of circuit algebra, suggests forms of effect typing guaranteeing quantitative properties about the resulting circuit, even in presence of optimizations."
+  },
+  {
+    "id": "popl-2026-0092",
+    "venue": "POPL",
+    "year": 2026,
+    "month": 1,
+    "cycle": null,
+    "title": "Quantum Circuits Are Just a Phase",
+    "authors": [
+      "Chris Heunen",
+      "Louis Lemonnier",
+      "Christopher McNally",
+      "Alex Rice"
+    ],
+    "affiliation": [],
+    "keywords": [],
+    "research_direction": [
+      "Other"
+    ],
+    "paper_type": "Research Paper",
+    "paper_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
+    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+  }
+]
