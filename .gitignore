@@ -1,0 +1,15 @@
+# Python interpreter artefacts
+__pycache__/
+*.py[cod]
+
+# Generated repair/normalization recovery copies and raw run logs.
+# Live corpus JSONs and the curated Output/ reading lists remain tracked.
+Source/2026/_*_backup/
+Source/2026/_*_audit/
+
+Output/120篇语义审计结果.json
+Output/120篇语义审计样本.json
+
+# Interrupted atomic-write artefacts
+*.tmp
+*.schema-tmp

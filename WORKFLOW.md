@@ -5,10 +5,9 @@ This guide covers the yearly cycle: adding a new year's papers, filling in venue
 ## Overview
 
 ```
-Verify URLs ──► Fetch paper lists ──► Migrate to JSON ──► Fill abstracts (arXiv) ──► Validate
-     │                │                     │                    │                    │
-  30 min          2-6 hours              5 min               2-12 hours             5 min
-  (manual)      (semi-auto)            (script)             (script)            (spot-check)
+Verify URLs ──► Fetch official metadata ──► Normalize JSON ──► Official abstracts ──► arXiv fallback ──► Validate
+     │                    │                       │                    │                    │                 │
+  30 min              2-6 hours                5 min              venue-specific       rate-limited      audit + summary
 ```
 
 ---
@@ -66,21 +65,35 @@ print(f'Sample: {papers[0][\"title\"]}')
 
 Generate unified JSON from the raw paper lists (update `month` and `cycle` mappings for the new year first). Use the standard JSON schema from `README.md` as the target format.
 
-## Step 5: Fill abstracts from arXiv
+## Step 5: Fill and verify abstracts
+
+Use a source hierarchy.  Never accept the first arXiv search result or copy an
+abstract between papers merely because titles look similar.
+
+1. Prefer a verified official adapter (proceedings, virtual venue, paper page,
+   or official PDF) and require title identity before replacement.
+2. If no official per-paper abstract is available, use arXiv only after a
+   conservative title match.  For modest proceedings/preprint title revisions,
+   require author confirmation as well.
+3. Persist backups and external JSONL audits.  Do not add provenance fields to
+   individual paper records; the canonical 13-field schema stays unchanged.
 
 ```powershell
-# Bulk mode (all venues)
-python Script/fetch_abstracts.py --workers 8
+# Inspect currently supported official adapters, then run selected venues.
+python Script/fetch_official_abstracts.py --help
+python Script/fetch_official_abstracts.py --venues AAAI JMLR --apply
 
-# Or single venue
-python Script/fetch_abstracts.py --file SE/ICSE/ICSE-2027.json
+# Conservative arXiv fallback for still-missing abstracts.  Keep the default
+# request pacing; this is intentionally not a high-concurrency scraper.
+python Script/repair_abstracts.py --repair --scope missing --apply
 ```
 
-If some papers need retrying (HTTP 429/503 errors):
+If some papers need retrying, re-run the same conservative command; first read
+the generated audit report to distinguish a network error from no verified
+identity match.  Do not use a broad reset/clear operation as a retry shortcut.
 
 ```powershell
-python Script/reset_abstracts.py
-python Script/fetch_abstracts.py --workers 4  # fewer workers to avoid rate limits
+python Script/repair_abstracts.py --repair --scope missing --apply
 ```
 
 ## Step 6: Validate final output
@@ -91,6 +104,8 @@ import json, os, glob
 total = 0
 has_abs = 0
 for f in sorted(glob.glob('Source/2027/**/*-2027.json', recursive=True)):
+    if any(part.startswith('_') for part in f.replace('\\', '/').split('/')):
+        continue  # backups/audits are never corpus inputs
     venue = os.path.basename(f).replace('-2027.json','')
     papers = json.load(open(f, encoding='utf-8'))
     abs_count = sum(1 for p in papers if p.get('abstract') and len(p['abstract'])>50)
@@ -101,11 +116,13 @@ print(f'\nTOTAL: {total} papers, {has_abs} abstracts ({has_abs*100//max(1,total)
 "
 ```
 
-## Step 7: Update README & push
+## Step 7: Refresh summaries, update README, and push
 
-1. Update venue table in `README.md` (paper counts, new venues)
-2. Update `index.json` if needed
-3. Commit and push:
+1. Run the year-specific summary refresh script (for 2026, `python Script/update_library_summary.py`).
+2. Update the venue table and abstract-coverage statement in `README.md`.
+3. Update the annual workflow if a new official venue platform/adapter was needed.
+4. Keep underscore-prefixed backup/audit directories out of all corpus statistics, LLM inputs, and Git commits; `.gitignore` retains them locally.
+5. Commit and push:
 
 ```powershell
 git add .
@@ -135,8 +152,13 @@ If you add a venue to the Excel that was not previously tracked:
 | File | Purpose |
 |------|---------|
 | `Top_Venues_Official_Paper_Directory.xlsx` | Master venue list with URLs and status |
-| `Script/fetch_abstracts.py` | Bulk-fill abstracts from arXiv |
-| `Script/merge_chunks.py` | Merge parallel-fetch chunk files |
-| `Script/reset_abstracts.py` | Clear empty abstracts for retry |
+| `Script/repair_abstracts.py` | Conservatively audit and repair arXiv abstracts with backups and audit sidecars |
+| `Script/fetch_official_abstracts.py` | Fetch and verify abstracts from supported official platforms |
+| `Script/build_keyword_candidate_pools.py` | Build an auditable high-recall reading candidate pool |
+| `Script/build_full_recommendations.py` | Produce the current direct, foundation, boundary, and metadata-repair reading outputs |
+| `Output/直接相关推荐.json` | Primary reading queue |
+| `Output/基础相关推荐.json` | Relevant technical foundations |
+| `Output/边界相关推荐.json` | Adjacent reading queue for deliberate review |
+| `Output/元数据待修复.json` | Candidate metadata requiring title/abstract repair before recommendation |
 | `WORKFLOW.md` | This file |
 | `README.md` | Project overview |

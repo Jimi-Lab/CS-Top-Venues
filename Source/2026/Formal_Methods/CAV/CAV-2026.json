@@ -109,7 +109,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "A measurement of the CKM angle $γ$ and related strong-phase parameters is performed using a novel, model-independent approach in ${B^{\\pm}\\rightarrow D(\\rightarrow K^{0}_{\\rm S} h^{\\prime+}h^{\\prime-}) h^{\\pm}}$ decays, where $h^{(\\prime)} \\equiv π, K$. The analysis uses a joint data sample of electron-positron collisions collected by the BESIII experiment at the Beijing Electron-Positron Collider II during 2010--2011 and 2021--2022, corresponding to an integrated luminosity of 8 fb$^{-1}$, and proton-proton collisions collected by the LHCb experiment at the Large Hadron Collider during 2011--2018, corresponding to an integrated luminosity of 9 fb$^{-1}$. The two datasets are analyzed simultaneously by applying per-event weights based on the amplitude variation over the $D$-decay phase space to enhance the sensitivity to $C\\!P$-violating observables. The CKM angle $γ$ is determined to be $γ= (71.3\\pm 5.0)^{\\circ}$, which constitutes the most precise single measurement to date."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0006",
@@ -239,7 +239,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0012",
@@ -285,7 +285,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0014",
@@ -308,7 +308,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "The time evolution of atmospheric dust at high southern latitudes on Mars has been determined using observations of the south seasonal cap acquired in the near infrared (1-2.65 μm) by OMEGA/Mars Express in 2005. Observations at different solar zenith angles and one EPF sequence demonstrate that the reflectance in the 2.64 μm saturated absorption band of the surface CO2 ice is mainly due to the light scattered by aerosols above most places of the seasonal cap. We have mapped the total optical depth of dust aerosols in the near-IR above the south seasonal cap of Mars from mid-spring to early summer with a time resolution ranging from one day to one week and a spatial resolution of a few kilometers. The optical depth above the south perennial cap is determined on a longer time range covering southern spring and summer. A constant set of optical properties of dust aerosols is consistent with OMEGA observations during the analyzed period. Strong variations of the optical depth are observed over small horizontal and temporal scales, corresponding in part to moving dust clouds. The late summer peak in dust opacity observed by Opportunity in 2005 propagated to the south pole contrarily to that observed in mid spring. This may be linked to evidence for dust scavenging by water ice-rich clouds circulating at high southern latitudes at this season."
+    "abstract": "We study the problem of generating paths on a graph that satisfy a collection of ω-regular objectives. We propose a decoupled framework in which each objective is assigned to an independent agent that selects a local policy, while a scheduler -- oblivious to the graph and objective -- dynamically composes these policies into a single path. We ask when such a composition satisfies all objectives, assuming their conjunction is realizable. The framework enables modular policy design but raises fundamental compositional challenges. We show that even extremely fair deterministic schedulers do not ensure correctness, and that stochastic schedulers, while necessary, are insufficient without coordination. For safety objectives, we demonstrate that fully decentralized implementations are impossible, and we introduce a protocol for synchronizing on maximal safe actions. For non-safety objectives, we introduce conventions -- simple, a priori restrictions agreed upon before the graph or objectives are revealed -- that guarantee satisfaction of all objectives when followed by all agents. We characterize minimally restrictive conventions for major subclasses of ω-regular objectives. In particular, Büchi objectives admit universal composition of finite-memory policies without scheduler communication; co-Büchi objectives require only knowledge of whether the agent was scheduled; and parity objectives additionally require knowledge of which agent was scheduled."
   },
   {
     "id": "cav-2026-0015",
@@ -459,7 +459,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "This extended abstract describes work in progress on Smt-Switch, an open-source, solver-agnostic API for SMT solving. Smt-Switch provides an abstract interface, which can be implemented by different SMT solvers. Smt-Switch provides simple, uniform, and high-performance access to SMT solving for applications in areas such as automated reasoning, planning, and formal verification. The interface allows the user to create, traverse, and manipulate terms, as well as to dynamically dispatch queries to different underlying SMT solvers."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0022",
@@ -481,7 +481,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "Probabilistic extensions of logic programming languages, such as ProbLog, integrate logical reasoning with probabilistic inference to evaluate probabilities of output relations; however, prior work does not account for potential statistical correlations among input facts. This paper introduces Praline, a new extension to Datalog designed for precise probabilistic inference in the presence of (partially known) input correlations. We formulate the inference task as a constrained optimization problem, where the solution yields sound and precise probability bounds for output facts. However, due to the complexity of the resulting optimization problem, this approach alone often does not scale to large programs. To address scalability, we propose a more efficient $δ$-exact inference algorithm that leverages constraint solving, static analysis, and iterative refinement. Our empirical evaluation on challenging real-world benchmarks, including side-channel analysis, demonstrates that our method not only scales effectively but also delivers tight probability bounds."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0023",
@@ -504,7 +504,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "This extended abstract describes work in progress on Smt-Switch, an open-source, solver-agnostic API for SMT solving. Smt-Switch provides an abstract interface, which can be implemented by different SMT solvers. Smt-Switch provides simple, uniform, and high-performance access to SMT solving for applications in areas such as automated reasoning, planning, and formal verification. The interface allows the user to create, traverse, and manipulate terms, as well as to dynamically dispatch queries to different underlying SMT solvers."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0024",
@@ -524,7 +524,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "We prove that there do not exist positively expansive cellular automata defined on the full k-ary tree shift (for k>=2). Moreover, we investigate some topological properties of these automata and their relationships, namely permutivity, surjectivity, preinjectivity, right-closingness and openness."
+    "abstract": "Component-based synthesis (CBS) generates loop-free programs from library components to satisfy logical queries. While expressive specifications and precise queries simplify the solution space, they make finding feasible execution paths significantly more difficult for traditional CBS procedures. As constraints become more exact, the search must navigate an increasingly sparse space of valid paths. We address this challenge by reasoning about \\emph{logical similarities} between exploration paths. We consider library methods equipped with refinement-type specifications, which enrich base types with logical qualifiers to precisely constrain the value space. To efficiently explore this space, we introduce Liquid Tree Automata (LTA), a novel tree automata variant whose construction is driven by refinement typing rules. LTAs leverage subtyping constraints to identify and eagerly merge semantically similar states during search. This merging avoids redundant exploration of equivalent paths, significantly improving synthesis efficiency. We implement this approach in a tool called Hegel. Our evaluation demonstrates that Hegel synthesizes solutions to complex queries that are beyond the reach of existing state-of-the-art tools."
   },
   {
     "id": "cav-2026-0025",
@@ -569,7 +569,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "In the paper, a parallel Tabu Search algorithm for the Resource Constrained Project Scheduling Problem is proposed. To deal with this NP-hard combinatorial problem many optimizations have been performed. For example, a resource evaluation algorithm is selected by a heuristic and an effective Tabu List was designed. In addition to that, a capacity-indexed resource evaluation algorithm was proposed and the GPU (Graphics Processing Unit) version uses a homogeneous model to reduce the required communication bandwidth. According to the experiments, the GPU version outperforms the optimized parallel CPU version with respect to the computational time and the quality of solutions. In comparison with other existing heuristics, the proposed solution often gives better quality solutions."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0027",
@@ -611,7 +611,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "Flow theory describes an optimal cognitive state where individuals experience deep focus and intrinsic motivation when a task's difficulty aligns with their skill level. In AI-augmented reasoning, interventions that disrupt the state of cognitive flow can hinder rather than enhance decision-making. This paper proposes a context-aware cognitive augmentation framework that adapts interventions based on three key contextual factors: type, timing, and scale. By leveraging multimodal behavioral cues (e.g., gaze behavior, typing hesitation, interaction speed), AI can dynamically adjust cognitive support to maintain or restore flow. We introduce the concept of cognitive flow, an extension of flow theory in AI-augmented reasoning, where interventions are personalized, adaptive, and minimally intrusive. By shifting from static interventions to context-aware augmentation, our approach ensures that AI systems support deep engagement in complex decision-making and reasoning without disrupting cognitive immersion."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0029",
@@ -632,7 +632,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "We present the results of processing the effects of the powerful Gamma Ray Burst GRB221009A captured by the charged particle detectors (electrostatic analyzers and solid-state detectors) onboard spacecraft at different points in the heliosphere on October 9, 2022. To follow the GRB221009A propagation through the heliosphere we used the electron and proton flux measurements from solar missions Solar Orbiter and STEREO-A; Earth magnetosphere and the solar wind missions THEMIS and Wind; meteorological satellites POES15, POES19, MetOp3; and MAVEN - a NASA mission orbiting Mars. GRB221009A had a structure of four bursts: less intense Pulse 1 - the triggering impulse - was detected by gamma-ray observatories at 131659 UT (near the Earth); the most intense Pulses 2 and 3 were detected on board all the spacecraft from the list, and Pulse 4 detected in more than 500 s after Pulse 1. Due to their different scientific objectives, the spacecraft, which data was used in this study, were separated by more than 1 AU (Solar Orbiter and MAVEN). This enabled tracking GRB221009A as it was propagating across the heliosphere. STEREO-A was the first to register Pulse 2 and 3 of the GRB, almost 100 seconds before their detection by spacecraft in the vicinity of Earth. MAVEN detected GRB221009A Pulses 2, 3, and 4 at the orbit of Mars about 237 seconds after their detection near Earth. By processing the time delays observed we show that the source location of the GRB221009A was at RA 288.5 degrees, Dec 18.5 degrees (J2000) with an error cone of 2 degrees"
+    "abstract": ""
   },
   {
     "id": "cav-2026-0030",
@@ -701,7 +701,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "The Paige and Tarjan algorithm (PT) for computing the coarsest refinement of a state partition which is a bisimulation on some Kripke structure is well known. It is also well known in model checking that bisimulation is equivalent to strong preservation of CTL, or, equivalently, of Hennessy-Milner logic. Drawing on these observations, we analyze the basic steps of the PT algorithm from an abstract interpretation perspective, which allows us to reason on strong preservation in the context of generic inductively defined (temporal) languages and of possibly non-partitioning abstract models specified by abstract interpretation. This leads us to design a generalized Paige-Tarjan algorithm, called GPT, for computing the minimal refinement of an abstract interpretation-based model that strongly preserves some given language. It turns out that PT is a straight instance of GPT on the domain of state partitions for the case of strong preservation of Hennessy-Milner logic. We provide a number of examples showing that GPT is of general use. We first show how a well-known efficient algorithm for computing stuttering equivalence can be viewed as a simple instance of GPT. We then instantiate GPT in order to design a new efficient algorithm for computing simulation equivalence that is competitive with the best available algorithms. Finally, we show how GPT allows to compute new strongly preserving abstract models by providing an efficient algorithm that computes the coarsest refinement of a given partition that strongly preserves the language generated by the reachability operator."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0033",
@@ -790,7 +790,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "Random Neural Networks (RNNs) are a class of Neural Networks (NNs) that can also be seen as a specific type of queuing network. They have been successfully used in several domains during the last 25 years, as queuing networks to analyze the performance of resource sharing in many engineering areas, as learning tools and in combinatorial optimization, where they are seen as neural systems, and also as models of neurological aspects of living beings. In this article we focus on their learning capabilities, and more specifically, we present a practical guide for using the RNN to solve supervised learning problems. We give a general description of these models using almost indistinctly the terminology of Queuing Theory and the neural one. We present the standard learning procedures used by RNNs, adapted from similar well-established improvements in the standard NN field. We describe in particular a set of learning algorithms covering techniques based on the use of first order and, then, of second order derivatives. We also discuss some issues related to these objects and present new perspectives about their use in supervised learning problems. The tutorial describes their most relevant applications, and also provides a large bibliography."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0037",
@@ -813,7 +813,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "Decision tree ensembles (DTE) are a popular model for a wide range of AI classification tasks, used in multiple safety critical domains, and hence verifying properties on these models has been an active topic of study over the last decade. One such verification question is the problem of sensitivity, which asks, given a DTE, whether a small change in subset of features can lead to misclassification of the input. In this work, our focus is to build a quantitative notion of sensitivity, tailored to DTEs, by discretizing the input space of the model and enumerating the regions which are susceptible to sensitivity. We propose a novel algorithmic technique that can perform this computation efficiently, within a certified error and confidence bound. Our approach is based on encoding the problem as an algebraic decision diagram (ADD), and further splitting it into subproblems that can be solved efficiently and make the computation compositional and scalable. We evaluate the performance of our technique over benchmarks of varying size in terms of number of trees and depth, comparing it against the performance of model counters over the same problem encoding. Experimental results show that our tool XCount achieves significant speedup over other approaches and can scale well with the increasing sizes of the ensembles."
   },
   {
     "id": "cav-2026-0038",
@@ -837,7 +837,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "We present Tierkreis, a higher-order dataflow graph program representation and runtime designed for compositional, quantum-classical hybrid algorithms. The design of the system is motivated by the remote nature of quantum computers, the need for hybrid algorithms to involve cloud and distributed computing, and the long-running nature of these algorithms. The graph-based representation reflects how designers reason about and visualise algorithms, and allows automatic parallelism and asynchronicity. A strong, static type system and higher-order semantics allow for high expressivity and compositionality in the program. The flexible runtime protocol enables third-party developers to add functionality using any language or environment. With Tierkreis, quantum software developers can easily build, visualise, verify, test, and debug complex hybrid workflows, and immediately deploy them to the cloud or a custom distributed environment."
+    "abstract": "We present Quokka#, a versatile, open-source Python library for quantum circuit analysis. Quokka# reduces various simulation, verification, and synthesis tasks to weighted model counting (#SAT). It supports universal quantum circuits and a wide variety of gates. Quokka# provides multiple encodings based on different algebraic bases and equivalence-checking methods, enabling key performance trade-offs. Moreover, the new version of Quokka# adds approximate equivalence checking, which is crucial in its synthesis algorithms, since it enables translation between arbitrary gate sets. Its synthesis engine is depth-optimal, making it well-suited to real-world quantum computing. This paper demonstrates the design, extensibility, and use of Quokka#."
   },
   {
     "id": "cav-2026-0039",
@@ -902,7 +902,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "Recently there has been a significant effort to handle quantitative properties in formal verification and synthesis. While weighted automata over finite and infinite words provide a natural and flexible framework to express quantitative properties, perhaps surprisingly, some basic system properties such as average response time cannot be expressed using weighted automata, nor in any other know decidable formalism. In this work, we introduce nested weighted automata as a natural extension of weighted automata which makes it possible to express important quantitative properties such as average response time. In nested weighted automata, a master automaton spins off and collects results from weighted slave automata, each of which computes a quantity along a finite portion of an infinite word. Nested weighted automata can be viewed as the quantitative analogue of monitor automata, which are used in run-time verification. We establish an almost complete decidability picture for the basic decision problems about nested weighted automata, and illustrate their applicability in several domains. In particular, nested weighted automata can be used to decide average response time properties."
+    "abstract": "We present an SMT-based active learning algorithm for nondeterministic weighted automata (WFAs) as a practical and robust alternative to Hankel/L*-style methods. Our algorithm is parametric in a given semiring and, if it terminates, guaranteed to produce minimal WFAs. We prove partial correctness and provide a sufficient termination condition, which in particular implies termination for all finite semirings. Our extensive experimental evaluation shows that our algorithm is capable of learning numerous minimal WFAs over both finite and infinite semirings, vastly outperforms a naive baseline, and is competitive with a state-of-the-art algorithm while producing significantly smaller automata and requiring less interaction with the teacher."
   },
   {
     "id": "cav-2026-0042",
@@ -945,7 +945,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "We study distributed optimization in the presence of Byzantine adversaries, where both data and computation are distributed among $m$ worker machines, $t$ of which may be corrupt. The compromised nodes may collaboratively and arbitrarily deviate from their pre-specified programs, and a designated (master) node iteratively computes the model/parameter vector for generalized linear models. In this work, we primarily focus on two iterative algorithms: Proximal Gradient Descent (PGD) and Coordinate Descent (CD). Gradient descent (GD) is a special case of these algorithms. PGD is typically used in the data-parallel setting, where data is partitioned across different samples, whereas, CD is used in the model-parallelism setting, where data is partitioned across the parameter space. In this paper, we propose a method based on data encoding and error correction over real numbers to combat adversarial attacks. We can tolerate up to $t\\leq \\lfloor\\frac{m-1}{2}\\rfloor$ corrupt worker nodes, which is information-theoretically optimal. We give deterministic guarantees, and our method does not assume any probability distribution on the data. We develop a {\\em sparse} encoding scheme which enables computationally efficient data encoding and decoding. We demonstrate a trade-off between the corruption threshold and the resource requirements (storage, computational, and communication complexity). As an example, for $t\\leq\\frac{m}{3}$, our scheme incurs only a {\\em constant} overhead on these resources, over that required by the plain distributed PGD/CD algorithms which provide no adversarial protection. To the best of our knowledge, ours is the first paper that makes CD secure against adversarial attacks. Our encoding scheme extends efficiently to the data streaming model and for stochastic gradient descent (SGD). We also give experimental results to show the efficacy of our proposed schemes."
+    "abstract": "This paper introduces several techniques that improve the scalability of the deductive verification of data-level programs working on arrays and matrices. First of all, we introduce a technique to rewrite expressions with (nested) quantifiers, so suitable triggers can be generated for these expressions. We have proven this rewrite technique correct in a theorem prover. Second, we make reasoning about potentially overlapping arrays easier, by providing specification constructs to indicate and verify that two arrays are not aliases, or that they are immutable, so they can be modelled as mathematical sequences. All our techniques are implemented in the VerCors program verifier. We illustrate how our techniques improve scalability through a large number of experiments. Using our techniques on a set of typical GPU kernels, we achieve a reduction of verification time by, on average, a factor of 9, with outliers being up to 150 times faster. Additionally, applying these techniques to earlier experiments and an earlier case study of a radio telescope pipeline permitted the verification of results which were previously unobtainable and significantly reduced the verification time."
   },
   {
     "id": "cav-2026-0044",
@@ -991,7 +991,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "We overview and compare classifications of elementary cellular automata, including Wolfram's, Wuensche's, Li and Packard, communication complexity, power spectral, topological, surface, compression, lattices, and morphological diversity classifications. This paper summarises several classifications of elementary cellular automata (ECA) and compares them with a newly proposed one, that induced by endowing rules with memory."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0046",
@@ -1011,7 +1011,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "In this work we answer a long standing request for temporal embeddings of deontic STIT logics by introducing the multi-agent STIT logic TDS. The logic is based upon atemporal utilitarian STIT logic. Yet, the logic presented here will be neutral: instead of committing ourselves to utilitarian theories, we prove the logic TDS sound and complete with respect to relational frames not employing any utilitarian function. We demonstrate how these neutral frames can be transformed into utilitarian temporal frames, while preserving validity. Last, we discuss problems that arise from employing binary utility functions in a temporal setting."
+    "abstract": "The reliability of autonomous systems depends on their robustness, i.e., their ability to meet their objectives under uncertainty. In this paper, we study spatiotemporal robustness of temporal logic specifications evaluated over discrete-time signals. Existing work has proposed robust semantics that capture not only Boolean satisfiability, but also the geometric distance from unsatisfiability, corresponding to admissible spatial perturbations of a given signal. In contrast, we propose spatiotemporal robustness (STR), which captures admissible spatial and temporal perturbations jointly. This notion is particularly informative for interacting systems, such as multi-agent robotics, smart cities, and air traffic control. We define STR as a multi-objective reasoning problem, formalized via a partial order over spatial and temporal perturbations. This perspective has two key advantages: (1) STR can be interpreted as a Pareto-optimal set that characterizes all admissible spatiotemporal perturbations, and (2) STR can be computed using tools from multi-objective optimization. To navigate computational challenges, we propose robust semantics for STR that are sound in the sense of suitably under-approximating STR while being computationally tractable. Finally, we present monitoring algorithms for STR using these robust semantics. To the best of our knowledge, this is the first work to deal with robustness across multiple dimensions via multi-objective reasoning."
   },
   {
     "id": "cav-2026-0047",
@@ -1111,7 +1111,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "This extended abstract describes work in progress on Smt-Switch, an open-source, solver-agnostic API for SMT solving. Smt-Switch provides an abstract interface, which can be implemented by different SMT solvers. Smt-Switch provides simple, uniform, and high-performance access to SMT solving for applications in areas such as automated reasoning, planning, and formal verification. The interface allows the user to create, traverse, and manipulate terms, as well as to dynamically dispatch queries to different underlying SMT solvers."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0051",
@@ -1133,7 +1133,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node response is encoded as a linear superposition of neural activity, while the non-linearity is triggered by the activation functions. In the current paper, we suggest to analyze the neural signal processing in DANNs from the point of view of homogeneous chaos theory as known from polynomial chaos expansion (PCE). From the PCE perspective, the (linear) response on each node of a DANN could be seen as a $1^{st}$ degree multi-variate polynomial of single neurons from the previous layer, i.e. linear weighted sum of monomials. From this point of view, the conventional DANN structure relies implicitly (but erroneously) on a Gaussian distribution of neural signals. Additionally, this view revels that by design DANNs do not necessarily fulfill any orthogonality or orthonormality condition for a majority of data-driven applications. Therefore, the prevailing handling of neural signals in DANNs could lead to redundant representation as any neural signal could contain some partial information from other neural signals. To tackle that challenge, we suggest to employ the data-driven generalization of PCE theory known as arbitrary polynomial chaos (aPC) to construct a corresponding multi-variate orthonormal representations on each node of a DANN to obtain Deep arbitrary polynomial chaos neural networks."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0052",
@@ -1177,7 +1177,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0054",
@@ -1246,7 +1246,7 @@
     ],
     "paper_type": "Tool Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "Complex physical models are the most advanced tools available for producing realistic simulations of the climate system. However, such levels of realism imply high computational cost and restrictions on their use for policymaking and risk assessment. Two central characteristics of climate change are uncertainty and that it is a dynamic problem in which international actions can significantly alter climate projections and information needs, including partial and full compliance of global climate goals. Here we present AIRCC-Clim, a simple climate model emulator that produces regional probabilistic climate change projections of monthly and annual temperature and precipitation, as well as risk measures, based both on standard and user-defined emissions scenarios for six greenhouse gases. AIRCC-Clim emulates 37 atmosphere-ocean coupled general circulation models with low computational and technical requirements for the user. This standalone, user-friendly software is designed for a variety of applications including impact assessments, climate policy evaluation and integrated assessment modelling."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0057",
@@ -1290,7 +1290,7 @@
     ],
     "paper_type": "Tool Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "In the same sense as classical logic is a formal theory of truth, the recently initiated approach called computability logic is a formal theory of computability. It understands (interactive) computational problems as games played by a machine against the environment, their computability as existence of a machine that always wins the game, logical operators as operations on computational problems, and validity of a logical formula as being a scheme of \"always computable\" problems. The present contribution gives a detailed exposition of a soundness and completeness proof for an axiomatization of one of the most basic fragments of computability logic. The logical vocabulary of this fragment contains operators for the so called parallel and choice operations, and its atoms represent elementary problems, i.e. predicates in the standard sense. This article is self-contained as it explains all relevant concepts. While not technically necessary, however, familiarity with the foundational paper \"Introduction to computability logic\" [Annals of Pure and Applied Logic 123 (2003), pp.1-99] would greatly help the reader in understanding the philosophy, underlying motivations, potential and utility of computability logic, -- the context that determines the value of the present results. Online introduction to the subject is available at http://www.cis.upenn.edu/~giorgi/cl.html and http://www.csc.villanova.edu/~japaridz/CL/gsoll.html ."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0059",
@@ -1310,7 +1310,7 @@
     ],
     "paper_type": "Tool Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0060",
@@ -1335,7 +1335,7 @@
     ],
     "paper_type": "Tool Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "Caesar is a deductive verifier for probabilistic programs. At its core lies HeyVL, a quantitative intermediate verification language based on the real-valued logic HeyLo. HeyVL allows users to express a probabilistic program, its specifications, and proof rules in a programming-language style, so that new proof rules can be easily integrated into the verifier. Caesar translates HeyVL programs into verification conditions, which are then checked using the Z3 SMT solver. It also includes a backend based on probabilistic model checking for a subset of HeyVL. We report on the results of five years of development of Caesar, highlighting its main features and architecture. In particular, we describe recent improvements such as additional proof rules, a model-checking backend, and better diagnostics."
   },
   {
     "id": "cav-2026-0061",
@@ -1357,7 +1357,7 @@
     ],
     "paper_type": "Tool Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "Recently there has been a significant effort to handle quantitative properties in formal verification and synthesis. While weighted automata over finite and infinite words provide a natural and flexible framework to express quantitative properties, perhaps surprisingly, some basic system properties such as average response time cannot be expressed using weighted automata, nor in any other know decidable formalism. In this work, we introduce nested weighted automata as a natural extension of weighted automata which makes it possible to express important quantitative properties such as average response time. In nested weighted automata, a master automaton spins off and collects results from weighted slave automata, each of which computes a quantity along a finite portion of an infinite word. Nested weighted automata can be viewed as the quantitative analogue of monitor automata, which are used in run-time verification. We establish an almost complete decidability picture for the basic decision problems about nested weighted automata, and illustrate their applicability in several domains. In particular, nested weighted automata can be used to decide average response time properties."
+    "abstract": "Quantitative automata (QAs) extend finite-state automata on infinite words with weighted transitions to specify quantitative system properties. However, their finite weight sets rule out properties like average response time, where response times can be arbitrarily large. Nested quantitative automata (NQAs) overcome this limitation: a parent automaton spawns child automata to compute unbounded values over finite infixes and aggregates them into a final result. Despite this expressiveness, NQAs have lacked practical tool support to date. We close this gap by extending the Quantitative Automata Kit (QuAK), a software tool for QA analysis, to support NQAs. Our core contribution is implementing a suite of flattening procedures that reduce NQAs to QAs, leveraging QuAK's existing decision procedures. These reductions preserve the answers to threshold decision problems, while allowing users to specify properties in the more expressive NQA formalism. The tool handles all combinations of parent aggregators (including limits and averages) and child functions (extrema and monotonic or bounded summations) for which emptiness and universality are known to be decidable. Experiments on response-time and resource-consumption benchmarks demonstrate QuAK's effectiveness."
   },
   {
     "id": "cav-2026-0062",
@@ -1405,7 +1405,7 @@
     ],
     "paper_type": "Tool Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0064",
@@ -1451,7 +1451,7 @@
     ],
     "paper_type": "Tool Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0066",
@@ -1472,7 +1472,7 @@
     ],
     "paper_type": "Tool Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "Flow theory describes an optimal cognitive state where individuals experience deep focus and intrinsic motivation when a task's difficulty aligns with their skill level. In AI-augmented reasoning, interventions that disrupt the state of cognitive flow can hinder rather than enhance decision-making. This paper proposes a context-aware cognitive augmentation framework that adapts interventions based on three key contextual factors: type, timing, and scale. By leveraging multimodal behavioral cues (e.g., gaze behavior, typing hesitation, interaction speed), AI can dynamically adjust cognitive support to maintain or restore flow. We introduce the concept of cognitive flow, an extension of flow theory in AI-augmented reasoning, where interventions are personalized, adaptive, and minimally intrusive. By shifting from static interventions to context-aware augmentation, our approach ensures that AI systems support deep engagement in complex decision-making and reasoning without disrupting cognitive immersion."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0067",
@@ -1513,7 +1513,7 @@
     ],
     "paper_type": "Tool Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0069",
@@ -1535,7 +1535,7 @@
     ],
     "paper_type": "Tool Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0070",
@@ -1556,7 +1556,7 @@
     ],
     "paper_type": "Tool Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "We show that (1) the Minimal False QCNF search-problem (MF-search) and the Minimal Unsatisfiable LTL formula search problem (MU-search) are FPSPACE complete because of the very expressive power of QBF/LTL, (2) we extend the PSPACE-hardness of the MF decision problem to the MU decision problem. As a consequence, we deduce a positive answer to the open question of PSPACE hardness of the inherent Vacuity Checking problem. We even show that the Inherent Non Vacuous formula search problem is also FPSPACE-complete."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0071",
@@ -1577,7 +1577,7 @@
     ],
     "paper_type": "Tool Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0072",
@@ -1622,7 +1622,7 @@
     ],
     "paper_type": "Tool Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "We present TACO, a toolsuite for the development and automatic verification of fault-tolerant and threshold-based distributed algorithms. Our toolsuite implements three approaches for model checking threshold automata in different decidable fragments known from the literature and two semi-decision procedures going beyond these decidable fragments. Moreover, TACO is a modular, extensible, and well-documented framework for developing algorithms and tools for threshold automata. We present important features, give an overview of the implemented algorithms, and evaluate their performance experimentally."
   },
   {
     "id": "cav-2026-0074",
@@ -1675,7 +1675,7 @@
     ],
     "paper_type": "Tool Paper",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0076",
@@ -1725,7 +1725,7 @@
     ],
     "paper_type": "Industrial Experience Report",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "Java Code Generation consists in generating automatically Java code from a Natural Language Text. This NLP task helps in increasing programmers' productivity by providing them with immediate solutions to the simplest and most repetitive tasks. Code generation is a challenging task because of the hard syntactic rules and the necessity of a deep understanding of the semantic aspect of the programming language. Many works tried to tackle this task using either RNN-based, or Transformer-based models. The latter achieved remarkable advancement in the domain and they can be divided into three groups: (1) encoder-only models, (2) decoder-only models, and (3) encoder-decoder models. In this paper, we provide a comprehensive review of the evolution and progress of deep learning models in Java code generation task. We focus on the most important methods and present their merits and limitations, as well as the objective functions used by the community. In addition, we provide a detailed description of datasets and evaluation metrics used in the literature. Finally, we discuss results of different models on CONCODE dataset, then propose some future directions."
+    "abstract": "Large Language Models perform well at natural language interpretation and reasoning, but their lack of formal correctness guarantees limits their adoption in regulated industries like finance and health-care that operate under strict policies. To address this limitation, we launched Automated Reasoning checks (ARc): a public service that (1) uses LLMs with optional human guidance to formalize natural language policies, allowing fine-grained control of the formalization process, and (2) uses inference-time autoformalization to validate logical correctness of natural language statements against those policies. ARc performs multiple redundant formalization steps at inference time, checking the formalizations for semantic equivalence. Our benchmarks show that ARc exceeds 99% soundness and achieves a near-zero false positive rate in identifying logical validity. Our approach produces auditable artifacts that substantiate the verification outcomes and can be used to improve the original text. ARc is the first commercial offering from a major cloud provider to integrate automated reasoning into a generative AI guardrail."
   },
   {
     "id": "cav-2026-0077",
@@ -1777,7 +1777,7 @@
     ],
     "paper_type": "Industrial Experience Report",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "Modern biology frequently relies on machine learning to provide predictions and improve decision processes. There have been recent calls for more scrutiny on machine learning performance and possible limitations. Here we present a set of community-wide recommendations aiming to help establish standards of supervised machine learning validation in biology. Adopting a structured methods description for machine learning based on data, optimization, model, evaluation (DOME) will aim to help both reviewers and readers to better understand and assess the performance and limitations of a method or outcome. The recommendations are formulated as questions to anyone wishing to pursue implementation of a machine learning algorithm. Answers to these questions can be easily included in the supplementary material of published papers."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0079",
@@ -1800,7 +1800,7 @@
     ],
     "paper_type": "Industrial Experience Report",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "The ILC Technology Network (ITN) was established in 2022 by the ILC International Development Team, a subcommittee of the International Committee for Future Accelerators, to advance engineering studies toward the realisation of the International Linear Collider (ILC). While the ITN work packages focus on engineering activities for the ILC, their topics are also relevant to a broad range of accelerator applications in particle physics and beyond. These work packages are being carried out now by laboratories in Asia and Europe in close collaboration. This report summarises the current status of the ITN activities."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0080",
@@ -1824,7 +1824,7 @@
     ],
     "paper_type": "Industrial Experience Report",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "Software Visualization encompasses the development and evaluation of methods for graphically representing different aspects of methods of software, including its structure, execution and evolution. Creating visualizations helps the user to better understand complex phenomena. It is also found by the software engineering community that visualization is essential and important. In order to visualize the evolution of the models in Model-Driven Software Evolution, authors have proposed a framework which consists of 7 key areas (views) and 22 key features for the assessment of Model Driven Software Evolution process and addresses a number of stakeholder concerns. The framework is derived by the application of the Goal Question Metric Paradigm. This paper aims to describe an application of the framework by considering different visualization tools/CASE tools which are used to visualize the models in different views and to capture the information of models during their evolution. Comparison of such tools is also possible by using the framework."
+    "abstract": ""
   },
   {
     "id": "cav-2026-0081",
@@ -1850,6 +1850,6 @@
     ],
     "paper_type": "Industrial Experience Report",
     "paper_url": "https://conferences.i-cav.org/2026/accepted/",
-    "abstract": "A measurement of the CKM angle $γ$ and related strong-phase parameters is performed using a novel, model-independent approach in ${B^{\\pm}\\rightarrow D(\\rightarrow K^{0}_{\\rm S} h^{\\prime+}h^{\\prime-}) h^{\\pm}}$ decays, where $h^{(\\prime)} \\equiv π, K$. The analysis uses a joint data sample of electron-positron collisions collected by the BESIII experiment at the Beijing Electron-Positron Collider II during 2010--2011 and 2021--2022, corresponding to an integrated luminosity of 8 fb$^{-1}$, and proton-proton collisions collected by the LHCb experiment at the Large Hadron Collider during 2011--2018, corresponding to an integrated luminosity of 9 fb$^{-1}$. The two datasets are analyzed simultaneously by applying per-event weights based on the amplitude variation over the $D$-decay phase space to enhance the sensitivity to $C\\!P$-violating observables. The CKM angle $γ$ is determined to be $γ= (71.3\\pm 5.0)^{\\circ}$, which constitutes the most precise single measurement to date."
+    "abstract": ""
   }
 ]

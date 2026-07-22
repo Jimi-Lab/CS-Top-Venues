@@ -4,46 +4,36 @@ fetch_abstracts.py — Fill missing abstracts from arXiv API
 
 Usage:
   python fetch_abstracts.py                              # all files, serial
-  python fetch_abstracts.py --workers 8                  # all files, 8 parallel
+  python fetch_abstracts.py --workers 1                  # all files, safely rate-limited
   python fetch_abstracts.py --file SE/FSE/FSE-2026.json  # single file only
   python fetch_abstracts.py --file C:/Users/.../FSE-2026.json --workers 4
 """
-import os, json, re, sys, time, random, urllib.request, urllib.parse, xml.etree.ElementTree as ET
+import os, json, sys, time, random, urllib.error
 from multiprocessing import Pool
+from repair_abstracts import arxiv_candidates, choose_candidate
 
 BASE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'Source', '2026')
-ARXIV_API = 'http://export.arxiv.org/api/query?search_query=ti:{}&max_results=1'
 RETRY_DELAY = 10   # seconds to wait on 429
 MAX_RETRIES = 3     # retry count on 429/timeout
-MAX_WORKERS = 8     # hard cap to avoid arXiv rate limit
+MAX_WORKERS = 1     # arXiv asks bulk clients to stay near one request per 3 s
 
 
 def search_arxiv(title):
-    """Returns (abstract_str, error_str). error_str is empty on success."""
-    clean = re.sub(r'[:\-–—,"\'\(\)\[\]{}]', ' ', title)
-    clean = re.sub(r'\s+', ' ', clean).strip()[:200]
-    if not clean or len(clean) < 5:
+    """Return an abstract only after a conservative title-identity check.
+
+    The previous implementation accepted the first arXiv title-search result,
+    which can belong to a different paper.  Keep this legacy entry point for
+    bulk filling, but delegate candidate matching to repair_abstracts.py.
+    """
+    if not title or len(title.strip()) < 5:
         return None, 'title too short'
-
-    url = ARXIV_API.format(urllib.parse.quote(clean))
-
     for attempt in range(MAX_RETRIES):
         try:
-            req = urllib.request.Request(url, headers={'User-Agent': 'PaperDB/1.0'})
-            with urllib.request.urlopen(req, timeout=60) as resp:
-                xml_text = resp.read().decode('utf-8')
-
-            root = ET.fromstring(xml_text)
-            ns = {'atom': 'http://www.w3.org/2005/Atom'}
-            entries = root.findall('atom:entry', ns)
-            if not entries:
-                return None, 'not on arXiv'
-
-            abstract = entries[0].findtext('atom:summary', '', ns).strip()
-            abstract = re.sub(r'\s+', ' ', abstract)
-            if len(abstract) < 30:
-                return None, 'abstract too short'
-            return abstract, None  # SUCCESS
+            time.sleep(3)
+            candidate, _ = choose_candidate(title, arxiv_candidates(title, max_results=8, timeout=60))
+            if not candidate:
+                return None, 'no verified arXiv match'
+            return candidate['abstract'], None
 
         except urllib.error.HTTPError as e:
             if e.code == 429:
@@ -83,8 +73,8 @@ def process_file(json_path):
         if abstract:
             p['abstract'] = abstract
             found += 1
-        elif error == 'not on arXiv':
-            p['abstract'] = ''  # genuinely not on arXiv, don't retry
+        elif error in ('not on arXiv', 'no verified arXiv match'):
+            p['abstract'] = ''  # unavailable or ambiguous; never fill with a guess
             not_on_arxiv += 1
         else:
             # Network error, rate limit, etc. — leave abstract as None so it retries
@@ -109,6 +99,9 @@ def main():
     # File discovery
     all_files = []
     for root, dirs, files in os.walk(BASE):
+        # Every underscore-prefixed directory is an audit/backup artefact,
+        # never a live venue directory.  Do not accidentally reprocess it.
+        dirs[:] = [d for d in dirs if not d.startswith('_')]
         for f in files:
             if not f.endswith('-2026.json'):
                 continue

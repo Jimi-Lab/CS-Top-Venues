@@ -1,6 +1,6 @@
 {
   "description": "2026 Top Venue Paper Collection Index",
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-19",
   "total_venues": 36,
   "total_papers": 21787,
   "venues_complete": 22,
@@ -10,7 +10,7 @@
     {
       "folder": "AAAI",
       "paper_count": 2274,
-      "has_abstract": 0,
+      "has_abstract": 2274,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://ojs.aaai.org/index.php/AAAI/issue/archive",
@@ -25,7 +25,7 @@
     {
       "folder": "ACL",
       "paper_count": 515,
-      "has_abstract": 0,
+      "has_abstract": 420,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://2026.aclweb.org/program/accepted_papers/",
@@ -67,7 +67,7 @@
     {
       "folder": "ACM_TOSEM",
       "paper_count": 212,
-      "has_abstract": 210,
+      "has_abstract": 212,
       "has_keywords": 211,
       "has_cycle": 0,
       "official_url": "https://dl.acm.org/loi/tosem",
@@ -94,7 +94,7 @@
     {
       "folder": "ASPLOS",
       "paper_count": 168,
-      "has_abstract": 0,
+      "has_abstract": 96,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://www.asplos-conference.org/asplos2026/program/",
@@ -109,7 +109,7 @@
     {
       "folder": "Artificial_Intelligence",
       "paper_count": 78,
-      "has_abstract": 68,
+      "has_abstract": 77,
       "has_keywords": 64,
       "has_cycle": 0,
       "official_url": "https://www.sciencedirect.com/journal/artificial-intelligence/issues",
@@ -124,7 +124,7 @@
     {
       "folder": "CAV",
       "paper_count": 81,
-      "has_abstract": 0,
+      "has_abstract": 51,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://conferences.i-cav.org/2026/accepted/",
@@ -139,7 +139,7 @@
     {
       "folder": "EuroSys",
       "paper_count": 138,
-      "has_abstract": 0,
+      "has_abstract": 80,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://2026.eurosys.org/papers.html",
@@ -154,7 +154,7 @@
     {
       "folder": "FAST",
       "paper_count": 46,
-      "has_abstract": 0,
+      "has_abstract": 45,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://www.usenix.org/conference/fast26/technical-sessions",
@@ -169,7 +169,7 @@
     {
       "folder": "FSE",
       "paper_count": 211,
-      "has_abstract": 0,
+      "has_abstract": 211,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://conf.researchr.org/track/fse-2026/fse-2026-research-papers",
@@ -184,7 +184,7 @@
     {
       "folder": "ICDE",
       "paper_count": 261,
-      "has_abstract": 0,
+      "has_abstract": 145,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://icde2026.github.io/accepted-papers.html",
@@ -199,7 +199,7 @@
     {
       "folder": "ICLR",
       "paper_count": 5691,
-      "has_abstract": 0,
+      "has_abstract": 5690,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://iclr.cc/virtual/2026/papers.html",
@@ -214,7 +214,7 @@
     {
       "folder": "ICML",
       "paper_count": 6796,
-      "has_abstract": 0,
+      "has_abstract": 6796,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://icml.cc/virtual/2026/papers.html",
@@ -229,7 +229,7 @@
     {
       "folder": "ICSE",
       "paper_count": 321,
-      "has_abstract": 0,
+      "has_abstract": 303,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://conf.researchr.org/track/icse-2026/icse-2026-research-track",
@@ -244,7 +244,7 @@
     {
       "folder": "IEEE_S&P",
       "paper_count": 254,
-      "has_abstract": 0,
+      "has_abstract": 153,
       "has_keywords": 0,
       "has_cycle": 254,
       "official_url": "https://sp2026.ieee-security.org/accepted-papers.html",
@@ -259,7 +259,7 @@
     {
       "folder": "IEEE_TDSC",
       "paper_count": 631,
-      "has_abstract": 630,
+      "has_abstract": 631,
       "has_keywords": 630,
       "has_cycle": 0,
       "official_url": "https://ieeexplore.ieee.org/xpl/issues?punumber=8858",
@@ -289,7 +289,7 @@
     {
       "folder": "IEEE_TPAMI",
       "paper_count": 631,
-      "has_abstract": 630,
+      "has_abstract": 631,
       "has_keywords": 630,
       "has_cycle": 0,
       "official_url": "https://ieeexplore.ieee.org/xpl/issues?punumber=34",
@@ -304,7 +304,7 @@
     {
       "folder": "IEEE_TSE",
       "paper_count": 109,
-      "has_abstract": 107,
+      "has_abstract": 108,
       "has_keywords": 104,
       "has_cycle": 0,
       "official_url": "https://ieeexplore.ieee.org/xpl/issues?punumber=32",
@@ -319,7 +319,7 @@
     {
       "folder": "IJCAI",
       "paper_count": 990,
-      "has_abstract": 981,
+      "has_abstract": 990,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://2026.ijcai.org/accepted-papers/",
@@ -334,7 +334,7 @@
     {
       "folder": "ISSTA",
       "paper_count": 176,
-      "has_abstract": 0,
+      "has_abstract": 158,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://conf.researchr.org/track/issta-2026/issta-2026-research-papers",
@@ -349,7 +349,7 @@
     {
       "folder": "JACM",
       "paper_count": 21,
-      "has_abstract": 18,
+      "has_abstract": 21,
       "has_keywords": 21,
       "has_cycle": 0,
       "official_url": "https://dl.acm.org/loi/jacm",
@@ -364,7 +364,7 @@
     {
       "folder": "JMLR",
       "paper_count": 137,
-      "has_abstract": 0,
+      "has_abstract": 137,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://www.jmlr.org/papers/v27/",
@@ -379,7 +379,7 @@
     {
       "folder": "NDSS",
       "paper_count": 265,
-      "has_abstract": 0,
+      "has_abstract": 151,
       "has_keywords": 0,
       "has_cycle": 265,
       "official_url": "https://www.ndss-symposium.org/ndss2026/accepted-papers/",
@@ -394,7 +394,7 @@
     {
       "folder": "NSDI",
       "paper_count": 151,
-      "has_abstract": 0,
+      "has_abstract": 151,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://www.usenix.org/conference/nsdi26/technical-sessions",
@@ -421,7 +421,7 @@
     {
       "folder": "OOPSLA",
       "paper_count": 74,
-      "has_abstract": 0,
+      "has_abstract": 47,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://2026.splashcon.org/track/oopsla-2026",
@@ -436,7 +436,7 @@
     {
       "folder": "OSDI",
       "paper_count": 137,
-      "has_abstract": 0,
+      "has_abstract": 137,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://www.usenix.org/conference/osdi26/technical-sessions",
@@ -451,7 +451,7 @@
     {
       "folder": "PLDI",
       "paper_count": 118,
-      "has_abstract": 0,
+      "has_abstract": 110,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://pldi26.sigplan.org/track/pldi-2026-papers",
@@ -466,7 +466,7 @@
     {
       "folder": "POPL",
       "paper_count": 92,
-      "has_abstract": 0,
+      "has_abstract": 89,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://popl26.sigplan.org/track/POPL-2026-popl-research-papers",
@@ -481,7 +481,7 @@
     {
       "folder": "SIGMOD",
       "paper_count": 311,
-      "has_abstract": 0,
+      "has_abstract": 174,
       "has_keywords": 0,
       "has_cycle": 311,
       "official_url": "https://2026.sigmod.org/sigmod_papers.shtml",
@@ -508,7 +508,7 @@
     {
       "folder": "USENIX_Security",
       "paper_count": 362,
-      "has_abstract": 0,
+      "has_abstract": 275,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
@@ -523,7 +523,7 @@
     {
       "folder": "VLDB",
       "paper_count": 81,
-      "has_abstract": 0,
+      "has_abstract": 52,
       "has_keywords": 0,
       "has_cycle": 0,
       "official_url": "https://www.vldb.org/pvldb/vol19.html",
@@ -535,5 +535,21 @@
       "path": "DB/VLDB/VLDB-2026.json",
       "file": "VLDB-2026.json"
     }
-  ]
+  ],
+  "abstract_summary": {
+    "papers_with_abstract": 20870,
+    "papers_without_abstract": 917,
+    "coverage_percent": 95.79,
+    "policy": "Official proceedings/pages first; title-verified arXiv fallback permitted for reading-library abstracts."
+  },
+  "live_category_directories": [
+    "AI",
+    "DB",
+    "Formal_Methods",
+    "PL",
+    "SE",
+    "Security",
+    "Sys"
+  ],
+  "auxiliary_directories_excluded": "All underscore-prefixed directories are audit/backup artefacts, not corpus inputs."
 }

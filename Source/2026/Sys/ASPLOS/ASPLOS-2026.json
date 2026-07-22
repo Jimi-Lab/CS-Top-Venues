@@ -50,7 +50,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0003",
@@ -127,7 +127,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Legged locomotion is arguably the most suited and versatile mode to deal with natural or unstructured terrains. Intensive research into dynamic walking and running controllers has recently yielded great advances, both in the optimal control and reinforcement learning (RL) literature. Hopping is a challenging dynamic task involving a flight phase and has the potential to increase the traversability of legged robots. Model based control for hopping typically relies on accurate detection of different jump phases, such as lift-off or touch down, and using different controllers for each phase. In this paper, we present a end-to-end RL based torque controller that learns to implicitly detect the relevant jump phases, removing the need to provide manual heuristics for state detection. We also extend a method for simulation to reality transfer of the learned controller to contact rich dynamic tasks, resulting in successful deployment on the robot after training without parameter tuning."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0006",
@@ -238,7 +238,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "The dominant retrieve-then-rank pipeline in large-scale recommender systems suffers from mis-calibration and engineering overhead due to its architectural split and differing optimization objectives. While recent generative sequence models have shown promise in unifying retrieval and ranking by auto-regressively generating ranked items, existing solutions typically address either personalized search or query-free recommendation, often exhibiting performance trade-offs when attempting to unify both. We introduce \\textit{SynerGen}, a novel generative recommender model that bridges this critical gap by providing a single generative backbone for both personalized search and recommendation, while simultaneously excelling at retrieval and ranking tasks. Trained on behavioral sequences, our decoder-only Transformer leverages joint optimization with InfoNCE for retrieval and a hybrid pointwise-pairwise loss for ranking, allowing semantic signals from search to improve recommendation and vice versa. We also propose a novel time-aware rotary positional embedding to effectively incorporate time information into the attention mechanism. \\textit{SynerGen} achieves significant improvements on widely adopted recommendation and search benchmarks compared to strong generative recommender and joint search and recommendation baselines. This work demonstrates the viability of a single generative foundation model for industrial-scale unified information access."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0010",
@@ -264,7 +264,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Mixture of Experts (MoE) architectures significantly enhance the capacity of LLMs without proportional increases in computation, but at the cost of a vast parameter size. Offloading MoE expert parameters to host memory and leveraging both CPU and GPU computation has recently emerged as a promising direction to support such models on resourceconstrained local PC platforms. While promising, we notice that existing approaches mismatch the dynamic nature of expert workloads, which leads to three fundamental inefficiencies: (1) Static expert assignment causes severe CPUGPU load imbalance, underutilizing CPU and GPU resources; (2) Existing prefetching techniques fail to accurately predict high-workload experts, leading to costly inaccurate prefetches; (3) GPU cache policies neglect workload dynamics, resulting in poor hit rates and limited effectiveness. To address these challenges, we propose DALI, a workloaDAware offLoadIng framework for efficient MoE inference on local PCs. To fully utilize hardware resources, DALI first dynamically assigns experts to CPU or GPU by modeling assignment as a 0-1 integer optimization problem and solving it efficiently using a Greedy Assignment strategy at runtime. To improve prefetching accuracy, we develop a Residual-Based Prefetching method leveraging inter-layer residual information to accurately predict high-workload experts. Additionally, we introduce a Workload-Aware Cache Replacement policy that exploits temporal correlation in expert activations to improve GPU cache efficiency. By evaluating across various MoE models and settings, DALI achieves significant speedups in the both prefill and decoding phases over the state-of-the-art offloading frameworks."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0011",
@@ -312,7 +312,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "The complexity of multimedia applications in terms of intensity of computation and heterogeneity of treated data led the designers to embark them on multiprocessor systems on chip. The complexity of these systems on one hand and the expectations of the consumers on the other hand complicate the designers job to conceive and supply strong and successful systems in the shortest deadlines. They have to explore the different solutions of the design space and estimate their performances in order to deduce the solution that respects their design constraints. In this context, we propose the modeling of one of the design space possible solutions: the software to hardware task migration. This modeling exploits the synchronous dataflow graphs to take into account the different migration impacts and estimate their performances in terms of throughput."
+    "abstract": "The performance of current quantum hardware is severely limited. While expanding the quantum ISA with high-fidelity, expressive basis gates is a key path forward, it imposes significant gate calibration overhead and complicates compiler optimization. As a result, even though more powerful ISAs have been designed, their use remains largely conceptual rather than practical. To move beyond these hurdles, we introduce the concept of \"reconfigurable quantum instruction set computers\" (ReQISC), which incorporates: (1) a unified microarchitecture capable of directly implementing arbitrary 2Q gates equivalently, i.e., SU(4) modulo 1Q rotations, with theoretically optimal gate durations given any 2Q coupling Hamiltonians; (2) a compilation framework tailored to ReQISC primitives for end-to-end synthesis and optimization, comprising a program-aware pass that refines high-level representations, a program-agnostic pass for aggressive circuit-level optimization, and an SU(4)-aware routing pass that minimizes hardware mapping overhead. We detail the hardware implementation to demonstrate the feasibility, in terms of both pulse control and calibration of this superior gate scheme on realistic hardware. By leveraging the expressivity of SU(4) and the time minimality realized by the underlying microarchitecture, the SU(4)-based ISA achieves remarkable performance, with a 4.97-fold reduction in average pulse duration to implement arbitrary 2Q gates, compared to the usual CNOT/CZ scheme on mainstream flux-tunable transmons. Supported by the end-to-end compiler, ReQISC outperforms the conventional CNOT-ISA, SOTA compiler, and pulse implementation counterparts, in significantly reducing 2Q gate counts, circuit depth, pulse duration, qubit mapping overhead, and program fidelity losses. For the first time, ReQISC makes the theoretical benefits of continuous ISAs practically feasible."
   },
   {
     "id": "asplos-2026-0013",
@@ -338,7 +338,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "Analog quantum simulation leverages native hardware dynamics to emulate complex quantum systems with great efficiency by bypassing the quantum circuit abstraction. However, conventional compilation methods for analog simulators are typically labor-intensive, prone to errors, and computationally demanding. This paper introduces QTurbo, a powerful analog quantum simulation compiler designed to significantly enhance compilation efficiency and optimize hardware execution time. By generating precise and noiseresilient pulse schedules, our approach ensures greater accuracy and reliability, outperforming the existing state-of-theart approach."
   },
   {
     "id": "asplos-2026-0014",
@@ -359,7 +359,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "This work is on the Physics of the B Factories. Part A of this book contains a brief description of the SLAC and KEK B Factories as well as their detectors, BaBar and Belle, and data taking related issues. Part B discusses tools and methods used by the experiments in order to obtain results. The results themselves can be found in Part C. Please note that version 3 on the archive is the auxiliary version of the Physics of the B Factories book. This uses the notation alpha, beta, gamma for the angles of the Unitarity Triangle. The nominal version uses the notation phi_1, phi_2 and phi_3. Please cite this work as Eur. Phys. J. C74 (2014) 3026."
+    "abstract": "Quantum error correction is essential for achieving practical quantum computing but has a significant computational overhead. Among fault-tolerant (FT) gate operations, non-Clifford gates, such as $T$, are particularly expensive due to their reliance on magic state distillation. These costly $T$ gates appear frequently in FT circuits as many quantum algorithms require arbitrary single-qubit rotations, such as $R_x$ and $R_z$ gates, which must be decomposed into a sequence of $T$ and Clifford gates. In many quantum circuits, $R_x$ and $R_z$ gates can be fused to form a single $U3$ unitary. However, existing synthesis methods, such as Gridsynth, rely on indirect decompositions, requiring separate $R_z$ decompositions that result in a threefold increase in $T$ count. This work presents TensoR-based Arbitrary unitary SYNthesis (trasyn), a novel FT synthesis algorithm that directly synthesizes arbitrary single-qubit unitaries, avoiding the overhead of separate $R_z$ decompositions. By leveraging tensor network-based search, our approach enables native $U3$ synthesis, reducing the $T$ count, Clifford gate count, and approximation error. Compared to Gridsynth-based circuit synthesis, for 187 representative benchmarks, our design reduces the T count by up to 3.5$\\times$, and Clifford gates by 7$\\times$, resulting in up to 4$\\times$ improvement in overall circuit infidelity."
   },
   {
     "id": "asplos-2026-0015",
@@ -432,7 +432,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Compute eXpress Link (CXL) has emerged as a key enabler of memory disaggregation for future heterogeneous computing systems to expand memory on-demand and improve resource utilization. However, CXL is still in its infancy stage and lacks commodity products on the market, thus necessitating a reliable system-level simulation tool for research and development. In this paper, we propose CXL-DMSim, an open-source full-system simulator to simulate CXL disaggregated memory systems with high fidelity at a gem5-comparable simulation speed. CXL-DMSim incorporates a flexible CXL memory expander model along with its associated device driver, and CXL protocol support with CXL.io and CXL.mem. It can operate in both app-managed mode and kernel-managed mode, with the latter using a dedicated NUMA-compatible mechanism. The simulator has been rigorously verified against a real hardware testbed with both FPGAand ASIC-based CXL memory devices, which demonstrates the qualification of CXL-DMSim in simulating the characteristics of various CXL memory devices at an average simulation error of 3.4%. The experimental results using LMbench and STREAM benchmarks suggest that the CXL-FPGA memory exhibits a ~2.88x higher latency than local DDR while the CXL-ASIC latency is ~2.18x; CXL-FPGA achieves 45-69% of local DDR memory bandwidth, whereas the number for CXLASIC is 82-83%. The study also reveals that CXL memory can significantly enhance the performance of memory-intensive applications, improved by 23x at most with limited local memory for Viper key-value database and approximately 60% in memorybandwidth-sensitive scenarios such as MERCI. Moreover, the simulator's observability and expandability are showcased with detailed case-studies, highlighting its great potential for research on future CXL-interconnected hybrid memory pool."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0018",
@@ -453,7 +453,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Compute eXpress Link (CXL) has emerged as a key enabler of memory disaggregation for future heterogeneous computing systems to expand memory on-demand and improve resource utilization. However, CXL is still in its infancy stage and lacks commodity products on the market, thus necessitating a reliable system-level simulation tool for research and development. In this paper, we propose CXL-DMSim, an open-source full-system simulator to simulate CXL disaggregated memory systems with high fidelity at a gem5-comparable simulation speed. CXL-DMSim incorporates a flexible CXL memory expander model along with its associated device driver, and CXL protocol support with CXL.io and CXL.mem. It can operate in both app-managed mode and kernel-managed mode, with the latter using a dedicated NUMA-compatible mechanism. The simulator has been rigorously verified against a real hardware testbed with both FPGAand ASIC-based CXL memory devices, which demonstrates the qualification of CXL-DMSim in simulating the characteristics of various CXL memory devices at an average simulation error of 3.4%. The experimental results using LMbench and STREAM benchmarks suggest that the CXL-FPGA memory exhibits a ~2.88x higher latency than local DDR while the CXL-ASIC latency is ~2.18x; CXL-FPGA achieves 45-69% of local DDR memory bandwidth, whereas the number for CXLASIC is 82-83%. The study also reveals that CXL memory can significantly enhance the performance of memory-intensive applications, improved by 23x at most with limited local memory for Viper key-value database and approximately 60% in memorybandwidth-sensitive scenarios such as MERCI. Moreover, the simulator's observability and expandability are showcased with detailed case-studies, highlighting its great potential for research on future CXL-interconnected hybrid memory pool."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0019",
@@ -476,7 +476,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Compute eXpress Link (CXL) has emerged as a key enabler of memory disaggregation for future heterogeneous computing systems to expand memory on-demand and improve resource utilization. However, CXL is still in its infancy stage and lacks commodity products on the market, thus necessitating a reliable system-level simulation tool for research and development. In this paper, we propose CXL-DMSim, an open-source full-system simulator to simulate CXL disaggregated memory systems with high fidelity at a gem5-comparable simulation speed. CXL-DMSim incorporates a flexible CXL memory expander model along with its associated device driver, and CXL protocol support with CXL.io and CXL.mem. It can operate in both app-managed mode and kernel-managed mode, with the latter using a dedicated NUMA-compatible mechanism. The simulator has been rigorously verified against a real hardware testbed with both FPGAand ASIC-based CXL memory devices, which demonstrates the qualification of CXL-DMSim in simulating the characteristics of various CXL memory devices at an average simulation error of 3.4%. The experimental results using LMbench and STREAM benchmarks suggest that the CXL-FPGA memory exhibits a ~2.88x higher latency than local DDR while the CXL-ASIC latency is ~2.18x; CXL-FPGA achieves 45-69% of local DDR memory bandwidth, whereas the number for CXLASIC is 82-83%. The study also reveals that CXL memory can significantly enhance the performance of memory-intensive applications, improved by 23x at most with limited local memory for Viper key-value database and approximately 60% in memorybandwidth-sensitive scenarios such as MERCI. Moreover, the simulator's observability and expandability are showcased with detailed case-studies, highlighting its great potential for research on future CXL-interconnected hybrid memory pool."
+    "abstract": "CXL (Compute Express Link) is an emerging open industry-standard interconnect between processing and memory devices that is expected to revolutionize the way systems are designed. It enables cache-coherent, shared memory pools in a disaggregated fashion at unprecedented scales, allowing algorithms to interact with various storage devices using simple loads and stores. While CXL unleashes unique opportunities, it also introduces challenges of data management and crash consistency. For example, CXL currently lacks an adequate programming model, making it impossible to reason about the correctness and behavior of systems on top. In this work, we present CXL0, the first programming model for concurrent programs over CXL. We propose a high-level abstraction for memory accesses and formally define operational semantics. We demonstrate that CXL0 captures a wide range of current and future CXL setups and perform initial measurements on real hardware. To illustrate the usefulness of CXL0, we present a general transformation that enhances any linearizable concurrent algorithm with durability in a distributed partial-crash setting. We believe that this work will serve as a stepping stone for systems design and programming on top of CXL."
   },
   {
     "id": "asplos-2026-0020",
@@ -498,7 +498,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0021",
@@ -551,7 +551,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0023",
@@ -658,7 +658,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0027",
@@ -685,7 +685,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "This tutorial presents a comprehensive introduction to Speculative Decoding (SD), an advanced technique for LLM inference acceleration that has garnered significant research interest in recent years. SD is introduced as an innovative decoding paradigm to mitigate the high inference latency stemming from autoregressive decoding in LLMs. At each decoding step, SD efficiently drafts several future tokens and then verifies them in parallel. This approach, unlike traditional autoregressive decoding, facilitates the simultaneous decoding of multiple tokens per step, thereby achieving promising 2x-4x speedups in LLM inference while maintaining original distributions. This tutorial delves into the latest techniques in SD, including draft model architectures and verification strategies. Additionally, it explores the acceleration potential and future research directions in this promising field. We aim for this tutorial to elucidate the current research landscape and offer insights for researchers interested in Speculative Decoding, ultimately contributing to more efficient LLM inference."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0028",
@@ -710,7 +710,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Interpretation of natural language is inherently context-sensitive. Most words in natural language are ambiguous and their meanings are heavily dependent on the linguistic context in which they are used. The study of lexical semantics can not be separated from the notion of context. This paper takes a contextual approach to lexical semantics and studies the linguistic context of lexical atoms, or \"sticky\" phrases such as \"hot dog\". Since such lexical atoms may occur frequently in unrestricted natural language text, recognizing them is crucial for understanding naturally-occurring text. The paper proposes several heuristic approaches to exploiting the linguistic context to identify lexical atoms from arbitrary natural language text."
+    "abstract": "In this paper, we point out that the objective of the retrieval algorithms is to align with the LLM, which is similar to the objective of knowledge distillation in LLMs. We analyze the similarity in information focus between the distilled language model(DLM) and the original LLM from the perspective of information theory, and thus propose a novel paradigm that leverages a DLM as the retrieval algorithm. Based on the insight, we present SpeContext, an algorithm and system co-design for long-context reasoning. (1) At the algorithm level, SpeContext proposes lightweight retrieval head based on the head-level attention weights of DLM, achieving > 90% parameters reduction by pruning the redundancy. (2) At the system level, SpeContext designs an asynchronous prefetch dataflow via the elastic loading strategy, effectively overlapping KV cache retrieval with the LLM computation. (3) At the compilation level, SpeContext constructs the theoretical memory model and implements an adaptive memory management system to achieve acceleration by maximizing GPU memory utilization. We deploy and evaluate SpeContext in two resourceconstrained environments, cloud and edge. Extensive experiments show that, compared with the Huggingface framework, SpeContext achieves up to 24.89x throughput improvement in cloud and 10.06x speedup in edge with negligible accuracy loss, pushing the Pareto frontier of accuracy and throughput."
   },
   {
     "id": "asplos-2026-0029",
@@ -736,7 +736,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0030",
@@ -788,7 +788,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "We study pool-based active learning of half-spaces. We revisit the aggressive approach for active learning in the realizable case, and show that it can be made efficient and practical, while also having theoretical guarantees under reasonable assumptions. We further show, both theoretically and experimentally, that it can be preferable to mellow approaches. Our efficient aggressive active learner of half-spaces has formal approximation guarantees that hold when the pool is separable with a margin. While our analysis is focused on the realizable setting, we show that a simple heuristic allows using the same algorithm successfully for pools with low error as well. We further compare the aggressive approach to the mellow approach, and prove that there are cases in which the aggressive approach results in significantly better label complexity compared to the mellow approach. We demonstrate experimentally that substantial improvements in label complexity can be achieved using the aggressive approach, for both realizable and low-error settings."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0032",
@@ -824,7 +824,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "The surge in large language models (LLMs) has fundamentally reshaped the landscape of GPU usage patterns, creating an urgent need for more efficient management strategies. While cloud providers employ spot instances to reduce costs for low-priority (LP) tasks, existing schedulers still grapple with high eviction rates and lengthy queuing times. To address these limitations, we present GFS, a novel preemptive scheduling framework that enhances service-level objective (SLO) compliance for high-priority (HP) tasks while minimizing preemptions to LP tasks. Firstly, GFS utilizes a lightweight forecasting model that predicts GPU demand among different tenants, enabling proactive resource management. Secondly, GFS employs a dynamic allocation mechanism to adjust the spot quota for LP tasks with guaranteed durations. Lastly, GFS incorporates a preemptive scheduling policy that prioritizes HP tasks while minimizing the impact on LP tasks. We demonstrate the effectiveness of GFS through both real-world implementation and simulations. The results show that GFS reduces eviction rates by 33.0\\%, and cuts queuing delays by 44.1\\% for LP tasks. Furthermore, GFS enhances the GPU allocation rate by up to 22.8\\% in real production clusters. In a production cluster of more than 10,000 GPUs, GFS yields roughly \\$459,715 in monthly benefits."
   },
   {
     "id": "asplos-2026-0033",
@@ -848,7 +848,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "In modern server CPUs, last-level cache (LLC) is a critical hardware resource that exerts significant influence on the performance of the workloads, and how to manage LLC is a key to the performance isolation and QoS in the cloud with multi-tenancy. In this paper, we argue that besides CPU cores, high-speed network I/O is also important for LLC management. This is because of an Intel architectural innovation -- Data Direct I/O (DDIO) -- that directly injects the inbound I/O traffic to (part of) the LLC instead of the main memory. We summarize two problems caused by DDIO and show that (1) the default DDIO configuration may not always achieve optimal performance, (2) DDIO can decrease the performance of non-I/O workloads which share LLC with it by as high as 32%. We then present IOCA, the first LLC management mechanism for network-centric platforms that treats the I/O as the first-class citizen. IOCA monitors and analyzes the performance of the cores, LLC, and DDIO using CPU's hardware performance counters, and adaptively adjusts the number of LLC ways for DDIO or the tenants that demand more LLC capacity. In addition, IOCA dynamically chooses the tenants that share its LLC resource with DDIO, to minimize the performance interference by both the tenants and the I/O. Our experiments with multiple microbenchmarks and real-world applications in two major end-host network models demonstrate that IOCA can effectively reduce the performance degradation caused by DDIO, with minimal overhead."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0034",
@@ -932,7 +932,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Memory isolation is critical for system reliability, security, and safety. Unfortunately, read disturbance can break memory isolation in modern DRAM chips. For example, RowHammer is a well-studied read-disturb phenomenon where repeatedly opening and closing (i.e., hammering) a DRAM row many times causes bitflips in physically nearby rows. This paper experimentally demonstrates and analyzes another widespread read-disturb phenomenon, RowPress, in real DDR4 DRAM chips. RowPress breaks memory isolation by keeping a DRAM row open for a long period of time, which disturbs physically nearby rows enough to cause bitflips. We show that RowPress amplifies DRAM's vulnerability to read-disturb attacks by significantly reducing the number of row activations needed to induce a bitflip by one to two orders of magnitude under realistic conditions. In extreme cases, RowPress induces bitflips in a DRAM row when an adjacent row is activated only once. Our detailed characterization of 164 real DDR4 DRAM chips shows that RowPress 1) affects chips from all three major DRAM manufacturers, 2) gets worse as DRAM technology scales down to smaller node sizes, and 3) affects a different set of DRAM cells from RowHammer and behaves differently from RowHammer as temperature and access pattern changes. We demonstrate in a real DDR4-based system with RowHammer protection that 1) a user-level program induces bitflips by leveraging RowPress while conventional RowHammer cannot do so, and 2) a memory controller that adaptively keeps the DRAM row open for a longer period of time based on access pattern can facilitate RowPress-based attacks. To prevent bitflips due to RowPress, we describe and evaluate a new methodology that adapts existing RowHammer mitigation techniques to also mitigate RowPress with low additional performance overhead. We open source all our code and data to facilitate future research on RowPress."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0037",
@@ -955,7 +955,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Memory isolation is critical for system reliability, security, and safety. Unfortunately, read disturbance can break memory isolation in modern DRAM chips. For example, RowHammer is a well-studied read-disturb phenomenon where repeatedly opening and closing (i.e., hammering) a DRAM row many times causes bitflips in physically nearby rows. This paper experimentally demonstrates and analyzes another widespread read-disturb phenomenon, RowPress, in real DDR4 DRAM chips. RowPress breaks memory isolation by keeping a DRAM row open for a long period of time, which disturbs physically nearby rows enough to cause bitflips. We show that RowPress amplifies DRAM's vulnerability to read-disturb attacks by significantly reducing the number of row activations needed to induce a bitflip by one to two orders of magnitude under realistic conditions. In extreme cases, RowPress induces bitflips in a DRAM row when an adjacent row is activated only once. Our detailed characterization of 164 real DDR4 DRAM chips shows that RowPress 1) affects chips from all three major DRAM manufacturers, 2) gets worse as DRAM technology scales down to smaller node sizes, and 3) affects a different set of DRAM cells from RowHammer and behaves differently from RowHammer as temperature and access pattern changes. We demonstrate in a real DDR4-based system with RowHammer protection that 1) a user-level program induces bitflips by leveraging RowPress while conventional RowHammer cannot do so, and 2) a memory controller that adaptively keeps the DRAM row open for a longer period of time based on access pattern can facilitate RowPress-based attacks. To prevent bitflips due to RowPress, we describe and evaluate a new methodology that adapts existing RowHammer mitigation techniques to also mitigate RowPress with low additional performance overhead. We open source all our code and data to facilitate future research on RowPress."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0038",
@@ -1001,7 +1001,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A detailed study is presented of the expected performance of the ATLAS detector. The reconstruction of tracks, leptons, photons, missing energy and jets is investigated, together with the performance of b-tagging and the trigger. The physics potential for a variety of interesting physics processes, within the Standard Model and beyond, is examined. The study comprises a series of notes based on simulations of the detector and physics processes, with particular emphasis given to the data expected from the first years of operation of the LHC at CERN."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0040",
@@ -1022,7 +1022,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A growing community of scientists has been using neutrons in the most diverse areas of science. In order to meet the researchers demand in the areas of physics, chemistry, materials sciences, engineering, cultural heritage, biology and earth sciences, the Brazilian Multipurpose Reactor (RMB) will provide 3 thermal guides and 3 cold guides, with the installation of several instruments for materials characterization. In this study, we present a standard design requirement of two primordial instruments, namely Sabiá and Araponga. They are, respectively, cold and thermal neutron instruments and correspond to a Small-Angle Neutron Scattering (SANS) and High-Resolution Powder Neutron Diffractometer (HRPND) to be installed in the Neutron Guide Building (N02) of RMB. To provide adequate flux for both instruments, we propose here an initial investigation of the use of simple and split guides to transport neutron beams to two different instruments on the same guide. For this purpose, we use Monte Carlo simulations utilizing McStas software to check the efficiency of thermal neutron transport for different basic configuration and sources. By considering these results, it is possible to conclude that the split guide configuration is, in most cases, more efficient than cases that use transmitted neutron beams independently of source. We also verify that the employment of different coating indexes for concave and convex surfaces on curved guides is crucial, at least on simulated cases, to optimise neutron flux (intensity and divergence) and diminish facility installation cost."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0041",
@@ -1045,7 +1045,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "We discuss the recent developments of semi-classical and micro-local analysis in the context of nilpotent Lie groups and for sub-elliptic operators. In particular, we give an overview of pseudo-differential calculi recently defined on nilpotent Lie groups as well as of the notion of quantum limits in the Euclidean and nilpotent cases."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0042",
@@ -1117,7 +1117,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "This paper is a review of the developments in Instruction level parallelism. It takes into account all the changes made in speeding up the execution. The various drawbacks and dependencies due to pipelining are discussed and various solutions to overcome them are also incorporated. It goes ahead in the last section to explain where is the new research leading us."
+    "abstract": "Value level parallelism (VLP) has been proposed to improve the efficiency of large-batch, low-precision general matrix multiply (GEMM) between symmetric activations and weights. In transformer based large language models (LLMs), there exist more sophisticated operations beyond activation-weight GEMM. In this paper, we explore how VLP benefits LLMs. First, we generalize VLP for nonlinear approximations, outperforming existing nonlinear approximations in end-to-end LLM accuracy, performance, and efficiency. Our VLP approximation follows a value-centric approach, where important values are assigned with greater accuracy. Second, we optimize VLP for small-batch GEMMs with asymmetric inputs efficiently, which leverages timely LLM optimizations, including weight-only quantization, key-value (KV) cache quantization, and group query attention. Finally, we design a new VLP architecture, Mugi, to encapsulate the innovations above and support full LLM workloads, while providing better performance, efficiency and sustainability. Our experimental results show that Mugi can offer significant improvements on throughput and energy efficiency, up to $45\\times$ and $668\\times$ for nonlinear softmax operations, and $2.07\\times$ and $3.11\\times$ for LLMs, and also decrease operational carbon for LLM operation by $1.45\\times$ and embodied carbon by $1.48\\times$."
   },
   {
     "id": "asplos-2026-0045",
@@ -1188,7 +1188,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Large language models (LLMs) drive significant financial innovations, yet their high-concurrency deployment is severely bottlenecked by KV cache memory overhead, which inflates infrastructure costs and throttles scalability. To address this, we propose YouZhi-LLM, a highly efficient financial LLM empowered by a comprehensive structural transition and training pipeline natively built on the Huawei Ascend ecosystem. At its algorithmic core, YouZhi-LLM features a layer-adaptive GQA-to-MLA transition framework that dynamically assigns per-layer FreqFold sizes, maximizing KV-cache compression while minimizing perplexity degradation. To recover representation capacity and inject domain expertise, the Ascend-based training pipeline seamlessly integrates generalized knowledge distillation with financial-specific supervised fine-tuning. Evaluations demonstrate the superiority of this systematic approach, with the adaptive transition reducing perplexity degradation by up to 35% over uniform baselines. Crucially, when evaluated on Ascend NPUs via vLLM-Ascend, the massive KV-cache reduction translates directly into deployment efficiency. Compared to their respective base models, YouZhi-7B yields a 12.3% improvement in average financial benchmark score alongside a 2.69$\\times$ increase in maximum concurrency; similarly, YouZhi-14B achieves a 7.0% accuracy gain and a 2.43$\\times$ concurrency boost, establishing a new paradigm for cost-effective, high-throughput financial inference."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0048",
@@ -1211,7 +1211,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "In the rapidly advancing realm of visual generation, diffusion models have revolutionized the landscape, marking a significant shift in capabilities with their impressive text-guided generative functions. However, relying solely on text for conditioning these models does not fully cater to the varied and complex requirements of different applications and scenarios. Acknowledging this shortfall, a variety of studies aim to control pre-trained text-to-image (T2I) models to support novel conditions. In this survey, we undertake a thorough review of the literature on controllable generation with T2I diffusion models, covering both the theoretical foundations and practical advancements in this domain. Our review begins with a brief introduction to the basics of denoising diffusion probabilistic models (DDPMs) and widely used T2I diffusion models. We then reveal the controlling mechanisms of diffusion models, theoretically analyzing how novel conditions are introduced into the denoising process for conditional generation. Additionally, we offer a detailed overview of research in this area, organizing it into distinct categories from the condition perspective: generation with specific conditions, generation with multiple conditions, and universal controllable generation. For an exhaustive list of the controllable generation literature surveyed, please refer to our curated repository at https://github.com/PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models."
+    "abstract": "Diffusion-based text-to-image generation models trade latency for quality: small models are fast but generate lower-quality images, while large models produce better images but are slow. We present MoDM, a novel caching-based serving system for diffusion models that dynamically balances latency and quality through a mixture of diffusion models. Unlike prior approaches that rely on model-specific internal features, MoDM caches final images, allowing seamless retrieval and reuse across multiple diffusion model families. This design enables adaptive serving by dynamically balancing latency and image quality: using smaller models for cache-hit requests to reduce latency while reserving larger models for cache-miss requests to maintain quality. Small model image quality is preserved using retrieved cached images. We design a global monitor that optimally allocates GPU resources and balances inference workload, ensuring high throughput while meeting service-level objectives under varying request rates. Our evaluations show that MoDM significantly reduces average serving time by 2.5x while retaining image quality, making it a practical solution for scalable and resource-efficient model deployment."
   },
   {
     "id": "asplos-2026-0049",
@@ -1338,7 +1338,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Radiance Field methods have recently revolutionized novel-view synthesis of scenes captured with multiple photos or videos. However, achieving high visual quality still requires neural networks that are costly to train and render, while recent faster methods inevitably trade off speed for quality. For unbounded and complete scenes (rather than isolated objects) and 1080p resolution rendering, no current method can achieve real-time display rates. We introduce three key elements that allow us to achieve state-of-the-art visual quality while maintaining competitive training times and importantly allow high-quality real-time (>= 30 fps) novel-view synthesis at 1080p resolution. First, starting from sparse points produced during camera calibration, we represent the scene with 3D Gaussians that preserve desirable properties of continuous volumetric radiance fields for scene optimization while avoiding unnecessary computation in empty space; Second, we perform interleaved optimization/density control of the 3D Gaussians, notably optimizing anisotropic covariance to achieve an accurate representation of the scene; Third, we develop a fast visibility-aware rendering algorithm that supports anisotropic splatting and both accelerates training and allows realtime rendering. We demonstrate state-of-the-art visual quality and real-time rendering on several established datasets."
+    "abstract": "3D Gaussian Splatting (3DGS) is an increasingly popular novel view synthesis approach due to its fast rendering time, and high-quality output. However, scaling 3DGS to large (or intricate) scenes is challenging due to its large memory requirement, which exceed most GPU's memory capacity. In this paper, we describe CLM, a system that allows 3DGS to render large scenes using a single consumer-grade GPU, e.g., RTX4090. It does so by offloading Gaussians to CPU memory, and loading them into GPU memory only when necessary. To reduce performance and communication overheads, CLM uses a novel offloading strategy that exploits observations about 3DGS's memory access pattern for pipelining, and thus overlap GPU-to-CPU communication, GPU computation and CPU computation. Furthermore, we also exploit observation about the access pattern to reduce communication volume. Our evaluation shows that the resulting implementation can render a large scene that requires 100 million Gaussians on a single RTX4090 and achieve state-of-the-art reconstruction quality."
   },
   {
     "id": "asplos-2026-0054",
@@ -1486,7 +1486,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Large language models (LLMs) have significantly transformed natural language understanding and generation, but they raise privacy concerns due to potential exposure of sensitive information. Studies have highlighted the risk of information leakage, where adversaries can extract sensitive information embedded in the prompts. In this work, we introduce a novel private prediction framework for generating high-quality synthetic text with strong privacy guarantees. Our approach leverages the Differential Privacy (DP) framework to ensure worst-case theoretical bounds on information leakage without requiring any fine-tuning of the underlying models. The proposed method performs inference on private records and aggregates the resulting per-token output distributions. This enables the generation of longer and coherent synthetic text while maintaining privacy guarantees. Additionally, we propose a simple blending operation that combines private and public inference to further enhance utility. Empirical evaluations demonstrate that our approach outperforms previous state-of-the-art methods on in-context-learning (ICL) tasks, making it a promising direction for privacy-preserving text generation while maintaining high utility. Our code is available at https://github.com/bhusalb/privacy-preserving-icl."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0060",
@@ -1510,7 +1510,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "With the rise of software-defined vehicles (SDVs), where software governs most vehicle functions alongside enhanced connectivity, the need for secure software updates has become increasingly critical. Software vulnerabilities can severely impact safety, the economy, and society. In response to this challenge, Strandberg et al. [escar Europe, 2021] introduced the Unified Software Update Framework (UniSUF), designed to provide a secure update framework that integrates seamlessly with existing vehicular infrastructures. Although UniSUF has previously been evaluated regarding cybersecurity, these assessments have not employed formal verification methods. To bridge this gap, we perform a formal security analysis of UniSUF. We model UniSUF's architecture and assumptions to reflect real-world automotive systems and develop a ProVerif-based framework that formally verifies UniSUF's compliance with essential security requirements - confidentiality, integrity, authenticity, freshness, order, and liveness - demonstrating their satisfiability through symbolic execution. Our results demonstrate that UniSUF adheres to the specified security guarantees, ensuring the correctness and reliability of its security framework."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0061",
@@ -1561,7 +1561,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "Interactive notebook programming is universal in modern ML and AI workflows, with interactive deep learning training (IDLT) emerging as a dominant use case. To ensure responsiveness, platforms like Jupyter and Colab reserve GPUs for long-running notebook sessions, despite their intermittent and sporadic GPU usage, leading to extremely low GPU utilization and prohibitively high costs. In this paper, we introduce NotebookOS, a GPU-efficient notebook platform tailored for the unique requirements of IDLT. NotebookOS employs replicated notebook kernels with Raft-synchronized replicas distributed across GPU servers. To optimize GPU utilization, NotebookOS oversubscribes server resources, leveraging high interarrival times in IDLT workloads, and allocates GPUs only during active cell execution. It also supports replica migration and automatic cluster scaling under high load. Altogether, this design enables interactive training with minimal delay. In evaluation on production workloads, NotebookOS saved over 1,187 GPU hours in 17.5 hours of real-world IDLT, while significantly improving interactivity."
   },
   {
     "id": "asplos-2026-0063",
@@ -1586,7 +1586,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "Effective performance profiling and analysis are essential for optimizing training and inference of deep learning models, especially given the growing complexity of heterogeneous computing environments. However, existing tools often lack the capability to provide comprehensive program context information and performance optimization insights for sophisticated interactions between CPUs and GPUs. This paper introduces DeepContext, a novel profiler that links program contexts across high-level Python code, deep learning frameworks, underlying libraries written in C/C++, as well as device code executed on GPUs. DeepContext incorporates measurements of both coarse- and fine-grained performance metrics for major deep learning frameworks, such as PyTorch and JAX, and is compatible with GPUs from both Nvidia and AMD, as well as various CPU architectures, including x86 and ARM. In addition, DeepContext integrates a novel GUI that allows users to quickly identify hotpots and an innovative automated performance analyzer that suggests users with potential optimizations based on performance metrics and program context. Through detailed use cases, we demonstrate how DeepContext can help users identify and analyze performance issues to enable quick and effective optimization of deep learning workloads. We believe Deep Context is a valuable tool for users seeking to optimize complex deep learning workflows across multiple compute environments."
   },
   {
     "id": "asplos-2026-0064",
@@ -1613,7 +1613,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0065",
@@ -1635,7 +1635,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Data science has become increasingly essential for the production of official statistics, as it enables the automated collection, processing, and analysis of large amounts of data. With such data science practices in place, it enables more timely, more insightful and more flexible reporting. However, the quality and integrity of data-science-driven statistics rely on the accuracy and reliability of the data sources and the machine learning techniques that support them. In particular, changes in data sources are inevitable to occur and pose significant risks that are crucial to address in the context of machine learning for official statistics. This paper gives an overview of the main risks, liabilities, and uncertainties associated with changing data sources in the context of machine learning for official statistics. We provide a checklist of the most prevalent origins and causes of changing data sources; not only on a technical level but also regarding ownership, ethics, regulation, and public perception. Next, we highlight the repercussions of changing data sources on statistical reporting. These include technical effects such as concept drift, bias, availability, validity, accuracy and completeness, but also the neutrality and potential discontinuation of the statistical offering. We offer a few important precautionary measures, such as enhancing robustness in both data sourcing and statistical techniques, and thorough monitoring. In doing so, machine learning-based official statistics can maintain integrity, reliability, consistency, and relevance in policy-making, decision-making, and public discourse."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0066",
@@ -1661,7 +1661,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "As deep learning models scale, sparse computation and specialized dataflow hardware have emerged as powerful solutions to address efficiency. We propose FuseFlow, a compiler that converts sparse machine learning models written in PyTorch to fused sparse dataflow graphs for reconfigurable dataflow architectures (RDAs). FuseFlow is the first compiler to support general cross-expression fusion of sparse operations. In addition to fusion across kernels (expressions), FuseFlow also supports optimizations like parallelization, dataflow ordering, and sparsity blocking. It targets a cycle-accurate dataflow simulator for microarchitectural analysis of fusion strategies. We use FuseFlow for design-space exploration across four real-world machine learning applications with sparsity, showing that full fusion (entire cross-expression fusion across all computation in an end-to-end model) is not always optimal for sparse models-fusion granularity depends on the model itself. FuseFlow also provides a heuristic to identify and prune suboptimal configurations. Using Fuseflow, we achieve performance improvements, including a ~2.7x speedup over an unfused baseline for GPT-3 with BigBird block-sparse attention."
   },
   {
     "id": "asplos-2026-0067",
@@ -1686,7 +1686,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0068",
@@ -1742,7 +1742,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Pretrained transformer-based models have shown high performance in natural language generation task. However, a new wave of interest has surged: automatic programming language generation. This task consists of translating natural language instructions to a programming code. Despite the fact that well-known pretrained models on language generation have achieved good performance in learning programming languages, effort is still needed in automatic code generation. In this paper, we introduce JaCoText, a model based on Transformers neural network. It aims to generate java source code from natural language text. JaCoText leverages advantages of both natural language and code generation models. More specifically, we study some findings from the state of the art and use them to (1) initialize our model from powerful pretrained models, (2) explore additional pretraining on our java dataset, (3) carry out experiments combining the unimodal and bimodal data in the training, and (4) scale the input and output length during the fine-tuning of the model. Conducted experiments on CONCODE dataset show that JaCoText achieves new state-of-the-art results."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0070",
@@ -1768,7 +1768,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0071",
@@ -1820,7 +1820,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "We propose an efficient method for simultaneously optimizing both the structure and parameter values of quantum circuits with only a small computational overhead. Shallow circuits that use structure optimization perform significantly better than circuits that use parameter updates alone, making this method particularly suitable for noisy intermediate-scale quantum computers. We demonstrate the method for optimizing a variational quantum eigensolver for finding the ground states of Lithium Hydride and the Heisenberg model in simulation, and for finding the ground state of Hydrogen gas on the IBM Melbourne quantum computer."
+    "abstract": "Fault-Tolerant Quantum Computing (FTQC) relies on Quantum Error Correction (QEC) codes to reach error rates necessary for large scale quantum applications. At a physical level, QEC codes perform parity checks on data qubits, producing syndrome information, through Syndrome Measurement (SM) circuits. These circuits define a code's logical error rate and must be run repeatedly throughout the entire program. The performance of SM circuits is therefore critical to the success of a FTQC system. While ultimately implemented as physical circuits, SM circuits have challenges that are not addressed by existing circuit optimization tools. Importantly, inside SM circuits themselves errors are expected to occur, and how errors propagate through SM circuits directly impacts which errors are detectable and correctable, defining the code's logical error rate. This is not modeled in NISQ-era tools, which instead optimize for targets such as gate depth or gate count to mitigate the chance that any error occurs. This gap leaves key questions unanswered about the expected real-world effectiveness of QEC codes. In this work we address this gap and present PropHunt, an automated tool for optimizing SM circuits for CSS codes. We evaluate PropHunt on a suite of relevant QEC codes and demonstrate PropHunt's ability to iteratively improve performance and recover existing hand-designed circuits automatically. We also propose a near-term QEC application, Hook-ZNE, which leverages PropHunt's fine-grained control over logical error rate to improve Zero-Noise Extrapolation (ZNE), a promising error mitigation strategy."
   },
   {
     "id": "asplos-2026-0073",
@@ -1915,7 +1915,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "Analog processing-using-memory (PUM; a.k.a. in-memory computing) makes use of electrical interactions inside memory arrays to perform bulk matrix-vector multiplication (MVM) operations. However, many popular matrix-based kernels need to execute non-MVM operations, which analog PUM cannot directly perform. To retain its energy efficiency, analog PUM architectures augment memory arrays with CMOS-based domain-specific fixed-function hardware to provide complete kernel functionality, but the difficulty of integrating such specialized CMOS logic with memory arrays has largely limited analog PUM to being an accelerator for machine learning inference, or for closely related kernels. An opportunity exists to harness analog PUM for general-purpose computation: recent works have shown that memory arrays can also perform Boolean PUM operations, albeit with very different supporting hardware and electrical signals than analog PUM. We propose DARTH-PUM, a general-purpose hybrid PUM architecture that tackles key hardware and software challenges to integrating analog PUM and digital PUM. We propose optimized peripheral circuitry, coordinating hardware to manage and interface between both types of PUM, an easy-to-use programming interface, and low-cost support for flexible data widths. These design elements allow us to build a practical PUM architecture that can execute kernels fully in memory, and can scale easily to cater to domains ranging from embedded applications to large-scale data-driven computing. We show how three popular applications (AES encryption, convolutional neural networks, large language models) can map to and benefit from DARTH-PUM, with speedups of 59.4x, 14.8x, and 40.8x over an analog+CPU baseline."
   },
   {
     "id": "asplos-2026-0077",
@@ -1963,7 +1963,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Whether what you see in Figure 1 is a \"flamingo\" or a \"bird\", is the question we ask in this paper. While fine-grained visual classification (FGVC) strives to arrive at the former, for the majority of us non-experts just \"bird\" would probably suffice. The real question is therefore -- how can we tailor for different fine-grained definitions under divergent levels of expertise. For that, we re-envisage the traditional setting of FGVC, from single-label classification, to that of top-down traversal of a pre-defined coarse-to-fine label hierarchy -- so that our answer becomes \"bird\"-->\"Phoenicopteriformes\"-->\"Phoenicopteridae\"-->\"flamingo\". To approach this new problem, we first conduct a comprehensive human study where we confirm that most participants prefer multi-granularity labels, regardless whether they consider themselves experts. We then discover the key intuition that: coarse-level label prediction exacerbates fine-grained feature learning, yet fine-level feature betters the learning of coarse-level classifier. This discovery enables us to design a very simple albeit surprisingly effective solution to our new problem, where we (i) leverage level-specific classification heads to disentangle coarse-level features with fine-grained ones, and (ii) allow finer-grained features to participate in coarser-grained label predictions, which in turn helps with better disentanglement. Experiments show that our method achieves superior performance in the new FGVC setting, and performs better than state-of-the-art on traditional single-label FGVC problem as well. Thanks to its simplicity, our method can be easily implemented on top of any existing FGVC frameworks and is parameter-free."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0079",
@@ -2063,7 +2063,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Augmented Reality (AR) brings immersive experiences to users. With recent advances in computer vision and mobile computing, AR has scaled across platforms, and has increased adoption in major products. One of the key challenges in enabling AR features is proper anchoring of the virtual content to the real world, a process referred to as tracking. In this paper, we present a system for motion tracking, which is capable of robustly tracking planar targets and performing relative-scale 6DoF tracking without calibration. Our system runs in real-time on mobile phones and has been deployed in multiple major products on hundreds of millions of devices."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0083",
@@ -2089,7 +2089,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Domain generalization remains a critical challenge in medical imaging, where models trained on single sources often fail under real-world distribution shifts. We propose KG-DG, a neuro-symbolic framework for diabetic retinopathy (DR) classification that integrates vision transformers with expert-guided symbolic reasoning to enable robust generalization across unseen domains. Our approach leverages clinical lesion ontologies through structured, rule-based features and retinal vessel segmentation, fusing them with deep visual representations via a confidence-weighted integration strategy. The framework addresses both single-domain generalization (SDG) and multi-domain generalization (MDG) by minimizing the KL divergence between domain embeddings, thereby enforcing alignment of high-level clinical semantics. Extensive experiments across four public datasets (APTOS, EyePACS, Messidor-1, Messidor-2) demonstrate significant improvements: up to a 5.2% accuracy gain in cross-domain settings and a 6% improvement over baseline ViT models. Notably, our symbolic-only model achieves a 63.67% average accuracy in MDG, while the complete neuro-symbolic integration achieves the highest accuracy compared to existing published baselines and benchmarks in challenging SDG scenarios. Ablation studies reveal that lesion-based features (84.65% accuracy) substantially outperform purely neural approaches, confirming that symbolic components act as effective regularizers beyond merely enhancing interpretability. Our findings establish neuro-symbolic integration as a promising paradigm for building clinically robust, and domain-invariant medical AI systems."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0084",
@@ -2138,7 +2138,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "Serving Large Language Models (LLMs) is critical for AI-powered applications, yet it demands substantial computational resources, particularly in memory bandwidth and computational throughput. Low-precision computation has emerged as a key technique to improve efficiency while reducing resource consumption. Existing approaches for generating low-precision kernels are limited to weight bit widths that are powers of two and suffer from suboptimal performance because of high-level GPU programming abstractions. These abstractions restrict critical optimizations, such as fine-grained register management and optimized memory access patterns, that are essential for efficient low-precision computations. In this paper, we introduce Tilus, a domain-specific language designed for General-Purpose GPU (GPGPU) computing that supports low-precision data types with arbitrary bit widths from 1 to 8 while maintaining GPU programmability. Tilus features a thread-block-level programming model, a hierarchical memory space, a novel algebraic layout system, and extensive support for diverse low-precision data types. Tilus programs are compiled into highly efficient GPU programs through automatic vectorization and instruction selection. Extensive experiments demonstrate that Tilus efficiently supports a full spectrum of low-precision data types, and outperforms state-of-the-art low-precision kernels. Compared to existing compilers such as Triton and Ladder, as well as hand-optimized kernels such as QuantLLM and Marlin, Tilus achieves performance improvements of: $1.75\\times$, $2.61\\times$, $1.29\\times$ and $1.03\\times$, respectively. We open-source Tilus at https://github.com/NVIDIA/tilus."
   },
   {
     "id": "asplos-2026-0086",
@@ -2282,7 +2282,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0091",
@@ -2307,7 +2307,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Speculative execution attacks leverage the speculative and out-of-order execution features in modern computer processors to access secret data or execute code that should not be executed. Secret information can then be leaked through a covert channel. While software patches can be installed for mitigation on existing hardware, these solutions can incur big performance overhead. Hardware mitigation is being studied extensively by the computer architecture community. It has the benefit of preserving software compatibility and the potential for much smaller performance overhead than software solutions. This paper presents a systematization of the hardware defenses against speculative execution attacks that have been proposed. We show that speculative execution attacks consist of 6 critical attack steps. We propose defense strategies, each of which prevents a critical attack step from happening, thus preventing the attack from succeeding. We then summarize 20 hardware defenses and overhead-reducing features that have been proposed. We show that each defense proposed can be classified under one of our defense strategies, which also explains why it can thwart the attack from succeeding. We discuss the scope of the defenses, their performance overhead, and the security-performance trade-offs that can be made."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0092",
@@ -2333,7 +2333,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "With the rise of software-defined vehicles (SDVs), where software governs most vehicle functions alongside enhanced connectivity, the need for secure software updates has become increasingly critical. Software vulnerabilities can severely impact safety, the economy, and society. In response to this challenge, Strandberg et al. [escar Europe, 2021] introduced the Unified Software Update Framework (UniSUF), designed to provide a secure update framework that integrates seamlessly with existing vehicular infrastructures. Although UniSUF has previously been evaluated regarding cybersecurity, these assessments have not employed formal verification methods. To bridge this gap, we perform a formal security analysis of UniSUF. We model UniSUF's architecture and assumptions to reflect real-world automotive systems and develop a ProVerif-based framework that formally verifies UniSUF's compliance with essential security requirements - confidentiality, integrity, authenticity, freshness, order, and liveness - demonstrating their satisfiability through symbolic execution. Our results demonstrate that UniSUF adheres to the specified security guarantees, ensuring the correctness and reliability of its security framework."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0093",
@@ -2353,7 +2353,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Speculative execution attacks leverage the speculative and out-of-order execution features in modern computer processors to access secret data or execute code that should not be executed. Secret information can then be leaked through a covert channel. While software patches can be installed for mitigation on existing hardware, these solutions can incur big performance overhead. Hardware mitigation is being studied extensively by the computer architecture community. It has the benefit of preserving software compatibility and the potential for much smaller performance overhead than software solutions. This paper presents a systematization of the hardware defenses against speculative execution attacks that have been proposed. We show that speculative execution attacks consist of 6 critical attack steps. We propose defense strategies, each of which prevents a critical attack step from happening, thus preventing the attack from succeeding. We then summarize 20 hardware defenses and overhead-reducing features that have been proposed. We show that each defense proposed can be classified under one of our defense strategies, which also explains why it can thwart the attack from succeeding. We discuss the scope of the defenses, their performance overhead, and the security-performance trade-offs that can be made."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0094",
@@ -2427,7 +2427,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "Modern storage systems predominantly use flash-based SSDs as a cache layer due to their favorable performance and cost efficiency. However, in tiny-object workloads, existing flash cache designs still suffer from high write amplification. Even when deploying advanced log-structured flash devices (e.g., Zoned Namespace SSDs and Flexible Data Placement SSDs) with low device-level write amplification, application-level write amplification still dominates. This work proposes Nemo, which enhances set-associative cache design by increasing hash collision probability to improve set fill rate, thereby reducing application-level write amplification. To satisfy caching requirements, including high memory efficiency and low miss ratio, we introduce a bloom filter-based indexing mechanism that significantly reduces memory overhead, and adopt a hybrid hotness tracking to achieve low miss ratio without losing memory efficiency. Experimental results show that Nemo simultaneously achieves three key objectives for flash cache: low write amplification, high memory efficiency, and low miss ratio."
   },
   {
     "id": "asplos-2026-0097",
@@ -2449,7 +2449,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "The \\emph{file caching} problem is defined as follows. Given a cache of size $k$ (a positive integer), the goal is to minimize the total retrieval cost for the given sequence of requests to files. A file $f$ has size $size(f)$ (a positive integer) and retrieval cost $cost(f)$ (a non-negative number) for bringing the file into the cache. A \\emph{miss} or \\emph{fault} occurs when the requested file is not in the cache and the file has to be retrieved into the cache by paying the retrieval cost, and some other file may have to be removed (\\emph{evicted}) from the cache so that the total size of the files in the cache does not exceed $k$. We study the following variants of the online file caching problem. \\textbf{\\emph{Caching with Rental Cost} (or \\emph{Rental Caching})}: There is a rental cost $λ$ (a positive number) for each file in the cache at each time unit. The goal is to minimize the sum of the retrieval costs and the rental costs. \\textbf{\\emph{Caching with Zapping}}: A file can be \\emph{zapped} by paying a zapping cost $N \\ge 1$. Once a file is zapped, all future requests of the file don't incur any cost. The goal is to minimize the sum of the retrieval costs and the zapping costs. We study these two variants and also the variant which combines these two (rental caching with zapping). We present deterministic lower and upper bounds in the competitive-analysis framework. We study and extend the online covering algorithm from \\citep{young02online} to give deterministic online algorithms. We also present randomized lower and upper bounds for some of these problems."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0098",
@@ -2495,7 +2495,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "In modern server CPUs, last-level cache (LLC) is a critical hardware resource that exerts significant influence on the performance of the workloads, and how to manage LLC is a key to the performance isolation and QoS in the cloud with multi-tenancy. In this paper, we argue that besides CPU cores, high-speed network I/O is also important for LLC management. This is because of an Intel architectural innovation -- Data Direct I/O (DDIO) -- that directly injects the inbound I/O traffic to (part of) the LLC instead of the main memory. We summarize two problems caused by DDIO and show that (1) the default DDIO configuration may not always achieve optimal performance, (2) DDIO can decrease the performance of non-I/O workloads which share LLC with it by as high as 32%. We then present IOCA, the first LLC management mechanism for network-centric platforms that treats the I/O as the first-class citizen. IOCA monitors and analyzes the performance of the cores, LLC, and DDIO using CPU's hardware performance counters, and adaptively adjusts the number of LLC ways for DDIO or the tenants that demand more LLC capacity. In addition, IOCA dynamically chooses the tenants that share its LLC resource with DDIO, to minimize the performance interference by both the tenants and the I/O. Our experiments with multiple microbenchmarks and real-world applications in two major end-host network models demonstrate that IOCA can effectively reduce the performance degradation caused by DDIO, with minimal overhead."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0100",
@@ -2521,7 +2521,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0101",
@@ -2547,7 +2547,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "This work is on the Physics of the B Factories. Part A of this book contains a brief description of the SLAC and KEK B Factories as well as their detectors, BaBar and Belle, and data taking related issues. Part B discusses tools and methods used by the experiments in order to obtain results. The results themselves can be found in Part C. Please note that version 3 on the archive is the auxiliary version of the Physics of the B Factories book. This uses the notation alpha, beta, gamma for the angles of the Unitarity Triangle. The nominal version uses the notation phi_1, phi_2 and phi_3. Please cite this work as Eur. Phys. J. C74 (2014) 3026."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0102",
@@ -2592,7 +2592,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Prompting has become a practical method for utilizing pre-trained language models (LMs). This approach offers several advantages. It allows an LM to adapt to new tasks with minimal training and parameter updates, thus achieving efficiency in both storage and computation. Additionally, prompting modifies only the LM's inputs and harnesses the generative capabilities of language models to address various downstream tasks in a unified manner. This significantly reduces the need for human labor in designing task-specific models. These advantages become even more evident as the number of tasks served by the LM scales up. Motivated by the strengths of prompting, we are the first to explore the potential of prompting speech LMs in the domain of speech processing. Recently, there has been a growing interest in converting speech into discrete units for language modeling. Our pioneer research demonstrates that these quantized speech units are highly versatile within our unified prompting framework. Not only can they serve as class labels, but they also contain rich phonetic information that can be re-synthesized back into speech signals for speech generation tasks. Specifically, we reformulate speech processing tasks into speech-to-unit generation tasks. As a result, we can seamlessly integrate tasks such as speech classification, sequence generation, and speech generation within a single, unified prompting framework. The experiment results show that the prompting method can achieve competitive performance compared to the strong fine-tuning method based on self-supervised learning models with a similar number of trainable parameters. The prompting method also shows promising results in the few-shot setting. Moreover, with the advanced speech LMs coming into the stage, the proposed prompting framework attains great potential."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0103",
@@ -2627,7 +2627,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node response is encoded as a linear superposition of neural activity, while the non-linearity is triggered by the activation functions. In the current paper, we suggest to analyze the neural signal processing in DANNs from the point of view of homogeneous chaos theory as known from polynomial chaos expansion (PCE). From the PCE perspective, the (linear) response on each node of a DANN could be seen as a $1^{st}$ degree multi-variate polynomial of single neurons from the previous layer, i.e. linear weighted sum of monomials. From this point of view, the conventional DANN structure relies implicitly (but erroneously) on a Gaussian distribution of neural signals. Additionally, this view revels that by design DANNs do not necessarily fulfill any orthogonality or orthonormality condition for a majority of data-driven applications. Therefore, the prevailing handling of neural signals in DANNs could lead to redundant representation as any neural signal could contain some partial information from other neural signals. To tackle that challenge, we suggest to employ the data-driven generalization of PCE theory known as arbitrary polynomial chaos (aPC) to construct a corresponding multi-variate orthonormal representations on each node of a DANN to obtain Deep arbitrary polynomial chaos neural networks."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0104",
@@ -2679,7 +2679,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Many synthesis approaches for reversible and quantum logic have been proposed so far. However, most of them generate circuits with respect to simple metrics, i.e. gate count or quantum cost. On the other hand, to physically realize reversible and quantum hardware, additional constraints exist. In this paper, we describe cost metrics beyond gate count and quantum cost that should be considered while synthesizing reversible and quantum logic for the respective target technologies. We show that the evaluation of a synthesis approach may differ if additional costs are applied. In addition, a new cost metric, namely Nearest Neighbor Cost (NNC) which is imposed by realistic physical quantum architectures, is considered in detail. We discuss how existing synthesis flows can be extended to generate optimal circuits with respect to NNC while still keeping the quantum cost small."
+    "abstract": "The desires for better prediction accuracy and higher execution performance in neural networks never end. Neural architecture search (NAS) and tensor compilers are two popular techniques to optimize these two goals, but they are both limited to composing or optimizing existing manually designed operators rather than coming up with completely new designs. In this work, we explore the less studied direction of neural operator synthesis, which aims to automatically and efficiently discover novel neural operators with better accuracy and/or speed. We develop an end-to-end framework Syno, to realize practical neural operator synthesis. Syno makes use of a novel set of fine-grained primitives defined on tensor dimensions, which ensure various desired properties to ease model training, and also enable expression canonicalization techniques to avoid redundant candidates during search. Syno further adopts a novel guided synthesis flow to obtain valid operators matched with the specified input/output dimension sizes, and leverages efficient stochastic tree search algorithms to quickly explore the design space. We demonstrate that Syno discovers better operators with average speedups of $1.37\\times$ to $2.06\\times$ on various hardware and compiler choices, while keeping less than 1% accuracy loss even on NAS-optimized models."
   },
   {
     "id": "asplos-2026-0106",
@@ -2726,7 +2726,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "Expressing hardware designs using hardware description languages (HDLs) routinely involves using stateless signals whose values change according to their underlying registers. Unintended behaviours can arise when the stored values in these underlying registers are mutated while their dependent signals are expected to remain constant across multiple cycles. Such timing hazards are common because, with a few exceptions, existing HDLs lack abstractions for values that remain unchanged over multiple clock cycles, delegating this responsibility to hardware designers. Designers must then carefully decide whether a value should remain unchanged, sometimes even across hardware modules. This paper proposes Anvil, an HDL which statically prevents timing hazards with a novel type system. Anvil is the only HDL we know of that guarantees timing safety, i.e., absence of timing hazards, without sacrificing expressiveness for cycle-level timing control or dynamic timing behaviours. Unlike many HLS languages that abstract away the differences between registers and signals, Anvil's type system exposes them fully while capturing the timing relationships between register value mutations and signal usages to enforce timing safety. This, in turn, enables safe composition of communicating hardware modules by static enforcement of timing contracts that encode timing constraints on shared signals. Such timing contracts can be specified parametric on abstract time points that can vary during run-time, allowing the type system to statically express dynamic timing behaviour. We have implemented Anvil and successfully used it to implement key timing-sensitive modules, comparing them against open-source SystemVerilog counterparts to demonstrate the practicality and expressiveness of the generated hardware."
   },
   {
     "id": "asplos-2026-0108",
@@ -2751,7 +2751,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "We present an interactive version of an evidence-driven state-merging (EDSM) algorithm for learning variants of finite state automata. Learning these automata often amounts to recovering or reverse engineering the model generating the data despite noisy, incomplete, or imperfectly sampled data sources rather than optimizing a purely numeric target function. Domain expertise and human knowledge about the target domain can guide this process, and typically is captured in parameter settings. Often, domain expertise is subconscious and not expressed explicitly. Directly interacting with the learning algorithm makes it easier to utilize this knowledge effectively."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0109",
@@ -2827,7 +2827,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "For large-scale graph analytics on the GPU, the irregularity of data access and control flow, and the complexity of programming GPUs, have presented two significant challenges to developing a programmable high-performance graph library. \"Gunrock\", our graph-processing system designed specifically for the GPU, uses a high-level, bulk-synchronous, data-centric abstraction focused on operations on a vertex or edge frontier. Gunrock achieves a balance between performance and expressiveness by coupling high performance GPU computing primitives and optimization strategies with a high-level programming model that allows programmers to quickly develop new graph primitives with small code size and minimal GPU programming knowledge. We characterize the performance of various optimization strategies and evaluate Gunrock's overall performance on different GPU architectures on a wide range of graph primitives that span from traversal-based algorithms and ranking algorithms, to triangle counting and bipartite-graph-based algorithms. The results show that on a single GPU, Gunrock has on average at least an order of magnitude speedup over Boost and PowerGraph, comparable performance to the fastest GPU hardwired primitives and CPU shared-memory graph libraries such as Ligra and Galois, and better performance than any other GPU high-level graph library."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0112",
@@ -2848,7 +2848,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "We overview and compare classifications of elementary cellular automata, including Wolfram's, Wuensche's, Li and Packard, communication complexity, power spectral, topological, surface, compression, lattices, and morphological diversity classifications. This paper summarises several classifications of elementary cellular automata (ECA) and compares them with a newly proposed one, that induced by endowing rules with memory."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0113",
@@ -2871,7 +2871,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Sparse matrix-vector multiplication (spMVM) is the dominant operation in many sparse solvers. We investigate performance properties of spMVM with matrices of various sparsity patterns on the nVidia \"Fermi\" class of GPGPUs. A new \"padded jagged diagonals storage\" (pJDS) format is proposed which may substantially reduce the memory overhead intrinsic to the widespread ELLPACK-R scheme. In our test scenarios the pJDS format cuts the overall spMVM memory footprint on the GPGPU by up to 70%, and achieves 95% to 130% of the ELLPACK-R performance. Using a suitable performance model we identify performance bottlenecks on the node level that invalidate some types of matrix structures for efficient multi-GPGPU parallelization. For appropriate sparsity patterns we extend previous work on distributed-memory parallel spMVM to demonstrate a scalable hybrid MPI-GPGPU code, achieving efficient overlap of communication and computation."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0114",
@@ -2902,7 +2902,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "The study of temporal networks is motivated by the simple and important observation that just as network structure can affect dynamics, so can structure in time. Just as network topology can teach us about the system in question, so can its temporal characteristics. In many cases, leaving out either one of these components would lead to an incomplete understanding of the system or poor predictions. We argue that including time into network modeling inevitably leads researchers away from the trodden paths of network science. Temporal network theory requires something different -- new methods, new concepts, new questions -- compared to static networks. In this introductory chapter, we overview the ideas that the field of temporal networks has brought forward in the last decade. We also place the contributions to the current volume on this map of temporal-network approaches."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0115",
@@ -2946,7 +2946,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Recently, deep learning methods have gained remarkable achievements in the field of image restoration for remote sensing (RS). However, most existing RS image restoration methods focus mainly on conventional first-order degradation models, which may not effectively capture the imaging mechanisms of remote sensing images. Furthermore, many RS image restoration approaches that use deep learning are often criticized for their lacks of architecture transparency and model interpretability. To address these problems, we propose a novel progressive restoration network for high-order degradation imaging (HDI-PRNet), to progressively restore different image degradation. HDI-PRNet is developed based on the theoretical framework of degradation imaging, also Markov properties of the high-order degradation process and Maximum a posteriori (MAP) estimation, offering the benefit of mathematical interpretability within the unfolding network. The framework is composed of three main components: a module for image denoising that relies on proximal mapping prior learning, a module for image deblurring that integrates Neumann series expansion with dual-domain degradation learning, and a module for super-resolution. Extensive experiments demonstrate that our method achieves superior performance on both synthetic and real remote sensing images."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0117",
@@ -2973,7 +2973,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Disaggregated memory is a promising approach that addresses the limitations of traditional memory architectures by enabling memory to be decoupled from compute nodes and shared across a data center. Cloud platforms have deployed such systems to improve overall system memory utilization, but performance can vary across workloads. High-performance computing (HPC) is crucial in scientific and engineering applications, where HPC machines also face the issue of underutilized memory. As a result, improving system memory utilization while understanding workload performance is essential for HPC operators. Therefore, learning the potential of a disaggregated memory system before deployment is a critical step. This paper proposes a methodology for exploring the design space of a disaggregated memory system. It incorporates key metrics that affect performance on disaggregated memory systems: memory capacity, local and remote memory access ratio, injection bandwidth, and bisection bandwidth, providing an intuitive approach to guide machine configurations based on technology trends and workload characteristics. We apply our methodology to analyze thirteen diverse workloads, including AI training, data analysis, genomics, protein, fusion, atomic nuclei, and traditional HPC bookends. Our methodology demonstrates the ability to comprehend the potential and pitfalls of a disaggregated memory system and provides motivation for machine configurations. Our results show that eleven of our thirteen applications can leverage injection bandwidth disaggregated memory without affecting performance, while one pays a rack bisection bandwidth penalty and two pay the system-wide bisection bandwidth penalty. In addition, we also show that intra-rack memory disaggregation would meet the application's memory requirement and provide enough remote memory bandwidth."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0118",
@@ -2994,7 +2994,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Compute eXpress Link (CXL) has emerged as a key enabler of memory disaggregation for future heterogeneous computing systems to expand memory on-demand and improve resource utilization. However, CXL is still in its infancy stage and lacks commodity products on the market, thus necessitating a reliable system-level simulation tool for research and development. In this paper, we propose CXL-DMSim, an open-source full-system simulator to simulate CXL disaggregated memory systems with high fidelity at a gem5-comparable simulation speed. CXL-DMSim incorporates a flexible CXL memory expander model along with its associated device driver, and CXL protocol support with CXL.io and CXL.mem. It can operate in both app-managed mode and kernel-managed mode, with the latter using a dedicated NUMA-compatible mechanism. The simulator has been rigorously verified against a real hardware testbed with both FPGAand ASIC-based CXL memory devices, which demonstrates the qualification of CXL-DMSim in simulating the characteristics of various CXL memory devices at an average simulation error of 3.4%. The experimental results using LMbench and STREAM benchmarks suggest that the CXL-FPGA memory exhibits a ~2.88x higher latency than local DDR while the CXL-ASIC latency is ~2.18x; CXL-FPGA achieves 45-69% of local DDR memory bandwidth, whereas the number for CXLASIC is 82-83%. The study also reveals that CXL memory can significantly enhance the performance of memory-intensive applications, improved by 23x at most with limited local memory for Viper key-value database and approximately 60% in memorybandwidth-sensitive scenarios such as MERCI. Moreover, the simulator's observability and expandability are showcased with detailed case-studies, highlighting its great potential for research on future CXL-interconnected hybrid memory pool."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0119",
@@ -3016,7 +3016,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "The composition of Ultra High Energy Cosmic Rays (UHECR) is measured with the High Resolution Fly's Eye cosmic ray observatory (HiRes) data using the Xmax technique. Data were collected in stereo between 1999 November and 2001 September. The data are reconstructed with well-determined geometry. Measurements of the atmospheric transmission are incorporated in the reconstruction. The detector resolution is found to be 30 g cm^-2 in Xmax and 13% in Energy. The Xmax elongation rate between 10^18.0 eV and 10^19.4 eV is measured to be 54.5 +/- 6.5 (stat) +/- 4.5 (sys) g cm^-2 per decade. This is compared to predictions using the QGSJet01 and SIBYLL 2.1 hadronic interaction models for both protons and iron nuclei. CORSIKA-generated Extensive Air Showers (EAS) are incorporated directly into a detailed detector Monte Carlo program. The elongation rate and the Xmax distribution widths are consistent with a constant or slowly changing and predominantly light composition. A simple model containing only protons and iron nuclei is compared to QGSJet and SIBYLL. The best agreement between the model and the data is at 80% protons for QGSJet and 60% protons for SIBYLL."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0120",
@@ -3038,7 +3038,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "The future of computing systems is inevitably embracing a disaggregated and composable pattern: from clusters of computers to pools of resources that can be dynamically combined together and tailored around applications requirements. Transitioning to this new paradigm requires ground-breaking research, ranging from new hardware architectures up to new models and abstractions at all levels of the software stack. Recent hardware advancements in CPU and interconnection technologies, enabled the possibility of disaggregating peripherals and system memory. The memory system heterogeneity is further increasing, composability and disaggregation are beneficial to increase memory capacity and improve memory utilization in a cost-effective way, and reduce total cost of ownership. Heterogeneous and Composable Disaggregated Systems (HCDS) provide a system design approach for reducing the imbalance between workloads resource requirements and the static availability of resources in a computing system. The HCDS workshop aims at exploring the novel research ideas around composable disaggregated systems and their integration with operating systems and software runtimes to maximize the benefit perceived from user workloads."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0121",
@@ -3063,7 +3063,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Homomorphic encryption is a sophisticated encryption technique that allows computations on encrypted data to be done without the requirement for decryption. This trait makes homomorphic encryption appropriate for safe computation in sensitive data scenarios, such as cloud computing, medical data exchange, and financial transactions. The data is encrypted using a public key in homomorphic encryption, and the calculation is conducted on the encrypted data using an algorithm that retains the encryption. The computed result is then decrypted with a private key to acquire the final output. This abstract notion protects data while allowing complicated computations to be done on the encrypted data, resulting in a secure and efficient approach to analysing sensitive information. This article is intended to give a clear idea about the various fully Homomorphic Encryption Schemes present in the literature and analyse and compare the results of each of these schemes. Further, we also provide applications and open-source tools of homomorphic encryption schemes."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0122",
@@ -3086,7 +3086,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Homomorphic encryption is a sophisticated encryption technique that allows computations on encrypted data to be done without the requirement for decryption. This trait makes homomorphic encryption appropriate for safe computation in sensitive data scenarios, such as cloud computing, medical data exchange, and financial transactions. The data is encrypted using a public key in homomorphic encryption, and the calculation is conducted on the encrypted data using an algorithm that retains the encryption. The computed result is then decrypted with a private key to acquire the final output. This abstract notion protects data while allowing complicated computations to be done on the encrypted data, resulting in a secure and efficient approach to analysing sensitive information. This article is intended to give a clear idea about the various fully Homomorphic Encryption Schemes present in the literature and analyse and compare the results of each of these schemes. Further, we also provide applications and open-source tools of homomorphic encryption schemes."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0123",
@@ -3114,7 +3114,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Homomorphic encryption is a sophisticated encryption technique that allows computations on encrypted data to be done without the requirement for decryption. This trait makes homomorphic encryption appropriate for safe computation in sensitive data scenarios, such as cloud computing, medical data exchange, and financial transactions. The data is encrypted using a public key in homomorphic encryption, and the calculation is conducted on the encrypted data using an algorithm that retains the encryption. The computed result is then decrypted with a private key to acquire the final output. This abstract notion protects data while allowing complicated computations to be done on the encrypted data, resulting in a secure and efficient approach to analysing sensitive information. This article is intended to give a clear idea about the various fully Homomorphic Encryption Schemes present in the literature and analyse and compare the results of each of these schemes. Further, we also provide applications and open-source tools of homomorphic encryption schemes."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0124",
@@ -3138,7 +3138,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0125",
@@ -3164,7 +3164,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A detailed study is presented of the expected performance of the ATLAS detector. The reconstruction of tracks, leptons, photons, missing energy and jets is investigated, together with the performance of b-tagging and the trigger. The physics potential for a variety of interesting physics processes, within the Standard Model and beyond, is examined. The study comprises a series of notes based on simulations of the detector and physics processes, with particular emphasis given to the data expected from the first years of operation of the LHC at CERN."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0126",
@@ -3187,7 +3187,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "An angular analysis of $B^0\\rightarrow K^{*0}e^{+}e^{-}$ decays is presented using proton-proton collision data collected by the LHCb experiment at centre-of-mass energies of 7, 8 and 13 TeV, corresponding to an integrated luminosity of 9 fb$^{-1}$. The analysis is performed in the region of the dilepton invariant mass squared of 1.1-6.0 GeV$^{2}/c^{4}$. In addition, a test of lepton flavour universality is performed by comparing the obtained angular observables with those measured in $B^0\\rightarrow K^{*0}μ^{+}μ^{-}$ decays. In general, the angular observables are found to be consistent with the Standard Model expectations as well as with global analyses of other $b \\rightarrow s \\ell^{+} \\ell^{-}$ processes, where $\\ell$ is either a muon or an electron. No sign of lepton-flavour-violating effects is observed."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0127",
@@ -3330,7 +3330,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "We study distributed optimization in the presence of Byzantine adversaries, where both data and computation are distributed among $m$ worker machines, $t$ of which may be corrupt. The compromised nodes may collaboratively and arbitrarily deviate from their pre-specified programs, and a designated (master) node iteratively computes the model/parameter vector for generalized linear models. In this work, we primarily focus on two iterative algorithms: Proximal Gradient Descent (PGD) and Coordinate Descent (CD). Gradient descent (GD) is a special case of these algorithms. PGD is typically used in the data-parallel setting, where data is partitioned across different samples, whereas, CD is used in the model-parallelism setting, where data is partitioned across the parameter space. In this paper, we propose a method based on data encoding and error correction over real numbers to combat adversarial attacks. We can tolerate up to $t\\leq \\lfloor\\frac{m-1}{2}\\rfloor$ corrupt worker nodes, which is information-theoretically optimal. We give deterministic guarantees, and our method does not assume any probability distribution on the data. We develop a {\\em sparse} encoding scheme which enables computationally efficient data encoding and decoding. We demonstrate a trade-off between the corruption threshold and the resource requirements (storage, computational, and communication complexity). As an example, for $t\\leq\\frac{m}{3}$, our scheme incurs only a {\\em constant} overhead on these resources, over that required by the plain distributed PGD/CD algorithms which provide no adversarial protection. To the best of our knowledge, ours is the first paper that makes CD secure against adversarial attacks. Our encoding scheme extends efficiently to the data streaming model and for stochastic gradient descent (SGD). We also give experimental results to show the efficacy of our proposed schemes."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0133",
@@ -3352,7 +3352,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A detailed study is presented of the expected performance of the ATLAS detector. The reconstruction of tracks, leptons, photons, missing energy and jets is investigated, together with the performance of b-tagging and the trigger. The physics potential for a variety of interesting physics processes, within the Standard Model and beyond, is examined. The study comprises a series of notes based on simulations of the detector and physics processes, with particular emphasis given to the data expected from the first years of operation of the LHC at CERN."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0134",
@@ -3374,7 +3374,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "The space-time foliation Sigma compatible with the gravitational field g on a 4-manifold M determines a fibration pi of M, pi : M -> N is a surjective submersion over the 1-dimensional leaves space N. M is then written as a disjoint union of the leaves of Sigma, which are 3-dimensional spacelike surfaces on M. The decomposition, TM=Sigma + T^0 M, also implies that we can define a lift of the curves on N to curves (non-spacelike) on M. The stable causality condition M coincides with Sigma being a causal space-time distribution, generated by an exact timelike 1-form omega^0 = dt where t is some real function on M. In this case M is written as a disjoint union of a family of spacelike 3-surfaces of constant t, which cover D^+(S) of a initial 3-surface S of M."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0135",
@@ -3441,7 +3441,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0138",
@@ -3488,7 +3488,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "Neurosymbolic programs combine deep learning with symbolic reasoning to achieve better data efficiency, interpretability, and generalizability compared to standalone deep learning approaches. However, existing neurosymbolic learning frameworks implement an uneasy marriage between a highly scalable, GPU-accelerated neural component and a slower symbolic component that runs on CPUs. We propose Lobster, a unified framework for harnessing GPUs in an end-to-end manner for neurosymbolic learning. Lobster maps a general neurosymbolic language based on Datalog to the GPU programming paradigm. This mapping is implemented via compilation to a new intermediate language called APM. The extra abstraction provided by apm allows Lobster to be both flexible, supporting discrete, probabilistic, and differentiable modes of reasoning on GPU hardware with a library of provenance semirings, and performant, implementing new optimization passes. We demonstrate that Lobster programs can solve interesting problems spanning the domains of natural language processing, image processing, program reasoning, bioinformatics, and planning. On a suite of 9 applications, Lobster achieves an average speedup of 3.9x over Scallop, a state-of-the-art neurosymbolic framework, and enables scaling of neurosymbolic solutions to previously infeasible tasks."
   },
   {
     "id": "asplos-2026-0140",
@@ -3512,7 +3512,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Homomorphic encryption is a sophisticated encryption technique that allows computations on encrypted data to be done without the requirement for decryption. This trait makes homomorphic encryption appropriate for safe computation in sensitive data scenarios, such as cloud computing, medical data exchange, and financial transactions. The data is encrypted using a public key in homomorphic encryption, and the calculation is conducted on the encrypted data using an algorithm that retains the encryption. The computed result is then decrypted with a private key to acquire the final output. This abstract notion protects data while allowing complicated computations to be done on the encrypted data, resulting in a secure and efficient approach to analysing sensitive information. This article is intended to give a clear idea about the various fully Homomorphic Encryption Schemes present in the literature and analyse and compare the results of each of these schemes. Further, we also provide applications and open-source tools of homomorphic encryption schemes."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0141",
@@ -3582,7 +3582,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism. Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming. The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0144",
@@ -3609,7 +3609,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Virtualization technologies have evolved along with the development of computational environments since virtualization offered needed features at that time such as isolation, accountability, resource allocation, resource fair sharing and so on. Novel processor technologies bring to commodity computers the possibility to emulate diverse environments where a wide range of computational scenarios can be run. Along with processors evolution, system developers have created different virtualization mechanisms where each new development enhanced the performance of previous virtualized environments. Recently, operating system-based virtualization technologies captured the attention of communities abroad (from industry to academy and research) because their important improvements on performance area. In this paper, the features of three container-based operating systems virtualization tools (LXC, Docker and Singularity) are presented. LXC, Docker, Singularity and bare metal are put under test through a customized single node HPL-Benchmark and a MPI-based application for the multi node testbed. Also the disk I/O performance, Memory (RAM) performance, Network bandwidth and GPU performance are tested for the COS technologies vs bare metal. Preliminary results and conclusions around them are presented and discussed."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0145",
@@ -3632,7 +3632,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0146",
@@ -3703,7 +3703,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "As large language models (LLMs) like ChatGPT exhibited unprecedented machine intelligence, it also shows great performance in assisting hardware engineers to realize higher-efficiency logic design via natural language interaction. To estimate the potential of the hardware design process assisted by LLMs, this work attempts to demonstrate an automated design environment that explores LLMs to generate hardware logic designs from natural language specifications. To realize a more accessible and efficient chip development flow, we present a scalable four-stage zero-code logic design framework based on LLMs without retraining or finetuning. At first, the demo, ChipGPT, begins by generating prompts for the LLM, which then produces initial Verilog programs. Second, an output manager corrects and optimizes these programs before collecting them into the final design space. Eventually, ChipGPT will search through this space to select the optimal design under the target metrics. The evaluation sheds some light on whether LLMs can generate correct and complete hardware logic designs described by natural language for some specifications. It is shown that ChipGPT improves programmability, and controllability, and shows broader design optimization space compared to prior work and native LLMs alone."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0149",
@@ -3729,7 +3729,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0150",
@@ -3800,7 +3800,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Streaming recommender systems (SRSs) are widely deployed in real-world applications, where user interests shift and new items arrive over time. As a result, effectively capturing users' latest preferences is challenging, as interactions reflecting recent interests are limited and new items often lack sufficient feedback. A common solution is to enrich item representations using multimodal encoders (e.g., BERT or ViT) to extract visual and textual features. However, these encoders are pretrained on general-purpose tasks: they are not tailored to user preference modeling, and they overlook the fact that user tastes toward modality-specific features such as visual styles and textual tones can also drift over time. This presents two key challenges in streaming scenarios: the high cost of fine-tuning large multimodal encoders, and the risk of forgetting long-term user preferences due to continuous model updates. To tackle these challenges, we propose Expandable Side Mixture-of-Experts (XSMoE), a memory-efficient framework for multimodal streaming recommendation. XSMoE attaches lightweight side-tuning modules consisting of expandable expert networks to frozen pretrained encoders and incrementally expands them in response to evolving user feedback. A gating router dynamically combines expert and backbone outputs, while a utilization-based pruning strategy maintains model compactness. By learning new patterns through expandable experts without overwriting previously acquired knowledge, XSMoE effectively captures both cold start and shifting preferences in multimodal features. Experiments on three real-world datasets demonstrate that XSMoE outperforms state-of-the-art baselines in both recommendation quality and computational efficiency."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0153",
@@ -3828,7 +3828,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0154",
@@ -3850,7 +3850,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "We study distributed optimization in the presence of Byzantine adversaries, where both data and computation are distributed among $m$ worker machines, $t$ of which may be corrupt. The compromised nodes may collaboratively and arbitrarily deviate from their pre-specified programs, and a designated (master) node iteratively computes the model/parameter vector for generalized linear models. In this work, we primarily focus on two iterative algorithms: Proximal Gradient Descent (PGD) and Coordinate Descent (CD). Gradient descent (GD) is a special case of these algorithms. PGD is typically used in the data-parallel setting, where data is partitioned across different samples, whereas, CD is used in the model-parallelism setting, where data is partitioned across the parameter space. In this paper, we propose a method based on data encoding and error correction over real numbers to combat adversarial attacks. We can tolerate up to $t\\leq \\lfloor\\frac{m-1}{2}\\rfloor$ corrupt worker nodes, which is information-theoretically optimal. We give deterministic guarantees, and our method does not assume any probability distribution on the data. We develop a {\\em sparse} encoding scheme which enables computationally efficient data encoding and decoding. We demonstrate a trade-off between the corruption threshold and the resource requirements (storage, computational, and communication complexity). As an example, for $t\\leq\\frac{m}{3}$, our scheme incurs only a {\\em constant} overhead on these resources, over that required by the plain distributed PGD/CD algorithms which provide no adversarial protection. To the best of our knowledge, ours is the first paper that makes CD secure against adversarial attacks. Our encoding scheme extends efficiently to the data streaming model and for stochastic gradient descent (SGD). We also give experimental results to show the efficacy of our proposed schemes."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0155",
@@ -3879,7 +3879,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "Existing low-bit Microscaling (MX) formats, such as MXFP4, often suffer from substantial accuracy degradation due to the use of a shared scaling factor with the Power-of-Two format. In this work, we explore strategies that introduce minimal metadata to recover accuracy lost during quantization while maintaining high bit efficiency across a wide range of large language models. We propose a complete algorithm-hardware co-design based on flexible metadata, featuring an online quantization with simple encoding. To support the proposed method efficiently, we implement a lightweight hardware unit and integrate it into the accelerator. Evaluation results demonstrate that our method substantially narrows the accuracy gap, achieving on average a 70.63% reduction in accuracy loss compared to MXFP4 and a 37.30% reduction relative to the latest NVFP4 on LLM benchmarks. Furthermore, our design delivers up to 1.91$\\times$ speedup and 1.75$\\times$ energy savings over state-of-the-art accelerators. Our code is available at https://github.com/SJTU-ReArch-Group/M2XFP_ASPLOS26."
   },
   {
     "id": "asplos-2026-0156",
@@ -3900,7 +3900,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "Fully homomorphic encryption (FHE) frees cloud computing from privacy concerns by enabling secure computation on encrypted data. However, its substantial computational and memory overhead results in significantly slower performance compared to unencrypted processing. To mitigate this overhead, we present Cheddar, a high-performance FHE library for GPUs, achieving substantial speedups over previous GPU implementations. We systematically enable 32-bit FHE execution, leveraging the 32-bit integer datapath within GPUs. We optimize GPU kernels using efficient low-level primitives and algorithms tailored to specific GPU architectures. Further, we alleviate the memory bandwidth burden by adjusting common FHE operational sequences and extensively applying kernel fusion. Cheddar delivers performance improvements of 2.18--4.45$\\times$ for representative FHE workloads compared to state-of-the-art GPU implementations."
   },
   {
     "id": "asplos-2026-0157",
@@ -3924,7 +3924,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "The limited number of qubits per chip remains a critical bottleneck in quantum computing, motivating the use of distributed architectures that interconnect multiple quantum processing units (QPUs). However, executing quantum algorithms across distributed systems requires careful co-design of algorithmic primitives and hardware architectures to manage circuit depth and entanglement overhead. We identify multivariate trace estimation as a key subroutine that is naturally suited for distribution, and broadly useful in tasks such as estimating Rényi entropies, virtual cooling and distillation, and certain applications of quantum signal processing. In this work, we introduce COMPAS, an architecture that realizes multivariate trace estimation across a multi-party network of interconnected modular and distributed QPUs by leveraging pre-shared entangled Bell pairs as resources. COMPAS adds only a constant depth overhead and consumes Bell pairs at a rate linear in circuit width, making it suitable for near-term hardware. Unlike other schemes, which must choose between asymptotic optimality in circuit depth or GHZ width, COMPAS achieves both at once. Additionally, we analyze network-level errors and simulate the effects of circuit-level noise on the architecture."
   },
   {
     "id": "asplos-2026-0158",
@@ -3945,7 +3945,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "Variational Quantum Algorithms (VQAs) are promising for near- and intermediate-term quantum computing, but their execution cost is substantial. Each task requires many iterations and numerous circuits per iteration, and real-world applications often involve multiple tasks, scaling with the precision needed to explore the application's energy landscape. This demands an enormous number of execution shots, making practical use prohibitively expensive. We observe that VQA costs can be significantly reduced by exploiting execution similarities across an application's tasks. Based on this insight, we propose TreeVQA, a tree-based execution framework that begins by executing tasks jointly and progressively branches only as their quantum executions diverge. Implemented as a VQA wrapper, TreeVQA integrates with typical VQA applications. Evaluations on scientific and combinatorial benchmarks show shot count reductions of $25.9\\times$ on average and over $100\\times$ for large-scale problems at the same target accuracy. The benefits grow further with increasing problem size and precision requirements."
   },
   {
     "id": "asplos-2026-0159",
@@ -3970,7 +3970,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Homomorphic encryption is a sophisticated encryption technique that allows computations on encrypted data to be done without the requirement for decryption. This trait makes homomorphic encryption appropriate for safe computation in sensitive data scenarios, such as cloud computing, medical data exchange, and financial transactions. The data is encrypted using a public key in homomorphic encryption, and the calculation is conducted on the encrypted data using an algorithm that retains the encryption. The computed result is then decrypted with a private key to acquire the final output. This abstract notion protects data while allowing complicated computations to be done on the encrypted data, resulting in a secure and efficient approach to analysing sensitive information. This article is intended to give a clear idea about the various fully Homomorphic Encryption Schemes present in the literature and analyse and compare the results of each of these schemes. Further, we also provide applications and open-source tools of homomorphic encryption schemes."
+    "abstract": "Fully Homomorphic Encryption (FHE) enables computations directly on encrypted data, but its high computational cost remains a significant barrier. Writing efficient FHE code is a complex task requiring cryptographic expertise, and finding the optimal sequence of program transformations is often intractable. In this paper, we propose CHEHAB RL, a novel framework that leverages deep reinforcement learning (RL) to automate FHE code optimization. Instead of relying on predefined heuristics or combinatorial search, our method trains an RL agent to learn an effective policy for applying a sequence of rewriting rules to automatically vectorize scalar FHE code while reducing instruction latency and noise growth. The proposed approach supports the optimization of both structured and unstructured code. To train the agent, we synthesize a diverse dataset of computations using a large language model (LLM). We integrate our proposed approach into the CHEHAB FHE compiler and evaluate it on a suite of benchmarks, comparing its performance against Coyote, a state-of-the-art vectorizing FHE compiler. The results show that our approach generates code that is $5.3\\times$ faster in execution, accumulates $2.54\\times$ less noise, while the compilation process itself is $27.9\\times$ faster than Coyote (geometric means)."
   },
   {
     "id": "asplos-2026-0160",
@@ -4032,7 +4032,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "This paper addresses the impact of Virtual Memory Streaming (VMS) technique in provisioning virtual machines (VMs) in cloud environment. VMS is a scaling virtualization technology that allows different virtual machines rapid scale, high performance, and increase hardware utilization. Traditional hypervisors do not support true no-downtime live migration, and its lack of memory oversubscription can hurt the economics of a private cloud deployment by limiting the number of VMs on each host. VMS brings together several advanced hypervisor memory management techniques including granular page sharing, dynamic memory footprint management, live migration, read caching, and a unique virtual machine cloning capability. An architecture model is described, together with a proof-of-concept implementation, that VMS dynamically scaling of virtualized infrastructure with true live migration and cloning of VMs. This paper argues that VMS for Cloud allows requiring significantly reduced server memory and reducing the time for virtualized resource scaling by instantly adding more virtual machines."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0162",
@@ -4056,7 +4056,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "The complexity of multimedia applications in terms of intensity of computation and heterogeneity of treated data led the designers to embark them on multiprocessor systems on chip. The complexity of these systems on one hand and the expectations of the consumers on the other hand complicate the designers job to conceive and supply strong and successful systems in the shortest deadlines. They have to explore the different solutions of the design space and estimate their performances in order to deduce the solution that respects their design constraints. In this context, we propose the modeling of one of the design space possible solutions: the software to hardware task migration. This modeling exploits the synchronous dataflow graphs to take into account the different migration impacts and estimate their performances in terms of throughput."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0163",
@@ -4083,7 +4083,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0164",
@@ -4106,7 +4106,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://www.asplos-conference.org/asplos2026/program/",
-    "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node response is encoded as a linear superposition of neural activity, while the non-linearity is triggered by the activation functions. In the current paper, we suggest to analyze the neural signal processing in DANNs from the point of view of homogeneous chaos theory as known from polynomial chaos expansion (PCE). From the PCE perspective, the (linear) response on each node of a DANN could be seen as a $1^{st}$ degree multi-variate polynomial of single neurons from the previous layer, i.e. linear weighted sum of monomials. From this point of view, the conventional DANN structure relies implicitly (but erroneously) on a Gaussian distribution of neural signals. Additionally, this view revels that by design DANNs do not necessarily fulfill any orthogonality or orthonormality condition for a majority of data-driven applications. Therefore, the prevailing handling of neural signals in DANNs could lead to redundant representation as any neural signal could contain some partial information from other neural signals. To tackle that challenge, we suggest to employ the data-driven generalization of PCE theory known as arbitrary polynomial chaos (aPC) to construct a corresponding multi-variate orthonormal representations on each node of a DANN to obtain Deep arbitrary polynomial chaos neural networks."
+    "abstract": ""
   },
   {
     "id": "asplos-2026-0165",

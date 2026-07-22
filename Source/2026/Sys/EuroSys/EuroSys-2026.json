@@ -81,7 +81,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "In the context of global urbanization and motorization, traffic congestion has become a significant issue, severely affecting the quality of life, environment, and economy. This paper puts forward a single-agent reinforcement learning (RL)-based regional traffic signal control (TSC) model. Different from multi - agent systems, this model can coordinate traffic signals across a large area, with the goals of alleviating regional traffic congestion and minimizing the total travel time. The TSC environment is precisely defined through specific state space, action space, and reward functions. The state space consists of the current congestion state, which is represented by the queue lengths of each link, and the current signal phase scheme of intersections. The action space is designed to select an intersection first and then adjust its phase split. Two reward functions are meticulously crafted. One focuses on alleviating congestion and the other aims to minimize the total travel time while considering the congestion level. The experiments are carried out with the SUMO traffic simulation software. The performance of the TSC model is evaluated by comparing it with a base case where no signal-timing adjustments are made. The results show that the model can effectively control congestion. For example, the queuing length is significantly reduced in the scenarios tested. Moreover, when the reward is set to both alleviate congestion and minimize the total travel time, the average travel time is remarkably decreased, which indicates that the model can effectively improve traffic conditions. This research provides a new approach for large-scale regional traffic signal control and offers valuable insights for future urban traffic management."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0004",
@@ -111,7 +111,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "We propose a serverless computing mechanism for distributed computation based on polar codes. Serverless computing is an emerging cloud based computation model that lets users run their functions on the cloud without provisioning or managing servers. Our proposed approach is a hybrid computing framework that carries out computationally expensive tasks such as linear algebraic operations involving large-scale data using serverless computing and does the rest of the processing locally. We address the limitations and reliability issues of serverless platforms such as straggling workers using coding theory, drawing ideas from recent literature on coded computation. The proposed mechanism uses polar codes to ensure straggler-resilience in a computationally effective manner. We provide extensive evidence showing polar codes outperform other coding methods. We have designed a sequential decoder specifically for polar codes in erasure channels with full-precision input and outputs. In addition, we have extended the proposed method to the matrix multiplication case where both matrices being multiplied are coded. The proposed coded computation scheme is implemented for AWS Lambda. Experiment results are presented where the performance of the proposed coded computation technique is tested in optimization via gradient descent. Finally, we introduce the idea of partial polarization which reduces the computational burden of encoding and decoding at the expense of straggler-resilience."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0005",
@@ -230,7 +230,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Artificial intelligence (AI) predictions are increasingly used to inform human decisions. Here, using a behavioral implementation of the classic Newcomb's paradox in 1,305 participants, we show that AI predictions can also shape the reasoning people use to make a decision. In this paradigm, perceived predictive authority can alter how people reason about their future actions, leading them to forgo a guaranteed reward. Over 40% of participants treated AI as such a predictive authority about their own behavior, significantly increasing the odds of forgoing the guaranteed reward by a factor of 3.39 (95% CI: 2.45-4.70) and reducing earnings by 10.7-42.9%. The effect appeared across AI presentations and decision contexts and remained detectable even when predictions repeatedly failed. When people perceive AI as capable of predicting their personal behavior, the mere presence of AI predictions may shape their decision-making, narrowing the futures they consider."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0009",
@@ -258,7 +258,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0010",
@@ -283,7 +283,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0011",
@@ -323,7 +323,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "A pivotal advancement in the progress of large language models (LLMs) is the emergence of the Mixture-of-Experts (MoE) LLMs. Compared to traditional LLMs, MoE LLMs can achieve higher performance with fewer parameters, but it is still hard to deploy them due to their immense parameter sizes. Different from previous weight pruning methods that rely on specifically designed hardware, this paper mainly aims to enhance the deployment efficiency of MoE LLMs by introducing plug-and-play expert-level sparsification techniques. Specifically, we propose, for the first time to our best knowledge, post-training approaches for task-agnostic and task-specific expert pruning and skipping of MoE LLMs, tailored to improve deployment efficiency while maintaining model performance across a wide range of tasks. Extensive experiments show that our proposed methods can simultaneously reduce model sizes and increase the inference speed, while maintaining satisfactory performance. Data and code will be available at https://github.com/Lucky-Lance/Expert_Sparsity."
+    "abstract": "We present MegaScale-MoE, a production system tailored for the efficient training of large-scale mixture-of-experts (MoE) models. MoE emerges as a promising architecture to scale large language models (LLMs) to unprecedented sizes, thereby enhancing model performance. However, existing MoE training systems experience a degradation in training efficiency, exacerbated by the escalating scale of MoE models and the continuous evolution of hardware. Recognizing the pivotal role of efficient communication in enhancing MoE training, MegaScale-MoE customizes communication-efficient parallelism strategies for attention and FFNs in each MoE layer and adopts a holistic approach to overlap communication with computation at both inter- and intra-operator levels. Additionally, MegaScale-MoE applies communication compression with adjusted communication patterns to lower precision, further improving training efficiency. When training a 352B MoE model on 1,440 NVIDIA Hopper GPUs, MegaScale-MoE achieves a training throughput of 1.41M tokens/s, improving the efficiency by 1.88$\\times$ compared to Megatron-LM. We share our operational experience in accelerating MoE training and hope that by offering our insights in system design, this work will motivate future research in MoE systems."
   },
   {
     "id": "eurosys-2026-0012",
@@ -372,7 +372,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "The ILC Technology Network (ITN) was established in 2022 by the ILC International Development Team, a subcommittee of the International Committee for Future Accelerators, to advance engineering studies toward the realisation of the International Linear Collider (ILC). While the ITN work packages focus on engineering activities for the ILC, their topics are also relevant to a broad range of accelerator applications in particle physics and beyond. These work packages are being carried out now by laboratories in Asia and Europe in close collaboration. This report summarises the current status of the ITN activities."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0014",
@@ -423,7 +423,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Instruction tuning significantly enhances the performance of large language models (LLMs) across various tasks. However, the procedure to optimizing the mixing of instruction datasets for LLM fine-tuning is still poorly understood. This study categorizes instructions into three primary types: NLP downstream tasks, coding, and general chat. We explore the effects of instruction tuning on different combinations of datasets on LLM performance, and find that certain instruction types are more advantageous for specific applications but can negatively impact other areas. This work provides insights into instruction mixtures, laying the foundations for future research."
+    "abstract": "Federated fine-tuning of Mixture-of-Experts (MoE)-based large language models (LLMs) is challenging due to their massive computational requirements and the resource constraints of participants. Existing working attempts to fill this gap through model quantization, computation offloading, or expert pruning. However, they cannot achieve desired performance due to impractical system assumptions and a lack of consideration for MoE-specific characteristics. In this paper, we propose FLUX, a system designed to enable federated fine-tuning of MoE-based LLMs across participants with constrained computing resources (e.g., consumer-grade GPUs), aiming to minimize time-to-accuracy. FLUX introduces three key innovations: (1) quantization-based local profiling to estimate expert activation with minimal overhead, (2) adaptive layer-aware expert merging to reduce resource consumption while preserving accuracy, and (3) dynamic expert role assignment using an exploration-exploitation strategy to balance tuning and non-tuning experts. Extensive experiments on LLaMA-MoE and DeepSeek-MoE with multiple benchmark datasets demonstrate that FLUX significantly outperforms existing methods, achieving up to 4.75X speedup in time-to-accuracy."
   },
   {
     "id": "eurosys-2026-0016",
@@ -484,7 +484,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Fine-tuning large language models (LLMs) on resource-constrained clients remains a challenging problem. Recent works have fused low-rank adaptation (LoRA) techniques with federated fine-tuning to mitigate challenges associated with client model sizes and data scarcity. Still, the heterogeneity of resources remains a critical bottleneck: while higher-rank modules generally enhance performance, varying client capabilities constrain LoRA's feasible rank range. Existing approaches attempting to resolve this issue either lack analytical justification or impose additional computational overhead, leaving a wide gap for efficient and theoretically-grounded solutions. To address these challenges, we propose federated sketching LoRA (FSLoRA), which leverages a sketching mechanism to enable clients to selectively update submatrices of global LoRA modules maintained by the server. By adjusting the sketching ratios, which determine the ranks of the submatrices on the clients, FSLoRA flexibly adapts to client-specific communication and computational constraints. We provide a rigorous convergence analysis of FSLoRA that characterizes how the sketching ratios affect the convergence rate. Through extensive experiments, we demonstrate that FSLoRA outperforms baselines and significantly improves training efficiency while preserving stable convergence."
+    "abstract": "Low-Rank Adaptation (LoRA) has become the leading Parameter-Efficient Fine-Tuning (PEFT) method for Large Language Models (LLMs), as it significantly reduces GPU memory usage while maintaining competitive fine-tuned model quality on downstream tasks. Despite these benefits, we identify two key inefficiencies in existing LoRA fine-tuning systems. First, they incur substantial runtime overhead due to redundant memory accesses on large activation tensors. Second, they miss the opportunity to concurrently fine-tune multiple independent LoRA adapters that share the same base model on the same set of GPUs. This leads to missed performance gains such as reduced pipeline bubbles, better communication overlap, and improved GPU load balance. To address these issues, we introduce LoRAFusion, an efficient LoRA fine-tuning system for LLMs. At the kernel level, we propose a graph-splitting method that fuses memory-bound operations. This design eliminates unnecessary memory accesses and preserves the performance of compute-bound GEMMs without incurring the cost of recomputation or synchronization. At the scheduling level, LoRAFusion introduces an adaptive batching algorithm for multi-job fine-tuning. It first splits LoRA adapters into groups to intentionally stagger batch execution across jobs, and then solves a bin-packing problem within each group to generate balanced, dependency-aware microbatches. LoRAFusion achieves up to $1.96\\times$ ($1.47\\times$ on average) end-to-end speedup compared to Megatron-LM, and up to $1.46\\times$ ($1.29\\times$ on average) improvement over mLoRA, the state-of-the-art multi-LoRA fine-tuning system. Our fused kernel achieves up to $1.39\\times$ ($1.27\\times$ on average) kernel performance improvement and can directly serve as a plug-and-play replacement in existing LoRA systems. We open-source LoRAFusion at https://github.com/CentML/lorafusion."
   },
   {
     "id": "eurosys-2026-0018",
@@ -519,7 +519,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0019",
@@ -545,7 +545,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism. Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming. The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0020",
@@ -631,7 +631,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0023",
@@ -656,7 +656,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Predicting web service traffic has significant social value, as it can be applied to various practical scenarios, including but not limited to dynamic resource scaling, load balancing, system anomaly detection, service-level agreement compliance, and fraud detection. Web service traffic is characterized by frequent and drastic fluctuations over time and are influenced by heterogeneous web user behaviors, making accurate prediction a challenging task. Previous research has extensively explored statistical approaches, and neural networks to mine features from preceding service traffic time series for prediction. However, these methods have largely overlooked the causal relationships between services. Drawing inspiration from causality in ecological systems, we empirically recognize the causal relationships between web services. To leverage these relationships for improved web service traffic prediction, we propose an effective neural network module, CCMPlus, designed to extract causal relationship features across services. This module can be seamlessly integrated with existing time series models to consistently enhance the performance of web service traffic predictions. We theoretically justify that the causal correlation matrix generated by the CCMPlus module captures causal relationships among services. Empirical results on real-world datasets from Microsoft Azure, Alibaba Group, and Ant Group confirm that our method surpasses state-of-the-art approaches in Mean Squared Error (MSE) and Mean Absolute Error (MAE) for predicting service traffic time series. These findings highlight the efficacy of leveraging causal relationships for improved predictions."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0024",
@@ -680,7 +680,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Air pollution (AP) poses a great threat to human health, and people are paying more attention than ever to its prediction. Accurate prediction of AP helps people to plan for their outdoor activities and aids protecting human health. In this paper, long-short term memory (LSTM) recurrent neural networks (RNNs) have been used to predict the future concentration of air pollutants (APS) in Macau. Additionally, meteorological data and data on the concentration of APS have been utilized. Moreover, in Macau, some air quality monitoring stations (AQMSs) have less observed data in quantity, and, at the same time, some AQMSs recorded less observed data of certain types of APS. Therefore, the transfer learning and pre-trained neural networks have been employed to assist AQMSs with less observed data to build a neural network with high prediction accuracy. The experimental sample covers a period longer than 12-year and includes daily measurements from several APS as well as other more classical meteorological values. Records from five stations, four out of them are AQMSs and the remaining one is an automatic weather station, have been prepared from the aforesaid period and eventually underwent to computational intelligence techniques to build and extract a prediction knowledge-based system. As shown by experimentation, LSTM RNNs initialized with transfer learning methods have higher prediction accuracy; it incurred shorter training time than randomly initialized recurrent neural networks."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0025",
@@ -703,7 +703,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Background: Many attempts have been made to resolve in time the folding of model proteins in computer simulations. Different computational approaches have emerged. Some of these approaches suffer from the insensitivity to the geometrical properties of the proteins (lattice models), while others are computationally heavy (traditional MD). Results: We use a recently-proposed approach of Zhou and Karplus to study the folding of the protein model based on the discrete time molecular dynamics algorithm. We show that this algorithm resolves with respect to time the folding --- unfolding transition. In addition, we demonstrate the ability to study the coreof the model protein. Conclusion: The algorithm along with the model of inter-residue interactions can serve as a tool to study the thermodynamics and kinetics of protein models."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0026",
@@ -725,7 +725,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "This research contributes to the security design of an advanced smart drone swarm network based on a variant of the Blockchain Governance Game (BGG), which is the theoretical game model to predict the moments of security actions before attacks, and the Strategic Alliance for Blockchain Governance Game (SABGG), which is one of the BGG variants which has been adapted to construct the best strategies to take preliminary actions based on strategic alliance for protecting smart drones in a blockchain-based swarm network. Smart drones are artificial intelligence (AI)-enabled drones which are capable of being operated autonomously without having any command center. Analytically tractable solutions from the SABGG allow us to estimate the moments of taking preliminary actions by delivering the optimal accountability of drones for preventing attacks. This advanced secured swarm network within AI-enabled drones is designed by adapting the SABGG model. This research helps users to develop a new network-architecture-level security of a smart drone swarm which is based on a decentralized network."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0027",
@@ -758,7 +758,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism. Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming. The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0028",
@@ -804,7 +804,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Opacity of Transactional Memory is proposed to be established by incremental validation. Quiescence in terms of epoch-based memory reclamation is applied to deal with doomed transactions causing memory access violations. This method unfortunately involves increased memory consumption and does not cover reclamations outside of transactions. This paper introduces a different method which combines incremental validation with elements of sandboxing to solve these issues."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0030",
@@ -836,7 +836,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "As large language models (LLMs) like ChatGPT exhibited unprecedented machine intelligence, it also shows great performance in assisting hardware engineers to realize higher-efficiency logic design via natural language interaction. To estimate the potential of the hardware design process assisted by LLMs, this work attempts to demonstrate an automated design environment that explores LLMs to generate hardware logic designs from natural language specifications. To realize a more accessible and efficient chip development flow, we present a scalable four-stage zero-code logic design framework based on LLMs without retraining or finetuning. At first, the demo, ChipGPT, begins by generating prompts for the LLM, which then produces initial Verilog programs. Second, an output manager corrects and optimizes these programs before collecting them into the final design space. Eventually, ChipGPT will search through this space to select the optimal design under the target metrics. The evaluation sheds some light on whether LLMs can generate correct and complete hardware logic designs described by natural language for some specifications. It is shown that ChipGPT improves programmability, and controllability, and shows broader design optimization space compared to prior work and native LLMs alone."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0031",
@@ -862,7 +862,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "We propose ELIS, a serving system for Large Language Models (LLMs) featuring an Iterative Shortest Remaining Time First (ISRTF) scheduler designed to efficiently manage inference tasks with the shortest remaining tokens. Current LLM serving systems often employ a first-come-first-served scheduling strategy, which can lead to the \"head-of-line blocking\" problem. To overcome this limitation, it is necessary to predict LLM inference times and apply a shortest job first scheduling strategy. However, due to the auto-regressive nature of LLMs, predicting the inference latency is challenging. ELIS addresses this challenge by training a response length predictor for LLMs using the BGE model, an encoder-based state-of-the-art model. Additionally, we have devised the ISRTF scheduling strategy, an optimization of shortest remaining time first tailored to existing LLM iteration batching. To evaluate our work in an industrial setting, we simulate streams of requests based on our study of real-world user LLM serving trace records. Furthermore, we implemented ELIS as a cloud-native scheduler system on Kubernetes to evaluate its performance in production environments. Our experimental results demonstrate that ISRTF reduces the average job completion time by up to 19.6%."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0032",
@@ -886,7 +886,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "While we pay attention to the latest advances in clinical natural language processing (NLP), we can notice some resistance in the clinical and translational research community to adopt NLP models due to limited transparency, interpretability, and usability. In this study, we proposed an open natural language processing development framework. We evaluated it through the implementation of NLP algorithms for the National COVID Cohort Collaborative (N3C). Based on the interests in information extraction from COVID-19 related clinical notes, our work includes 1) an open data annotation process using COVID-19 signs and symptoms as the use case, 2) a community-driven ruleset composing platform, and 3) a synthetic text data generation workflow to generate texts for information extraction tasks without involving human subjects. The corpora were derived from texts from three different institutions (Mayo Clinic, University of Kentucky, University of Minnesota). The gold standard annotations were tested with a single institution's (Mayo) ruleset. This resulted in performances of 0.876, 0.706, and 0.694 in F-scores for Mayo, Minnesota, and Kentucky test datasets, respectively. The study as a consortium effort of the N3C NLP subgroup demonstrates the feasibility of creating a federated NLP algorithm development and benchmarking platform to enhance multi-institution clinical NLP study and adoption. Although we use COVID-19 as a use case in this effort, our framework is general enough to be applied to other domains of interest in clinical NLP."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0033",
@@ -1056,7 +1056,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "Serving Large Language Models (LLMs) efficiently in multi-region setups remains a challenge. Due to cost and GPU availability concerns, providers typically deploy LLMs in multiple regions using instance with long-term commitments, like reserved instances or on-premise clusters, which are often underutilized due to their region-local traffic handling and diurnal traffic variance. In this paper, we introduce SkyWalker, a multi-region load balancer for LLM inference that aggregates regional diurnal patterns through cross-region traffic handling. By doing so, SkyWalker enables providers to reserve instances based on expected global demand, rather than peak demand in each individual region. Meanwhile, SkyWalker preserves KV-Cache locality and load balancing, ensuring cost efficiency without sacrificing performance. SkyWalker achieves this with a cache-aware cross-region traffic handler and a selective pushing based load balancing mechanism. Our evaluation on real-world workloads shows that it achieves 1.12-2.06x higher throughput and 1.74-6.30x lower latency compared to existing load balancers, while reducing total serving cost by 25%."
   },
   {
     "id": "eurosys-2026-0040",
@@ -1080,7 +1080,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0041",
@@ -1254,7 +1254,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Data science has become increasingly essential for the production of official statistics, as it enables the automated collection, processing, and analysis of large amounts of data. With such data science practices in place, it enables more timely, more insightful and more flexible reporting. However, the quality and integrity of data-science-driven statistics rely on the accuracy and reliability of the data sources and the machine learning techniques that support them. In particular, changes in data sources are inevitable to occur and pose significant risks that are crucial to address in the context of machine learning for official statistics. This paper gives an overview of the main risks, liabilities, and uncertainties associated with changing data sources in the context of machine learning for official statistics. We provide a checklist of the most prevalent origins and causes of changing data sources; not only on a technical level but also regarding ownership, ethics, regulation, and public perception. Next, we highlight the repercussions of changing data sources on statistical reporting. These include technical effects such as concept drift, bias, availability, validity, accuracy and completeness, but also the neutrality and potential discontinuation of the statistical offering. We offer a few important precautionary measures, such as enhancing robustness in both data sourcing and statistical techniques, and thorough monitoring. In doing so, machine learning-based official statistics can maintain integrity, reliability, consistency, and relevance in policy-making, decision-making, and public discourse."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0048",
@@ -1278,7 +1278,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Linear Quadratic Regulator (LQR) is often combined with feedback linearization (FBL) for nonlinear systems that have the nonlinearity additive to the input. Conventional approaches estimate and cancel the nonlinearity based on the first principle or data-driven methods such as Gaussian Processes (GPs). However, the former needs an elaborate modeling process, and the latter provides a fixed learned model, which may be suffering when the model dynamics are changing. In this letter, we take a Deep Neural Network (DNN) using a real-time-updated dataset to approximate the unknown nonlinearity while the controller is running. Spectrally normalizing the weights in each time-step, we stably incorporate the DNN prediction to an LQR controller and compensate for the nonlinear term. Leveraging the property of the bounded Lipschitz constant of the DNN, we provide theoretical analysis and locally exponential stability of the proposed controller. Simulation results show that our controller significantly outperforms Baseline controllers in trajectory tracking cases."
+    "abstract": "Learning-based congestion controllers offer better adaptability compared to traditional heuristics. However, the unreliability of learning techniques can cause learning-based controllers to behave poorly, creating a need for formal guarantees. While methods for formally verifying learned congestion controllers exist, these methods offer binary feedback that cannot optimize the controller toward better behavior. We improve this state-of-the-art via Canopy, a new property-driven framework that integrates learning with formal reasoning in the learning loop. Canopy uses novel quantitative certification with an abstract interpreter to guide the training process, rewarding models, and evaluating robust and safe model performance on worst-case inputs. Our evaluation demonstrates that unlike state-of-the-art learned controllers, Canopy-trained controllers provide both adaptability and worst-case reliability across a range of network conditions."
   },
   {
     "id": "eurosys-2026-0049",
@@ -1322,7 +1322,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "The computational burden of attention in long-context language models has motivated two largely independent lines of work: sparse attention mechanisms that reduce complexity by attending to selected tokens, and gated attention variants that improve training sta-bility while mitigating the attention sink phenomenon. We observe that these approaches address complementary weaknesses and propose Gated Sparse Attention (GSA), an architecture that realizes the benefits of both. GSA incorporates a gated lightning indexer with sigmoid activations that produce bounded, interpretable selection scores, an adaptive sparsity controller that modulates the number of attended tokens based on local uncertainty, and dual gating at the value and output stages. We establish theoretical foundations for the approach, including complexity analysis, expressiveness results, and convergence guarantees. In experiments with 1.7B parameter models trained on 400B tokens, GSA matches the efficiency of sparse-only baselines (12-16x speedup at 128K context) while achieving the quality gains associated with gated attention: perplexity improves from 6.03 to 5.70, RULER scores at 128K context nearly double, and attention to the first token, a proxy for attention sinks, drops from 47% to under 4%. Training stability improves markedly, with loss spikes reduced by 98%."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0051",
@@ -1350,7 +1350,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0052",
@@ -1379,7 +1379,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Evidential deep learning, built upon belief theory and subjective logic, offers a principled and computationally efficient way to turn a deterministic neural network uncertainty-aware. The resultant evidential models can quantify fine-grained uncertainty using the learned evidence. To ensure theoretically sound evidential models, the evidence needs to be non-negative, which requires special activation functions for model training and inference. This constraint often leads to inferior predictive performance compared to standard softmax models, making it challenging to extend them to many large-scale datasets. To unveil the real cause of this undesired behavior, we theoretically investigate evidential models and identify a fundamental limitation that explains the inferior performance: existing evidential activation functions create zero evidence regions, which prevent the model to learn from training samples falling into such regions. A deeper analysis of evidential activation functions based on our theoretical underpinning inspires the design of a novel regularizer that effectively alleviates this fundamental limitation. Extensive experiments over many challenging real-world datasets and settings confirm our theoretical findings and demonstrate the effectiveness of our proposed approach."
+    "abstract": "Training large foundation models costs hundreds of millions of dollars, making deployment optimization critical. Current approaches require machine learning engineers to manually craft training recipes through error-prone trial-and-error on expensive compute clusters. To enable efficient exploration of training configurations, researchers have developed performance modeling systems. However, these systems force users to translate their workloads into custom specification languages, introducing a fundamental semantic gap between the actual workload and its representation. This gap creates an inherent tradeoff: systems must either support a narrow set of workloads to maintain usability, require complex specifications that limit practical adoption, or compromise prediction accuracy with simplified performance models. We present Maya, a performance modeling system that eliminates these tradeoffs through transparent device emulation. By operating at the narrow interface between training frameworks and accelerator devices, Maya can capture complete workload behavior without requiring code modifications or translations. Maya intercepts device API calls from unmodified training code to directly observe low-level operations, enabling accurate performance prediction while maintaining both ease of use and generality. Our evaluation shows Maya achieves less than 5% prediction error across diverse models and optimization strategies, identifying configurations that reduce training costs by up to 56% compared to existing approaches."
   },
   {
     "id": "eurosys-2026-0053",
@@ -1509,7 +1509,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism. Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming. The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0058",
@@ -1621,7 +1621,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Data science has become increasingly essential for the production of official statistics, as it enables the automated collection, processing, and analysis of large amounts of data. With such data science practices in place, it enables more timely, more insightful and more flexible reporting. However, the quality and integrity of data-science-driven statistics rely on the accuracy and reliability of the data sources and the machine learning techniques that support them. In particular, changes in data sources are inevitable to occur and pose significant risks that are crucial to address in the context of machine learning for official statistics. This paper gives an overview of the main risks, liabilities, and uncertainties associated with changing data sources in the context of machine learning for official statistics. We provide a checklist of the most prevalent origins and causes of changing data sources; not only on a technical level but also regarding ownership, ethics, regulation, and public perception. Next, we highlight the repercussions of changing data sources on statistical reporting. These include technical effects such as concept drift, bias, availability, validity, accuracy and completeness, but also the neutrality and potential discontinuation of the statistical offering. We offer a few important precautionary measures, such as enhancing robustness in both data sourcing and statistical techniques, and thorough monitoring. In doing so, machine learning-based official statistics can maintain integrity, reliability, consistency, and relevance in policy-making, decision-making, and public discourse."
+    "abstract": "Data loaders are used by Machine Learning (ML) frameworks like PyTorch and TensorFlow to apply transformations to data before feeding it into the accelerator. This operation is called data preprocessing. Data preprocessing plays an important role in the ML training workflow because if it is inefficiently pipelined with the training, it can yield high GPU idleness, resulting in important training delays. Unfortunately, existing data loaders turn out to waste GPU resources, with $76\\%$ GPU idleness when using the PyTorch data loader, for example. One key source of inefficiency is the variability in preprocessing time across samples within the same dataset. Existing data loaders are oblivious to this variability, and they construct batches without any consideration of slow or fast samples. In this case, the entire batch is delayed by a single slow sample, stalling the training pipeline and resulting in head-of-line blocking. To address these inefficiencies, we present MinatoLoader, a general-purpose data loader for PyTorch that accelerates training and improves GPU utilization. MinatoLoader is designed for a single-server setup, containing multiple GPUs. It continuously prepares data in the background and actively constructs batches by prioritizing fast-to-preprocess samples, while slower samples are processed in parallel. We evaluate MinatoLoader on servers with V100 and A100 GPUs. On a machine with four A100 GPUs, MinatoLoader improves the training time of a wide range of workloads by up to $7.5\\times$ ($3.6\\times$ on average) over PyTorch DataLoader and Pecan, and up to $3\\times$ ($2.2\\times$ on average) over DALI. It also increases average GPU utilization from 46.4\\% with PyTorch to 90.45\\%, while preserving model accuracy and enabling faster convergence."
   },
   {
     "id": "eurosys-2026-0063",
@@ -1729,7 +1729,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "The Pandora Software Development Kit and algorithm libraries provide pattern-recognition logic essential to the reconstruction of particle interactions in liquid argon time projection chamber detectors. Pandora is the primary event reconstruction software used at ProtoDUNE-SP, a prototype for the Deep Underground Neutrino Experiment far detector. ProtoDUNE-SP, located at CERN, is exposed to a charged-particle test beam. This paper gives an overview of the Pandora reconstruction algorithms and how they have been tailored for use at ProtoDUNE-SP. In complex events with numerous cosmic-ray and beam background particles, the simulated reconstruction and identification efficiency for triggered test-beam particles is above 80% for the majority of particle type and beam momentum combinations. Specifically, simulated 1 GeV/$c$ charged pions and protons are correctly reconstructed and identified with efficiencies of 86.1$\\pm0.6$% and 84.1$\\pm0.6$%, respectively. The efficiencies measured for test-beam data are shown to be within 5% of those predicted by the simulation."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0067",
@@ -1877,7 +1877,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0073",
@@ -1904,7 +1904,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Serverless computing offers a pay-per-use model with high elasticity and automatic scaling for a wide range of applications. Since cloud providers abstract most of the underlying infrastructure, these services work similarly to black-boxes. As a result, users can influence the resources allocated to their functions, but might not be aware that they have to parallelize them to profit from the additionally allocated virtual CPUs (vCPUs). In this paper, we analyze the impact of parallelization within a single function and container instance for AWS Lambda, Google Cloud Functions (GCF), and Google Cloud Run (GCR). We focus on compute-intensive workloads since they benefit greatly from parallelization. Furthermore, we investigate the correlation between the number of allocated CPU cores and vCPUs in serverless environments. Our results show that the number of available cores to a function/container instance does not always equal the number of allocated vCPUs. By parallelizing serverless workloads, we observed cost savings up to 81% for AWS Lambda, 49% for GCF, and 69.8% for GCR."
+    "abstract": "We describe a system for serverless computing where users, programs, and the underlying platform share a common representation of a computation: a deterministic procedure, run in an environment of well-specified data or the outputs of other computations. This representation externalizes I/O: data movement over the network is performed exclusively by the platform. Applications can describe the precise data needed at each stage, helping the provider schedule tasks and network transfers to reduce starvation. The design suggests an end-to-end argument for outsourced computing, shifting the service model from ``pay-for-effort'' to ``pay-for-results.''"
   },
   {
     "id": "eurosys-2026-0074",
@@ -1953,7 +1953,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Via is a forthcoming all-sky spectroscopic survey that will achieve 100 m s$^{-1}$ radial velocity stability for millions of faint ($G \\lesssim 21$) stars while reaching LSST's single-visit depth ($r \\approx 24$) for transient spectroscopy, opening new regimes in near-field cosmology and time-domain astrophysics. Via will deploy identical fiber-fed, multi-object spectrographs on the 6.5m MMT and Magellan/Clay telescopes for a five-year, dual-hemisphere survey of $>2{,}000{,}000$ stars beginning in 2027 - timed to complement LSST. Each instrument has 576 robotically positioned fibers over a $1^\\circ$ field of view, feeding two spectrographs: Viaspec ($R \\approx 15{,}000$; 505-595 nm; 540 fibers) and Boombox ($R \\approx 1{,}000$; 360-1010 nm; 36 fibers). Four key goals drive the survey: (1) a comprehensive survey of velocity perturbations in cold stellar streams, sensitive to $M \\lesssim 10^7$ subhalos below the threshold of galaxy formation, a stringent test of the particle nature of dark matter; (2) a chemodynamical census of Milky Way satellite galaxies to understand the formation of the faintest galaxies; (3) the first 3D tomographic maps of cold gas in the circumgalactic medium via NaI absorption; and (4) the rapid characterization of thousands of transients to the single-epoch survey depth of LSST. Ancillary science - including the Ly$α$ forest at $z \\approx 3$-$4$, polluted white dwarfs, exoplanet host characterization, fast radio burst host galaxies, and extragalactic dwarf galaxies - will leverage spare fibers in every pointing. The Via Project is a collaboration between the Center for Astrophysics $|$ Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0076",
@@ -1996,7 +1996,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "In recent years, researchers have explored use of non-volatile devices such as STT-RAM (spin torque transfer RAM) for designing on-chip caches, since they provide high density and consume low leakage power. A common limitation of all non-volatile devices is their limited write endurance. Further, since existing cache management policies are write-variation unaware, excessive writes to a few blocks may lead to a quick failure of the whole cache. We propose an architectural technique for wear-leveling of non-volatile last level caches (LLCs). Our technique uses cache-coloring approach which adds a software-controlled mapping layer between groups of physical pages and cache sets. Periodically the mapping is altered to ensure that write-traffic can be spread uniformly to different sets of the cache to achieve wear-leveling. Simulations performed with an x86-64 simulator and SPEC2006 benchmarks show that our technique reduces the worst-case writes to cache blocks and thus improves the cache lifetime by 4.07X."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0078",
@@ -2021,7 +2021,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Legged locomotion is arguably the most suited and versatile mode to deal with natural or unstructured terrains. Intensive research into dynamic walking and running controllers has recently yielded great advances, both in the optimal control and reinforcement learning (RL) literature. Hopping is a challenging dynamic task involving a flight phase and has the potential to increase the traversability of legged robots. Model based control for hopping typically relies on accurate detection of different jump phases, such as lift-off or touch down, and using different controllers for each phase. In this paper, we present a end-to-end RL based torque controller that learns to implicitly detect the relevant jump phases, removing the need to provide manual heuristics for state detection. We also extend a method for simulation to reality transfer of the learned controller to contact rich dynamic tasks, resulting in successful deployment on the robot after training without parameter tuning."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0079",
@@ -2128,7 +2128,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "In long-context Large Language Model (LLM) inference, the Time-To-First-Token (TTFT) latency incurred by the prefill stage has become the foremost bottleneck limiting interactive performance and deployment cost. KV Cache reuse offers a direct path to reduce redundant prefill, yet traditional prefix caching applies only to strict-prefix scenarios; directly reusing KV Cache in non-prefix settings breaks the cross-chunk global attention relationships and causes significant degradation in generation quality. When reusable KV Cache is offloaded to GPU-external cache pools, I/O overheads across heterogeneous hardware tiers further emerge as a new TTFT bottleneck. Efficient non-prefix KV Cache reuse therefore requires both semantic-consistency recovery and compute-I/O co-optimization. This paper presents CacheTune, a frequency-guided and hardware-aware KV Cache reuse system for long-context LLM serving. CacheTune first identifies, offline, the KV pairs most critical to cross-attention recovery through frequency-domain analysis, and then selectively recomputes only these semantic-critical tokens online while reusing the remaining KVs. To turn this semantic selection into end-to-end latency reduction, CacheTune further combines sparse KV transfer, multi-stream asynchronous overlap, deferred positional-encoding recovery, and hardware-aware adaptive recomputation-ratio tuning to balance computation and data movement across heterogeneous cache pools. Evaluations on mainstream LLMs and long-context tasks show that CacheTune achieves 3.72x-4.86x TTFT speedup and 3.93x-6.21x higher throughput while maintaining generation quality close to full recompute. Even when caches are offloaded to I/O-bound SSD/HDD storage, CacheTune sustains 2.34x-2.36x TTFT speedup through adaptive recomputation."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0083",
@@ -2230,7 +2230,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "A detailed study is presented of the expected performance of the ATLAS detector. The reconstruction of tracks, leptons, photons, missing energy and jets is investigated, together with the performance of b-tagging and the trigger. The physics potential for a variety of interesting physics processes, within the Standard Model and beyond, is examined. The study comprises a series of notes based on simulations of the detector and physics processes, with particular emphasis given to the data expected from the first years of operation of the LHC at CERN."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0087",
@@ -2259,7 +2259,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0088",
@@ -2332,7 +2332,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "All online sharing systems gather data that reflects users' collective behaviour and their shared activities. This data can be used to extract different kinds of relationships, which can be grouped into layers, and which are basic components of the multidimensional social network proposed in the paper. The layers are created on the basis of two types of relations between humans, i.e. direct and object-based ones which respectively correspond to either social or semantic links between individuals. For better understanding of the complexity of the social network structure, layers and their profiles were identified and studied on two, spanned in time, snapshots of the Flickr population. Additionally, for each layer, a separate strength measure was proposed. The experiments on the Flickr photo sharing system revealed that the relationships between users result either from semantic links between objects they operate on or from social connections of these users. Moreover, the density of the social network increases in time. The second part of the study is devoted to building a social recommender system that supports the creation of new relations between users in a multimedia sharing system. Its main goal is to generate personalized suggestions that are continuously adapted to users' needs depending on the personal weights assigned to each layer in the multidimensional social network. The conducted experiments confirmed the usefulness of the proposed model."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0091",
@@ -2390,7 +2390,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "Reinforcement learning (RL) post-training for Large Language Models (LLMs) is now scaling to large clusters and running for extended durations to enhance model reasoning performance. However, the scalability of existing RL frameworks is limited, as extreme long-tail skewness in RL trajectory generation causes severe GPU underutilization. Current asynchronous RL systems attempt to mitigate this, but they rely on global weight synchronization between the actor and all rollouts, which creates a rigid model update schedule. This global synchronization is ill-suited for the highly skewed and evolving distribution of trajectory generation latency in RL training, crippling training efficiency. Our key insight is that efficient scaling requires breaking this lockstep through trajectory-level asynchrony, which generates and consumes each trajectory independently. We propose Laminar, a scalable and robust RL post-training system built on a fully decoupled architecture. First, we replace global updates with a tier of relay workers acting as a distributed parameter service. This enables asynchronous and fine-grained weight synchronization, allowing rollouts to pull the latest weight anytime without stalling the actor's training loop. Second, a dynamic repack mechanism consolidates long-tail trajectories onto a few dedicated rollouts, maximizing generation throughput. The fully decoupled design also isolates failures, ensuring robustness for long-running jobs. Our evaluation on a 1024-GPU cluster shows that Laminar achieves up to 5.48$\\times$ training throughput speedup over state-of-the-art systems, while reducing model convergence time."
   },
   {
     "id": "eurosys-2026-0093",
@@ -2444,7 +2444,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "The fast developing Industrial Internet of Things (IIoT) technologies provide a promising opportunity to build large-scale systems to connect numerous heterogeneous devices into the Internet. Most existing IIoT infrastructures are based on a centralized architecture, which is easier for management but cannot effectively support immutable and verifiable services among multiple parties. Blockchain technology provides many desired features for large-scale IIoT infrastructures, such as decentralization, trustworthiness, trackability, and immutability. This paper presents a blockchain-based IIoT architecture to support immutable and verifiable services. However, when applying blockchain technology to the IIoT infrastructure, the required storage space posts a grant challenge to resource-constrained IIoT infrastructures. To address the storage issue, this paper proposes a hierarchical blockchain storage structure, \\textit{ChainSplitter}. Specially, the proposed architecture features a hierarchical storage structure where the majority of the blockchain is stored in the clouds, while the most recent blocks are stored in the overlay network of the individual IIoT networks. The proposed architecture seamlessly binds local IIoT networks, the blockchain overlay network, and the cloud infrastructure together through two connectors, the \\textit{blockchain connector} and the \\textit{cloud connector}, to construct the hierarchical blockchain storage. The blockchain connector in the overlay network builds blocks in blockchain from data generated in IIoT networks, and the cloud connector resolves the blockchain synchronization issues between the overlay network and the clouds. We also provide a case study to show the efficiency of the proposed hierarchical blockchain storage in a practical Industrial IoT case."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0095",
@@ -2467,7 +2467,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Audio inpainting aims to reconstruct missing segments in corrupted recordings. Most of existing methods produce plausible reconstructions when the gap lengths are short, but struggle to reconstruct gaps larger than about 100 ms. This paper explores recent advancements in deep learning and, particularly, diffusion models, for the task of audio inpainting. The proposed method uses an unconditionally trained generative model, which can be conditioned in a zero-shot fashion for audio inpainting, and is able to regenerate gaps of any size. An improved deep neural network architecture based on the constant-Q transform, which allows the model to exploit pitch-equivariant symmetries in audio, is also presented. The performance of the proposed algorithm is evaluated through objective and subjective metrics for the task of reconstructing short to mid-sized gaps, up to 300 ms. The results of a formal listening test show that the proposed method delivers comparable performance against the compared baselines for short gaps, such as 50 ms, while retaining a good audio quality and outperforming the baselines for wider gaps that are up to 300 ms long. The method presented in this paper can be applied to restoring sound recordings that suffer from severe local disturbances or dropouts, which must be reconstructed."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0096",
@@ -2489,7 +2489,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Continuous-time quantum error correction (CTQEC) is an approach to protecting quantum information from noise in which both the noise and the error correcting operations are treated as processes that are continuous in time. This chapter investigates CTQEC based on continuous weak measurements and feedback from the point of view of the subsystem principle, which states that protected quantum information is contained in a subsystem of the Hilbert space. We study how to approach the problem of constructing CTQEC protocols by looking at the evolution of the state of the system in an encoded basis in which the subsystem containing the protected information is explicit. This point of view allows us to reduce the problem to that of protecting a known state, and to design CTQEC procedures from protocols for the protection of a single qubit. We show how previously studied CTQEC schemes with both direct and indirect feedback can be obtained from strategies for the protection of a single qubit via weak measurements and weak unitary operations. We also review results on the performance of CTQEC with direct feedback in cases of Markovian and non-Markovian decoherence, where we have shown that due to the existence of a Zeno regime in non-Markovian dynamics, the performance of CTQEC can exhibit a quadratic improvement if the time resolution of the weak error-correcting operations is high enough to reveal the non-Markovian character of the noise process."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0097",
@@ -2542,7 +2542,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism. Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming. The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0099",
@@ -2578,7 +2578,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": "As the foundational component of versatile AI applications, training an multimodal large language model (MLLM) relies on multimodal datasets with dynamic modality mixture proportions and sample length distributions. However, existing MLLM systems remain inefficient under dynamic workloads, due to statically coupled decisions of resource allocation and model parallelization between encoders and the LLM backbone. This paper presents MegaScale-Omni, an industrial-grade MLLM training system tailored for dynamic workload adaption and hyper-scale deployment. MegaScale-Omni is built upon the training scheme of encoder-LLM multiplexing with three key innovations: (1) Decoupled parallelism strategies with long-short sequence parallelism for encoders to process variable-length samples, and full-fledged 5D parallelism for the LLM backbone, both organized under a communication-efficient parallelization layout. (2) Unified encoder-LLM representations for flexible, extensible colocation, and a new paradigm of encoder-LLM joint pipeline with workload resilience. (3) Workload balancing techniques via decentralized grouped reordering in data loaders and adaptive resharding from encoder to LLM ranks. MegaScale-Omni is deployed as the foundation of our in-house large-scale MLLM training tasks with thousands of GPUs. Our experimental results demonstrate $1.27\\times$-$7.57\\times$ throughput improvement under production-grade dynamic workloads, as compared to four state-of-the-art systems."
   },
   {
     "id": "eurosys-2026-0100",
@@ -2626,7 +2626,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "The C programming language was developed in the 1970s as a fairly unconventional systems and operating systems development tool, but has, through the course of the ISO Standards process, added many attributes of more conventional programming languages and become less suitable for operating systems development. Operating system programming continues to be done in non-ISO dialects of C. The differences provide a glimpse of operating system requirements for programming languages."
+    "abstract": "Specializing an OS to optimize the performance of a particular application is typically a manual process that requires great expertise. Specialization through configuration lends itself well to automation; however, it is challenging due to the sheer size of the configuration space of modern OSes, the difficulty to quantify that space, the long time it takes to evaluate a configuration, and the large number of invalid configurations. Hence, existing attempts at specializing OSes automatically are limited to switching features on and off to minimize memory consumption or attack surface, and cannot target metrics such as performance. We present Wayfinder, a framework specializing the configuration of OSes completely automatically and without expert knowledge. It can specialize all aspects of an OS configuration (compile-/boot-/run-time) towards any quantifiable performance, resource consumption, or security metric, for an application processing a given workload on a given hardware setup. Wayfinder consists of an automated OS benchmarking platform, and a neural network-based search algorithm driving the specialization process. This is achieved by learning on the fly which configuration parameters and values impact performance the most, and which ones lead to runtime failures. Optionally, a model pre-trained on one application can be reused to accelerate the specialization of related applications. We evaluate Wayfinder on two OSes, four applications, and two target metrics: Wayfinder fully automatically identifies specialized configurations with up to 24% application performance improvement and 8.5% memory usage reduction compared to default configurations. We highlight the benefits of our neural network, reaching good solutions faster than competing approaches (random and Bayesian), and successfully transferring knowledge between related applications."
   },
   {
     "id": "eurosys-2026-0102",
@@ -2700,7 +2700,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Following how the electrical transistor revolutionized the field of electronics,the realization of an optical transistor in which the flow of light is controlled optically should open the long-sought era of optical computing and new data processing possibilities. However, such function requires photons to influence each other, an effect which is unnatural in free space. Here it is shown that a ferroelectric and photovoltaic crystal gated optically at the onset of its bandgap energy can act as a photonic transistor. The light-induced charge generation and distribution processes alter the internal electric field and therefore impact the optical transmission with a memory effect and pronounced nonlinearity. The latter results in an optical computing possibility, which does not need to operate coherently. These findings advance efficient room temperature optical transistors, memristors, modulators and all-optical logic circuits."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0105",
@@ -2856,7 +2856,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Remote Direct Memory Access (RDMA) is an efficient way to improve the performance of traditional client-server systems. Currently, there are two main design paradigms for RDMA-accelerated systems. The first allows the clients to directly operate the server's memory and totally bypasses the CPUs at server side. The second follows the traditional server-reply paradigm, which asks the server to write results back to the clients. However, the first method has to expose server's memory and needs tremendous re-design of upper-layer software, which is complex, unsafe, error-prone, and inefficient. The second cannot achieve high input/output operations per second (IOPS), because it employs out-bound RDMA-write at server side which is not efficient. We find that the performance of out-bound RDMA-write and in-bound RDMA-read is asymmetric and the latter is 5 times faster than the former. Based on this observation, we propose a novel design paradigm named Remote Fetching Paradigm (RFP). In RFP, the server is still responsible for processing requests from the clients. However, counter-intuitively, instead of sending results back to the clients through out-bound RDMA-write, the server only writes the results in local memory buffers, and the clients use in-bound RDMA-read to remotely fetch these results. Since in-bound RDMA-read achieves much higher IOPS than out-bound RDMA-write, our model is able to bring higher performance than the traditional models. In order to prove the effectiveness of RFP, we design and implement an RDMA-accelerated in-memory key-value store following the RFP model. To further improve the IOPS, we propose an optimization mechanism that combines status checking and result fetching. Experiment results show that RFP can improve the IOPS by 160%~310% against state-of-the-art models for in-memory key-value stores."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0111",
@@ -2881,7 +2881,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "We study distributed optimization in the presence of Byzantine adversaries, where both data and computation are distributed among $m$ worker machines, $t$ of which may be corrupt. The compromised nodes may collaboratively and arbitrarily deviate from their pre-specified programs, and a designated (master) node iteratively computes the model/parameter vector for generalized linear models. In this work, we primarily focus on two iterative algorithms: Proximal Gradient Descent (PGD) and Coordinate Descent (CD). Gradient descent (GD) is a special case of these algorithms. PGD is typically used in the data-parallel setting, where data is partitioned across different samples, whereas, CD is used in the model-parallelism setting, where data is partitioned across the parameter space. In this paper, we propose a method based on data encoding and error correction over real numbers to combat adversarial attacks. We can tolerate up to $t\\leq \\lfloor\\frac{m-1}{2}\\rfloor$ corrupt worker nodes, which is information-theoretically optimal. We give deterministic guarantees, and our method does not assume any probability distribution on the data. We develop a {\\em sparse} encoding scheme which enables computationally efficient data encoding and decoding. We demonstrate a trade-off between the corruption threshold and the resource requirements (storage, computational, and communication complexity). As an example, for $t\\leq\\frac{m}{3}$, our scheme incurs only a {\\em constant} overhead on these resources, over that required by the plain distributed PGD/CD algorithms which provide no adversarial protection. To the best of our knowledge, ours is the first paper that makes CD secure against adversarial attacks. Our encoding scheme extends efficiently to the data streaming model and for stochastic gradient descent (SGD). We also give experimental results to show the efficacy of our proposed schemes."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0112",
@@ -2904,7 +2904,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "The basic concept in Neural Machine Translation (NMT) is to train a large Neural Network that maximizes the translation performance on a given parallel corpus. NMT is then using a simple left-to-right beam-search decoder to generate new translations that approximately maximize the trained conditional probability. The current beam search strategy generates the target sentence word by word from left-to- right while keeping a fixed amount of active candidates at each time step. First, this simple search is less adaptive as it also expands candidates whose scores are much worse than the current best. Secondly, it does not expand hypotheses if they are not within the best scoring candidates, even if their scores are close to the best one. The latter one can be avoided by increasing the beam size until no performance improvement can be observed. While you can reach better performance, this has the draw- back of a slower decoding speed. In this paper, we concentrate on speeding up the decoder by applying a more flexible beam search strategy whose candidate size may vary at each time step depending on the candidate scores. We speed up the original decoder by up to 43% for the two language pairs German-English and Chinese-English without losing any translation quality."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0113",
@@ -2925,7 +2925,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "The increasing deployment of distributed Battery Energy Storage Systems (BESSs) in modern power grids necessitates effective coordination strategies to ensure state-of-charge (SoC) balancing and accurate power delivery. While distributed control frameworks offer scalability and resilience, they also raise significant privacy concerns due to the need for inter-agent information exchange. This paper presents a novel privacy-preserving distributed control algorithm for SoC balancing in a networked BESS. The proposed framework includes distributed power allocation law that is designed based on two privacy-preserving distributed estimators, one for the average unit state and the other for the average desired power. The average unit state estimator is designed via the state decomposition method without disclosing sensitive internal states. The proposed power allocation law based on these estimators ensures asymptotic SoC balancing and global power delivery while safeguarding agent privacy from external eavesdroppers. The effectiveness and privacy-preserving properties of the proposed control strategy are demonstrated through simulation results."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0114",
@@ -2952,7 +2952,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "In dynamic systems that adapt to users' needs and changing environments, dependability needs cannot be avoided. This paper proposes an orthogonal fault tolerance model as a means to manage and reason about multiple fault tolerance mechanisms that co-exist in dynamically adaptive systems. One of the key challenges associated with dynamically evolving fault tolerance needs is the feature interaction problem arising from the integration of fault tolerance features. The proposed approach provides a separation of fault tolerance concerns to study the effects of integrated fault tolerance on the system. This approach uses state machine and operational semantics to reason about these interactions and inconsistencies. The proposed approach is supported by the tool NuSMV to simulate and verify the state machines against logic statements."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0115",
@@ -3042,7 +3042,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "The advent of federated learning has facilitated large-scale data exchange amongst machine learning models while maintaining privacy. Despite its brief history, federated learning is rapidly evolving to make wider use more practical. One of the most significant advancements in this domain is the incorporation of transfer learning into federated learning, which overcomes fundamental constraints of primary federated learning, particularly in terms of security. This chapter performs a comprehensive survey on the intersection of federated and transfer learning from a security point of view. The main goal of this study is to uncover potential vulnerabilities and defense mechanisms that might compromise the privacy and performance of systems that use federated and transfer learning."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0118",
@@ -3068,7 +3068,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "While we pay attention to the latest advances in clinical natural language processing (NLP), we can notice some resistance in the clinical and translational research community to adopt NLP models due to limited transparency, interpretability, and usability. In this study, we proposed an open natural language processing development framework. We evaluated it through the implementation of NLP algorithms for the National COVID Cohort Collaborative (N3C). Based on the interests in information extraction from COVID-19 related clinical notes, our work includes 1) an open data annotation process using COVID-19 signs and symptoms as the use case, 2) a community-driven ruleset composing platform, and 3) a synthetic text data generation workflow to generate texts for information extraction tasks without involving human subjects. The corpora were derived from texts from three different institutions (Mayo Clinic, University of Kentucky, University of Minnesota). The gold standard annotations were tested with a single institution's (Mayo) ruleset. This resulted in performances of 0.876, 0.706, and 0.694 in F-scores for Mayo, Minnesota, and Kentucky test datasets, respectively. The study as a consortium effort of the N3C NLP subgroup demonstrates the feasibility of creating a federated NLP algorithm development and benchmarking platform to enhance multi-institution clinical NLP study and adoption. Although we use COVID-19 as a use case in this effort, our framework is general enough to be applied to other domains of interest in clinical NLP."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0119",
@@ -3115,7 +3115,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "The future of computing systems is inevitably embracing a disaggregated and composable pattern: from clusters of computers to pools of resources that can be dynamically combined together and tailored around applications requirements. Transitioning to this new paradigm requires ground-breaking research, ranging from new hardware architectures up to new models and abstractions at all levels of the software stack. Recent hardware advancements in CPU and interconnection technologies, enabled the possibility of disaggregating peripherals and system memory. The memory system heterogeneity is further increasing, composability and disaggregation are beneficial to increase memory capacity and improve memory utilization in a cost-effective way, and reduce total cost of ownership. Heterogeneous and Composable Disaggregated Systems (HCDS) provide a system design approach for reducing the imbalance between workloads resource requirements and the static availability of resources in a computing system. The HCDS workshop aims at exploring the novel research ideas around composable disaggregated systems and their integration with operating systems and software runtimes to maximize the benefit perceived from user workloads."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0121",
@@ -3139,7 +3139,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "This paper addresses the impact of Virtual Memory Streaming (VMS) technique in provisioning virtual machines (VMs) in cloud environment. VMS is a scaling virtualization technology that allows different virtual machines rapid scale, high performance, and increase hardware utilization. Traditional hypervisors do not support true no-downtime live migration, and its lack of memory oversubscription can hurt the economics of a private cloud deployment by limiting the number of VMs on each host. VMS brings together several advanced hypervisor memory management techniques including granular page sharing, dynamic memory footprint management, live migration, read caching, and a unique virtual machine cloning capability. An architecture model is described, together with a proof-of-concept implementation, that VMS dynamically scaling of virtualized infrastructure with true live migration and cloning of VMs. This paper argues that VMS for Cloud allows requiring significantly reduced server memory and reducing the time for virtualized resource scaling by instantly adding more virtual machines."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0122",
@@ -3162,7 +3162,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "The increasing prevalence of video clips has sparked growing interest in text-video retrieval. Recent advances focus on establishing a joint embedding space for text and video, relying on consistent embedding representations to compute similarity. However, the text content in existing datasets is generally short and concise, making it hard to fully describe the redundant semantics of a video. Correspondingly, a single text embedding may be less expressive to capture the video embedding and empower the retrieval. In this study, we propose a new stochastic text modeling method T-MASS, i.e., text is modeled as a stochastic embedding, to enrich text embedding with a flexible and resilient semantic range, yielding a text mass. To be specific, we introduce a similarity-aware radius module to adapt the scale of the text mass upon the given text-video pairs. Plus, we design and develop a support text regularization to further control the text mass during the training. The inference pipeline is also tailored to fully exploit the text mass for accurate retrieval. Empirical evidence suggests that T-MASS not only effectively attracts relevant text-video pairs while distancing irrelevant ones, but also enables the determination of precise text embeddings for relevant pairs. Our experimental results show a substantial improvement of T-MASS over baseline (3% to 6.3% by R@1). Also, T-MASS achieves state-of-the-art performance on five benchmark datasets, including MSRVTT, LSMDC, DiDeMo, VATEX, and Charades."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0123",
@@ -3189,7 +3189,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism. Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming. The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0124",
@@ -3215,7 +3215,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Artificial Intelligence and Machine learning have been widely used in various fields of mathematical computing, physical modeling, computational science, communication science, and stochastic analysis. Approaches based on Deep Artificial Neural Networks (DANN) are very popular in our days. Depending on the learning task, the exact form of DANNs is determined via their multi-layer architecture, activation functions and the so-called loss function. However, for a majority of deep learning approaches based on DANNs, the kernel structure of neural signal processing remains the same, where the node response is encoded as a linear superposition of neural activity, while the non-linearity is triggered by the activation functions. In the current paper, we suggest to analyze the neural signal processing in DANNs from the point of view of homogeneous chaos theory as known from polynomial chaos expansion (PCE). From the PCE perspective, the (linear) response on each node of a DANN could be seen as a $1^{st}$ degree multi-variate polynomial of single neurons from the previous layer, i.e. linear weighted sum of monomials. From this point of view, the conventional DANN structure relies implicitly (but erroneously) on a Gaussian distribution of neural signals. Additionally, this view revels that by design DANNs do not necessarily fulfill any orthogonality or orthonormality condition for a majority of data-driven applications. Therefore, the prevailing handling of neural signals in DANNs could lead to redundant representation as any neural signal could contain some partial information from other neural signals. To tackle that challenge, we suggest to employ the data-driven generalization of PCE theory known as arbitrary polynomial chaos (aPC) to construct a corresponding multi-variate orthonormal representations on each node of a DANN to obtain Deep arbitrary polynomial chaos neural networks."
+    "abstract": "Neural networks increasingly run on hardware outside the user's control (cloud GPUs, inference marketplaces). Yet ML-as-a-Service reveals little about what actually ran or whether returned outputs faithfully reflect the intended inputs. Users lack recourse against service downgrades (model swaps, quantization, graph rewrites, or discrepancies like altered ad embeddings). Verifying outputs is hard because floating-point(FP) execution on heterogeneous accelerators is inherently nondeterministic. Existing approaches are either impractical for real FP neural networks or reintroduce vendor trust. We present TAO: a Tolerance Aware Optimistic verification protocol that accepts outputs within principled operator-level acceptance regions rather than requiring bitwise equality. TAO combines two error models: (i) sound per-operator IEEE-754 worst-case bounds and (ii) tight empirical percentile profiles calibrated across hardware. Discrepancies trigger a Merkle-anchored, threshold-guided dispute game that recursively partitions the computation graph until one operator remains, where adjudication reduces to a lightweight theoretical-bound check or a small honest-majority vote against empirical thresholds. Unchallenged results finalize after a challenge window, without requiring trusted hardware or deterministic kernels. We implement TAO as a PyTorch-compatible runtime and a contract layer currently deployed on Ethereum Holesky testnet. The runtime instruments graphs, computes per-operator bounds, and runs unmodified vendor kernels in FP32 with negligible overhead (0.3% on Qwen3-8B). Across CNNs, Transformers and diffusion models on A100, H100, RTX6000, RTX4090, empirical thresholds are $10^2-10^3$ times tighter than theoretical bounds, and bound-aware adversarial attacks achieve 0% success. Together, TAO reconciles scalability with verifiability for real-world heterogeneous ML compute."
   },
   {
     "id": "eurosys-2026-0125",
@@ -3264,7 +3264,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "A measurement of the CKM angle $γ$ and related strong-phase parameters is performed using a novel, model-independent approach in ${B^{\\pm}\\rightarrow D(\\rightarrow K^{0}_{\\rm S} h^{\\prime+}h^{\\prime-}) h^{\\pm}}$ decays, where $h^{(\\prime)} \\equiv π, K$. The analysis uses a joint data sample of electron-positron collisions collected by the BESIII experiment at the Beijing Electron-Positron Collider II during 2010--2011 and 2021--2022, corresponding to an integrated luminosity of 8 fb$^{-1}$, and proton-proton collisions collected by the LHCb experiment at the Large Hadron Collider during 2011--2018, corresponding to an integrated luminosity of 9 fb$^{-1}$. The two datasets are analyzed simultaneously by applying per-event weights based on the amplitude variation over the $D$-decay phase space to enhance the sensitivity to $C\\!P$-violating observables. The CKM angle $γ$ is determined to be $γ= (71.3\\pm 5.0)^{\\circ}$, which constitutes the most precise single measurement to date."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0127",
@@ -3288,7 +3288,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Counterfactual explanations, which deal with \"why not?\" scenarios, can provide insightful explanations to an AI agent's behavior. In this work, we focus on generating counterfactual explanations for deep reinforcement learning (RL) agents which operate in visual input environments like Atari. We introduce counterfactual state explanations, a novel example-based approach to counterfactual explanations based on generative deep learning. Specifically, a counterfactual state illustrates what minimal change is needed to an Atari game image such that the agent chooses a different action. We also evaluate the effectiveness of counterfactual states on human participants who are not machine learning experts. Our first user study investigates if humans can discern if the counterfactual state explanations are produced by the actual game or produced by a generative deep learning approach. Our second user study investigates if counterfactual state explanations can help non-expert participants identify a flawed agent; we compare against a baseline approach based on a nearest neighbor explanation which uses images from the actual game. Our results indicate that counterfactual state explanations have sufficient fidelity to the actual game images to enable non-experts to more effectively identify a flawed RL agent compared to the nearest neighbor baseline and to having no explanation at all."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0128",
@@ -3353,7 +3353,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0131",
@@ -3377,7 +3377,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Vision transformers have shown great success on numerous computer vision tasks. However, its central component, softmax attention, prohibits vision transformers from scaling up to high-resolution images, due to both the computational complexity and memory footprint being quadratic. Although linear attention was introduced in natural language processing (NLP) tasks to mitigate a similar issue, directly applying existing linear attention to vision transformers may not lead to satisfactory results. We investigate this problem and find that computer vision tasks focus more on local information compared with NLP tasks. Based on this observation, we present a Vicinity Attention that introduces a locality bias to vision transformers with linear complexity. Specifically, for each image patch, we adjust its attention weight based on its 2D Manhattan distance measured by its neighbouring patches. In this case, the neighbouring patches will receive stronger attention than far-away patches. Moreover, since our Vicinity Attention requires the token length to be much larger than the feature dimension to show its efficiency advantages, we further propose a new Vicinity Vision Transformer (VVT) structure to reduce the feature dimension without degenerating the accuracy. We perform extensive experiments on the CIFAR100, ImageNet1K, and ADE20K datasets to validate the effectiveness of our method. Our method has a slower growth rate of GFlops than previous transformer-based and convolution-based networks when the input resolution increases. In particular, our approach achieves state-of-the-art image classification accuracy with 50% fewer parameters than previous methods."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0132",
@@ -3405,7 +3405,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "A joint measurement is presented of the branching fractions $B^0_s\\toμ^+μ^-$ and $B^0\\toμ^+μ^-$ in proton-proton collisions at the LHC by the CMS and LHCb experiments. The data samples were collected in 2011 at a centre-of-mass energy of 7 TeV, and in 2012 at 8 TeV. The combined analysis produces the first observation of the $B^0_s\\toμ^+μ^-$ decay, with a statistical significance exceeding six standard deviations, and the best measurement of its branching fraction so far. Furthermore, evidence for the $B^0\\toμ^+μ^-$ decay is obtained with a statistical significance of three standard deviations. The branching fraction measurements are statistically compatible with SM predictions and impose stringent constraints on several theories beyond the SM."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0133",
@@ -3426,7 +3426,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Opacity of Transactional Memory is proposed to be established by incremental validation. Quiescence in terms of epoch-based memory reclamation is applied to deal with doomed transactions causing memory access violations. This method unfortunately involves increased memory consumption and does not cover reclamations outside of transactions. This paper introduces a different method which combines incremental validation with elements of sandboxing to solve these issues."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0134",
@@ -3450,7 +3450,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism. Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming. The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0135",
@@ -3481,7 +3481,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "We propose ELIS, a serving system for Large Language Models (LLMs) featuring an Iterative Shortest Remaining Time First (ISRTF) scheduler designed to efficiently manage inference tasks with the shortest remaining tokens. Current LLM serving systems often employ a first-come-first-served scheduling strategy, which can lead to the \"head-of-line blocking\" problem. To overcome this limitation, it is necessary to predict LLM inference times and apply a shortest job first scheduling strategy. However, due to the auto-regressive nature of LLMs, predicting the inference latency is challenging. ELIS addresses this challenge by training a response length predictor for LLMs using the BGE model, an encoder-based state-of-the-art model. Additionally, we have devised the ISRTF scheduling strategy, an optimization of shortest remaining time first tailored to existing LLM iteration batching. To evaluate our work in an industrial setting, we simulate streams of requests based on our study of real-world user LLM serving trace records. Furthermore, we implemented ELIS as a cloud-native scheduler system on Kubernetes to evaluate its performance in production environments. Our experimental results demonstrate that ISRTF reduces the average job completion time by up to 19.6%."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0136",
@@ -3527,7 +3527,7 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "A growing community of scientists has been using neutrons in the most diverse areas of science. In order to meet the researchers demand in the areas of physics, chemistry, materials sciences, engineering, cultural heritage, biology and earth sciences, the Brazilian Multipurpose Reactor (RMB) will provide 3 thermal guides and 3 cold guides, with the installation of several instruments for materials characterization. In this study, we present a standard design requirement of two primordial instruments, namely Sabiá and Araponga. They are, respectively, cold and thermal neutron instruments and correspond to a Small-Angle Neutron Scattering (SANS) and High-Resolution Powder Neutron Diffractometer (HRPND) to be installed in the Neutron Guide Building (N02) of RMB. To provide adequate flux for both instruments, we propose here an initial investigation of the use of simple and split guides to transport neutron beams to two different instruments on the same guide. For this purpose, we use Monte Carlo simulations utilizing McStas software to check the efficiency of thermal neutron transport for different basic configuration and sources. By considering these results, it is possible to conclude that the split guide configuration is, in most cases, more efficient than cases that use transmitted neutron beams independently of source. We also verify that the employment of different coating indexes for concave and convex surfaces on curved guides is crucial, at least on simulated cases, to optimise neutron flux (intensity and divergence) and diminish facility installation cost."
+    "abstract": ""
   },
   {
     "id": "eurosys-2026-0138",
@@ -3557,6 +3557,6 @@
     ],
     "paper_type": "Research Paper",
     "paper_url": "https://2026.eurosys.org/papers.html",
-    "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism. Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming. The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models."
+    "abstract": ""
   }
 ]
