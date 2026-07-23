@@ -48,12 +48,12 @@
 
 ### ❌ Not Yet Collected (4 venues, proceedings not yet released)
 
-| Category            | Venue     | Expected |
-| ------------------- | --------- | -------- |
-| Security            | ACM CCS   | Nov 2026 |
-| AI                  | NeurIPS   | Dec 2026 |
-| SE                  | ASE<br /> | Oct 2026 |
-| Sys / OS / AI Infra | SOSP      | TBD      |
+| Category            | Venue   | Expected |
+| ------------------- | ------- | -------- |
+| Security            | ACM CCS | Nov 2026 |
+| AI                  | NeurIPS | Dec 2026 |
+| SE                  | ASE     | Oct 2026 |
+| Sys / OS / AI Infra | SOSP    | TBD      |
 
 ## What I Did
 
@@ -119,8 +119,6 @@ Every paper follows this format:
 | `research_direction` | 100%                    | AI-classified from title                                   |
 | `cycle`              | S&P, NDSS, SIGMOD only  | Official proceedings                                       |
 
-
-
 ## Scripts
 
 | Script                                      | Purpose                                                                                                                                                                                    |
@@ -135,11 +133,9 @@ Every paper follows this format:
 | `Script/build_full_recommendations.py`    | Classify the candidate pool into direct, foundation, boundary, unrelated, and metadata-repair reading outputs.                                                                             |
 | `Script/write_semantic_audit_results.py`  | Reproduce the fixed 120-paper semantic-audit sidecar used to calibrate reading recommendations.                                                                                            |
 
-
-
 ## Reading Outputs
 
-`Output/` contains derived reading material; it never changes the live corpus.
+Output\readmd.md contains derived reading material; it never changes the live corpus.
 
 1. `直l接相关推荐.json` is the primary reading queue.
 2. `基础相关推荐.json` contains relevant technical foundations.
